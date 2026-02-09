@@ -8,18 +8,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-framework.git",
-                    "reference": "675ee7b9b1835731a563e61d9bf64038ff56dcf1"
+                    "reference": "bbaf4671aa83d11ca47f878a841eb20ca892a532"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-framework/zipball/675ee7b9b1835731a563e61d9bf64038ff56dcf1",
-                    "reference": "675ee7b9b1835731a563e61d9bf64038ff56dcf1",
+                    "url": "https://api.github.com/repos/ncortex/lofi-framework/zipball/bbaf4671aa83d11ca47f878a841eb20ca892a532",
+                    "reference": "bbaf4671aa83d11ca47f878a841eb20ca892a532",
                     "shasum": ""
                 },
                 "require": {
                     "lofi/auth": "^3.3",
                     "lofi/installer": "^3.3",
                     "lofi/kernel": "^3.3",
+                    "lofi/logs": "^3.3",
                     "lofi/plugins": "^3.3",
                     "lofi/themes": "^3.3",
                     "lofi/ui": "^3.3",
@@ -31,7 +32,6 @@
                     "lofi/ecommerce": "E-commerce functionality (includes payments)",
                     "lofi/erp": "Enterprise resource planning",
                     "lofi/git": "GitLab repository management",
-                    "lofi/logs": "Centralized logging",
                     "lofi/media": "Media management",
                     "lofi/notifications": "Notification system",
                     "lofi/sql": "Database schema explorer",
