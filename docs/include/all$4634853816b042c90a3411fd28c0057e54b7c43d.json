@@ -2792,19 +2792,19 @@
                 ],
                 "description": "Lofi Directory - Sistema de directorio de profesionales y servicios"
             },
-            "dev-main": {
+            "v3.3.8": {
                 "name": "lofi/directory",
-                "version": "dev-main",
-                "version_normalized": "dev-main",
+                "version": "v3.3.8",
+                "version_normalized": "3.3.8.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-directory.git",
-                    "reference": "ec17ced1ac94547e22685e14a4608c0075d69ad5"
+                    "reference": "2cf5928564c0c1cc11cc02006bd9ad5da70c6876"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-directory/zipball/ec17ced1ac94547e22685e14a4608c0075d69ad5",
-                    "reference": "ec17ced1ac94547e22685e14a4608c0075d69ad5",
+                    "url": "https://api.github.com/repos/ncortex/lofi-directory/zipball/2cf5928564c0c1cc11cc02006bd9ad5da70c6876",
+                    "reference": "2cf5928564c0c1cc11cc02006bd9ad5da70c6876",
                     "shasum": ""
                 },
                 "require": {
@@ -2821,7 +2821,70 @@
                     "orchestra/testbench": "^8.0|^9.0|^10.0",
                     "phpunit/phpunit": "^10.0|^11.0"
                 },
-                "time": "2026-02-09T18:54:52+00:00",
+                "time": "2026-02-09T20:26:34+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Directory\\DirectoryServiceProvider"
+                        ]
+                    },
+                    "lofi": {
+                        "category": "module"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Directory\\": "src/",
+                        "Lofi\\Directory\\Database\\Factories\\": "database/factories/",
+                        "Lofi\\Directory\\Database\\Seeders\\": "database/seeders/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Lofi\\Directory\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "vendor/bin/phpunit"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Lofi Directory - Sistema de directorio de profesionales y servicios"
+            },
+            "dev-main": {
+                "name": "lofi/directory",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-directory.git",
+                    "reference": "2cf5928564c0c1cc11cc02006bd9ad5da70c6876"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-directory/zipball/2cf5928564c0c1cc11cc02006bd9ad5da70c6876",
+                    "reference": "2cf5928564c0c1cc11cc02006bd9ad5da70c6876",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/database": "^11.0|^12.0",
+                    "illuminate/support": "^11.0|^12.0",
+                    "lofi/geo": "^3.3",
+                    "lofi/kernel": "^3.3",
+                    "lofi/media": "^3.3",
+                    "lofi/ui": "^3.3",
+                    "php": "^8.2"
+                },
+                "require-dev": {
+                    "livewire/livewire": "^3.0",
+                    "orchestra/testbench": "^8.0|^9.0|^10.0",
+                    "phpunit/phpunit": "^10.0|^11.0"
+                },
+                "time": "2026-02-09T20:26:34+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
