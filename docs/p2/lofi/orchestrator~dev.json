@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-orchestrator.git",
-                    "reference": "08fe674554f03d57de68f8b049594db08d7c0d8f"
+                    "reference": "12290c729508d81051e557d2d00af885dbade1e8"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-orchestrator/zipball/08fe674554f03d57de68f8b049594db08d7c0d8f",
-                    "reference": "08fe674554f03d57de68f8b049594db08d7c0d8f",
+                    "url": "https://api.github.com/repos/ncortex/lofi-orchestrator/zipball/12290c729508d81051e557d2d00af885dbade1e8",
+                    "reference": "12290c729508d81051e557d2d00af885dbade1e8",
                     "shasum": ""
                 },
                 "require": {
@@ -26,7 +26,7 @@
                     "orchestra/testbench": "^9.0",
                     "phpunit/phpunit": "^11.0"
                 },
-                "time": "2026-02-09T12:52:57+00:00",
+                "time": "2026-02-09T18:54:52+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {

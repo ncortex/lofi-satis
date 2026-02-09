@@ -1128,12 +1128,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-backup.git",
-                    "reference": "9428e12cc57454b60d056eab94213c4c5424cac3"
+                    "reference": "e6c31daa66801508c07056eade549574e7ad0ccd"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-backup/zipball/9428e12cc57454b60d056eab94213c4c5424cac3",
-                    "reference": "9428e12cc57454b60d056eab94213c4c5424cac3",
+                    "url": "https://api.github.com/repos/ncortex/lofi-backup/zipball/e6c31daa66801508c07056eade549574e7ad0ccd",
+                    "reference": "e6c31daa66801508c07056eade549574e7ad0ccd",
                     "shasum": ""
                 },
                 "require": {
@@ -1146,7 +1146,7 @@
                     "orchestra/testbench": "^8.0|^9.0|^10.0",
                     "phpunit/phpunit": "^10.0|^11.0"
                 },
-                "time": "2026-02-09T12:52:32+00:00",
+                "time": "2026-02-09T18:54:52+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -2436,12 +2436,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-cron.git",
-                    "reference": "d095d7fde7c983c9bd44d58f04eb8e26f9d24de6"
+                    "reference": "1c8e0c4f1a5728525c00e4f9be5e89b1787ef072"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-cron/zipball/d095d7fde7c983c9bd44d58f04eb8e26f9d24de6",
-                    "reference": "d095d7fde7c983c9bd44d58f04eb8e26f9d24de6",
+                    "url": "https://api.github.com/repos/ncortex/lofi-cron/zipball/1c8e0c4f1a5728525c00e4f9be5e89b1787ef072",
+                    "reference": "1c8e0c4f1a5728525c00e4f9be5e89b1787ef072",
                     "shasum": ""
                 },
                 "require": {
@@ -2456,7 +2456,7 @@
                     "orchestra/testbench": "^9.0|^10.0",
                     "phpunit/phpunit": "^10.0|^11.0"
                 },
-                "time": "2026-02-09T12:52:38+00:00",
+                "time": "2026-02-09T18:54:52+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -2704,12 +2704,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-directory.git",
-                    "reference": "ba236f85a2328c1dd2a23a6e4b30cfcb235223ad"
+                    "reference": "ec17ced1ac94547e22685e14a4608c0075d69ad5"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-directory/zipball/ba236f85a2328c1dd2a23a6e4b30cfcb235223ad",
-                    "reference": "ba236f85a2328c1dd2a23a6e4b30cfcb235223ad",
+                    "url": "https://api.github.com/repos/ncortex/lofi-directory/zipball/ec17ced1ac94547e22685e14a4608c0075d69ad5",
+                    "reference": "ec17ced1ac94547e22685e14a4608c0075d69ad5",
                     "shasum": ""
                 },
                 "require": {
@@ -2726,7 +2726,7 @@
                     "orchestra/testbench": "^8.0|^9.0|^10.0",
                     "phpunit/phpunit": "^10.0|^11.0"
                 },
-                "time": "2026-02-09T12:52:40+00:00",
+                "time": "2026-02-09T18:54:52+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -5023,19 +5023,19 @@
                     "issues": "https://github.com/ncortex/lofi-kernel/issues"
                 }
             },
-            "dev-main": {
+            "v3.3.7": {
                 "name": "lofi/kernel",
-                "version": "dev-main",
-                "version_normalized": "dev-main",
+                "version": "v3.3.7",
+                "version_normalized": "3.3.7.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-kernel.git",
-                    "reference": "a57377a9ebf5107fe4c0a27dc793b5132b1ada03"
+                    "reference": "dd1fedc958b5412bf831a6452d00db749fba2b92"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-kernel/zipball/a57377a9ebf5107fe4c0a27dc793b5132b1ada03",
-                    "reference": "a57377a9ebf5107fe4c0a27dc793b5132b1ada03",
+                    "url": "https://api.github.com/repos/ncortex/lofi-kernel/zipball/dd1fedc958b5412bf831a6452d00db749fba2b92",
+                    "reference": "dd1fedc958b5412bf831a6452d00db749fba2b92",
                     "shasum": ""
                 },
                 "require": {
@@ -5050,7 +5050,85 @@
                     "phpstan/phpstan": "^1.10",
                     "phpunit/phpunit": "^10.0|^11.0"
                 },
-                "time": "2026-02-09T12:52:07+00:00",
+                "time": "2026-02-09T18:52:40+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Kernel\\KernelServiceProvider"
+                        ]
+                    },
+                    "lofi": {
+                        "category": "foundation"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Kernel\\": "src/"
+                    },
+                    "files": [
+                        "src/helpers.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Lofi\\Kernel\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "phpunit"
+                    ],
+                    "analyse": [
+                        "phpstan analyse"
+                    ],
+                    "lint": [
+                        "phpmd src text phpmd.xml"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Joselito",
+                        "email": "joselito@example.com"
+                    }
+                ],
+                "description": "LoFi Framework - Kernel",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-kernel/tree/v3.3.7",
+                    "issues": "https://github.com/ncortex/lofi-kernel/issues"
+                }
+            },
+            "dev-main": {
+                "name": "lofi/kernel",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-kernel.git",
+                    "reference": "dd1fedc958b5412bf831a6452d00db749fba2b92"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-kernel/zipball/dd1fedc958b5412bf831a6452d00db749fba2b92",
+                    "reference": "dd1fedc958b5412bf831a6452d00db749fba2b92",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/cache": "^10.0|^11.0|^12.0",
+                    "illuminate/database": "^10.0|^11.0|^12.0",
+                    "illuminate/support": "^10.0|^11.0|^12.0",
+                    "php": "^8.2"
+                },
+                "require-dev": {
+                    "orchestra/testbench": "^8.0|^9.0|^10.0",
+                    "phpmd/phpmd": "^2.15",
+                    "phpstan/phpstan": "^1.10",
+                    "phpunit/phpunit": "^10.0|^11.0"
+                },
+                "time": "2026-02-09T18:52:40+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -5098,7 +5176,7 @@
                 ],
                 "description": "LoFi Framework - Kernel",
                 "support": {
-                    "source": "https://github.com/ncortex/lofi-kernel/tree/main",
+                    "source": "https://github.com/ncortex/lofi-kernel/tree/v3.3.7",
                     "issues": "https://github.com/ncortex/lofi-kernel/issues"
                 }
             }
@@ -7046,12 +7124,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-orchestrator.git",
-                    "reference": "08fe674554f03d57de68f8b049594db08d7c0d8f"
+                    "reference": "12290c729508d81051e557d2d00af885dbade1e8"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-orchestrator/zipball/08fe674554f03d57de68f8b049594db08d7c0d8f",
-                    "reference": "08fe674554f03d57de68f8b049594db08d7c0d8f",
+                    "url": "https://api.github.com/repos/ncortex/lofi-orchestrator/zipball/12290c729508d81051e557d2d00af885dbade1e8",
+                    "reference": "12290c729508d81051e557d2d00af885dbade1e8",
                     "shasum": ""
                 },
                 "require": {
@@ -7064,7 +7142,7 @@
                     "orchestra/testbench": "^9.0",
                     "phpunit/phpunit": "^11.0"
                 },
-                "time": "2026-02-09T12:52:57+00:00",
+                "time": "2026-02-09T18:54:52+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -10172,12 +10250,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-ui.git",
-                    "reference": "028765a26e8bc885ee921be02b3937a1dcb5e99d"
+                    "reference": "272539ac4960a8fa99b57119d0039c58be77b140"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-ui/zipball/028765a26e8bc885ee921be02b3937a1dcb5e99d",
-                    "reference": "028765a26e8bc885ee921be02b3937a1dcb5e99d",
+                    "url": "https://api.github.com/repos/ncortex/lofi-ui/zipball/272539ac4960a8fa99b57119d0039c58be77b140",
+                    "reference": "272539ac4960a8fa99b57119d0039c58be77b140",
                     "shasum": ""
                 },
                 "require": {
@@ -10198,7 +10276,7 @@
                     "phpstan/phpstan": "^1.10",
                     "phpunit/phpunit": "^10.0|^11.0"
                 },
-                "time": "2026-02-09T12:52:28+00:00",
+                "time": "2026-02-09T18:54:52+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -10747,12 +10825,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-webhooks.git",
-                    "reference": "cbca0c78b61cdb41eb900d0cd5a7ba52b62fb0a7"
+                    "reference": "ad97d372cdb05a076083dce6aeb3fb5fdc1763ff"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-webhooks/zipball/cbca0c78b61cdb41eb900d0cd5a7ba52b62fb0a7",
-                    "reference": "cbca0c78b61cdb41eb900d0cd5a7ba52b62fb0a7",
+                    "url": "https://api.github.com/repos/ncortex/lofi-webhooks/zipball/ad97d372cdb05a076083dce6aeb3fb5fdc1763ff",
+                    "reference": "ad97d372cdb05a076083dce6aeb3fb5fdc1763ff",
                     "shasum": ""
                 },
                 "require": {
@@ -10764,7 +10842,7 @@
                     "orchestra/testbench": "^8.0|^9.0|^10.0",
                     "phpunit/phpunit": "^10.0|^11.0"
                 },
-                "time": "2026-02-09T12:52:30+00:00",
+                "time": "2026-02-09T18:54:52+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {

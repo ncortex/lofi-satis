@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-kernel.git",
-                    "reference": "a57377a9ebf5107fe4c0a27dc793b5132b1ada03"
+                    "reference": "dd1fedc958b5412bf831a6452d00db749fba2b92"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-kernel/zipball/a57377a9ebf5107fe4c0a27dc793b5132b1ada03",
-                    "reference": "a57377a9ebf5107fe4c0a27dc793b5132b1ada03",
+                    "url": "https://api.github.com/repos/ncortex/lofi-kernel/zipball/dd1fedc958b5412bf831a6452d00db749fba2b92",
+                    "reference": "dd1fedc958b5412bf831a6452d00db749fba2b92",
                     "shasum": ""
                 },
                 "require": {
@@ -28,7 +28,7 @@
                     "phpstan/phpstan": "^1.10",
                     "phpunit/phpunit": "^10.0|^11.0"
                 },
-                "time": "2026-02-09T12:52:07+00:00",
+                "time": "2026-02-09T18:52:40+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -76,7 +76,7 @@
                 ],
                 "description": "LoFi Framework - Kernel",
                 "support": {
-                    "source": "https://github.com/ncortex/lofi-kernel/tree/main",
+                    "source": "https://github.com/ncortex/lofi-kernel/tree/v3.3.7",
                     "issues": "https://github.com/ncortex/lofi-kernel/issues"
                 }
             }

@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-webhooks.git",
-                    "reference": "cbca0c78b61cdb41eb900d0cd5a7ba52b62fb0a7"
+                    "reference": "ad97d372cdb05a076083dce6aeb3fb5fdc1763ff"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-webhooks/zipball/cbca0c78b61cdb41eb900d0cd5a7ba52b62fb0a7",
-                    "reference": "cbca0c78b61cdb41eb900d0cd5a7ba52b62fb0a7",
+                    "url": "https://api.github.com/repos/ncortex/lofi-webhooks/zipball/ad97d372cdb05a076083dce6aeb3fb5fdc1763ff",
+                    "reference": "ad97d372cdb05a076083dce6aeb3fb5fdc1763ff",
                     "shasum": ""
                 },
                 "require": {
@@ -25,7 +25,7 @@
                     "orchestra/testbench": "^8.0|^9.0|^10.0",
                     "phpunit/phpunit": "^10.0|^11.0"
                 },
-                "time": "2026-02-09T12:52:30+00:00",
+                "time": "2026-02-09T18:54:52+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {

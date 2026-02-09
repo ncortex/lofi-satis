@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-cron.git",
-                    "reference": "d095d7fde7c983c9bd44d58f04eb8e26f9d24de6"
+                    "reference": "1c8e0c4f1a5728525c00e4f9be5e89b1787ef072"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-cron/zipball/d095d7fde7c983c9bd44d58f04eb8e26f9d24de6",
-                    "reference": "d095d7fde7c983c9bd44d58f04eb8e26f9d24de6",
+                    "url": "https://api.github.com/repos/ncortex/lofi-cron/zipball/1c8e0c4f1a5728525c00e4f9be5e89b1787ef072",
+                    "reference": "1c8e0c4f1a5728525c00e4f9be5e89b1787ef072",
                     "shasum": ""
                 },
                 "require": {
@@ -28,7 +28,7 @@
                     "orchestra/testbench": "^9.0|^10.0",
                     "phpunit/phpunit": "^10.0|^11.0"
                 },
-                "time": "2026-02-09T12:52:38+00:00",
+                "time": "2026-02-09T18:54:52+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
