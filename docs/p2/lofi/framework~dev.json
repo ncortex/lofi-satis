@@ -1,0 +1,74 @@
+{
+    "packages": {
+        "lofi/framework": [
+            {
+                "name": "lofi/framework",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-framework.git",
+                    "reference": "bbaf4671aa83d11ca47f878a841eb20ca892a532"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-framework/zipball/bbaf4671aa83d11ca47f878a841eb20ca892a532",
+                    "reference": "bbaf4671aa83d11ca47f878a841eb20ca892a532",
+                    "shasum": ""
+                },
+                "require": {
+                    "lofi/auth": "^3.3",
+                    "lofi/installer": "^3.3",
+                    "lofi/kernel": "^3.3",
+                    "lofi/logs": "^3.3",
+                    "lofi/plugins": "^3.3",
+                    "lofi/themes": "^3.3",
+                    "lofi/ui": "^3.3",
+                    "php": "^8.2"
+                },
+                "suggest": {
+                    "lofi/analytics": "Self-hosted analytics",
+                    "lofi/cms": "Content management system",
+                    "lofi/ecommerce": "E-commerce functionality (includes payments)",
+                    "lofi/erp": "Enterprise resource planning",
+                    "lofi/git": "GitLab repository management",
+                    "lofi/media": "Media management",
+                    "lofi/notifications": "Notification system",
+                    "lofi/sql": "Database schema explorer",
+                    "lofi/support": "Customer support ticketing",
+                    "lofi/swarm": "Multi-agent AI system",
+                    "lofi/telegram": "Telegram bot integration",
+                    "lofi/webhooks": "Webhook dispatching and logging"
+                },
+                "time": "2026-02-09T17:54:12+00:00",
+                "default-branch": true,
+                "type": "metapackage",
+                "extra": {
+                    "lofi": {
+                        "category": "meta"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Joselito",
+                        "email": "joselito@example.com"
+                    }
+                ],
+                "description": "LoFi Framework - Laravel with low friction for WordPress developers",
+                "keywords": [
+                    "framework",
+                    "laravel",
+                    "lofi",
+                    "wordpress"
+                ],
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-framework/tree/v3.3.7",
+                    "issues": "https://github.com/ncortex/lofi-framework/issues"
+                }
+            }
+        ]
+    }
+}

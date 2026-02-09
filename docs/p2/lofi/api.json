@@ -1,0 +1,222 @@
+{
+    "packages": {
+        "lofi/api": [
+            {
+                "name": "lofi/api",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-api.git",
+                    "reference": "3fb0e4c5bcc838d92b2731c8f54c202abb1c6f05"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-api/zipball/3fb0e4c5bcc838d92b2731c8f54c202abb1c6f05",
+                    "reference": "3fb0e4c5bcc838d92b2731c8f54c202abb1c6f05",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/routing": "^10.0|^11.0|^12.0",
+                    "illuminate/support": "^10.0|^11.0|^12.0",
+                    "laravel/sanctum": "^3.0|^4.0",
+                    "lofi/kernel": "^1.0",
+                    "php": "^8.2"
+                },
+                "time": "2026-01-27T11:59:55+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Api\\ApiServiceProvider"
+                        ]
+                    },
+                    "lofi": {
+                        "category": "service"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Api\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Joselito",
+                        "email": "joselito@example.com"
+                    }
+                ],
+                "description": "LoFi Framework - API & MCP Layer",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-api/tree/v1.0.0",
+                    "issues": "https://github.com/ncortex/lofi-api/issues"
+                }
+            },
+            {
+                "name": "lofi/api",
+                "version": "v3.0.1",
+                "version_normalized": "3.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-api.git",
+                    "reference": "77ff6d3924e22c22542ff51e24f2c72a9e375c9f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-api/zipball/77ff6d3924e22c22542ff51e24f2c72a9e375c9f",
+                    "reference": "77ff6d3924e22c22542ff51e24f2c72a9e375c9f",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/routing": "^10.0|^11.0|^12.0",
+                    "illuminate/support": "^10.0|^11.0|^12.0",
+                    "laravel/sanctum": "^3.0|^4.0",
+                    "lofi/kernel": "^3.0",
+                    "php": "^8.2"
+                },
+                "time": "2026-02-08T18:57:46+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Api\\ApiServiceProvider"
+                        ]
+                    },
+                    "lofi": {
+                        "category": "service"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Api\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Joselito",
+                        "email": "joselito@example.com"
+                    }
+                ],
+                "description": "LoFi Framework - API & MCP Layer",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-api/tree/v3.0.1",
+                    "issues": "https://github.com/ncortex/lofi-api/issues"
+                }
+            },
+            {
+                "name": "lofi/api",
+                "version": "v3.3.4",
+                "version_normalized": "3.3.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-api.git",
+                    "reference": "8361dcfde1b13d42181540368334f9cae8cfb0ec"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-api/zipball/8361dcfde1b13d42181540368334f9cae8cfb0ec",
+                    "reference": "8361dcfde1b13d42181540368334f9cae8cfb0ec",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/routing": "^10.0|^11.0|^12.0",
+                    "illuminate/support": "^10.0|^11.0|^12.0",
+                    "laravel/sanctum": "^3.0|^4.0",
+                    "lofi/kernel": "^3.3",
+                    "php": "^8.2"
+                },
+                "time": "2026-02-09T11:37:49+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Api\\ApiServiceProvider"
+                        ]
+                    },
+                    "lofi": {
+                        "category": "service"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Api\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Joselito",
+                        "email": "joselito@example.com"
+                    }
+                ],
+                "description": "LoFi Framework - API & MCP Layer",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-api/tree/v3.3.4",
+                    "issues": "https://github.com/ncortex/lofi-api/issues"
+                }
+            },
+            {
+                "name": "lofi/api",
+                "version": "v3.3.5",
+                "version_normalized": "3.3.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-api.git",
+                    "reference": "3802c844db156a7548d8bfe493717eb430122704"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-api/zipball/3802c844db156a7548d8bfe493717eb430122704",
+                    "reference": "3802c844db156a7548d8bfe493717eb430122704",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/routing": "^10.0|^11.0|^12.0",
+                    "illuminate/support": "^10.0|^11.0|^12.0",
+                    "laravel/sanctum": "^3.0|^4.0",
+                    "lofi/kernel": "^3.0",
+                    "php": "^8.2"
+                },
+                "time": "2026-02-08T09:47:08+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Api\\ApiServiceProvider"
+                        ]
+                    },
+                    "lofi": {
+                        "category": "service"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Api\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Joselito",
+                        "email": "joselito@example.com"
+                    }
+                ],
+                "description": "LoFi Framework - API & MCP Layer",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-api/tree/v3.3.5",
+                    "issues": "https://github.com/ncortex/lofi-api/issues"
+                }
+            }
+        ]
+    }
+}

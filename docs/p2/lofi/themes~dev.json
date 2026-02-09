@@ -1,0 +1,85 @@
+{
+    "packages": {
+        "lofi/themes": [
+            {
+                "name": "lofi/themes",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-themes.git",
+                    "reference": "83813744eb860fcc8c5bac430f0bf75049b8f620"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-themes/zipball/83813744eb860fcc8c5bac430f0bf75049b8f620",
+                    "reference": "83813744eb860fcc8c5bac430f0bf75049b8f620",
+                    "shasum": ""
+                },
+                "require": {
+                    "laravel/framework": "^10.0|^11.0|^12.0",
+                    "lofi/kernel": "^3.3",
+                    "php": "^8.2"
+                },
+                "require-dev": {
+                    "orchestra/testbench": "^8.0|^9.0|^10.0",
+                    "phpmd/phpmd": "^2.15",
+                    "phpstan/phpstan": "^1.10",
+                    "phpunit/phpunit": "^10.0|^11.0"
+                },
+                "time": "2026-02-09T12:52:25+00:00",
+                "default-branch": true,
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Themes\\ThemesServiceProvider"
+                        ],
+                        "aliases": {
+                            "Theme": "Lofi\\Themes\\Facades\\Theme"
+                        }
+                    },
+                    "lofi": {
+                        "category": "core"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Themes\\": "src/",
+                        "Lofi\\Themes\\Database\\Factories\\": "database/factories/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Lofi\\Themes\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "phpunit"
+                    ],
+                    "analyse": [
+                        "phpstan analyse"
+                    ],
+                    "lint": [
+                        "phpmd src text phpmd.xml"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Joselito",
+                        "email": "joselito@example.com"
+                    }
+                ],
+                "description": "Theme system for LoFi Framework",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-themes/tree/main",
+                    "issues": "https://github.com/ncortex/lofi-themes/issues"
+                }
+            }
+        ]
+    }
+}

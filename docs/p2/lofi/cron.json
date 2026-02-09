@@ -1,0 +1,266 @@
+{
+    "packages": {
+        "lofi/cron": [
+            {
+                "name": "lofi/cron",
+                "version": "v3.3.4",
+                "version_normalized": "3.3.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-cron.git",
+                    "reference": "49da8b9fe889b0ea64d655a462f6e08017381f44"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-cron/zipball/49da8b9fe889b0ea64d655a462f6e08017381f44",
+                    "reference": "49da8b9fe889b0ea64d655a462f6e08017381f44",
+                    "shasum": ""
+                },
+                "require": {
+                    "dragonmantank/cron-expression": "^3.3",
+                    "illuminate/console": "^11.0|^12.0",
+                    "illuminate/support": "^11.0|^12.0",
+                    "lofi/kernel": "^3.3",
+                    "lofi/ui": "^3.3",
+                    "php": "^8.2"
+                },
+                "require-dev": {
+                    "orchestra/testbench": "^9.0|^10.0",
+                    "phpunit/phpunit": "^10.0|^11.0"
+                },
+                "time": "2026-02-09T11:37:55+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Cron\\CronServiceProvider"
+                        ]
+                    },
+                    "lofi": {
+                        "category": "devtool"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Cron\\": "src/",
+                        "Lofi\\Cron\\Database\\Factories\\": "database/factories/",
+                        "Lofi\\Cron\\Database\\Seeders\\": "database/seeders/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Lofi\\Cron\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "vendor/bin/phpunit"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "LoFi Cron - Centralized scheduled task and queue monitoring",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-cron/tree/v3.3.4",
+                    "issues": "https://github.com/ncortex/lofi-cron/issues"
+                }
+            },
+            {
+                "name": "lofi/cron",
+                "version": "v3.3.5",
+                "version_normalized": "3.3.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-cron.git",
+                    "reference": "cc1450dbb26579ebe2f3f9bc41f787b351f6cea8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-cron/zipball/cc1450dbb26579ebe2f3f9bc41f787b351f6cea8",
+                    "reference": "cc1450dbb26579ebe2f3f9bc41f787b351f6cea8",
+                    "shasum": ""
+                },
+                "require": {
+                    "dragonmantank/cron-expression": "^3.3",
+                    "illuminate/console": "^11.0|^12.0",
+                    "illuminate/support": "^11.0|^12.0",
+                    "lofi/kernel": "^3.0",
+                    "lofi/ui": "^3.0",
+                    "php": "^8.2"
+                },
+                "require-dev": {
+                    "orchestra/testbench": "^9.0|^10.0",
+                    "phpunit/phpunit": "^10.0|^11.0"
+                },
+                "time": "2026-02-08T10:02:26+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Cron\\CronServiceProvider"
+                        ]
+                    },
+                    "lofi": {
+                        "category": "devtool"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Cron\\": "src/",
+                        "Lofi\\Cron\\Database\\Factories\\": "database/factories/",
+                        "Lofi\\Cron\\Database\\Seeders\\": "database/seeders/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Lofi\\Cron\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "vendor/bin/phpunit"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "LoFi Cron - Centralized scheduled task and queue monitoring",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-cron/tree/v3.3.5",
+                    "issues": "https://github.com/ncortex/lofi-cron/issues"
+                }
+            },
+            {
+                "name": "lofi/cron",
+                "version": "v3.3.6",
+                "version_normalized": "3.3.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-cron.git",
+                    "reference": "b0eb19a5bde8dbb6f3ef66c44df7362103d9da2e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-cron/zipball/b0eb19a5bde8dbb6f3ef66c44df7362103d9da2e",
+                    "reference": "b0eb19a5bde8dbb6f3ef66c44df7362103d9da2e",
+                    "shasum": ""
+                },
+                "require": {
+                    "dragonmantank/cron-expression": "^3.3",
+                    "illuminate/console": "^11.0|^12.0",
+                    "illuminate/support": "^11.0|^12.0",
+                    "lofi/kernel": "^3.3",
+                    "lofi/ui": "^3.3",
+                    "php": "^8.2"
+                },
+                "require-dev": {
+                    "orchestra/testbench": "^9.0|^10.0",
+                    "phpunit/phpunit": "^10.0|^11.0"
+                },
+                "time": "2026-02-09T19:44:35+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Cron\\CronServiceProvider"
+                        ]
+                    },
+                    "lofi": {
+                        "category": "devtool"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Cron\\": "src/",
+                        "Lofi\\Cron\\Database\\Factories\\": "database/factories/",
+                        "Lofi\\Cron\\Database\\Seeders\\": "database/seeders/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Lofi\\Cron\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "vendor/bin/phpunit"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "LoFi Cron - Centralized scheduled task and queue monitoring",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-cron/tree/v3.3.6",
+                    "issues": "https://github.com/ncortex/lofi-cron/issues"
+                }
+            },
+            {
+                "name": "lofi/cron",
+                "version": "v3.3.7",
+                "version_normalized": "3.3.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-cron.git",
+                    "reference": "6b6ae33ea6a9c533c5d501db24e23254fdeb2800"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-cron/zipball/6b6ae33ea6a9c533c5d501db24e23254fdeb2800",
+                    "reference": "6b6ae33ea6a9c533c5d501db24e23254fdeb2800",
+                    "shasum": ""
+                },
+                "require": {
+                    "dragonmantank/cron-expression": "^3.3",
+                    "illuminate/console": "^11.0|^12.0",
+                    "illuminate/support": "^11.0|^12.0",
+                    "lofi/kernel": "^3.3",
+                    "lofi/ui": "^3.3",
+                    "php": "^8.2"
+                },
+                "require-dev": {
+                    "orchestra/testbench": "^9.0|^10.0",
+                    "phpunit/phpunit": "^10.0|^11.0"
+                },
+                "time": "2026-02-09T19:47:06+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Cron\\CronServiceProvider"
+                        ]
+                    },
+                    "lofi": {
+                        "category": "devtool"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Cron\\": "src/",
+                        "Lofi\\Cron\\Database\\Factories\\": "database/factories/",
+                        "Lofi\\Cron\\Database\\Seeders\\": "database/seeders/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Lofi\\Cron\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "vendor/bin/phpunit"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "LoFi Cron - Centralized scheduled task and queue monitoring",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-cron/tree/v3.3.7",
+                    "issues": "https://github.com/ncortex/lofi-cron/issues"
+                }
+            }
+        ]
+    }
+}

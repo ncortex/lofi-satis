@@ -1,0 +1,408 @@
+{
+    "packages": {
+        "lofi/office": [
+            {
+                "name": "lofi/office",
+                "version": "v0.1.0",
+                "version_normalized": "0.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-office.git",
+                    "reference": "67a5e7c4567c4c0263a78db5532b7075f7c0fa1c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-office/zipball/67a5e7c4567c4c0263a78db5532b7075f7c0fa1c",
+                    "reference": "67a5e7c4567c4c0263a78db5532b7075f7c0fa1c",
+                    "shasum": ""
+                },
+                "require": {
+                    "livewire/livewire": "^3.0",
+                    "lofi/auth": "^1.0",
+                    "lofi/kernel": "^1.0",
+                    "lofi/notifications": "^1.0",
+                    "lofi/ui": "^1.0",
+                    "php": "^8.2"
+                },
+                "require-dev": {
+                    "orchestra/testbench": "^9.0",
+                    "phpunit/phpunit": "^11.0"
+                },
+                "suggest": {
+                    "pusher/pusher-php-server": "Required for real-time chat functionality"
+                },
+                "time": "2026-01-27T12:04:09+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Office\\OfficeServiceProvider"
+                        ]
+                    },
+                    "lofi": {
+                        "category": "module"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Office\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Lofi\\Office\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "LoFi Team",
+                        "email": "team@lofi.dev"
+                    }
+                ],
+                "description": "Corporate intranet module with HR management, chat, and resource booking for LoFi Framework",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-office/tree/v1.0.0",
+                    "issues": "https://github.com/ncortex/lofi-office/issues"
+                }
+            },
+            {
+                "name": "lofi/office",
+                "version": "v1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-office.git",
+                    "reference": "67a5e7c4567c4c0263a78db5532b7075f7c0fa1c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-office/zipball/67a5e7c4567c4c0263a78db5532b7075f7c0fa1c",
+                    "reference": "67a5e7c4567c4c0263a78db5532b7075f7c0fa1c",
+                    "shasum": ""
+                },
+                "require": {
+                    "livewire/livewire": "^3.0",
+                    "lofi/auth": "^1.0",
+                    "lofi/kernel": "^1.0",
+                    "lofi/notifications": "^1.0",
+                    "lofi/ui": "^1.0",
+                    "php": "^8.2"
+                },
+                "require-dev": {
+                    "orchestra/testbench": "^9.0",
+                    "phpunit/phpunit": "^11.0"
+                },
+                "suggest": {
+                    "pusher/pusher-php-server": "Required for real-time chat functionality"
+                },
+                "time": "2026-01-27T12:04:09+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Office\\OfficeServiceProvider"
+                        ]
+                    },
+                    "lofi": {
+                        "category": "module"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Office\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Lofi\\Office\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "LoFi Team",
+                        "email": "team@lofi.dev"
+                    }
+                ],
+                "description": "Corporate intranet module with HR management, chat, and resource booking for LoFi Framework",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-office/tree/v1.0.0",
+                    "issues": "https://github.com/ncortex/lofi-office/issues"
+                }
+            },
+            {
+                "name": "lofi/office",
+                "version": "v3.0.0",
+                "version_normalized": "3.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-office.git",
+                    "reference": "6ae10ec65ac218f4fc246aaf572d985ad4201779"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-office/zipball/6ae10ec65ac218f4fc246aaf572d985ad4201779",
+                    "reference": "6ae10ec65ac218f4fc246aaf572d985ad4201779",
+                    "shasum": ""
+                },
+                "require": {
+                    "livewire/livewire": "^3.0",
+                    "lofi/auth": "^3.0",
+                    "lofi/kernel": "^3.0",
+                    "lofi/notifications": "^3.0",
+                    "lofi/ui": "^3.0",
+                    "php": "^8.2"
+                },
+                "require-dev": {
+                    "orchestra/testbench": "^9.0",
+                    "phpunit/phpunit": "^11.0"
+                },
+                "suggest": {
+                    "pusher/pusher-php-server": "Required for real-time chat functionality"
+                },
+                "time": "2026-01-27T19:11:48+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Office\\OfficeServiceProvider"
+                        ]
+                    },
+                    "lofi": {
+                        "category": "module"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Office\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Lofi\\Office\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "LoFi Team",
+                        "email": "team@lofi.dev"
+                    }
+                ],
+                "description": "Corporate intranet module with HR management, chat, and resource booking for LoFi Framework",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-office/tree/v3.0.0",
+                    "issues": "https://github.com/ncortex/lofi-office/issues"
+                }
+            },
+            {
+                "name": "lofi/office",
+                "version": "v3.0.1",
+                "version_normalized": "3.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-office.git",
+                    "reference": "386e65149c604768704417542218fd6a4a4ee5ce"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-office/zipball/386e65149c604768704417542218fd6a4a4ee5ce",
+                    "reference": "386e65149c604768704417542218fd6a4a4ee5ce",
+                    "shasum": ""
+                },
+                "require": {
+                    "livewire/livewire": "^3.0",
+                    "lofi/auth": "^3.0",
+                    "lofi/kernel": "^3.0",
+                    "lofi/notifications": "^3.0",
+                    "lofi/ui": "^3.0",
+                    "php": "^8.2"
+                },
+                "require-dev": {
+                    "orchestra/testbench": "^9.0",
+                    "phpunit/phpunit": "^11.0"
+                },
+                "suggest": {
+                    "pusher/pusher-php-server": "Required for real-time chat functionality"
+                },
+                "time": "2026-02-08T18:57:48+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Office\\OfficeServiceProvider"
+                        ]
+                    },
+                    "lofi": {
+                        "category": "module"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Office\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Lofi\\Office\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "LoFi Team",
+                        "email": "team@lofi.dev"
+                    }
+                ],
+                "description": "Corporate intranet module with HR management, chat, and resource booking for LoFi Framework",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-office/tree/v3.0.1",
+                    "issues": "https://github.com/ncortex/lofi-office/issues"
+                }
+            },
+            {
+                "name": "lofi/office",
+                "version": "v3.3.4",
+                "version_normalized": "3.3.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-office.git",
+                    "reference": "b57f75cd498a8d8d5111355a7352542f5db6cbaf"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-office/zipball/b57f75cd498a8d8d5111355a7352542f5db6cbaf",
+                    "reference": "b57f75cd498a8d8d5111355a7352542f5db6cbaf",
+                    "shasum": ""
+                },
+                "require": {
+                    "livewire/livewire": "^3.0",
+                    "lofi/auth": "^3.3",
+                    "lofi/kernel": "^3.3",
+                    "lofi/notifications": "^3.3",
+                    "lofi/ui": "^3.3",
+                    "php": "^8.2"
+                },
+                "require-dev": {
+                    "orchestra/testbench": "^9.0",
+                    "phpunit/phpunit": "^11.0"
+                },
+                "suggest": {
+                    "pusher/pusher-php-server": "Required for real-time chat functionality"
+                },
+                "time": "2026-02-09T11:38:00+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Office\\OfficeServiceProvider"
+                        ]
+                    },
+                    "lofi": {
+                        "category": "module"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Office\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Lofi\\Office\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "LoFi Team",
+                        "email": "team@lofi.dev"
+                    }
+                ],
+                "description": "Corporate intranet module with HR management, chat, and resource booking for LoFi Framework",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-office/tree/v3.3.4",
+                    "issues": "https://github.com/ncortex/lofi-office/issues"
+                }
+            },
+            {
+                "name": "lofi/office",
+                "version": "v3.3.5",
+                "version_normalized": "3.3.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-office.git",
+                    "reference": "0c9c0046c35aeccc79af11d55efb4550f05add21"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-office/zipball/0c9c0046c35aeccc79af11d55efb4550f05add21",
+                    "reference": "0c9c0046c35aeccc79af11d55efb4550f05add21",
+                    "shasum": ""
+                },
+                "require": {
+                    "livewire/livewire": "^3.0",
+                    "lofi/auth": "^3.0",
+                    "lofi/kernel": "^3.0",
+                    "lofi/notifications": "^3.0",
+                    "lofi/ui": "^3.0",
+                    "php": "^8.2"
+                },
+                "require-dev": {
+                    "orchestra/testbench": "^9.0",
+                    "phpunit/phpunit": "^11.0"
+                },
+                "suggest": {
+                    "pusher/pusher-php-server": "Required for real-time chat functionality"
+                },
+                "time": "2026-02-08T09:07:25+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Office\\OfficeServiceProvider"
+                        ]
+                    },
+                    "lofi": {
+                        "category": "module"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Office\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Lofi\\Office\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "LoFi Team",
+                        "email": "team@lofi.dev"
+                    }
+                ],
+                "description": "Corporate intranet module with HR management, chat, and resource booking for LoFi Framework",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-office/tree/v3.3.5",
+                    "issues": "https://github.com/ncortex/lofi-office/issues"
+                }
+            }
+        ]
+    }
+}

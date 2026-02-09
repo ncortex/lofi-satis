@@ -1,0 +1,69 @@
+{
+    "packages": {
+        "lofi/webhooks": [
+            {
+                "name": "lofi/webhooks",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-webhooks.git",
+                    "reference": "ad97d372cdb05a076083dce6aeb3fb5fdc1763ff"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-webhooks/zipball/ad97d372cdb05a076083dce6aeb3fb5fdc1763ff",
+                    "reference": "ad97d372cdb05a076083dce6aeb3fb5fdc1763ff",
+                    "shasum": ""
+                },
+                "require": {
+                    "laravel/framework": "^10.0|^11.0|^12.0",
+                    "lofi/kernel": "^3.3",
+                    "php": "^8.2"
+                },
+                "require-dev": {
+                    "orchestra/testbench": "^8.0|^9.0|^10.0",
+                    "phpunit/phpunit": "^10.0|^11.0"
+                },
+                "time": "2026-02-09T18:54:52+00:00",
+                "default-branch": true,
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Webhooks\\WebhooksServiceProvider"
+                        ]
+                    },
+                    "lofi": {
+                        "category": "service"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Webhooks\\": "src/",
+                        "Lofi\\Webhooks\\Database\\Factories\\": "database/factories/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Lofi\\Webhooks\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Joselito",
+                        "email": "joselito@example.com"
+                    }
+                ],
+                "description": "Webhook system for LoFi Framework",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-webhooks/tree/v3.3.7",
+                    "issues": "https://github.com/ncortex/lofi-webhooks/issues"
+                }
+            }
+        ]
+    }
+}

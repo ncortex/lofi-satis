@@ -1,0 +1,66 @@
+{
+    "packages": {
+        "lofi/installer": [
+            {
+                "name": "lofi/installer",
+                "version": "v3.3.4",
+                "version_normalized": "3.3.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-installer.git",
+                    "reference": "3efdbceddf13e9e782767d2f5b2d84f6dd5cb455"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-installer/zipball/3efdbceddf13e9e782767d2f5b2d84f6dd5cb455",
+                    "reference": "3efdbceddf13e9e782767d2f5b2d84f6dd5cb455",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/routing": "^11.0|^12.0",
+                    "illuminate/support": "^11.0|^12.0",
+                    "illuminate/view": "^11.0|^12.0",
+                    "php": "^8.2"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^10.0|^11.0"
+                },
+                "time": "2026-02-09T11:38:00+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Installer\\InstallerServiceProvider"
+                        ]
+                    },
+                    "lofi": {
+                        "category": "devtool"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Installer\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Lofi\\Installer\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "LoFi Team"
+                    }
+                ],
+                "description": "WordPress-style installation wizard for LoFi Framework",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-installer/tree/v3.3.4",
+                    "issues": "https://github.com/ncortex/lofi-installer/issues"
+                }
+            }
+        ]
+    }
+}

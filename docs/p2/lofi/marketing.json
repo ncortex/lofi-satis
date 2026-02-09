@@ -1,0 +1,270 @@
+{
+    "packages": {
+        "lofi/marketing": [
+            {
+                "name": "lofi/marketing",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-marketing.git",
+                    "reference": "59500ffed725021939b5afdb2a9f08778937b974"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-marketing/zipball/59500ffed725021939b5afdb2a9f08778937b974",
+                    "reference": "59500ffed725021939b5afdb2a9f08778937b974",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/database": "^11.0|^12.0",
+                    "illuminate/mail": "^11.0|^12.0",
+                    "illuminate/support": "^11.0|^12.0",
+                    "lofi/kernel": "^1.0|^2.0",
+                    "php": "^8.2"
+                },
+                "require-dev": {
+                    "orchestra/testbench": "^8.0|^9.0|^10.0",
+                    "phpunit/phpunit": "^10.0|^11.0"
+                },
+                "suggest": {
+                    "lofi/notifications": "Para notificaciones de campañas"
+                },
+                "time": "2026-01-27T12:03:56+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Marketing\\MarketingServiceProvider"
+                        ]
+                    },
+                    "lofi": {
+                        "category": "module"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Marketing\\": "src/",
+                        "Lofi\\Marketing\\Database\\Factories\\": "database/factories/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Lofi\\Marketing\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "vendor/bin/phpunit"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Lofi Marketing - Campañas de email, leads y crawler de profesionales",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-marketing/tree/v1.0.0",
+                    "issues": "https://github.com/ncortex/lofi-marketing/issues"
+                }
+            },
+            {
+                "name": "lofi/marketing",
+                "version": "v3.0.1",
+                "version_normalized": "3.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-marketing.git",
+                    "reference": "adeb85e389ee8db492095e7438be3b63cc9bbcfc"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-marketing/zipball/adeb85e389ee8db492095e7438be3b63cc9bbcfc",
+                    "reference": "adeb85e389ee8db492095e7438be3b63cc9bbcfc",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/database": "^11.0|^12.0",
+                    "illuminate/mail": "^11.0|^12.0",
+                    "illuminate/support": "^11.0|^12.0",
+                    "lofi/kernel": "^3.0",
+                    "php": "^8.2"
+                },
+                "require-dev": {
+                    "orchestra/testbench": "^8.0|^9.0|^10.0",
+                    "phpunit/phpunit": "^10.0|^11.0"
+                },
+                "suggest": {
+                    "lofi/notifications": "Para notificaciones de campañas"
+                },
+                "time": "2026-02-08T18:57:48+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Marketing\\MarketingServiceProvider"
+                        ]
+                    },
+                    "lofi": {
+                        "category": "module"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Marketing\\": "src/",
+                        "Lofi\\Marketing\\Database\\Factories\\": "database/factories/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Lofi\\Marketing\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "vendor/bin/phpunit"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Lofi Marketing - Campañas de email, leads y crawler de profesionales",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-marketing/tree/v3.0.1",
+                    "issues": "https://github.com/ncortex/lofi-marketing/issues"
+                }
+            },
+            {
+                "name": "lofi/marketing",
+                "version": "v3.3.4",
+                "version_normalized": "3.3.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-marketing.git",
+                    "reference": "432edaa2d8fd8cd6720a483bfd6e2dc28d927000"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-marketing/zipball/432edaa2d8fd8cd6720a483bfd6e2dc28d927000",
+                    "reference": "432edaa2d8fd8cd6720a483bfd6e2dc28d927000",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/database": "^11.0|^12.0",
+                    "illuminate/mail": "^11.0|^12.0",
+                    "illuminate/support": "^11.0|^12.0",
+                    "lofi/kernel": "^3.3",
+                    "php": "^8.2"
+                },
+                "require-dev": {
+                    "orchestra/testbench": "^8.0|^9.0|^10.0",
+                    "phpunit/phpunit": "^10.0|^11.0"
+                },
+                "suggest": {
+                    "lofi/notifications": "Para notificaciones de campañas"
+                },
+                "time": "2026-02-09T11:38:00+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Marketing\\MarketingServiceProvider"
+                        ]
+                    },
+                    "lofi": {
+                        "category": "module"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Marketing\\": "src/",
+                        "Lofi\\Marketing\\Database\\Factories\\": "database/factories/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Lofi\\Marketing\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "vendor/bin/phpunit"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Lofi Marketing - Campañas de email, leads y crawler de profesionales",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-marketing/tree/v3.3.4",
+                    "issues": "https://github.com/ncortex/lofi-marketing/issues"
+                }
+            },
+            {
+                "name": "lofi/marketing",
+                "version": "v3.3.5",
+                "version_normalized": "3.3.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-marketing.git",
+                    "reference": "dce9e00692ce30e2f12cf32daf40915048f243a1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-marketing/zipball/dce9e00692ce30e2f12cf32daf40915048f243a1",
+                    "reference": "dce9e00692ce30e2f12cf32daf40915048f243a1",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/database": "^11.0|^12.0",
+                    "illuminate/mail": "^11.0|^12.0",
+                    "illuminate/support": "^11.0|^12.0",
+                    "lofi/kernel": "^3.0",
+                    "php": "^8.2"
+                },
+                "require-dev": {
+                    "orchestra/testbench": "^8.0|^9.0|^10.0",
+                    "phpunit/phpunit": "^10.0|^11.0"
+                },
+                "suggest": {
+                    "lofi/notifications": "Para notificaciones de campañas"
+                },
+                "time": "2026-02-08T09:50:52+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Marketing\\MarketingServiceProvider"
+                        ]
+                    },
+                    "lofi": {
+                        "category": "module"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Marketing\\": "src/",
+                        "Lofi\\Marketing\\Database\\Factories\\": "database/factories/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Lofi\\Marketing\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "vendor/bin/phpunit"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Lofi Marketing - Campañas de email, leads y crawler de profesionales",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-marketing/tree/v3.3.5",
+                    "issues": "https://github.com/ncortex/lofi-marketing/issues"
+                }
+            }
+        ]
+    }
+}

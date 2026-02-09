@@ -1,0 +1,66 @@
+{
+    "packages": {
+        "lofi/theme-default": [
+            {
+                "name": "lofi/theme-default",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-theme-default.git",
+                    "reference": "026c1f98f8964ef65c4d77366c6c27fe2d1bc2b8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-theme-default/zipball/026c1f98f8964ef65c4d77366c6c27fe2d1bc2b8",
+                    "reference": "026c1f98f8964ef65c4d77366c6c27fe2d1bc2b8",
+                    "shasum": ""
+                },
+                "require": {
+                    "lofi/themes": "^3.3",
+                    "php": "^8.2"
+                },
+                "time": "2026-02-09T12:53:08+00:00",
+                "default-branch": true,
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Themes\\Default\\DefaultThemeServiceProvider"
+                        ]
+                    },
+                    "lofi": {
+                        "category": "theme",
+                        "type": "theme",
+                        "slug": "default",
+                        "parent": null
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Themes\\Default\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "LoFi Framework",
+                        "email": "hello@lofi.dev"
+                    }
+                ],
+                "description": "Default Theme for LoFi Framework",
+                "keywords": [
+                    "laravel",
+                    "lofi",
+                    "theme"
+                ],
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-theme-default/tree/main",
+                    "issues": "https://github.com/ncortex/lofi-theme-default/issues"
+                }
+            }
+        ]
+    }
+}

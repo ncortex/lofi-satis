@@ -1,0 +1,53 @@
+{
+    "packages": {
+        "lofi/notifications": [
+            {
+                "name": "lofi/notifications",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-notifications.git",
+                    "reference": "4bbafe3140acf2fae5ab1248b552db245ccc2f08"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-notifications/zipball/4bbafe3140acf2fae5ab1248b552db245ccc2f08",
+                    "reference": "4bbafe3140acf2fae5ab1248b552db245ccc2f08",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/database": "^10.0|^11.0|^12.0",
+                    "illuminate/mail": "^10.0|^11.0|^12.0",
+                    "illuminate/notifications": "^10.0|^11.0|^12.0",
+                    "illuminate/support": "^10.0|^11.0|^12.0",
+                    "lofi/kernel": "^3.3",
+                    "php": "^8.2"
+                },
+                "time": "2026-02-09T19:47:13+00:00",
+                "default-branch": true,
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Notifications\\NotificationServiceProvider"
+                        ]
+                    },
+                    "lofi": {
+                        "category": "service"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Notifications\\": "src/"
+                    }
+                },
+                "description": "LoFi Notification System",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-notifications/tree/v3.3.7",
+                    "issues": "https://github.com/ncortex/lofi-notifications/issues"
+                }
+            }
+        ]
+    }
+}

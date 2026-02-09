@@ -1,0 +1,106 @@
+{
+    "packages": {
+        "lofi/logs": [
+            {
+                "name": "lofi/logs",
+                "version": "v3.3.4",
+                "version_normalized": "3.3.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-logs.git",
+                    "reference": "5cce3251b11dfb3ae596f26b0d245feae939489f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-logs/zipball/5cce3251b11dfb3ae596f26b0d245feae939489f",
+                    "reference": "5cce3251b11dfb3ae596f26b0d245feae939489f",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/database": "^11.0|^12.0",
+                    "illuminate/support": "^11.0|^12.0",
+                    "lofi/kernel": "^3.3",
+                    "php": "^8.2"
+                },
+                "time": "2026-02-09T11:37:49+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Logs\\LogsServiceProvider"
+                        ]
+                    },
+                    "lofi": {
+                        "category": "service"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Logs\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Activity logging for LoFi Framework",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-logs/tree/v3.3.4",
+                    "issues": "https://github.com/ncortex/lofi-logs/issues"
+                }
+            },
+            {
+                "name": "lofi/logs",
+                "version": "v3.3.5",
+                "version_normalized": "3.3.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-logs.git",
+                    "reference": "97aefbc46f6b9865f69694245ef46803ecf43c30"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-logs/zipball/97aefbc46f6b9865f69694245ef46803ecf43c30",
+                    "reference": "97aefbc46f6b9865f69694245ef46803ecf43c30",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/database": "^11.0|^12.0",
+                    "illuminate/support": "^11.0|^12.0",
+                    "lofi/kernel": "^3.3",
+                    "lofi/ui": "^3.3",
+                    "php": "^8.2"
+                },
+                "time": "2026-02-09T18:22:13+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Logs\\LogsServiceProvider"
+                        ]
+                    },
+                    "lofi": {
+                        "category": "service"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Logs\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Lofi\\Logs\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Unified logging and activity viewer for LoFi Framework",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-logs/tree/v3.3.5",
+                    "issues": "https://github.com/ncortex/lofi-logs/issues"
+                }
+            }
+        ]
+    }
+}

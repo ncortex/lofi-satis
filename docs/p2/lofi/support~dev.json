@@ -1,0 +1,65 @@
+{
+    "packages": {
+        "lofi/support": [
+            {
+                "name": "lofi/support",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-support.git",
+                    "reference": "4d9d9314fede3b12a0d487ffa87dfbd9d67fec2d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-support/zipball/4d9d9314fede3b12a0d487ffa87dfbd9d67fec2d",
+                    "reference": "4d9d9314fede3b12a0d487ffa87dfbd9d67fec2d",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/database": "^10.0|^11.0|^12.0",
+                    "illuminate/support": "^10.0|^11.0|^12.0",
+                    "illuminate/view": "^10.0|^11.0|^12.0",
+                    "lofi/kernel": "^3.3",
+                    "lofi/ui": "^3.3",
+                    "php": "^8.2"
+                },
+                "time": "2026-02-09T12:53:03+00:00",
+                "default-branch": true,
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Support\\SupportServiceProvider"
+                        ],
+                        "aliases": {
+                            "Support": "Lofi\\Support\\Facades\\Support"
+                        }
+                    },
+                    "lofi": {
+                        "category": "module"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Support\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Customer support and ticketing system for Lofi Framework",
+                "keywords": [
+                    "helpdesk",
+                    "lofi",
+                    "support",
+                    "tickets"
+                ],
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-support/tree/main",
+                    "issues": "https://github.com/ncortex/lofi-support/issues"
+                }
+            }
+        ]
+    }
+}

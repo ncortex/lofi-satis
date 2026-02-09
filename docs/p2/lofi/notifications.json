@@ -1,0 +1,190 @@
+{
+    "packages": {
+        "lofi/notifications": [
+            {
+                "name": "lofi/notifications",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-notifications.git",
+                    "reference": "df0807aedf11ef7889ec872039479334ea7f4a88"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-notifications/zipball/df0807aedf11ef7889ec872039479334ea7f4a88",
+                    "reference": "df0807aedf11ef7889ec872039479334ea7f4a88",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/database": "^10.0|^11.0|^12.0",
+                    "illuminate/mail": "^10.0|^11.0|^12.0",
+                    "illuminate/notifications": "^10.0|^11.0|^12.0",
+                    "illuminate/support": "^10.0|^11.0|^12.0",
+                    "lofi/kernel": "^1.0",
+                    "php": "^8.2"
+                },
+                "time": "2026-01-27T11:59:39+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Notifications\\NotificationServiceProvider"
+                        ]
+                    },
+                    "lofi": {
+                        "category": "service"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Notifications\\": "src/"
+                    }
+                },
+                "description": "LoFi Notification System",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-notifications/tree/v1.0.0",
+                    "issues": "https://github.com/ncortex/lofi-notifications/issues"
+                }
+            },
+            {
+                "name": "lofi/notifications",
+                "version": "v3.3.4",
+                "version_normalized": "3.3.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-notifications.git",
+                    "reference": "627384439e2a6eb4426a05d7b4b89ea1978138e6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-notifications/zipball/627384439e2a6eb4426a05d7b4b89ea1978138e6",
+                    "reference": "627384439e2a6eb4426a05d7b4b89ea1978138e6",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/database": "^10.0|^11.0|^12.0",
+                    "illuminate/mail": "^10.0|^11.0|^12.0",
+                    "illuminate/notifications": "^10.0|^11.0|^12.0",
+                    "illuminate/support": "^10.0|^11.0|^12.0",
+                    "lofi/kernel": "^3.3",
+                    "php": "^8.2"
+                },
+                "time": "2026-02-09T11:37:50+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Notifications\\NotificationServiceProvider"
+                        ]
+                    },
+                    "lofi": {
+                        "category": "service"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Notifications\\": "src/"
+                    }
+                },
+                "description": "LoFi Notification System",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-notifications/tree/v3.3.4",
+                    "issues": "https://github.com/ncortex/lofi-notifications/issues"
+                }
+            },
+            {
+                "name": "lofi/notifications",
+                "version": "v3.3.6",
+                "version_normalized": "3.3.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-notifications.git",
+                    "reference": "44a07275a31c34da5f4afa047a96b6d872b3487c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-notifications/zipball/44a07275a31c34da5f4afa047a96b6d872b3487c",
+                    "reference": "44a07275a31c34da5f4afa047a96b6d872b3487c",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/database": "^10.0|^11.0|^12.0",
+                    "illuminate/mail": "^10.0|^11.0|^12.0",
+                    "illuminate/notifications": "^10.0|^11.0|^12.0",
+                    "illuminate/support": "^10.0|^11.0|^12.0",
+                    "lofi/kernel": "^3.0",
+                    "php": "^8.2"
+                },
+                "time": "2026-02-08T15:16:42+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Notifications\\NotificationServiceProvider"
+                        ]
+                    },
+                    "lofi": {
+                        "category": "service"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Notifications\\": "src/"
+                    }
+                },
+                "description": "LoFi Notification System",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-notifications/tree/v3.3.6",
+                    "issues": "https://github.com/ncortex/lofi-notifications/issues"
+                }
+            },
+            {
+                "name": "lofi/notifications",
+                "version": "v3.3.7",
+                "version_normalized": "3.3.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-notifications.git",
+                    "reference": "4bbafe3140acf2fae5ab1248b552db245ccc2f08"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-notifications/zipball/4bbafe3140acf2fae5ab1248b552db245ccc2f08",
+                    "reference": "4bbafe3140acf2fae5ab1248b552db245ccc2f08",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/database": "^10.0|^11.0|^12.0",
+                    "illuminate/mail": "^10.0|^11.0|^12.0",
+                    "illuminate/notifications": "^10.0|^11.0|^12.0",
+                    "illuminate/support": "^10.0|^11.0|^12.0",
+                    "lofi/kernel": "^3.3",
+                    "php": "^8.2"
+                },
+                "time": "2026-02-09T19:47:13+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Notifications\\NotificationServiceProvider"
+                        ]
+                    },
+                    "lofi": {
+                        "category": "service"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Notifications\\": "src/"
+                    }
+                },
+                "description": "LoFi Notification System",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-notifications/tree/v3.3.7",
+                    "issues": "https://github.com/ncortex/lofi-notifications/issues"
+                }
+            }
+        ]
+    }
+}
