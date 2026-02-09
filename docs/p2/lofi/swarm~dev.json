@@ -49,11 +49,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-swarm/tree/main",
-                    "issues": "https://github.com/ncortex/lofi-swarm/issues"
-                }
+                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework"
             }
         ]
     }

@@ -70,11 +70,7 @@
                         "email": "joselito@example.com"
                     }
                 ],
-                "description": "Plugin system for LoFi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-plugins/tree/main",
-                    "issues": "https://github.com/ncortex/lofi-plugins/issues"
-                }
+                "description": "Plugin system for LoFi Framework"
             }
         ]
     }
