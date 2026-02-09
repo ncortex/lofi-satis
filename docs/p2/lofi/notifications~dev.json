@@ -42,11 +42,7 @@
                         "Lofi\\Notifications\\": "src/"
                     }
                 },
-                "description": "LoFi Notification System",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-notifications/tree/v3.3.7",
-                    "issues": "https://github.com/ncortex/lofi-notifications/issues"
-                }
+                "description": "LoFi Notification System"
             }
         ]
     }

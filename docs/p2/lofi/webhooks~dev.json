@@ -58,11 +58,7 @@
                         "email": "joselito@example.com"
                     }
                 ],
-                "description": "Webhook system for LoFi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-webhooks/tree/v3.3.7",
-                    "issues": "https://github.com/ncortex/lofi-webhooks/issues"
-                }
+                "description": "Webhook system for LoFi Framework"
             }
         ]
     }

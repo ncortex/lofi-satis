@@ -56,11 +56,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "LoFi Clinic - Generic clinic management module with patients, appointments, and treatments",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-clinic/tree/main",
-                    "issues": "https://github.com/ncortex/lofi-clinic/issues"
-                }
+                "description": "LoFi Clinic - Generic clinic management module with patients, appointments, and treatments"
             }
         ]
     }
