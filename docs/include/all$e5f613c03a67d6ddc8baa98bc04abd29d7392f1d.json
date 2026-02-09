@@ -3550,19 +3550,19 @@
                 ],
                 "description": "E-commerce module for Lofi Framework - Products, Orders, Cart, Promotions"
             },
-            "dev-main": {
+            "v3.3.7": {
                 "name": "lofi/ecommerce",
-                "version": "dev-main",
-                "version_normalized": "dev-main",
+                "version": "v3.3.7",
+                "version_normalized": "3.3.7.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-ecommerce.git",
-                    "reference": "2e40113b13f28ec393e30a4164aaab2715eb790a"
+                    "reference": "31d0f22642aee1e5bcfbb91e71695252541bb6ce"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-ecommerce/zipball/2e40113b13f28ec393e30a4164aaab2715eb790a",
-                    "reference": "2e40113b13f28ec393e30a4164aaab2715eb790a",
+                    "url": "https://api.github.com/repos/ncortex/lofi-ecommerce/zipball/31d0f22642aee1e5bcfbb91e71695252541bb6ce",
+                    "reference": "31d0f22642aee1e5bcfbb91e71695252541bb6ce",
                     "shasum": ""
                 },
                 "require": {
@@ -3575,7 +3575,72 @@
                     "orchestra/testbench": "^9.0|^10.0",
                     "phpunit/phpunit": "^11.0"
                 },
-                "time": "2026-02-09T12:52:44+00:00",
+                "time": "2026-02-09T20:29:17+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Ecommerce\\EcommerceServiceProvider"
+                        ],
+                        "aliases": {
+                            "Payment": "Lofi\\Ecommerce\\Payments\\Facades\\Payment"
+                        }
+                    },
+                    "lofi": {
+                        "category": "module"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Ecommerce\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Lofi\\Ecommerce\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "vendor/bin/phpunit"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Lofi Team"
+                    }
+                ],
+                "description": "E-commerce module for Lofi Framework - Products, Orders, Cart, Promotions"
+            },
+            "dev-main": {
+                "name": "lofi/ecommerce",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-ecommerce.git",
+                    "reference": "31d0f22642aee1e5bcfbb91e71695252541bb6ce"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-ecommerce/zipball/31d0f22642aee1e5bcfbb91e71695252541bb6ce",
+                    "reference": "31d0f22642aee1e5bcfbb91e71695252541bb6ce",
+                    "shasum": ""
+                },
+                "require": {
+                    "laravel/framework": "^10.0|^11.0|^12.0",
+                    "lofi/kernel": "^3.3",
+                    "lofi/ui": "^3.3",
+                    "php": "^8.2"
+                },
+                "require-dev": {
+                    "orchestra/testbench": "^9.0|^10.0",
+                    "phpunit/phpunit": "^11.0"
+                },
+                "time": "2026-02-09T20:29:17+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -7933,19 +7998,19 @@
                 ],
                 "description": "Lofi SEO - Complete SEO module with analysis, monitoring, and optimization tools"
             },
-            "dev-main": {
+            "v3.3.7": {
                 "name": "lofi/seo",
-                "version": "dev-main",
-                "version_normalized": "dev-main",
+                "version": "v3.3.7",
+                "version_normalized": "3.3.7.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-seo.git",
-                    "reference": "0445ecbb4653a462c0708fd61348988fb0d9e1e9"
+                    "reference": "6eaf979d53cff1ff996609d90eedd6ab5da6c01f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-seo/zipball/0445ecbb4653a462c0708fd61348988fb0d9e1e9",
-                    "reference": "0445ecbb4653a462c0708fd61348988fb0d9e1e9",
+                    "url": "https://api.github.com/repos/ncortex/lofi-seo/zipball/6eaf979d53cff1ff996609d90eedd6ab5da6c01f",
+                    "reference": "6eaf979d53cff1ff996609d90eedd6ab5da6c01f",
                     "shasum": ""
                 },
                 "require": {
@@ -7967,7 +8032,74 @@
                 "suggest": {
                     "google/apiclient": "Required for Google Search Console integration"
                 },
-                "time": "2026-02-09T12:52:59+00:00",
+                "time": "2026-02-09T20:29:20+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Seo\\SeoServiceProvider"
+                        ]
+                    },
+                    "lofi": {
+                        "category": "module"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Seo\\": "src/",
+                        "Lofi\\Seo\\Database\\Factories\\": "database/factories/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Lofi\\Seo\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "vendor/bin/phpunit"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Lofi SEO - Complete SEO module with analysis, monitoring, and optimization tools"
+            },
+            "dev-main": {
+                "name": "lofi/seo",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-seo.git",
+                    "reference": "6eaf979d53cff1ff996609d90eedd6ab5da6c01f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-seo/zipball/6eaf979d53cff1ff996609d90eedd6ab5da6c01f",
+                    "reference": "6eaf979d53cff1ff996609d90eedd6ab5da6c01f",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-dom": "*",
+                    "guzzlehttp/guzzle": "^7.0",
+                    "illuminate/database": "^11.0|^12.0",
+                    "illuminate/http": "^11.0|^12.0",
+                    "illuminate/queue": "^11.0|^12.0",
+                    "illuminate/routing": "^11.0|^12.0",
+                    "illuminate/support": "^11.0|^12.0",
+                    "lofi/kernel": "^3.3",
+                    "lofi/ui": "^3.3",
+                    "php": "^8.2"
+                },
+                "require-dev": {
+                    "orchestra/testbench": "^8.0|^9.0|^10.0",
+                    "phpunit/phpunit": "^10.0|^11.0"
+                },
+                "suggest": {
+                    "google/apiclient": "Required for Google Search Console integration"
+                },
+                "time": "2026-02-09T20:29:20+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {

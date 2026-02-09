@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-ecommerce.git",
-                    "reference": "2e40113b13f28ec393e30a4164aaab2715eb790a"
+                    "reference": "31d0f22642aee1e5bcfbb91e71695252541bb6ce"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-ecommerce/zipball/2e40113b13f28ec393e30a4164aaab2715eb790a",
-                    "reference": "2e40113b13f28ec393e30a4164aaab2715eb790a",
+                    "url": "https://api.github.com/repos/ncortex/lofi-ecommerce/zipball/31d0f22642aee1e5bcfbb91e71695252541bb6ce",
+                    "reference": "31d0f22642aee1e5bcfbb91e71695252541bb6ce",
                     "shasum": ""
                 },
                 "require": {
@@ -26,7 +26,7 @@
                     "orchestra/testbench": "^9.0|^10.0",
                     "phpunit/phpunit": "^11.0"
                 },
-                "time": "2026-02-09T12:52:44+00:00",
+                "time": "2026-02-09T20:29:17+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {

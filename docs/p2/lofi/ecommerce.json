@@ -260,6 +260,71 @@
                     }
                 ],
                 "description": "E-commerce module for Lofi Framework - Products, Orders, Cart, Promotions"
+            },
+            {
+                "name": "lofi/ecommerce",
+                "version": "v3.3.7",
+                "version_normalized": "3.3.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-ecommerce.git",
+                    "reference": "31d0f22642aee1e5bcfbb91e71695252541bb6ce"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-ecommerce/zipball/31d0f22642aee1e5bcfbb91e71695252541bb6ce",
+                    "reference": "31d0f22642aee1e5bcfbb91e71695252541bb6ce",
+                    "shasum": ""
+                },
+                "require": {
+                    "laravel/framework": "^10.0|^11.0|^12.0",
+                    "lofi/kernel": "^3.3",
+                    "lofi/ui": "^3.3",
+                    "php": "^8.2"
+                },
+                "require-dev": {
+                    "orchestra/testbench": "^9.0|^10.0",
+                    "phpunit/phpunit": "^11.0"
+                },
+                "time": "2026-02-09T20:29:17+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Ecommerce\\EcommerceServiceProvider"
+                        ],
+                        "aliases": {
+                            "Payment": "Lofi\\Ecommerce\\Payments\\Facades\\Payment"
+                        }
+                    },
+                    "lofi": {
+                        "category": "module"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Ecommerce\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Lofi\\Ecommerce\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "vendor/bin/phpunit"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Lofi Team"
+                    }
+                ],
+                "description": "E-commerce module for Lofi Framework - Products, Orders, Cart, Promotions"
             }
         ]
     }

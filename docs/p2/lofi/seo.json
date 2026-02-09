@@ -201,6 +201,73 @@
                     "MIT"
                 ],
                 "description": "Lofi SEO - Complete SEO module with analysis, monitoring, and optimization tools"
+            },
+            {
+                "name": "lofi/seo",
+                "version": "v3.3.7",
+                "version_normalized": "3.3.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-seo.git",
+                    "reference": "6eaf979d53cff1ff996609d90eedd6ab5da6c01f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-seo/zipball/6eaf979d53cff1ff996609d90eedd6ab5da6c01f",
+                    "reference": "6eaf979d53cff1ff996609d90eedd6ab5da6c01f",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-dom": "*",
+                    "guzzlehttp/guzzle": "^7.0",
+                    "illuminate/database": "^11.0|^12.0",
+                    "illuminate/http": "^11.0|^12.0",
+                    "illuminate/queue": "^11.0|^12.0",
+                    "illuminate/routing": "^11.0|^12.0",
+                    "illuminate/support": "^11.0|^12.0",
+                    "lofi/kernel": "^3.3",
+                    "lofi/ui": "^3.3",
+                    "php": "^8.2"
+                },
+                "require-dev": {
+                    "orchestra/testbench": "^8.0|^9.0|^10.0",
+                    "phpunit/phpunit": "^10.0|^11.0"
+                },
+                "suggest": {
+                    "google/apiclient": "Required for Google Search Console integration"
+                },
+                "time": "2026-02-09T20:29:20+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Seo\\SeoServiceProvider"
+                        ]
+                    },
+                    "lofi": {
+                        "category": "module"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Seo\\": "src/",
+                        "Lofi\\Seo\\Database\\Factories\\": "database/factories/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Lofi\\Seo\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "vendor/bin/phpunit"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Lofi SEO - Complete SEO module with analysis, monitoring, and optimization tools"
             }
         ]
     }

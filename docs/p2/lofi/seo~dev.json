@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-seo.git",
-                    "reference": "0445ecbb4653a462c0708fd61348988fb0d9e1e9"
+                    "reference": "6eaf979d53cff1ff996609d90eedd6ab5da6c01f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-seo/zipball/0445ecbb4653a462c0708fd61348988fb0d9e1e9",
-                    "reference": "0445ecbb4653a462c0708fd61348988fb0d9e1e9",
+                    "url": "https://api.github.com/repos/ncortex/lofi-seo/zipball/6eaf979d53cff1ff996609d90eedd6ab5da6c01f",
+                    "reference": "6eaf979d53cff1ff996609d90eedd6ab5da6c01f",
                     "shasum": ""
                 },
                 "require": {
@@ -35,7 +35,7 @@
                 "suggest": {
                     "google/apiclient": "Required for Google Search Console integration"
                 },
-                "time": "2026-02-09T12:52:59+00:00",
+                "time": "2026-02-09T20:29:20+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
