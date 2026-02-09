@@ -1,0 +1,246 @@
+{
+    "packages": {
+        "lofi/telegram": [
+            {
+                "name": "lofi/telegram",
+                "version": "v0.1.0",
+                "version_normalized": "0.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-telegram.git",
+                    "reference": "2953b6b8d70472ac1ec4c1f7df27b39718efa491"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-telegram/zipball/2953b6b8d70472ac1ec4c1f7df27b39718efa491",
+                    "reference": "2953b6b8d70472ac1ec4c1f7df27b39718efa491",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/support": "^11.0|^12.0",
+                    "php": "^8.1"
+                },
+                "time": "2026-01-27T11:59:52+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Telegram\\TelegramServiceProvider"
+                        ],
+                        "aliases": {
+                            "Telegram": "Lofi\\Telegram\\Facades\\Telegram"
+                        }
+                    },
+                    "lofi": {
+                        "category": "service"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Telegram\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Telegram bot integration for Lofi Framework",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-telegram/tree/v3.0.0",
+                    "issues": "https://github.com/ncortex/lofi-telegram/issues"
+                }
+            },
+            {
+                "name": "lofi/telegram",
+                "version": "v1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-telegram.git",
+                    "reference": "2953b6b8d70472ac1ec4c1f7df27b39718efa491"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-telegram/zipball/2953b6b8d70472ac1ec4c1f7df27b39718efa491",
+                    "reference": "2953b6b8d70472ac1ec4c1f7df27b39718efa491",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/support": "^11.0|^12.0",
+                    "php": "^8.1"
+                },
+                "time": "2026-01-27T11:59:52+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Telegram\\TelegramServiceProvider"
+                        ],
+                        "aliases": {
+                            "Telegram": "Lofi\\Telegram\\Facades\\Telegram"
+                        }
+                    },
+                    "lofi": {
+                        "category": "service"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Telegram\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Telegram bot integration for Lofi Framework",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-telegram/tree/v3.0.0",
+                    "issues": "https://github.com/ncortex/lofi-telegram/issues"
+                }
+            },
+            {
+                "name": "lofi/telegram",
+                "version": "v3.0.0",
+                "version_normalized": "3.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-telegram.git",
+                    "reference": "2953b6b8d70472ac1ec4c1f7df27b39718efa491"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-telegram/zipball/2953b6b8d70472ac1ec4c1f7df27b39718efa491",
+                    "reference": "2953b6b8d70472ac1ec4c1f7df27b39718efa491",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/support": "^11.0|^12.0",
+                    "php": "^8.1"
+                },
+                "time": "2026-01-27T11:59:52+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Telegram\\TelegramServiceProvider"
+                        ],
+                        "aliases": {
+                            "Telegram": "Lofi\\Telegram\\Facades\\Telegram"
+                        }
+                    },
+                    "lofi": {
+                        "category": "service"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Telegram\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Telegram bot integration for Lofi Framework",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-telegram/tree/v3.0.0",
+                    "issues": "https://github.com/ncortex/lofi-telegram/issues"
+                }
+            },
+            {
+                "name": "lofi/telegram",
+                "version": "v3.0.1",
+                "version_normalized": "3.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-telegram.git",
+                    "reference": "e32824f58a59493b901ce877d71ef0a22ef5751c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-telegram/zipball/e32824f58a59493b901ce877d71ef0a22ef5751c",
+                    "reference": "e32824f58a59493b901ce877d71ef0a22ef5751c",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/support": "^11.0|^12.0",
+                    "php": "^8.1"
+                },
+                "time": "2026-02-08T18:57:46+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Telegram\\TelegramServiceProvider"
+                        ],
+                        "aliases": {
+                            "Telegram": "Lofi\\Telegram\\Facades\\Telegram"
+                        }
+                    },
+                    "lofi": {
+                        "category": "service"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Telegram\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Telegram bot integration for Lofi Framework",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-telegram/tree/v3.0.1",
+                    "issues": "https://github.com/ncortex/lofi-telegram/issues"
+                }
+            },
+            {
+                "name": "lofi/telegram",
+                "version": "v3.3.4",
+                "version_normalized": "3.3.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-telegram.git",
+                    "reference": "840601ab4f41f458a793135d733e33ce37a63e82"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-telegram/zipball/840601ab4f41f458a793135d733e33ce37a63e82",
+                    "reference": "840601ab4f41f458a793135d733e33ce37a63e82",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/support": "^11.0|^12.0",
+                    "php": "^8.1"
+                },
+                "time": "2026-02-09T11:37:52+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Telegram\\TelegramServiceProvider"
+                        ],
+                        "aliases": {
+                            "Telegram": "Lofi\\Telegram\\Facades\\Telegram"
+                        }
+                    },
+                    "lofi": {
+                        "category": "service"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Telegram\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Telegram bot integration for Lofi Framework",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-telegram/tree/v3.3.4",
+                    "issues": "https://github.com/ncortex/lofi-telegram/issues"
+                }
+            }
+        ]
+    }
+}

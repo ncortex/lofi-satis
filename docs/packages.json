@@ -1,0 +1,48 @@
+{
+    "packages": [],
+    "includes": {
+        "include/all$f12bd0ab272fa8337c607d6d83319278761b085a.json": {
+            "sha1": "f12bd0ab272fa8337c607d6d83319278761b085a"
+        }
+    },
+    "metadata-url": "/lofi-satis/p2/%package%.json",
+    "available-packages": [
+        "lofi/analytics",
+        "lofi/api",
+        "lofi/audit",
+        "lofi/auth",
+        "lofi/backup",
+        "lofi/clinic",
+        "lofi/cms",
+        "lofi/cron",
+        "lofi/directory",
+        "lofi/docs",
+        "lofi/ecommerce",
+        "lofi/erp",
+        "lofi/framework",
+        "lofi/geo",
+        "lofi/git",
+        "lofi/installer",
+        "lofi/kernel",
+        "lofi/lofipress",
+        "lofi/logs",
+        "lofi/marketing",
+        "lofi/media",
+        "lofi/notifications",
+        "lofi/office",
+        "lofi/orchestrator",
+        "lofi/plugins",
+        "lofi/reviews",
+        "lofi/seo",
+        "lofi/sql",
+        "lofi/support",
+        "lofi/swarm",
+        "lofi/telegram",
+        "lofi/theme-default",
+        "lofi/theme-nyf",
+        "lofi/themes",
+        "lofi/ui",
+        "lofi/vet",
+        "lofi/webhooks"
+    ]
+}

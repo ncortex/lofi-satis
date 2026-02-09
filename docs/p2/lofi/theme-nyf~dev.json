@@ -1,0 +1,61 @@
+{
+    "packages": {
+        "lofi/theme-nyf": [
+            {
+                "name": "lofi/theme-nyf",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-theme-nyf.git",
+                    "reference": "a14f026565885def1ea63df78db3d357a2e59753"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-theme-nyf/zipball/a14f026565885def1ea63df78db3d357a2e59753",
+                    "reference": "a14f026565885def1ea63df78db3d357a2e59753",
+                    "shasum": ""
+                },
+                "require": {
+                    "lofi/themes": "^3.3",
+                    "php": "^8.2"
+                },
+                "time": "2026-02-09T12:53:10+00:00",
+                "default-branch": true,
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Themes\\Nyf\\NyfThemeServiceProvider"
+                        ]
+                    },
+                    "lofi": {
+                        "category": "theme",
+                        "type": "theme",
+                        "slug": "nyf",
+                        "parent": null
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Themes\\Nyf\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "NyF Team",
+                        "email": "info@natayfresas.com"
+                    }
+                ],
+                "description": "NatayFresas Theme for LoFi Framework",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-theme-nyf/tree/main",
+                    "issues": "https://github.com/ncortex/lofi-theme-nyf/issues"
+                }
+            }
+        ]
+    }
+}

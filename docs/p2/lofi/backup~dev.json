@@ -1,0 +1,69 @@
+{
+    "packages": {
+        "lofi/backup": [
+            {
+                "name": "lofi/backup",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-backup.git",
+                    "reference": "9428e12cc57454b60d056eab94213c4c5424cac3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-backup/zipball/9428e12cc57454b60d056eab94213c4c5424cac3",
+                    "reference": "9428e12cc57454b60d056eab94213c4c5424cac3",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/support": "^10.0|^11.0|^12.0",
+                    "lofi/kernel": "^3.3",
+                    "lofi/ui": "^3.3",
+                    "php": "^8.2"
+                },
+                "require-dev": {
+                    "orchestra/testbench": "^8.0|^9.0|^10.0",
+                    "phpunit/phpunit": "^10.0|^11.0"
+                },
+                "time": "2026-02-09T12:52:32+00:00",
+                "default-branch": true,
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Backup\\BackupServiceProvider"
+                        ]
+                    },
+                    "lofi": {
+                        "category": "devtool"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Backup\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Lofi\\Backup\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Lofi Framework",
+                        "email": "hello@lofi.dev"
+                    }
+                ],
+                "description": "Backup and Restore System for Lofi Framework",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-backup/tree/main",
+                    "issues": "https://github.com/ncortex/lofi-backup/issues"
+                }
+            }
+        ]
+    }
+}

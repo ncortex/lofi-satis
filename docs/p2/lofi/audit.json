@@ -1,0 +1,53 @@
+{
+    "packages": {
+        "lofi/audit": [
+            {
+                "name": "lofi/audit",
+                "version": "v3.3.4",
+                "version_normalized": "3.3.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-audit.git",
+                    "reference": "0583c8743b16c4da114dcac3de3c94aa7e8f7657"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-audit/zipball/0583c8743b16c4da114dcac3de3c94aa7e8f7657",
+                    "reference": "0583c8743b16c4da114dcac3de3c94aa7e8f7657",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/database": "^11.0|^12.0",
+                    "illuminate/support": "^11.0|^12.0",
+                    "lofi/kernel": "^3.3",
+                    "php": "^8.2"
+                },
+                "time": "2026-02-09T11:37:49+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Audit\\AuditServiceProvider"
+                        ]
+                    },
+                    "lofi": {
+                        "category": "service"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Audit\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Audit trail for LoFi Framework",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-audit/tree/v3.3.4",
+                    "issues": "https://github.com/ncortex/lofi-audit/issues"
+                }
+            }
+        ]
+    }
+}

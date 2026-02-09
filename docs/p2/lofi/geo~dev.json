@@ -1,0 +1,70 @@
+{
+    "packages": {
+        "lofi/geo": [
+            {
+                "name": "lofi/geo",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-geo.git",
+                    "reference": "f35acc2d2d93a986eb218636b3e666b261fc05d9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-geo/zipball/f35acc2d2d93a986eb218636b3e666b261fc05d9",
+                    "reference": "f35acc2d2d93a986eb218636b3e666b261fc05d9",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/database": "^11.0|^12.0",
+                    "illuminate/support": "^11.0|^12.0",
+                    "lofi/kernel": "^3.3",
+                    "php": "^8.2"
+                },
+                "require-dev": {
+                    "orchestra/testbench": "^8.0|^9.0|^10.0",
+                    "phpunit/phpunit": "^10.0|^11.0"
+                },
+                "time": "2026-02-09T12:52:05+00:00",
+                "default-branch": true,
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Geo\\GeoServiceProvider"
+                        ]
+                    },
+                    "lofi": {
+                        "category": "service"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Geo\\": "src/",
+                        "Lofi\\Geo\\Database\\Factories\\": "database/factories/",
+                        "Lofi\\Geo\\Database\\Seeders\\": "database/seeders/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Lofi\\Geo\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "vendor/bin/phpunit"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Lofi Geo - Gestión de zonas geográficas y ciudades",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-geo/tree/main",
+                    "issues": "https://github.com/ncortex/lofi-geo/issues"
+                }
+            }
+        ]
+    }
+}

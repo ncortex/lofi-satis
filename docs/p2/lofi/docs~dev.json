@@ -1,0 +1,72 @@
+{
+    "packages": {
+        "lofi/docs": [
+            {
+                "name": "lofi/docs",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-docs.git",
+                    "reference": "16d4de460dfa51c3f240bb7fd3140942cb233c32"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-docs/zipball/16d4de460dfa51c3f240bb7fd3140942cb233c32",
+                    "reference": "16d4de460dfa51c3f240bb7fd3140942cb233c32",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/routing": "^11.0|^12.0",
+                    "illuminate/support": "^11.0|^12.0",
+                    "illuminate/view": "^11.0|^12.0",
+                    "league/commonmark": "^2.0",
+                    "lofi/kernel": "^3.3",
+                    "php": "^8.2",
+                    "zircote/swagger-php": "^4.0"
+                },
+                "require-dev": {
+                    "orchestra/testbench": "^9.0|^10.0",
+                    "phpunit/phpunit": "^11.0"
+                },
+                "time": "2026-02-09T12:52:42+00:00",
+                "default-branch": true,
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Docs\\DocsServiceProvider"
+                        ]
+                    },
+                    "lofi": {
+                        "category": "devtool"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Docs\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Lofi\\Docs\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Joselito",
+                        "email": "joselito@example.com"
+                    }
+                ],
+                "description": "LoFi Documentation Portal - Centralized documentation viewer for all packages",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-docs/tree/main",
+                    "issues": "https://github.com/ncortex/lofi-docs/issues"
+                }
+            }
+        ]
+    }
+}

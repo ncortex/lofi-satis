@@ -1,0 +1,159 @@
+{
+    "packages": {
+        "lofi/kernel": [
+            {
+                "name": "lofi/kernel",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-kernel.git",
+                    "reference": "65223473e81254d6a7a25eb84303454c0c723656"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-kernel/zipball/65223473e81254d6a7a25eb84303454c0c723656",
+                    "reference": "65223473e81254d6a7a25eb84303454c0c723656",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/cache": "^10.0|^11.0|^12.0",
+                    "illuminate/database": "^10.0|^11.0|^12.0",
+                    "illuminate/support": "^10.0|^11.0|^12.0",
+                    "php": "^8.2"
+                },
+                "require-dev": {
+                    "orchestra/testbench": "^8.0|^9.0|^10.0",
+                    "phpmd/phpmd": "^2.15",
+                    "phpstan/phpstan": "^1.10",
+                    "phpunit/phpunit": "^10.0|^11.0"
+                },
+                "time": "2026-01-27T11:59:18+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Kernel\\KernelServiceProvider"
+                        ]
+                    },
+                    "lofi": {
+                        "category": "foundation"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Kernel\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Lofi\\Kernel\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "phpunit"
+                    ],
+                    "analyse": [
+                        "phpstan analyse"
+                    ],
+                    "lint": [
+                        "phpmd src text phpmd.xml"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Joselito",
+                        "email": "joselito@example.com"
+                    }
+                ],
+                "description": "LoFi Framework - Kernel",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-kernel/tree/v3.0.0",
+                    "issues": "https://github.com/ncortex/lofi-kernel/issues"
+                }
+            },
+            {
+                "name": "lofi/kernel",
+                "version": "v3.3.4",
+                "version_normalized": "3.3.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-kernel.git",
+                    "reference": "b561c29dd0d005743991385c9519e2b5150fcb99"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-kernel/zipball/b561c29dd0d005743991385c9519e2b5150fcb99",
+                    "reference": "b561c29dd0d005743991385c9519e2b5150fcb99",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/cache": "^10.0|^11.0|^12.0",
+                    "illuminate/database": "^10.0|^11.0|^12.0",
+                    "illuminate/support": "^10.0|^11.0|^12.0",
+                    "php": "^8.2"
+                },
+                "require-dev": {
+                    "orchestra/testbench": "^8.0|^9.0|^10.0",
+                    "phpmd/phpmd": "^2.15",
+                    "phpstan/phpstan": "^1.10",
+                    "phpunit/phpunit": "^10.0|^11.0"
+                },
+                "time": "2026-02-09T11:37:49+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Kernel\\KernelServiceProvider"
+                        ]
+                    },
+                    "lofi": {
+                        "category": "foundation"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Kernel\\": "src/"
+                    },
+                    "files": [
+                        "src/helpers.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Lofi\\Kernel\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "phpunit"
+                    ],
+                    "analyse": [
+                        "phpstan analyse"
+                    ],
+                    "lint": [
+                        "phpmd src text phpmd.xml"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Joselito",
+                        "email": "joselito@example.com"
+                    }
+                ],
+                "description": "LoFi Framework - Kernel",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-kernel/tree/v3.3.4",
+                    "issues": "https://github.com/ncortex/lofi-kernel/issues"
+                }
+            }
+        ]
+    }
+}

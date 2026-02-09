@@ -1,0 +1,63 @@
+{
+    "packages": {
+        "lofi/orchestrator": [
+            {
+                "name": "lofi/orchestrator",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-orchestrator.git",
+                    "reference": "08fe674554f03d57de68f8b049594db08d7c0d8f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-orchestrator/zipball/08fe674554f03d57de68f8b049594db08d7c0d8f",
+                    "reference": "08fe674554f03d57de68f8b049594db08d7c0d8f",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "^7.0",
+                    "lofi/kernel": "^3.3",
+                    "lofi/ui": "^3.3",
+                    "php": "^8.2"
+                },
+                "require-dev": {
+                    "orchestra/testbench": "^9.0",
+                    "phpunit/phpunit": "^11.0"
+                },
+                "time": "2026-02-09T12:52:57+00:00",
+                "default-branch": true,
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Orchestrator\\OrchestratorServiceProvider"
+                        ]
+                    },
+                    "lofi": {
+                        "category": "devtool"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Orchestrator\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Lofi\\Orchestrator\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "Multi-instance LoFi management with monitoring, remote commands, and impersonation",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-orchestrator/tree/main",
+                    "issues": "https://github.com/ncortex/lofi-orchestrator/issues"
+                }
+            }
+        ]
+    }
+}

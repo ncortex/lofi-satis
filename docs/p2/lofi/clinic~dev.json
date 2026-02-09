@@ -1,0 +1,67 @@
+{
+    "packages": {
+        "lofi/clinic": [
+            {
+                "name": "lofi/clinic",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-clinic.git",
+                    "reference": "be30db5e69c83d0e310b36691054d44672e2625e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-clinic/zipball/be30db5e69c83d0e310b36691054d44672e2625e",
+                    "reference": "be30db5e69c83d0e310b36691054d44672e2625e",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/support": "^11.0|^12.0",
+                    "lofi/erp": "^3.3",
+                    "lofi/kernel": "^3.3",
+                    "lofi/ui": "^3.3",
+                    "php": "^8.2"
+                },
+                "require-dev": {
+                    "orchestra/testbench": "^9.0|^10.0",
+                    "phpunit/phpunit": "^11.0"
+                },
+                "time": "2026-02-09T12:52:34+00:00",
+                "default-branch": true,
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Clinic\\ClinicServiceProvider"
+                        ]
+                    },
+                    "lofi": {
+                        "category": "module",
+                        "extends": "erp"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Clinic\\": "src/",
+                        "Lofi\\Clinic\\Database\\Factories\\": "database/factories/",
+                        "Lofi\\Clinic\\Database\\Seeders\\": "database/seeders/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Lofi\\Clinic\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "LoFi Clinic - Generic clinic management module with patients, appointments, and treatments",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-clinic/tree/main",
+                    "issues": "https://github.com/ncortex/lofi-clinic/issues"
+                }
+            }
+        ]
+    }
+}

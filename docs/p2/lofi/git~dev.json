@@ -1,0 +1,71 @@
+{
+    "packages": {
+        "lofi/git": [
+            {
+                "name": "lofi/git",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-git.git",
+                    "reference": "6334d0a1f84d75a4817c82c73ae164f25dd04f4a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-git/zipball/6334d0a1f84d75a4817c82c73ae164f25dd04f4a",
+                    "reference": "6334d0a1f84d75a4817c82c73ae164f25dd04f4a",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/support": "^11.0|^12.0",
+                    "lofi/kernel": "^3.3",
+                    "lofi/ui": "^3.3",
+                    "m4tthumphrey/php-gitlab-api": "^11.0",
+                    "php": "^8.2"
+                },
+                "require-dev": {
+                    "orchestra/testbench": "^9.0|^10.0",
+                    "phpunit/phpunit": "^10.0|^11.0"
+                },
+                "time": "2026-02-09T12:52:49+00:00",
+                "default-branch": true,
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Git\\GitServiceProvider"
+                        ]
+                    },
+                    "lofi": {
+                        "category": "module"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Git\\": "src/",
+                        "Lofi\\Git\\Database\\Factories\\": "database/factories/",
+                        "Lofi\\Git\\Database\\Seeders\\": "database/seeders/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Lofi\\Git\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "vendor/bin/phpunit"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "LoFi Git - Dashboard de gestión de repositorios GitLab",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-git/tree/main",
+                    "issues": "https://github.com/ncortex/lofi-git/issues"
+                }
+            }
+        ]
+    }
+}
