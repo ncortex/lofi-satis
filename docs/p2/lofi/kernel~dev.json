@@ -74,11 +74,7 @@
                         "email": "joselito@example.com"
                     }
                 ],
-                "description": "LoFi Framework - Kernel",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-kernel/tree/main",
-                    "issues": "https://github.com/ncortex/lofi-kernel/issues"
-                }
+                "description": "LoFi Framework - Kernel"
             }
         ]
     }

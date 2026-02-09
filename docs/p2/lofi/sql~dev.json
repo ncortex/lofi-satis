@@ -51,11 +51,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi SQL - Database schema explorer (tables, views, routines)",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-sql/tree/main",
-                    "issues": "https://github.com/ncortex/lofi-sql/issues"
-                }
+                "description": "Lofi SQL - Database schema explorer (tables, views, routines)"
             }
         ]
     }

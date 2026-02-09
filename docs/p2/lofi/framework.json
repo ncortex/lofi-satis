@@ -61,11 +61,7 @@
                     "laravel",
                     "lofi",
                     "wordpress"
-                ],
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-framework/tree/v1.0.0",
-                    "issues": "https://github.com/ncortex/lofi-framework/issues"
-                }
+                ]
             },
             {
                 "name": "lofi/framework",
@@ -126,11 +122,7 @@
                     "laravel",
                     "lofi",
                     "wordpress"
-                ],
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-framework/tree/v3.0.0",
-                    "issues": "https://github.com/ncortex/lofi-framework/issues"
-                }
+                ]
             },
             {
                 "name": "lofi/framework",
@@ -192,11 +184,7 @@
                     "laravel",
                     "lofi",
                     "wordpress"
-                ],
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-framework/tree/v3.0.1",
-                    "issues": "https://github.com/ncortex/lofi-framework/issues"
-                }
+                ]
             },
             {
                 "name": "lofi/framework",
@@ -258,11 +246,7 @@
                     "laravel",
                     "lofi",
                     "wordpress"
-                ],
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-framework/tree/v3.3.4",
-                    "issues": "https://github.com/ncortex/lofi-framework/issues"
-                }
+                ]
             },
             {
                 "name": "lofi/framework",
@@ -324,11 +308,70 @@
                     "laravel",
                     "lofi",
                     "wordpress"
+                ]
+            },
+            {
+                "name": "lofi/framework",
+                "version": "v3.3.7",
+                "version_normalized": "3.3.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-framework.git",
+                    "reference": "675ee7b9b1835731a563e61d9bf64038ff56dcf1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-framework/zipball/675ee7b9b1835731a563e61d9bf64038ff56dcf1",
+                    "reference": "675ee7b9b1835731a563e61d9bf64038ff56dcf1",
+                    "shasum": ""
+                },
+                "require": {
+                    "lofi/auth": "^3.3",
+                    "lofi/installer": "^3.3",
+                    "lofi/kernel": "^3.3",
+                    "lofi/plugins": "^3.3",
+                    "lofi/themes": "^3.3",
+                    "lofi/ui": "^3.3",
+                    "php": "^8.2"
+                },
+                "suggest": {
+                    "lofi/analytics": "Self-hosted analytics",
+                    "lofi/cms": "Content management system",
+                    "lofi/ecommerce": "E-commerce functionality (includes payments)",
+                    "lofi/erp": "Enterprise resource planning",
+                    "lofi/git": "GitLab repository management",
+                    "lofi/logs": "Centralized logging",
+                    "lofi/media": "Media management",
+                    "lofi/notifications": "Notification system",
+                    "lofi/sql": "Database schema explorer",
+                    "lofi/support": "Customer support ticketing",
+                    "lofi/swarm": "Multi-agent AI system",
+                    "lofi/telegram": "Telegram bot integration",
+                    "lofi/webhooks": "Webhook dispatching and logging"
+                },
+                "time": "2026-02-09T17:51:03+00:00",
+                "type": "metapackage",
+                "extra": {
+                    "lofi": {
+                        "category": "meta"
+                    }
+                },
+                "license": [
+                    "MIT"
                 ],
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-framework/tree/v3.3.5",
-                    "issues": "https://github.com/ncortex/lofi-framework/issues"
-                }
+                "authors": [
+                    {
+                        "name": "Joselito",
+                        "email": "joselito@example.com"
+                    }
+                ],
+                "description": "LoFi Framework - Laravel with low friction for WordPress developers",
+                "keywords": [
+                    "framework",
+                    "laravel",
+                    "lofi",
+                    "wordpress"
+                ]
             }
         ]
     }

@@ -43,11 +43,7 @@
                         "Lofi\\Media\\": "src/"
                     }
                 },
-                "description": "LoFi Media Management",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-media/tree/main",
-                    "issues": "https://github.com/ncortex/lofi-media/issues"
-                }
+                "description": "LoFi Media Management"
             }
         ]
     }

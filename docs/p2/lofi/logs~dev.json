@@ -43,11 +43,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Activity logging for LoFi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-logs/tree/main",
-                    "issues": "https://github.com/ncortex/lofi-logs/issues"
-                }
+                "description": "Activity logging for LoFi Framework"
             }
         ]
     }

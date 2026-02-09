@@ -50,11 +50,7 @@
                         "email": "info@natayfresas.com"
                     }
                 ],
-                "description": "NatayFresas Theme for LoFi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-theme-nyf/tree/main",
-                    "issues": "https://github.com/ncortex/lofi-theme-nyf/issues"
-                }
+                "description": "NatayFresas Theme for LoFi Framework"
             }
         ]
     }

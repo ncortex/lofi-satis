@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-framework.git",
-                    "reference": "5b3262a8437eee744a34a4bd68dbf4fb574b1344"
+                    "reference": "675ee7b9b1835731a563e61d9bf64038ff56dcf1"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-framework/zipball/5b3262a8437eee744a34a4bd68dbf4fb574b1344",
-                    "reference": "5b3262a8437eee744a34a4bd68dbf4fb574b1344",
+                    "url": "https://api.github.com/repos/ncortex/lofi-framework/zipball/675ee7b9b1835731a563e61d9bf64038ff56dcf1",
+                    "reference": "675ee7b9b1835731a563e61d9bf64038ff56dcf1",
                     "shasum": ""
                 },
                 "require": {
@@ -31,6 +31,7 @@
                     "lofi/ecommerce": "E-commerce functionality (includes payments)",
                     "lofi/erp": "Enterprise resource planning",
                     "lofi/git": "GitLab repository management",
+                    "lofi/logs": "Centralized logging",
                     "lofi/media": "Media management",
                     "lofi/notifications": "Notification system",
                     "lofi/sql": "Database schema explorer",
@@ -39,7 +40,7 @@
                     "lofi/telegram": "Telegram bot integration",
                     "lofi/webhooks": "Webhook dispatching and logging"
                 },
-                "time": "2026-02-09T12:52:03+00:00",
+                "time": "2026-02-09T17:51:03+00:00",
                 "default-branch": true,
                 "type": "metapackage",
                 "extra": {
@@ -62,11 +63,7 @@
                     "laravel",
                     "lofi",
                     "wordpress"
-                ],
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-framework/tree/main",
-                    "issues": "https://github.com/ncortex/lofi-framework/issues"
-                }
+                ]
             }
         ]
     }

@@ -59,11 +59,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "LoFi Git - Dashboard de gestión de repositorios GitLab",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-git/tree/v1.0.0",
-                    "issues": "https://github.com/ncortex/lofi-git/issues"
-                }
+                "description": "LoFi Git - Dashboard de gestión de repositorios GitLab"
             },
             {
                 "name": "lofi/git",
@@ -123,11 +119,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "LoFi Git - Dashboard de gestión de repositorios GitLab",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-git/tree/v3.3.4",
-                    "issues": "https://github.com/ncortex/lofi-git/issues"
-                }
+                "description": "LoFi Git - Dashboard de gestión de repositorios GitLab"
             },
             {
                 "name": "lofi/git",
@@ -187,11 +179,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "LoFi Git - Dashboard de gestión de repositorios GitLab",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-git/tree/v3.3.5",
-                    "issues": "https://github.com/ncortex/lofi-git/issues"
-                }
+                "description": "LoFi Git - Dashboard de gestión de repositorios GitLab"
             }
         ]
     }
