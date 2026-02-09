@@ -58,7 +58,11 @@
                         "email": "hello@lofi.dev"
                     }
                 ],
-                "description": "Backup and Restore System for Lofi Framework"
+                "description": "Backup and Restore System for Lofi Framework",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-backup/tree/main",
+                    "issues": "https://github.com/ncortex/lofi-backup/issues"
+                }
             }
         ]
     }

@@ -54,7 +54,11 @@
                     "lofi",
                     "support",
                     "tickets"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-support/tree/main",
+                    "issues": "https://github.com/ncortex/lofi-support/issues"
+                }
             }
         ]
     }
