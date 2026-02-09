@@ -65,7 +65,11 @@
                         "name": "Lofi Team"
                     }
                 ],
-                "description": "E-commerce module for Lofi Framework - Products, Orders, Cart, Promotions"
+                "description": "E-commerce module for Lofi Framework - Products, Orders, Cart, Promotions",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-ecommerce/tree/main",
+                    "issues": "https://github.com/ncortex/lofi-ecommerce/issues"
+                }
             }
         ]
     }

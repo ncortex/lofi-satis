@@ -49,7 +49,11 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Unified logging and activity viewer for LoFi Framework"
+                "description": "Unified logging and activity viewer for LoFi Framework",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-logs/tree/v3.3.5",
+                    "issues": "https://github.com/ncortex/lofi-logs/issues"
+                }
             }
         ]
     }

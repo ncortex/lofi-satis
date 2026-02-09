@@ -61,7 +61,11 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "LoFi Cron - Centralized scheduled task and queue monitoring"
+                "description": "LoFi Cron - Centralized scheduled task and queue monitoring",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-cron/tree/main",
+                    "issues": "https://github.com/ncortex/lofi-cron/issues"
+                }
             }
         ]
     }

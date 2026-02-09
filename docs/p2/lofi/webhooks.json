@@ -57,7 +57,11 @@
                         "email": "joselito@example.com"
                     }
                 ],
-                "description": "Webhook system for LoFi Framework"
+                "description": "Webhook system for LoFi Framework",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-webhooks/tree/v1.0.0",
+                    "issues": "https://github.com/ncortex/lofi-webhooks/issues"
+                }
             },
             {
                 "name": "lofi/webhooks",
@@ -115,7 +119,11 @@
                         "email": "joselito@example.com"
                     }
                 ],
-                "description": "Webhook system for LoFi Framework"
+                "description": "Webhook system for LoFi Framework",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-webhooks/tree/v3.0.1",
+                    "issues": "https://github.com/ncortex/lofi-webhooks/issues"
+                }
             },
             {
                 "name": "lofi/webhooks",
@@ -173,7 +181,11 @@
                         "email": "joselito@example.com"
                     }
                 ],
-                "description": "Webhook system for LoFi Framework"
+                "description": "Webhook system for LoFi Framework",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-webhooks/tree/v3.3.4",
+                    "issues": "https://github.com/ncortex/lofi-webhooks/issues"
+                }
             },
             {
                 "name": "lofi/webhooks",
@@ -231,7 +243,11 @@
                         "email": "joselito@example.com"
                     }
                 ],
-                "description": "Webhook system for LoFi Framework"
+                "description": "Webhook system for LoFi Framework",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-webhooks/tree/v3.3.5",
+                    "issues": "https://github.com/ncortex/lofi-webhooks/issues"
+                }
             }
         ]
     }

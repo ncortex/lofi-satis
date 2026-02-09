@@ -67,7 +67,11 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi SEO - Complete SEO module with analysis, monitoring, and optimization tools"
+                "description": "Lofi SEO - Complete SEO module with analysis, monitoring, and optimization tools",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-seo/tree/main",
+                    "issues": "https://github.com/ncortex/lofi-seo/issues"
+                }
             }
         ]
     }

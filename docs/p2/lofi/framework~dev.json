@@ -40,7 +40,7 @@
                     "lofi/telegram": "Telegram bot integration",
                     "lofi/webhooks": "Webhook dispatching and logging"
                 },
-                "time": "2026-02-09T17:51:03+00:00",
+                "time": "2026-02-09T17:54:12+00:00",
                 "default-branch": true,
                 "type": "metapackage",
                 "extra": {
@@ -63,7 +63,11 @@
                     "laravel",
                     "lofi",
                     "wordpress"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-framework/tree/v3.3.7",
+                    "issues": "https://github.com/ncortex/lofi-framework/issues"
+                }
             }
         ]
     }
