@@ -73,11 +73,7 @@
                         "email": "joselito@example.com"
                     }
                 ],
-                "description": "Theme system for LoFi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-themes/tree/v1.0.0",
-                    "issues": "https://github.com/ncortex/lofi-themes/issues"
-                }
+                "description": "Theme system for LoFi Framework"
             },
             {
                 "name": "lofi/themes",
@@ -151,11 +147,7 @@
                         "email": "joselito@example.com"
                     }
                 ],
-                "description": "Theme system for LoFi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-themes/tree/v3.0.1",
-                    "issues": "https://github.com/ncortex/lofi-themes/issues"
-                }
+                "description": "Theme system for LoFi Framework"
             },
             {
                 "name": "lofi/themes",
@@ -229,11 +221,7 @@
                         "email": "joselito@example.com"
                     }
                 ],
-                "description": "Theme system for LoFi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-themes/tree/v3.3.4",
-                    "issues": "https://github.com/ncortex/lofi-themes/issues"
-                }
+                "description": "Theme system for LoFi Framework"
             },
             {
                 "name": "lofi/themes",
@@ -307,11 +295,7 @@
                         "email": "joselito@example.com"
                     }
                 ],
-                "description": "Theme system for LoFi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-themes/tree/v3.3.5",
-                    "issues": "https://github.com/ncortex/lofi-themes/issues"
-                }
+                "description": "Theme system for LoFi Framework"
             }
         ]
     }

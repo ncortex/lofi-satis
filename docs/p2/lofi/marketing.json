@@ -61,11 +61,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi Marketing - Campañas de email, leads y crawler de profesionales",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-marketing/tree/v1.0.0",
-                    "issues": "https://github.com/ncortex/lofi-marketing/issues"
-                }
+                "description": "Lofi Marketing - Campañas de email, leads y crawler de profesionales"
             },
             {
                 "name": "lofi/marketing",
@@ -127,11 +123,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi Marketing - Campañas de email, leads y crawler de profesionales",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-marketing/tree/v3.0.1",
-                    "issues": "https://github.com/ncortex/lofi-marketing/issues"
-                }
+                "description": "Lofi Marketing - Campañas de email, leads y crawler de profesionales"
             },
             {
                 "name": "lofi/marketing",
@@ -193,11 +185,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi Marketing - Campañas de email, leads y crawler de profesionales",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-marketing/tree/v3.3.4",
-                    "issues": "https://github.com/ncortex/lofi-marketing/issues"
-                }
+                "description": "Lofi Marketing - Campañas de email, leads y crawler de profesionales"
             },
             {
                 "name": "lofi/marketing",
@@ -259,11 +247,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi Marketing - Campañas de email, leads y crawler de profesionales",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-marketing/tree/v3.3.5",
-                    "issues": "https://github.com/ncortex/lofi-marketing/issues"
-                }
+                "description": "Lofi Marketing - Campañas de email, leads y crawler de profesionales"
             }
         ]
     }

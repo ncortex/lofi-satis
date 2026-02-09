@@ -49,11 +49,7 @@
                         "email": "info@natayfresas.com"
                     }
                 ],
-                "description": "Self-hosted analytics for Lofi Framework - Track page views, visitors, and more without external dependencies",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-analytics/tree/v3.0.0",
-                    "issues": "https://github.com/ncortex/lofi-analytics/issues"
-                }
+                "description": "Self-hosted analytics for Lofi Framework - Track page views, visitors, and more without external dependencies"
             },
             {
                 "name": "lofi/analytics",
@@ -103,11 +99,7 @@
                         "email": "info@natayfresas.com"
                     }
                 ],
-                "description": "Self-hosted analytics for Lofi Framework - Track page views, visitors, and more without external dependencies",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-analytics/tree/v3.0.0",
-                    "issues": "https://github.com/ncortex/lofi-analytics/issues"
-                }
+                "description": "Self-hosted analytics for Lofi Framework - Track page views, visitors, and more without external dependencies"
             },
             {
                 "name": "lofi/analytics",
@@ -157,11 +149,7 @@
                         "email": "info@natayfresas.com"
                     }
                 ],
-                "description": "Self-hosted analytics for Lofi Framework - Track page views, visitors, and more without external dependencies",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-analytics/tree/v3.0.0",
-                    "issues": "https://github.com/ncortex/lofi-analytics/issues"
-                }
+                "description": "Self-hosted analytics for Lofi Framework - Track page views, visitors, and more without external dependencies"
             },
             {
                 "name": "lofi/analytics",
@@ -211,11 +199,7 @@
                         "email": "info@natayfresas.com"
                     }
                 ],
-                "description": "Self-hosted analytics for Lofi Framework - Track page views, visitors, and more without external dependencies",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-analytics/tree/v3.0.1",
-                    "issues": "https://github.com/ncortex/lofi-analytics/issues"
-                }
+                "description": "Self-hosted analytics for Lofi Framework - Track page views, visitors, and more without external dependencies"
             },
             {
                 "name": "lofi/analytics",
@@ -265,11 +249,7 @@
                         "email": "info@natayfresas.com"
                     }
                 ],
-                "description": "Self-hosted analytics for Lofi Framework - Track page views, visitors, and more without external dependencies",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-analytics/tree/v3.3.4",
-                    "issues": "https://github.com/ncortex/lofi-analytics/issues"
-                }
+                "description": "Self-hosted analytics for Lofi Framework - Track page views, visitors, and more without external dependencies"
             }
         ]
     }

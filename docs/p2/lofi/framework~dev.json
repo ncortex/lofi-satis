@@ -62,11 +62,7 @@
                     "laravel",
                     "lofi",
                     "wordpress"
-                ],
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-framework/tree/main",
-                    "issues": "https://github.com/ncortex/lofi-framework/issues"
-                }
+                ]
             }
         ]
     }
