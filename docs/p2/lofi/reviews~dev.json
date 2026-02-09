@@ -58,7 +58,11 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi Reviews - Sistema de reseñas polimórfico"
+                "description": "Lofi Reviews - Sistema de reseñas polimórfico",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-reviews/tree/main",
+                    "issues": "https://github.com/ncortex/lofi-reviews/issues"
+                }
             }
         ]
     }
