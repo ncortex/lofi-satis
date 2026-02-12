@@ -8678,6 +8678,60 @@
                     "tickets"
                 ]
             },
+            "v3.3.7": {
+                "name": "lofi/support",
+                "version": "v3.3.7",
+                "version_normalized": "3.3.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-support.git",
+                    "reference": "0c8d43a4fbebd895f860a77f142451cecf62d152"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-support/zipball/0c8d43a4fbebd895f860a77f142451cecf62d152",
+                    "reference": "0c8d43a4fbebd895f860a77f142451cecf62d152",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/database": "^10.0|^11.0|^12.0",
+                    "illuminate/support": "^10.0|^11.0|^12.0",
+                    "illuminate/view": "^10.0|^11.0|^12.0",
+                    "lofi/kernel": "^3.3",
+                    "lofi/ui": "^3.3",
+                    "php": "^8.2"
+                },
+                "time": "2026-02-12T19:02:39+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Support\\SupportServiceProvider"
+                        ],
+                        "aliases": {
+                            "Support": "Lofi\\Support\\Facades\\Support"
+                        }
+                    },
+                    "lofi": {
+                        "category": "module"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Support\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Customer support and ticketing system for Lofi Framework",
+                "keywords": [
+                    "helpdesk",
+                    "lofi",
+                    "support",
+                    "tickets"
+                ]
+            },
             "dev-main": {
                 "name": "lofi/support",
                 "version": "dev-main",
