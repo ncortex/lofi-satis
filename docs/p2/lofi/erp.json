@@ -180,6 +180,66 @@
                     "MIT"
                 ],
                 "description": "Lofi ERP - Sistema de gestión empresarial integral"
+            },
+            {
+                "name": "lofi/erp",
+                "version": "v3.3.7",
+                "version_normalized": "3.3.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-erp.git",
+                    "reference": "e7a700516968e4b4fbab4334bbd9cb69b9575fb5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-erp/zipball/e7a700516968e4b4fbab4334bbd9cb69b9575fb5",
+                    "reference": "e7a700516968e4b4fbab4334bbd9cb69b9575fb5",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/support": "^11.0|^12.0",
+                    "lofi/kernel": "^3.3",
+                    "lofi/swarm": "^3.3",
+                    "lofi/ui": "^3.3",
+                    "php": "^8.2"
+                },
+                "require-dev": {
+                    "orchestra/testbench": "^8.0|^9.0|^10.0",
+                    "phpunit/phpunit": "^10.0|^11.0"
+                },
+                "time": "2026-02-12T19:02:40+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Erp\\ErpServiceProvider"
+                        ]
+                    },
+                    "lofi": {
+                        "category": "module"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Erp\\": "src/",
+                        "Lofi\\Erp\\Database\\Factories\\": "database/factories/",
+                        "Lofi\\Erp\\Database\\Seeders\\": "database/seeders/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Lofi\\Erp\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "vendor/bin/phpunit"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Lofi ERP - Sistema de gestión empresarial integral"
             }
         ]
     }
