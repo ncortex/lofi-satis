@@ -5395,12 +5395,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-kernel.git",
-                    "reference": "06511eeb1bbc8c8fc346fc20ffd96c855392fbef"
+                    "reference": "cf280c8d0cfc74401515ae93377e40e09536edb0"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-kernel/zipball/06511eeb1bbc8c8fc346fc20ffd96c855392fbef",
-                    "reference": "06511eeb1bbc8c8fc346fc20ffd96c855392fbef",
+                    "url": "https://api.github.com/repos/ncortex/lofi-kernel/zipball/cf280c8d0cfc74401515ae93377e40e09536edb0",
+                    "reference": "cf280c8d0cfc74401515ae93377e40e09536edb0",
                     "shasum": ""
                 },
                 "require": {
@@ -5415,7 +5415,7 @@
                     "phpstan/phpstan": "^1.10",
                     "phpunit/phpunit": "^10.0|^11.0"
                 },
-                "time": "2026-02-12T19:02:40+00:00",
+                "time": "2026-02-12T19:23:14+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -9224,12 +9224,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-swarm.git",
-                    "reference": "22f0efd4ab40642fe04b22341b682fdb95db7564"
+                    "reference": "b116ec125fbcb0bbdccc37cc33fa7e0650c411a2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-swarm/zipball/22f0efd4ab40642fe04b22341b682fdb95db7564",
-                    "reference": "22f0efd4ab40642fe04b22341b682fdb95db7564",
+                    "url": "https://api.github.com/repos/ncortex/lofi-swarm/zipball/b116ec125fbcb0bbdccc37cc33fa7e0650c411a2",
+                    "reference": "b116ec125fbcb0bbdccc37cc33fa7e0650c411a2",
                     "shasum": ""
                 },
                 "require": {
@@ -9241,7 +9241,7 @@
                     "lofi/ui": "^3.3",
                     "php": "^8.4"
                 },
-                "time": "2026-02-12T19:02:40+00:00",
+                "time": "2026-02-12T19:23:14+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -10535,6 +10535,83 @@
                 ],
                 "description": "LoFi Admin UI Components"
             },
+            "v3.3.13": {
+                "name": "lofi/ui",
+                "version": "v3.3.13",
+                "version_normalized": "3.3.13.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-ui.git",
+                    "reference": "7697f109b975597a105edf46979ad65b49f779bc"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-ui/zipball/7697f109b975597a105edf46979ad65b49f779bc",
+                    "reference": "7697f109b975597a105edf46979ad65b49f779bc",
+                    "shasum": ""
+                },
+                "require": {
+                    "barryvdh/laravel-debugbar": "^3.14|^4.0",
+                    "illuminate/auth": "^10.0|^11.0|^12.0",
+                    "illuminate/cache": "^10.0|^11.0|^12.0",
+                    "illuminate/database": "^10.0|^11.0|^12.0",
+                    "illuminate/support": "^10.0|^11.0|^12.0",
+                    "illuminate/view": "^10.0|^11.0|^12.0",
+                    "league/commonmark": "^2.0",
+                    "livewire/livewire": "^3.0",
+                    "lofi/kernel": "^3.3",
+                    "php": "^8.2"
+                },
+                "require-dev": {
+                    "orchestra/testbench": "^8.0|^9.0|^10.0",
+                    "phpmd/phpmd": "^2.15",
+                    "phpstan/phpstan": "^1.10",
+                    "phpunit/phpunit": "^10.0|^11.0"
+                },
+                "time": "2026-02-12T19:23:14+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\UI\\UIServiceProvider"
+                        ],
+                        "aliases": {
+                            "Help": "Lofi\\UI\\Facades\\Help"
+                        }
+                    },
+                    "lofi": {
+                        "category": "core"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\UI\\": "src/"
+                    },
+                    "files": [
+                        "src/helpers.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Lofi\\UI\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "phpunit"
+                    ],
+                    "analyse": [
+                        "phpstan analyse"
+                    ],
+                    "lint": [
+                        "phpmd src text phpmd.xml"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "LoFi Admin UI Components"
+            },
             "v3.3.4": {
                 "name": "lofi/ui",
                 "version": "v3.3.4",
@@ -10927,12 +11004,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-ui.git",
-                    "reference": "431608aba75cdfc6c79881169c67dd1728b579fd"
+                    "reference": "7697f109b975597a105edf46979ad65b49f779bc"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-ui/zipball/431608aba75cdfc6c79881169c67dd1728b579fd",
-                    "reference": "431608aba75cdfc6c79881169c67dd1728b579fd",
+                    "url": "https://api.github.com/repos/ncortex/lofi-ui/zipball/7697f109b975597a105edf46979ad65b49f779bc",
+                    "reference": "7697f109b975597a105edf46979ad65b49f779bc",
                     "shasum": ""
                 },
                 "require": {
@@ -10953,7 +11030,7 @@
                     "phpstan/phpstan": "^1.10",
                     "phpunit/phpunit": "^10.0|^11.0"
                 },
-                "time": "2026-02-12T19:02:40+00:00",
+                "time": "2026-02-12T19:23:14+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
