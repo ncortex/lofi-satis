@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-erp.git",
-                    "reference": "b37fcb76724b1e887d95b73dd4b12060ef36fc9d"
+                    "reference": "e7a700516968e4b4fbab4334bbd9cb69b9575fb5"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-erp/zipball/b37fcb76724b1e887d95b73dd4b12060ef36fc9d",
-                    "reference": "b37fcb76724b1e887d95b73dd4b12060ef36fc9d",
+                    "url": "https://api.github.com/repos/ncortex/lofi-erp/zipball/e7a700516968e4b4fbab4334bbd9cb69b9575fb5",
+                    "reference": "e7a700516968e4b4fbab4334bbd9cb69b9575fb5",
                     "shasum": ""
                 },
                 "require": {
@@ -27,7 +27,7 @@
                     "orchestra/testbench": "^8.0|^9.0|^10.0",
                     "phpunit/phpunit": "^10.0|^11.0"
                 },
-                "time": "2026-02-09T12:52:47+00:00",
+                "time": "2026-02-12T19:02:40+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {

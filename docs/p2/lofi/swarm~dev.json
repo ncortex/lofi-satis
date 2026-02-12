@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-swarm.git",
-                    "reference": "1c846be303ce80a72f87846b8f5bb90580afcbe1"
+                    "reference": "22f0efd4ab40642fe04b22341b682fdb95db7564"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-swarm/zipball/1c846be303ce80a72f87846b8f5bb90580afcbe1",
-                    "reference": "1c846be303ce80a72f87846b8f5bb90580afcbe1",
+                    "url": "https://api.github.com/repos/ncortex/lofi-swarm/zipball/22f0efd4ab40642fe04b22341b682fdb95db7564",
+                    "reference": "22f0efd4ab40642fe04b22341b682fdb95db7564",
                     "shasum": ""
                 },
                 "require": {
@@ -25,7 +25,7 @@
                     "lofi/ui": "^3.3",
                     "php": "^8.4"
                 },
-                "time": "2026-02-10T23:51:47+00:00",
+                "time": "2026-02-12T19:02:40+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -34,7 +34,8 @@
                             "Lofi\\Swarm\\SwarmServiceProvider"
                         ],
                         "aliases": {
-                            "Swarm": "Lofi\\Swarm\\Facades\\Swarm"
+                            "Swarm": "Lofi\\Swarm\\Facades\\Swarm",
+                            "OAuth": "Lofi\\Swarm\\Facades\\OAuth"
                         }
                     },
                     "lofi": {

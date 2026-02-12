@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-logs.git",
-                    "reference": "97aefbc46f6b9865f69694245ef46803ecf43c30"
+                    "reference": "c4ff6a8c87eb3a0e21cd7611e16519ae8e481320"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-logs/zipball/97aefbc46f6b9865f69694245ef46803ecf43c30",
-                    "reference": "97aefbc46f6b9865f69694245ef46803ecf43c30",
+                    "url": "https://api.github.com/repos/ncortex/lofi-logs/zipball/c4ff6a8c87eb3a0e21cd7611e16519ae8e481320",
+                    "reference": "c4ff6a8c87eb3a0e21cd7611e16519ae8e481320",
                     "shasum": ""
                 },
                 "require": {
@@ -23,7 +23,7 @@
                     "lofi/ui": "^3.3",
                     "php": "^8.2"
                 },
-                "time": "2026-02-09T18:22:13+00:00",
+                "time": "2026-02-12T19:02:40+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {

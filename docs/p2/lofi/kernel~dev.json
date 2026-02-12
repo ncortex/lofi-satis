@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-kernel.git",
-                    "reference": "dd1fedc958b5412bf831a6452d00db749fba2b92"
+                    "reference": "06511eeb1bbc8c8fc346fc20ffd96c855392fbef"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-kernel/zipball/dd1fedc958b5412bf831a6452d00db749fba2b92",
-                    "reference": "dd1fedc958b5412bf831a6452d00db749fba2b92",
+                    "url": "https://api.github.com/repos/ncortex/lofi-kernel/zipball/06511eeb1bbc8c8fc346fc20ffd96c855392fbef",
+                    "reference": "06511eeb1bbc8c8fc346fc20ffd96c855392fbef",
                     "shasum": ""
                 },
                 "require": {
@@ -28,7 +28,7 @@
                     "phpstan/phpstan": "^1.10",
                     "phpunit/phpunit": "^10.0|^11.0"
                 },
-                "time": "2026-02-09T18:52:40+00:00",
+                "time": "2026-02-12T19:02:40+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {

@@ -153,6 +153,83 @@
             },
             {
                 "name": "lofi/ui",
+                "version": "v3.3.11",
+                "version_normalized": "3.3.11.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-ui.git",
+                    "reference": "431608aba75cdfc6c79881169c67dd1728b579fd"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-ui/zipball/431608aba75cdfc6c79881169c67dd1728b579fd",
+                    "reference": "431608aba75cdfc6c79881169c67dd1728b579fd",
+                    "shasum": ""
+                },
+                "require": {
+                    "barryvdh/laravel-debugbar": "^3.14|^4.0",
+                    "illuminate/auth": "^10.0|^11.0|^12.0",
+                    "illuminate/cache": "^10.0|^11.0|^12.0",
+                    "illuminate/database": "^10.0|^11.0|^12.0",
+                    "illuminate/support": "^10.0|^11.0|^12.0",
+                    "illuminate/view": "^10.0|^11.0|^12.0",
+                    "league/commonmark": "^2.0",
+                    "livewire/livewire": "^3.0",
+                    "lofi/kernel": "^3.3",
+                    "php": "^8.2"
+                },
+                "require-dev": {
+                    "orchestra/testbench": "^8.0|^9.0|^10.0",
+                    "phpmd/phpmd": "^2.15",
+                    "phpstan/phpstan": "^1.10",
+                    "phpunit/phpunit": "^10.0|^11.0"
+                },
+                "time": "2026-02-12T19:02:40+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\UI\\UIServiceProvider"
+                        ],
+                        "aliases": {
+                            "Help": "Lofi\\UI\\Facades\\Help"
+                        }
+                    },
+                    "lofi": {
+                        "category": "core"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\UI\\": "src/"
+                    },
+                    "files": [
+                        "src/helpers.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Lofi\\UI\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "phpunit"
+                    ],
+                    "analyse": [
+                        "phpstan analyse"
+                    ],
+                    "lint": [
+                        "phpmd src text phpmd.xml"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "LoFi Admin UI Components"
+            },
+            {
+                "name": "lofi/ui",
                 "version": "v3.3.4",
                 "version_normalized": "3.3.4.0",
                 "source": {

@@ -219,6 +219,80 @@
                     }
                 ],
                 "description": "LoFi Framework - Kernel"
+            },
+            {
+                "name": "lofi/kernel",
+                "version": "v3.3.8",
+                "version_normalized": "3.3.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-kernel.git",
+                    "reference": "06511eeb1bbc8c8fc346fc20ffd96c855392fbef"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-kernel/zipball/06511eeb1bbc8c8fc346fc20ffd96c855392fbef",
+                    "reference": "06511eeb1bbc8c8fc346fc20ffd96c855392fbef",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/cache": "^10.0|^11.0|^12.0",
+                    "illuminate/database": "^10.0|^11.0|^12.0",
+                    "illuminate/support": "^10.0|^11.0|^12.0",
+                    "php": "^8.2"
+                },
+                "require-dev": {
+                    "orchestra/testbench": "^8.0|^9.0|^10.0",
+                    "phpmd/phpmd": "^2.15",
+                    "phpstan/phpstan": "^1.10",
+                    "phpunit/phpunit": "^10.0|^11.0"
+                },
+                "time": "2026-02-12T19:02:40+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Kernel\\KernelServiceProvider"
+                        ]
+                    },
+                    "lofi": {
+                        "category": "foundation"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Kernel\\": "src/"
+                    },
+                    "files": [
+                        "src/helpers.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Lofi\\Kernel\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "phpunit"
+                    ],
+                    "analyse": [
+                        "phpstan analyse"
+                    ],
+                    "lint": [
+                        "phpmd src text phpmd.xml"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Joselito",
+                        "email": "joselito@example.com"
+                    }
+                ],
+                "description": "LoFi Framework - Kernel"
             }
         ]
     }

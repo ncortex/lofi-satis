@@ -3870,12 +3870,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-erp.git",
-                    "reference": "b37fcb76724b1e887d95b73dd4b12060ef36fc9d"
+                    "reference": "e7a700516968e4b4fbab4334bbd9cb69b9575fb5"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-erp/zipball/b37fcb76724b1e887d95b73dd4b12060ef36fc9d",
-                    "reference": "b37fcb76724b1e887d95b73dd4b12060ef36fc9d",
+                    "url": "https://api.github.com/repos/ncortex/lofi-erp/zipball/e7a700516968e4b4fbab4334bbd9cb69b9575fb5",
+                    "reference": "e7a700516968e4b4fbab4334bbd9cb69b9575fb5",
                     "shasum": ""
                 },
                 "require": {
@@ -3889,7 +3889,7 @@
                     "orchestra/testbench": "^8.0|^9.0|^10.0",
                     "phpunit/phpunit": "^10.0|^11.0"
                 },
-                "time": "2026-02-09T12:52:47+00:00",
+                "time": "2026-02-12T19:02:40+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -5180,19 +5180,19 @@
                 ],
                 "description": "LoFi Framework - Kernel"
             },
-            "dev-main": {
+            "v3.3.8": {
                 "name": "lofi/kernel",
-                "version": "dev-main",
-                "version_normalized": "dev-main",
+                "version": "v3.3.8",
+                "version_normalized": "3.3.8.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-kernel.git",
-                    "reference": "dd1fedc958b5412bf831a6452d00db749fba2b92"
+                    "reference": "06511eeb1bbc8c8fc346fc20ffd96c855392fbef"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-kernel/zipball/dd1fedc958b5412bf831a6452d00db749fba2b92",
-                    "reference": "dd1fedc958b5412bf831a6452d00db749fba2b92",
+                    "url": "https://api.github.com/repos/ncortex/lofi-kernel/zipball/06511eeb1bbc8c8fc346fc20ffd96c855392fbef",
+                    "reference": "06511eeb1bbc8c8fc346fc20ffd96c855392fbef",
                     "shasum": ""
                 },
                 "require": {
@@ -5207,7 +5207,81 @@
                     "phpstan/phpstan": "^1.10",
                     "phpunit/phpunit": "^10.0|^11.0"
                 },
-                "time": "2026-02-09T18:52:40+00:00",
+                "time": "2026-02-12T19:02:40+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Kernel\\KernelServiceProvider"
+                        ]
+                    },
+                    "lofi": {
+                        "category": "foundation"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Kernel\\": "src/"
+                    },
+                    "files": [
+                        "src/helpers.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Lofi\\Kernel\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "phpunit"
+                    ],
+                    "analyse": [
+                        "phpstan analyse"
+                    ],
+                    "lint": [
+                        "phpmd src text phpmd.xml"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Joselito",
+                        "email": "joselito@example.com"
+                    }
+                ],
+                "description": "LoFi Framework - Kernel"
+            },
+            "dev-main": {
+                "name": "lofi/kernel",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-kernel.git",
+                    "reference": "06511eeb1bbc8c8fc346fc20ffd96c855392fbef"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-kernel/zipball/06511eeb1bbc8c8fc346fc20ffd96c855392fbef",
+                    "reference": "06511eeb1bbc8c8fc346fc20ffd96c855392fbef",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/cache": "^10.0|^11.0|^12.0",
+                    "illuminate/database": "^10.0|^11.0|^12.0",
+                    "illuminate/support": "^10.0|^11.0|^12.0",
+                    "php": "^8.2"
+                },
+                "require-dev": {
+                    "orchestra/testbench": "^8.0|^9.0|^10.0",
+                    "phpmd/phpmd": "^2.15",
+                    "phpstan/phpstan": "^1.10",
+                    "phpunit/phpunit": "^10.0|^11.0"
+                },
+                "time": "2026-02-12T19:02:40+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -5593,19 +5667,19 @@
                 ],
                 "description": "Unified logging and activity viewer for LoFi Framework"
             },
-            "dev-main": {
+            "v3.3.6": {
                 "name": "lofi/logs",
-                "version": "dev-main",
-                "version_normalized": "dev-main",
+                "version": "v3.3.6",
+                "version_normalized": "3.3.6.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-logs.git",
-                    "reference": "97aefbc46f6b9865f69694245ef46803ecf43c30"
+                    "reference": "c4ff6a8c87eb3a0e21cd7611e16519ae8e481320"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-logs/zipball/97aefbc46f6b9865f69694245ef46803ecf43c30",
-                    "reference": "97aefbc46f6b9865f69694245ef46803ecf43c30",
+                    "url": "https://api.github.com/repos/ncortex/lofi-logs/zipball/c4ff6a8c87eb3a0e21cd7611e16519ae8e481320",
+                    "reference": "c4ff6a8c87eb3a0e21cd7611e16519ae8e481320",
                     "shasum": ""
                 },
                 "require": {
@@ -5615,7 +5689,56 @@
                     "lofi/ui": "^3.3",
                     "php": "^8.2"
                 },
-                "time": "2026-02-09T18:22:13+00:00",
+                "time": "2026-02-12T19:02:40+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Logs\\LogsServiceProvider"
+                        ]
+                    },
+                    "lofi": {
+                        "category": "service"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Logs\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Lofi\\Logs\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Unified logging and activity viewer for LoFi Framework"
+            },
+            "dev-main": {
+                "name": "lofi/logs",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-logs.git",
+                    "reference": "c4ff6a8c87eb3a0e21cd7611e16519ae8e481320"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-logs/zipball/c4ff6a8c87eb3a0e21cd7611e16519ae8e481320",
+                    "reference": "c4ff6a8c87eb3a0e21cd7611e16519ae8e481320",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/database": "^11.0|^12.0",
+                    "illuminate/support": "^11.0|^12.0",
+                    "lofi/kernel": "^3.3",
+                    "lofi/ui": "^3.3",
+                    "php": "^8.2"
+                },
+                "time": "2026-02-12T19:02:40+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -8562,12 +8685,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-support.git",
-                    "reference": "4d9d9314fede3b12a0d487ffa87dfbd9d67fec2d"
+                    "reference": "0c8d43a4fbebd895f860a77f142451cecf62d152"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-support/zipball/4d9d9314fede3b12a0d487ffa87dfbd9d67fec2d",
-                    "reference": "4d9d9314fede3b12a0d487ffa87dfbd9d67fec2d",
+                    "url": "https://api.github.com/repos/ncortex/lofi-support/zipball/0c8d43a4fbebd895f860a77f142451cecf62d152",
+                    "reference": "0c8d43a4fbebd895f860a77f142451cecf62d152",
                     "shasum": ""
                 },
                 "require": {
@@ -8578,7 +8701,7 @@
                     "lofi/ui": "^3.3",
                     "php": "^8.2"
                 },
-                "time": "2026-02-09T12:53:03+00:00",
+                "time": "2026-02-12T19:02:39+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -8806,19 +8929,19 @@
                 ],
                 "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework"
             },
-            "dev-main": {
+            "v3.3.7": {
                 "name": "lofi/swarm",
-                "version": "dev-main",
-                "version_normalized": "dev-main",
+                "version": "v3.3.7",
+                "version_normalized": "3.3.7.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-swarm.git",
-                    "reference": "1c846be303ce80a72f87846b8f5bb90580afcbe1"
+                    "reference": "22f0efd4ab40642fe04b22341b682fdb95db7564"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-swarm/zipball/1c846be303ce80a72f87846b8f5bb90580afcbe1",
-                    "reference": "1c846be303ce80a72f87846b8f5bb90580afcbe1",
+                    "url": "https://api.github.com/repos/ncortex/lofi-swarm/zipball/22f0efd4ab40642fe04b22341b682fdb95db7564",
+                    "reference": "22f0efd4ab40642fe04b22341b682fdb95db7564",
                     "shasum": ""
                 },
                 "require": {
@@ -8830,7 +8953,57 @@
                     "lofi/ui": "^3.3",
                     "php": "^8.4"
                 },
-                "time": "2026-02-10T23:51:47+00:00",
+                "time": "2026-02-12T19:02:40+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Swarm\\SwarmServiceProvider"
+                        ],
+                        "aliases": {
+                            "Swarm": "Lofi\\Swarm\\Facades\\Swarm",
+                            "OAuth": "Lofi\\Swarm\\Facades\\OAuth"
+                        }
+                    },
+                    "lofi": {
+                        "category": "service"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Swarm\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework"
+            },
+            "dev-main": {
+                "name": "lofi/swarm",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-swarm.git",
+                    "reference": "22f0efd4ab40642fe04b22341b682fdb95db7564"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-swarm/zipball/22f0efd4ab40642fe04b22341b682fdb95db7564",
+                    "reference": "22f0efd4ab40642fe04b22341b682fdb95db7564",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/support": "^12.0",
+                    "laravel/ai": "^0.1",
+                    "lofi/auth": "^3.3",
+                    "lofi/cron": "^3.3",
+                    "lofi/kernel": "^3.3",
+                    "lofi/ui": "^3.3",
+                    "php": "^8.4"
+                },
+                "time": "2026-02-12T19:02:40+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -8839,7 +9012,8 @@
                             "Lofi\\Swarm\\SwarmServiceProvider"
                         ],
                         "aliases": {
-                            "Swarm": "Lofi\\Swarm\\Facades\\Swarm"
+                            "Swarm": "Lofi\\Swarm\\Facades\\Swarm",
+                            "OAuth": "Lofi\\Swarm\\Facades\\OAuth"
                         }
                     },
                     "lofi": {
@@ -9969,6 +10143,83 @@
                 ],
                 "description": "LoFi Admin UI Components"
             },
+            "v3.3.11": {
+                "name": "lofi/ui",
+                "version": "v3.3.11",
+                "version_normalized": "3.3.11.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-ui.git",
+                    "reference": "431608aba75cdfc6c79881169c67dd1728b579fd"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-ui/zipball/431608aba75cdfc6c79881169c67dd1728b579fd",
+                    "reference": "431608aba75cdfc6c79881169c67dd1728b579fd",
+                    "shasum": ""
+                },
+                "require": {
+                    "barryvdh/laravel-debugbar": "^3.14|^4.0",
+                    "illuminate/auth": "^10.0|^11.0|^12.0",
+                    "illuminate/cache": "^10.0|^11.0|^12.0",
+                    "illuminate/database": "^10.0|^11.0|^12.0",
+                    "illuminate/support": "^10.0|^11.0|^12.0",
+                    "illuminate/view": "^10.0|^11.0|^12.0",
+                    "league/commonmark": "^2.0",
+                    "livewire/livewire": "^3.0",
+                    "lofi/kernel": "^3.3",
+                    "php": "^8.2"
+                },
+                "require-dev": {
+                    "orchestra/testbench": "^8.0|^9.0|^10.0",
+                    "phpmd/phpmd": "^2.15",
+                    "phpstan/phpstan": "^1.10",
+                    "phpunit/phpunit": "^10.0|^11.0"
+                },
+                "time": "2026-02-12T19:02:40+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\UI\\UIServiceProvider"
+                        ],
+                        "aliases": {
+                            "Help": "Lofi\\UI\\Facades\\Help"
+                        }
+                    },
+                    "lofi": {
+                        "category": "core"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\UI\\": "src/"
+                    },
+                    "files": [
+                        "src/helpers.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Lofi\\UI\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "phpunit"
+                    ],
+                    "analyse": [
+                        "phpstan analyse"
+                    ],
+                    "lint": [
+                        "phpmd src text phpmd.xml"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "LoFi Admin UI Components"
+            },
             "v3.3.4": {
                 "name": "lofi/ui",
                 "version": "v3.3.4",
@@ -10361,12 +10612,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-ui.git",
-                    "reference": "272539ac4960a8fa99b57119d0039c58be77b140"
+                    "reference": "431608aba75cdfc6c79881169c67dd1728b579fd"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-ui/zipball/272539ac4960a8fa99b57119d0039c58be77b140",
-                    "reference": "272539ac4960a8fa99b57119d0039c58be77b140",
+                    "url": "https://api.github.com/repos/ncortex/lofi-ui/zipball/431608aba75cdfc6c79881169c67dd1728b579fd",
+                    "reference": "431608aba75cdfc6c79881169c67dd1728b579fd",
                     "shasum": ""
                 },
                 "require": {
@@ -10387,7 +10638,7 @@
                     "phpstan/phpstan": "^1.10",
                     "phpunit/phpunit": "^10.0|^11.0"
                 },
-                "time": "2026-02-09T18:54:52+00:00",
+                "time": "2026-02-12T19:02:40+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
