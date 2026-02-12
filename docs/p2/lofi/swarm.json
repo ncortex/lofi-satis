@@ -99,6 +99,56 @@
             },
             {
                 "name": "lofi/swarm",
+                "version": "v3.3.10",
+                "version_normalized": "3.3.10.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-swarm.git",
+                    "reference": "2e724884e9fde4e476c2949312df70e76b3b63b8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-swarm/zipball/2e724884e9fde4e476c2949312df70e76b3b63b8",
+                    "reference": "2e724884e9fde4e476c2949312df70e76b3b63b8",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/support": "^12.0",
+                    "laravel/ai": "^0.1",
+                    "lofi/auth": "^3.3",
+                    "lofi/cron": "^3.3",
+                    "lofi/kernel": "^3.3",
+                    "lofi/ui": "^3.3",
+                    "php": "^8.4"
+                },
+                "time": "2026-02-12T20:12:44+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Swarm\\SwarmServiceProvider"
+                        ],
+                        "aliases": {
+                            "Swarm": "Lofi\\Swarm\\Facades\\Swarm",
+                            "OAuth": "Lofi\\Swarm\\Facades\\OAuth"
+                        }
+                    },
+                    "lofi": {
+                        "category": "service"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Swarm\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework"
+            },
+            {
+                "name": "lofi/swarm",
                 "version": "v3.3.4",
                 "version_normalized": "3.3.4.0",
                 "source": {
