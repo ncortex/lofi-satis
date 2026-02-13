@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-swarm.git",
-                    "reference": "78b361160141046f22be6f4d8ccfce1f6def178c"
+                    "reference": "dfe87909c8b8d451fcc6b1127940e598d9a767b4"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-swarm/zipball/78b361160141046f22be6f4d8ccfce1f6def178c",
-                    "reference": "78b361160141046f22be6f4d8ccfce1f6def178c",
+                    "url": "https://api.github.com/repos/ncortex/lofi-swarm/zipball/dfe87909c8b8d451fcc6b1127940e598d9a767b4",
+                    "reference": "dfe87909c8b8d451fcc6b1127940e598d9a767b4",
                     "shasum": ""
                 },
                 "require": {
@@ -25,7 +25,7 @@
                     "lofi/ui": "^3.3",
                     "php": "^8.4"
                 },
-                "time": "2026-02-13T18:09:02+00:00",
+                "time": "2026-02-13T19:15:57+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -49,6 +49,11 @@
                     "psr-4": {
                         "Lofi\\Swarm\\": "src/"
                     }
+                },
+                "scripts": {
+                    "push-version": [
+                        "V=$(php -r \"\\$v=json_decode(file_get_contents('composer.json'))->version;while(trim(shell_exec('git tag -l v'.\\$v))){\\$p=explode('.',\\$v);\\$p[2]++;\\$v=implode('.',\\$p);}\\$j=file_get_contents('composer.json');\\$j=preg_replace('/\\\"version\\\": \\\"[^\\\"]*\\\"/', '\\\"version\\\": \\\"'.\\$v.'\\\"', \\$j);file_put_contents('composer.json',\\$j);echo \\$v;\") && git add -A && git commit -m \"Release v$V\" && git tag -a \"v$V\" -m \"Release v$V\" && git push origin \"v$V\""
+                    ]
                 },
                 "license": [
                     "MIT"
