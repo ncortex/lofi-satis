@@ -258,19 +258,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-analytics.git",
-                    "reference": "1941e9ada469146d6bed0cd1dd3d3e2b67ff7f1b"
+                    "reference": "f750e6288942965a6b9feb1fd4973b6ac5e194ce"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-analytics/zipball/1941e9ada469146d6bed0cd1dd3d3e2b67ff7f1b",
-                    "reference": "1941e9ada469146d6bed0cd1dd3d3e2b67ff7f1b",
+                    "url": "https://api.github.com/repos/ncortex/lofi-analytics/zipball/f750e6288942965a6b9feb1fd4973b6ac5e194ce",
+                    "reference": "f750e6288942965a6b9feb1fd4973b6ac5e194ce",
                     "shasum": ""
                 },
                 "require": {
                     "illuminate/support": "^11.0|^12.0",
                     "php": "^8.2"
                 },
-                "time": "2026-02-09T12:51:55+00:00",
+                "time": "2026-02-13T20:22:19+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -284,12 +284,20 @@
                     },
                     "lofi": {
                         "category": "module"
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.3.x-dev"
                     }
                 },
                 "autoload": {
                     "psr-4": {
                         "Lofi\\Analytics\\": "src/"
                     }
+                },
+                "scripts": {
+                    "push-version": [
+                        "V=$(php -r \"\\$v=json_decode(file_get_contents('composer.json'))->version;while(trim(shell_exec('git tag -l v'.\\$v))){\\$p=explode('.',\\$v);\\$p[2]++;\\$v=implode('.',\\$p);}\\$j=file_get_contents('composer.json');\\$j=preg_replace('/\\\"version\\\": \\\"[^\\\"]*\\\"/', '\\\"version\\\": \\\"'.\\$v.'\\\"', \\$j);file_put_contents('composer.json',\\$j);echo \\$v;\") && git add -A && (git diff --cached --quiet || git commit -m \"Release v$V\") && git tag -a \"v$V\" -m \"Release v$V\" && git push origin \"v$V\""
+                    ]
                 },
                 "license": [
                     "MIT"
@@ -511,12 +519,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-api.git",
-                    "reference": "7aa4aea91455bd130f96c1be118dbb8fd8e89858"
+                    "reference": "4523b2bb92962f350804d957cca6d5dc7d81d0d2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-api/zipball/7aa4aea91455bd130f96c1be118dbb8fd8e89858",
-                    "reference": "7aa4aea91455bd130f96c1be118dbb8fd8e89858",
+                    "url": "https://api.github.com/repos/ncortex/lofi-api/zipball/4523b2bb92962f350804d957cca6d5dc7d81d0d2",
+                    "reference": "4523b2bb92962f350804d957cca6d5dc7d81d0d2",
                     "shasum": ""
                 },
                 "require": {
@@ -526,7 +534,7 @@
                     "lofi/kernel": "^3.3",
                     "php": "^8.2"
                 },
-                "time": "2026-02-09T12:51:57+00:00",
+                "time": "2026-02-13T20:22:20+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -537,12 +545,20 @@
                     },
                     "lofi": {
                         "category": "service"
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.3.x-dev"
                     }
                 },
                 "autoload": {
                     "psr-4": {
                         "Lofi\\Api\\": "src/"
                     }
+                },
+                "scripts": {
+                    "push-version": [
+                        "V=$(php -r \"\\$v=json_decode(file_get_contents('composer.json'))->version;while(trim(shell_exec('git tag -l v'.\\$v))){\\$p=explode('.',\\$v);\\$p[2]++;\\$v=implode('.',\\$p);}\\$j=file_get_contents('composer.json');\\$j=preg_replace('/\\\"version\\\": \\\"[^\\\"]*\\\"/', '\\\"version\\\": \\\"'.\\$v.'\\\"', \\$j);file_put_contents('composer.json',\\$j);echo \\$v;\") && git add -A && (git diff --cached --quiet || git commit -m \"Release v$V\") && git tag -a \"v$V\" -m \"Release v$V\" && git push origin \"v$V\""
+                    ]
                 },
                 "license": [
                     "MIT"
@@ -607,12 +623,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-audit.git",
-                    "reference": "69be32d70d36122e87487e17a8d27dcb5cab19c5"
+                    "reference": "cfb1cf0e623bec9e76c36bce292e776b91c11f99"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-audit/zipball/69be32d70d36122e87487e17a8d27dcb5cab19c5",
-                    "reference": "69be32d70d36122e87487e17a8d27dcb5cab19c5",
+                    "url": "https://api.github.com/repos/ncortex/lofi-audit/zipball/cfb1cf0e623bec9e76c36bce292e776b91c11f99",
+                    "reference": "cfb1cf0e623bec9e76c36bce292e776b91c11f99",
                     "shasum": ""
                 },
                 "require": {
@@ -621,7 +637,7 @@
                     "lofi/kernel": "^3.3",
                     "php": "^8.2"
                 },
-                "time": "2026-02-09T12:51:59+00:00",
+                "time": "2026-02-13T20:22:20+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -632,12 +648,20 @@
                     },
                     "lofi": {
                         "category": "service"
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.3.x-dev"
                     }
                 },
                 "autoload": {
                     "psr-4": {
                         "Lofi\\Audit\\": "src/"
                     }
+                },
+                "scripts": {
+                    "push-version": [
+                        "V=$(php -r \"\\$v=json_decode(file_get_contents('composer.json'))->version;while(trim(shell_exec('git tag -l v'.\\$v))){\\$p=explode('.',\\$v);\\$p[2]++;\\$v=implode('.',\\$p);}\\$j=file_get_contents('composer.json');\\$j=preg_replace('/\\\"version\\\": \\\"[^\\\"]*\\\"/', '\\\"version\\\": \\\"'.\\$v.'\\\"', \\$j);file_put_contents('composer.json',\\$j);echo \\$v;\") && git add -A && (git diff --cached --quiet || git commit -m \"Release v$V\") && git tag -a \"v$V\" -m \"Release v$V\" && git push origin \"v$V\""
+                    ]
                 },
                 "license": [
                     "MIT"
@@ -863,12 +887,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-auth.git",
-                    "reference": "4cf5cfaabb2eed3a5d5d32e324f4aa8c81c72850"
+                    "reference": "a3bf68dce352427bda9a865d248a5f276a83a01c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-auth/zipball/4cf5cfaabb2eed3a5d5d32e324f4aa8c81c72850",
-                    "reference": "4cf5cfaabb2eed3a5d5d32e324f4aa8c81c72850",
+                    "url": "https://api.github.com/repos/ncortex/lofi-auth/zipball/a3bf68dce352427bda9a865d248a5f276a83a01c",
+                    "reference": "a3bf68dce352427bda9a865d248a5f276a83a01c",
                     "shasum": ""
                 },
                 "require": {
@@ -885,7 +909,7 @@
                     "phpstan/phpstan": "^1.10",
                     "phpunit/phpunit": "^10.0|^11.0"
                 },
-                "time": "2026-02-09T12:52:01+00:00",
+                "time": "2026-02-13T20:22:20+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -896,6 +920,9 @@
                     },
                     "lofi": {
                         "category": "core"
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.3.x-dev"
                     }
                 },
                 "autoload": {
@@ -920,6 +947,9 @@
                     ],
                     "lint": [
                         "phpmd src text phpmd.xml"
+                    ],
+                    "push-version": [
+                        "V=$(php -r \"\\$v=json_decode(file_get_contents('composer.json'))->version;while(trim(shell_exec('git tag -l v'.\\$v))){\\$p=explode('.',\\$v);\\$p[2]++;\\$v=implode('.',\\$p);}\\$j=file_get_contents('composer.json');\\$j=preg_replace('/\\\"version\\\": \\\"[^\\\"]*\\\"/', '\\\"version\\\": \\\"'.\\$v.'\\\"', \\$j);file_put_contents('composer.json',\\$j);echo \\$v;\") && git add -A && (git diff --cached --quiet || git commit -m \"Release v$V\") && git tag -a \"v$V\" -m \"Release v$V\" && git push origin \"v$V\""
                     ]
                 },
                 "license": [
@@ -1110,12 +1140,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-backup.git",
-                    "reference": "e6c31daa66801508c07056eade549574e7ad0ccd"
+                    "reference": "4a114bef79c43c0dfd7d148ee313a1e746098adf"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-backup/zipball/e6c31daa66801508c07056eade549574e7ad0ccd",
-                    "reference": "e6c31daa66801508c07056eade549574e7ad0ccd",
+                    "url": "https://api.github.com/repos/ncortex/lofi-backup/zipball/4a114bef79c43c0dfd7d148ee313a1e746098adf",
+                    "reference": "4a114bef79c43c0dfd7d148ee313a1e746098adf",
                     "shasum": ""
                 },
                 "require": {
@@ -1128,7 +1158,7 @@
                     "orchestra/testbench": "^8.0|^9.0|^10.0",
                     "phpunit/phpunit": "^10.0|^11.0"
                 },
-                "time": "2026-02-09T18:54:52+00:00",
+                "time": "2026-02-13T20:22:20+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -1139,6 +1169,9 @@
                     },
                     "lofi": {
                         "category": "devtool"
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.3.x-dev"
                     }
                 },
                 "autoload": {
@@ -1150,6 +1183,11 @@
                     "psr-4": {
                         "Lofi\\Backup\\Tests\\": "tests/"
                     }
+                },
+                "scripts": {
+                    "push-version": [
+                        "V=$(php -r \"\\$v=json_decode(file_get_contents('composer.json'))->version;while(trim(shell_exec('git tag -l v'.\\$v))){\\$p=explode('.',\\$v);\\$p[2]++;\\$v=implode('.',\\$p);}\\$j=file_get_contents('composer.json');\\$j=preg_replace('/\\\"version\\\": \\\"[^\\\"]*\\\"/', '\\\"version\\\": \\\"'.\\$v.'\\\"', \\$j);file_put_contents('composer.json',\\$j);echo \\$v;\") && git add -A && (git diff --cached --quiet || git commit -m \"Release v$V\") && git tag -a \"v$V\" -m \"Release v$V\" && git push origin \"v$V\""
+                    ]
                 },
                 "license": [
                     "MIT"
@@ -1339,12 +1377,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-clinic.git",
-                    "reference": "be30db5e69c83d0e310b36691054d44672e2625e"
+                    "reference": "8ba10c2bcbce4685129e541b59fd29eabd7dc986"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-clinic/zipball/be30db5e69c83d0e310b36691054d44672e2625e",
-                    "reference": "be30db5e69c83d0e310b36691054d44672e2625e",
+                    "url": "https://api.github.com/repos/ncortex/lofi-clinic/zipball/8ba10c2bcbce4685129e541b59fd29eabd7dc986",
+                    "reference": "8ba10c2bcbce4685129e541b59fd29eabd7dc986",
                     "shasum": ""
                 },
                 "require": {
@@ -1358,7 +1396,7 @@
                     "orchestra/testbench": "^9.0|^10.0",
                     "phpunit/phpunit": "^11.0"
                 },
-                "time": "2026-02-09T12:52:34+00:00",
+                "time": "2026-02-13T20:22:20+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -1370,6 +1408,9 @@
                     "lofi": {
                         "category": "module",
                         "extends": "erp"
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.3.x-dev"
                     }
                 },
                 "autoload": {
@@ -1383,6 +1424,11 @@
                     "psr-4": {
                         "Lofi\\Clinic\\Tests\\": "tests/"
                     }
+                },
+                "scripts": {
+                    "push-version": [
+                        "V=$(php -r \"\\$v=json_decode(file_get_contents('composer.json'))->version;while(trim(shell_exec('git tag -l v'.\\$v))){\\$p=explode('.',\\$v);\\$p[2]++;\\$v=implode('.',\\$p);}\\$j=file_get_contents('composer.json');\\$j=preg_replace('/\\\"version\\\": \\\"[^\\\"]*\\\"/', '\\\"version\\\": \\\"'.\\$v.'\\\"', \\$j);file_put_contents('composer.json',\\$j);echo \\$v;\") && git add -A && (git diff --cached --quiet || git commit -m \"Release v$V\") && git tag -a \"v$V\" -m \"Release v$V\" && git push origin \"v$V\""
+                    ]
                 },
                 "license": [
                     "MIT"
@@ -1910,12 +1956,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-cms.git",
-                    "reference": "a0676850b0be2fd57c793c084fe352e26432266e"
+                    "reference": "d775a06a4c35fdd9e5017bedc2ef435ce9bb4a5f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-cms/zipball/a0676850b0be2fd57c793c084fe352e26432266e",
-                    "reference": "a0676850b0be2fd57c793c084fe352e26432266e",
+                    "url": "https://api.github.com/repos/ncortex/lofi-cms/zipball/d775a06a4c35fdd9e5017bedc2ef435ce9bb4a5f",
+                    "reference": "d775a06a4c35fdd9e5017bedc2ef435ce9bb4a5f",
                     "shasum": ""
                 },
                 "require": {
@@ -1931,7 +1977,7 @@
                     "orchestra/testbench": "^8.0|^9.0|^10.0",
                     "phpunit/phpunit": "^10.0|^11.0"
                 },
-                "time": "2026-02-09T16:46:24+00:00",
+                "time": "2026-02-13T20:22:20+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -1942,6 +1988,9 @@
                     },
                     "lofi": {
                         "category": "module"
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.3.x-dev"
                     }
                 },
                 "autoload": {
@@ -1953,6 +2002,11 @@
                     "psr-4": {
                         "Lofi\\Cms\\Tests\\": "tests/"
                     }
+                },
+                "scripts": {
+                    "push-version": [
+                        "V=$(php -r \"\\$v=json_decode(file_get_contents('composer.json'))->version;while(trim(shell_exec('git tag -l v'.\\$v))){\\$p=explode('.',\\$v);\\$p[2]++;\\$v=implode('.',\\$p);}\\$j=file_get_contents('composer.json');\\$j=preg_replace('/\\\"version\\\": \\\"[^\\\"]*\\\"/', '\\\"version\\\": \\\"'.\\$v.'\\\"', \\$j);file_put_contents('composer.json',\\$j);echo \\$v;\") && git add -A && (git diff --cached --quiet || git commit -m \"Release v$V\") && git tag -a \"v$V\" -m \"Release v$V\" && git push origin \"v$V\""
+                    ]
                 },
                 "license": [
                     "MIT"
@@ -2484,12 +2538,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-cron.git",
-                    "reference": "6b6ae33ea6a9c533c5d501db24e23254fdeb2800"
+                    "reference": "86707e106fffe6f77aeff608f5b6a6e33b15e59a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-cron/zipball/6b6ae33ea6a9c533c5d501db24e23254fdeb2800",
-                    "reference": "6b6ae33ea6a9c533c5d501db24e23254fdeb2800",
+                    "url": "https://api.github.com/repos/ncortex/lofi-cron/zipball/86707e106fffe6f77aeff608f5b6a6e33b15e59a",
+                    "reference": "86707e106fffe6f77aeff608f5b6a6e33b15e59a",
                     "shasum": ""
                 },
                 "require": {
@@ -2504,7 +2558,7 @@
                     "orchestra/testbench": "^9.0|^10.0",
                     "phpunit/phpunit": "^10.0|^11.0"
                 },
-                "time": "2026-02-09T19:47:06+00:00",
+                "time": "2026-02-13T20:22:20+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -2515,6 +2569,9 @@
                     },
                     "lofi": {
                         "category": "devtool"
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.3.x-dev"
                     }
                 },
                 "autoload": {
@@ -2532,6 +2589,9 @@
                 "scripts": {
                     "test": [
                         "vendor/bin/phpunit"
+                    ],
+                    "push-version": [
+                        "V=$(php -r \"\\$v=json_decode(file_get_contents('composer.json'))->version;while(trim(shell_exec('git tag -l v'.\\$v))){\\$p=explode('.',\\$v);\\$p[2]++;\\$v=implode('.',\\$p);}\\$j=file_get_contents('composer.json');\\$j=preg_replace('/\\\"version\\\": \\\"[^\\\"]*\\\"/', '\\\"version\\\": \\\"'.\\$v.'\\\"', \\$j);file_put_contents('composer.json',\\$j);echo \\$v;\") && git add -A && (git diff --cached --quiet || git commit -m \"Release v$V\") && git tag -a \"v$V\" -m \"Release v$V\" && git push origin \"v$V\""
                     ]
                 },
                 "license": [
@@ -2862,12 +2922,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-directory.git",
-                    "reference": "2cf5928564c0c1cc11cc02006bd9ad5da70c6876"
+                    "reference": "d5b4e96950f07b544c354fb62d5ca80983d74879"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-directory/zipball/2cf5928564c0c1cc11cc02006bd9ad5da70c6876",
-                    "reference": "2cf5928564c0c1cc11cc02006bd9ad5da70c6876",
+                    "url": "https://api.github.com/repos/ncortex/lofi-directory/zipball/d5b4e96950f07b544c354fb62d5ca80983d74879",
+                    "reference": "d5b4e96950f07b544c354fb62d5ca80983d74879",
                     "shasum": ""
                 },
                 "require": {
@@ -2884,7 +2944,7 @@
                     "orchestra/testbench": "^8.0|^9.0|^10.0",
                     "phpunit/phpunit": "^10.0|^11.0"
                 },
-                "time": "2026-02-09T20:26:34+00:00",
+                "time": "2026-02-13T20:22:19+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -2895,6 +2955,9 @@
                     },
                     "lofi": {
                         "category": "module"
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.3.x-dev"
                     }
                 },
                 "autoload": {
@@ -2912,6 +2975,9 @@
                 "scripts": {
                     "test": [
                         "vendor/bin/phpunit"
+                    ],
+                    "push-version": [
+                        "V=$(php -r \"\\$v=json_decode(file_get_contents('composer.json'))->version;while(trim(shell_exec('git tag -l v'.\\$v))){\\$p=explode('.',\\$v);\\$p[2]++;\\$v=implode('.',\\$p);}\\$j=file_get_contents('composer.json');\\$j=preg_replace('/\\\"version\\\": \\\"[^\\\"]*\\\"/', '\\\"version\\\": \\\"'.\\$v.'\\\"', \\$j);file_put_contents('composer.json',\\$j);echo \\$v;\") && git add -A && (git diff --cached --quiet || git commit -m \"Release v$V\") && git tag -a \"v$V\" -m \"Release v$V\" && git push origin \"v$V\""
                     ]
                 },
                 "license": [
@@ -3233,12 +3299,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-docs.git",
-                    "reference": "16d4de460dfa51c3f240bb7fd3140942cb233c32"
+                    "reference": "23eaa4c2a74ae259e26a3c44b0a870649fe63edc"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-docs/zipball/16d4de460dfa51c3f240bb7fd3140942cb233c32",
-                    "reference": "16d4de460dfa51c3f240bb7fd3140942cb233c32",
+                    "url": "https://api.github.com/repos/ncortex/lofi-docs/zipball/23eaa4c2a74ae259e26a3c44b0a870649fe63edc",
+                    "reference": "23eaa4c2a74ae259e26a3c44b0a870649fe63edc",
                     "shasum": ""
                 },
                 "require": {
@@ -3254,7 +3320,7 @@
                     "orchestra/testbench": "^9.0|^10.0",
                     "phpunit/phpunit": "^11.0"
                 },
-                "time": "2026-02-09T12:52:42+00:00",
+                "time": "2026-02-13T20:22:20+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -3265,6 +3331,9 @@
                     },
                     "lofi": {
                         "category": "devtool"
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.3.x-dev"
                     }
                 },
                 "autoload": {
@@ -3276,6 +3345,11 @@
                     "psr-4": {
                         "Lofi\\Docs\\Tests\\": "tests/"
                     }
+                },
+                "scripts": {
+                    "push-version": [
+                        "V=$(php -r \"\\$v=json_decode(file_get_contents('composer.json'))->version;while(trim(shell_exec('git tag -l v'.\\$v))){\\$p=explode('.',\\$v);\\$p[2]++;\\$v=implode('.',\\$p);}\\$j=file_get_contents('composer.json');\\$j=preg_replace('/\\\"version\\\": \\\"[^\\\"]*\\\"/', '\\\"version\\\": \\\"'.\\$v.'\\\"', \\$j);file_put_contents('composer.json',\\$j);echo \\$v;\") && git add -A && (git diff --cached --quiet || git commit -m \"Release v$V\") && git tag -a \"v$V\" -m \"Release v$V\" && git push origin \"v$V\""
+                    ]
                 },
                 "license": [
                     "MIT"
@@ -3622,12 +3696,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-ecommerce.git",
-                    "reference": "31d0f22642aee1e5bcfbb91e71695252541bb6ce"
+                    "reference": "41bbcad1c3bdc3880f2c25912da30c894aa544cd"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-ecommerce/zipball/31d0f22642aee1e5bcfbb91e71695252541bb6ce",
-                    "reference": "31d0f22642aee1e5bcfbb91e71695252541bb6ce",
+                    "url": "https://api.github.com/repos/ncortex/lofi-ecommerce/zipball/41bbcad1c3bdc3880f2c25912da30c894aa544cd",
+                    "reference": "41bbcad1c3bdc3880f2c25912da30c894aa544cd",
                     "shasum": ""
                 },
                 "require": {
@@ -3640,7 +3714,7 @@
                     "orchestra/testbench": "^9.0|^10.0",
                     "phpunit/phpunit": "^11.0"
                 },
-                "time": "2026-02-09T20:29:17+00:00",
+                "time": "2026-02-13T20:22:20+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -3654,6 +3728,9 @@
                     },
                     "lofi": {
                         "category": "module"
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.3.x-dev"
                     }
                 },
                 "autoload": {
@@ -3669,6 +3746,9 @@
                 "scripts": {
                     "test": [
                         "vendor/bin/phpunit"
+                    ],
+                    "push-version": [
+                        "V=$(php -r \"\\$v=json_decode(file_get_contents('composer.json'))->version;while(trim(shell_exec('git tag -l v'.\\$v))){\\$p=explode('.',\\$v);\\$p[2]++;\\$v=implode('.',\\$p);}\\$j=file_get_contents('composer.json');\\$j=preg_replace('/\\\"version\\\": \\\"[^\\\"]*\\\"/', '\\\"version\\\": \\\"'.\\$v.'\\\"', \\$j);file_put_contents('composer.json',\\$j);echo \\$v;\") && git add -A && (git diff --cached --quiet || git commit -m \"Release v$V\") && git tag -a \"v$V\" -m \"Release v$V\" && git push origin \"v$V\""
                     ]
                 },
                 "license": [
@@ -3930,12 +4010,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-erp.git",
-                    "reference": "e7a700516968e4b4fbab4334bbd9cb69b9575fb5"
+                    "reference": "cf4d4b238fca8c0f91feaea1cb6adeb21ef345ba"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-erp/zipball/e7a700516968e4b4fbab4334bbd9cb69b9575fb5",
-                    "reference": "e7a700516968e4b4fbab4334bbd9cb69b9575fb5",
+                    "url": "https://api.github.com/repos/ncortex/lofi-erp/zipball/cf4d4b238fca8c0f91feaea1cb6adeb21ef345ba",
+                    "reference": "cf4d4b238fca8c0f91feaea1cb6adeb21ef345ba",
                     "shasum": ""
                 },
                 "require": {
@@ -3949,7 +4029,7 @@
                     "orchestra/testbench": "^8.0|^9.0|^10.0",
                     "phpunit/phpunit": "^10.0|^11.0"
                 },
-                "time": "2026-02-12T19:02:40+00:00",
+                "time": "2026-02-13T20:22:20+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -3960,6 +4040,9 @@
                     },
                     "lofi": {
                         "category": "module"
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.3.x-dev"
                     }
                 },
                 "autoload": {
@@ -3977,6 +4060,9 @@
                 "scripts": {
                     "test": [
                         "vendor/bin/phpunit"
+                    ],
+                    "push-version": [
+                        "V=$(php -r \"\\$v=json_decode(file_get_contents('composer.json'))->version;while(trim(shell_exec('git tag -l v'.\\$v))){\\$p=explode('.',\\$v);\\$p[2]++;\\$v=implode('.',\\$p);}\\$j=file_get_contents('composer.json');\\$j=preg_replace('/\\\"version\\\": \\\"[^\\\"]*\\\"/', '\\\"version\\\": \\\"'.\\$v.'\\\"', \\$j);file_put_contents('composer.json',\\$j);echo \\$v;\") && git add -A && (git diff --cached --quiet || git commit -m \"Release v$V\") && git tag -a \"v$V\" -m \"Release v$V\" && git push origin \"v$V\""
                     ]
                 },
                 "license": [
@@ -4365,12 +4451,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-framework.git",
-                    "reference": "bbaf4671aa83d11ca47f878a841eb20ca892a532"
+                    "reference": "0571dd5b2bc0a004c14a481885397fdf371a21aa"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-framework/zipball/bbaf4671aa83d11ca47f878a841eb20ca892a532",
-                    "reference": "bbaf4671aa83d11ca47f878a841eb20ca892a532",
+                    "url": "https://api.github.com/repos/ncortex/lofi-framework/zipball/0571dd5b2bc0a004c14a481885397fdf371a21aa",
+                    "reference": "0571dd5b2bc0a004c14a481885397fdf371a21aa",
                     "shasum": ""
                 },
                 "require": {
@@ -4397,13 +4483,21 @@
                     "lofi/telegram": "Telegram bot integration",
                     "lofi/webhooks": "Webhook dispatching and logging"
                 },
-                "time": "2026-02-09T17:51:03+00:00",
+                "time": "2026-02-13T20:22:19+00:00",
                 "default-branch": true,
                 "type": "metapackage",
                 "extra": {
                     "lofi": {
                         "category": "meta"
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.3.x-dev"
                     }
+                },
+                "scripts": {
+                    "push-version": [
+                        "V=$(php -r \"\\$v=json_decode(file_get_contents('composer.json'))->version;while(trim(shell_exec('git tag -l v'.\\$v))){\\$p=explode('.',\\$v);\\$p[2]++;\\$v=implode('.',\\$p);}\\$j=file_get_contents('composer.json');\\$j=preg_replace('/\\\"version\\\": \\\"[^\\\"]*\\\"/', '\\\"version\\\": \\\"'.\\$v.'\\\"', \\$j);file_put_contents('composer.json',\\$j);echo \\$v;\") && git add -A && (git diff --cached --quiet || git commit -m \"Release v$V\") && git tag -a \"v$V\" -m \"Release v$V\" && git push origin \"v$V\""
+                    ]
                 },
                 "license": [
                     "MIT"
@@ -4608,12 +4702,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-geo.git",
-                    "reference": "f35acc2d2d93a986eb218636b3e666b261fc05d9"
+                    "reference": "bb940edfa1889b5d9ca98c4fdf5247e3de2717af"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-geo/zipball/f35acc2d2d93a986eb218636b3e666b261fc05d9",
-                    "reference": "f35acc2d2d93a986eb218636b3e666b261fc05d9",
+                    "url": "https://api.github.com/repos/ncortex/lofi-geo/zipball/bb940edfa1889b5d9ca98c4fdf5247e3de2717af",
+                    "reference": "bb940edfa1889b5d9ca98c4fdf5247e3de2717af",
                     "shasum": ""
                 },
                 "require": {
@@ -4626,7 +4720,7 @@
                     "orchestra/testbench": "^8.0|^9.0|^10.0",
                     "phpunit/phpunit": "^10.0|^11.0"
                 },
-                "time": "2026-02-09T12:52:05+00:00",
+                "time": "2026-02-13T20:22:20+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -4637,6 +4731,9 @@
                     },
                     "lofi": {
                         "category": "service"
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.3.x-dev"
                     }
                 },
                 "autoload": {
@@ -4654,6 +4751,9 @@
                 "scripts": {
                     "test": [
                         "vendor/bin/phpunit"
+                    ],
+                    "push-version": [
+                        "V=$(php -r \"\\$v=json_decode(file_get_contents('composer.json'))->version;while(trim(shell_exec('git tag -l v'.\\$v))){\\$p=explode('.',\\$v);\\$p[2]++;\\$v=implode('.',\\$p);}\\$j=file_get_contents('composer.json');\\$j=preg_replace('/\\\"version\\\": \\\"[^\\\"]*\\\"/', '\\\"version\\\": \\\"'.\\$v.'\\\"', \\$j);file_put_contents('composer.json',\\$j);echo \\$v;\") && git add -A && (git diff --cached --quiet || git commit -m \"Release v$V\") && git tag -a \"v$V\" -m \"Release v$V\" && git push origin \"v$V\""
                     ]
                 },
                 "license": [
@@ -4850,12 +4950,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-git.git",
-                    "reference": "6334d0a1f84d75a4817c82c73ae164f25dd04f4a"
+                    "reference": "3f819e6470bdb65d2e3ad9f49c156f4291491b79"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-git/zipball/6334d0a1f84d75a4817c82c73ae164f25dd04f4a",
-                    "reference": "6334d0a1f84d75a4817c82c73ae164f25dd04f4a",
+                    "url": "https://api.github.com/repos/ncortex/lofi-git/zipball/3f819e6470bdb65d2e3ad9f49c156f4291491b79",
+                    "reference": "3f819e6470bdb65d2e3ad9f49c156f4291491b79",
                     "shasum": ""
                 },
                 "require": {
@@ -4869,7 +4969,7 @@
                     "orchestra/testbench": "^9.0|^10.0",
                     "phpunit/phpunit": "^10.0|^11.0"
                 },
-                "time": "2026-02-09T12:52:49+00:00",
+                "time": "2026-02-13T20:22:20+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -4880,6 +4980,9 @@
                     },
                     "lofi": {
                         "category": "module"
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.3.x-dev"
                     }
                 },
                 "autoload": {
@@ -4897,6 +5000,9 @@
                 "scripts": {
                     "test": [
                         "vendor/bin/phpunit"
+                    ],
+                    "push-version": [
+                        "V=$(php -r \"\\$v=json_decode(file_get_contents('composer.json'))->version;while(trim(shell_exec('git tag -l v'.\\$v))){\\$p=explode('.',\\$v);\\$p[2]++;\\$v=implode('.',\\$p);}\\$j=file_get_contents('composer.json');\\$j=preg_replace('/\\\"version\\\": \\\"[^\\\"]*\\\"/', '\\\"version\\\": \\\"'.\\$v.'\\\"', \\$j);file_put_contents('composer.json',\\$j);echo \\$v;\") && git add -A && (git diff --cached --quiet || git commit -m \"Release v$V\") && git tag -a \"v$V\" -m \"Release v$V\" && git push origin \"v$V\""
                     ]
                 },
                 "license": [
@@ -4969,12 +5075,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-installer.git",
-                    "reference": "0eaafdc706d64d080a978163b6b67c5739e9cb54"
+                    "reference": "3b8befcc7936a9f244d1da97ace2155a6c9280bf"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-installer/zipball/0eaafdc706d64d080a978163b6b67c5739e9cb54",
-                    "reference": "0eaafdc706d64d080a978163b6b67c5739e9cb54",
+                    "url": "https://api.github.com/repos/ncortex/lofi-installer/zipball/3b8befcc7936a9f244d1da97ace2155a6c9280bf",
+                    "reference": "3b8befcc7936a9f244d1da97ace2155a6c9280bf",
                     "shasum": ""
                 },
                 "require": {
@@ -4986,7 +5092,7 @@
                 "require-dev": {
                     "phpunit/phpunit": "^10.0|^11.0"
                 },
-                "time": "2026-02-09T12:52:51+00:00",
+                "time": "2026-02-13T20:22:20+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -4997,6 +5103,9 @@
                     },
                     "lofi": {
                         "category": "devtool"
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.3.x-dev"
                     }
                 },
                 "autoload": {
@@ -5008,6 +5117,11 @@
                     "psr-4": {
                         "Lofi\\Installer\\Tests\\": "tests/"
                     }
+                },
+                "scripts": {
+                    "push-version": [
+                        "V=$(php -r \"\\$v=json_decode(file_get_contents('composer.json'))->version;while(trim(shell_exec('git tag -l v'.\\$v))){\\$p=explode('.',\\$v);\\$p[2]++;\\$v=implode('.',\\$p);}\\$j=file_get_contents('composer.json');\\$j=preg_replace('/\\\"version\\\": \\\"[^\\\"]*\\\"/', '\\\"version\\\": \\\"'.\\$v.'\\\"', \\$j);file_put_contents('composer.json',\\$j);echo \\$v;\") && git add -A && (git diff --cached --quiet || git commit -m \"Release v$V\") && git tag -a \"v$V\" -m \"Release v$V\" && git push origin \"v$V\""
+                    ]
                 },
                 "license": [
                     "MIT"
@@ -5469,12 +5583,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-kernel.git",
-                    "reference": "cf280c8d0cfc74401515ae93377e40e09536edb0"
+                    "reference": "25312a17cecce413558eeba5d24a30f9cf9aa1c5"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-kernel/zipball/cf280c8d0cfc74401515ae93377e40e09536edb0",
-                    "reference": "cf280c8d0cfc74401515ae93377e40e09536edb0",
+                    "url": "https://api.github.com/repos/ncortex/lofi-kernel/zipball/25312a17cecce413558eeba5d24a30f9cf9aa1c5",
+                    "reference": "25312a17cecce413558eeba5d24a30f9cf9aa1c5",
                     "shasum": ""
                 },
                 "require": {
@@ -5489,7 +5603,7 @@
                     "phpstan/phpstan": "^1.10",
                     "phpunit/phpunit": "^10.0|^11.0"
                 },
-                "time": "2026-02-12T19:23:14+00:00",
+                "time": "2026-02-13T20:22:20+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -5500,6 +5614,9 @@
                     },
                     "lofi": {
                         "category": "foundation"
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.3.x-dev"
                     }
                 },
                 "autoload": {
@@ -5524,6 +5641,9 @@
                     ],
                     "lint": [
                         "phpmd src text phpmd.xml"
+                    ],
+                    "push-version": [
+                        "V=$(php -r \"\\$v=json_decode(file_get_contents('composer.json'))->version;while(trim(shell_exec('git tag -l v'.\\$v))){\\$p=explode('.',\\$v);\\$p[2]++;\\$v=implode('.',\\$p);}\\$j=file_get_contents('composer.json');\\$j=preg_replace('/\\\"version\\\": \\\"[^\\\"]*\\\"/', '\\\"version\\\": \\\"'.\\$v.'\\\"', \\$j);file_put_contents('composer.json',\\$j);echo \\$v;\") && git add -A && (git diff --cached --quiet || git commit -m \"Release v$V\") && git tag -a \"v$V\" -m \"Release v$V\" && git push origin \"v$V\""
                     ]
                 },
                 "license": [
@@ -5729,12 +5849,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-lofipress.git",
-                    "reference": "97baee4ce7bed3ccb4add12fe0de1116febe58ea"
+                    "reference": "64905703fb0a9caa73b58f6703f8f0d833da4e63"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-lofipress/zipball/97baee4ce7bed3ccb4add12fe0de1116febe58ea",
-                    "reference": "97baee4ce7bed3ccb4add12fe0de1116febe58ea",
+                    "url": "https://api.github.com/repos/ncortex/lofi-lofipress/zipball/64905703fb0a9caa73b58f6703f8f0d833da4e63",
+                    "reference": "64905703fb0a9caa73b58f6703f8f0d833da4e63",
                     "shasum": ""
                 },
                 "require": {
@@ -5755,13 +5875,21 @@
                     "lofi/seo": "SEO management tools",
                     "lofi/support": "Customer support ticketing"
                 },
-                "time": "2026-02-09T12:52:09+00:00",
+                "time": "2026-02-13T20:22:19+00:00",
                 "default-branch": true,
                 "type": "metapackage",
                 "extra": {
                     "lofi": {
                         "category": "meta"
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.3.x-dev"
                     }
+                },
+                "scripts": {
+                    "push-version": [
+                        "V=$(php -r \"\\$v=json_decode(file_get_contents('composer.json'))->version;while(trim(shell_exec('git tag -l v'.\\$v))){\\$p=explode('.',\\$v);\\$p[2]++;\\$v=implode('.',\\$p);}\\$j=file_get_contents('composer.json');\\$j=preg_replace('/\\\"version\\\": \\\"[^\\\"]*\\\"/', '\\\"version\\\": \\\"'.\\$v.'\\\"', \\$j);file_put_contents('composer.json',\\$j);echo \\$v;\") && git add -A && (git diff --cached --quiet || git commit -m \"Release v$V\") && git tag -a \"v$V\" -m \"Release v$V\" && git push origin \"v$V\""
+                    ]
                 },
                 "license": [
                     "MIT"
@@ -5931,12 +6059,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-logs.git",
-                    "reference": "c4ff6a8c87eb3a0e21cd7611e16519ae8e481320"
+                    "reference": "26721782026ecfa9dc0770cdc407cc25c5ec5702"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-logs/zipball/c4ff6a8c87eb3a0e21cd7611e16519ae8e481320",
-                    "reference": "c4ff6a8c87eb3a0e21cd7611e16519ae8e481320",
+                    "url": "https://api.github.com/repos/ncortex/lofi-logs/zipball/26721782026ecfa9dc0770cdc407cc25c5ec5702",
+                    "reference": "26721782026ecfa9dc0770cdc407cc25c5ec5702",
                     "shasum": ""
                 },
                 "require": {
@@ -5946,7 +6074,7 @@
                     "lofi/ui": "^3.3",
                     "php": "^8.2"
                 },
-                "time": "2026-02-12T19:02:40+00:00",
+                "time": "2026-02-13T20:22:20+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -5957,6 +6085,9 @@
                     },
                     "lofi": {
                         "category": "service"
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.3.x-dev"
                     }
                 },
                 "autoload": {
@@ -5968,6 +6099,11 @@
                     "psr-4": {
                         "Lofi\\Logs\\Tests\\": "tests/"
                     }
+                },
+                "scripts": {
+                    "push-version": [
+                        "V=$(php -r \"\\$v=json_decode(file_get_contents('composer.json'))->version;while(trim(shell_exec('git tag -l v'.\\$v))){\\$p=explode('.',\\$v);\\$p[2]++;\\$v=implode('.',\\$p);}\\$j=file_get_contents('composer.json');\\$j=preg_replace('/\\\"version\\\": \\\"[^\\\"]*\\\"/', '\\\"version\\\": \\\"'.\\$v.'\\\"', \\$j);file_put_contents('composer.json',\\$j);echo \\$v;\") && git add -A && (git diff --cached --quiet || git commit -m \"Release v$V\") && git tag -a \"v$V\" -m \"Release v$V\" && git push origin \"v$V\""
+                    ]
                 },
                 "license": [
                     "MIT"
@@ -6231,12 +6367,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-marketing.git",
-                    "reference": "1db2c57e46a160f517411f9fa9facd9dd929e598"
+                    "reference": "e27bc60cc27487b6ee3af96c1071140889230d55"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-marketing/zipball/1db2c57e46a160f517411f9fa9facd9dd929e598",
-                    "reference": "1db2c57e46a160f517411f9fa9facd9dd929e598",
+                    "url": "https://api.github.com/repos/ncortex/lofi-marketing/zipball/e27bc60cc27487b6ee3af96c1071140889230d55",
+                    "reference": "e27bc60cc27487b6ee3af96c1071140889230d55",
                     "shasum": ""
                 },
                 "require": {
@@ -6253,7 +6389,7 @@
                 "suggest": {
                     "lofi/notifications": "Para notificaciones de campañas"
                 },
-                "time": "2026-02-09T12:52:53+00:00",
+                "time": "2026-02-13T20:22:19+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -6264,6 +6400,9 @@
                     },
                     "lofi": {
                         "category": "module"
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.3.x-dev"
                     }
                 },
                 "autoload": {
@@ -6280,6 +6419,9 @@
                 "scripts": {
                     "test": [
                         "vendor/bin/phpunit"
+                    ],
+                    "push-version": [
+                        "V=$(php -r \"\\$v=json_decode(file_get_contents('composer.json'))->version;while(trim(shell_exec('git tag -l v'.\\$v))){\\$p=explode('.',\\$v);\\$p[2]++;\\$v=implode('.',\\$p);}\\$j=file_get_contents('composer.json');\\$j=preg_replace('/\\\"version\\\": \\\"[^\\\"]*\\\"/', '\\\"version\\\": \\\"'.\\$v.'\\\"', \\$j);file_put_contents('composer.json',\\$j);echo \\$v;\") && git add -A && (git diff --cached --quiet || git commit -m \"Release v$V\") && git tag -a \"v$V\" -m \"Release v$V\" && git push origin \"v$V\""
                     ]
                 },
                 "license": [
@@ -6425,12 +6567,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-media.git",
-                    "reference": "d7be8fd440b1c8cbabbff87359b60ab131371aaa"
+                    "reference": "56317fa7ed7ddf174ec18fe50a97771cdc8dd5c7"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-media/zipball/d7be8fd440b1c8cbabbff87359b60ab131371aaa",
-                    "reference": "d7be8fd440b1c8cbabbff87359b60ab131371aaa",
+                    "url": "https://api.github.com/repos/ncortex/lofi-media/zipball/56317fa7ed7ddf174ec18fe50a97771cdc8dd5c7",
+                    "reference": "56317fa7ed7ddf174ec18fe50a97771cdc8dd5c7",
                     "shasum": ""
                 },
                 "require": {
@@ -6442,7 +6584,7 @@
                     "php": "^8.2",
                     "spatie/laravel-medialibrary": "^11.0"
                 },
-                "time": "2026-02-09T12:52:13+00:00",
+                "time": "2026-02-13T20:22:20+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -6453,12 +6595,20 @@
                     },
                     "lofi": {
                         "category": "service"
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.3.x-dev"
                     }
                 },
                 "autoload": {
                     "psr-4": {
                         "Lofi\\Media\\": "src/"
                     }
+                },
+                "scripts": {
+                    "push-version": [
+                        "V=$(php -r \"\\$v=json_decode(file_get_contents('composer.json'))->version;while(trim(shell_exec('git tag -l v'.\\$v))){\\$p=explode('.',\\$v);\\$p[2]++;\\$v=implode('.',\\$p);}\\$j=file_get_contents('composer.json');\\$j=preg_replace('/\\\"version\\\": \\\"[^\\\"]*\\\"/', '\\\"version\\\": \\\"'.\\$v.'\\\"', \\$j);file_put_contents('composer.json',\\$j);echo \\$v;\") && git add -A && (git diff --cached --quiet || git commit -m \"Release v$V\") && git tag -a \"v$V\" -m \"Release v$V\" && git push origin \"v$V\""
+                    ]
                 },
                 "description": "LoFi Media Management"
             }
@@ -6639,12 +6789,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-notifications.git",
-                    "reference": "4bbafe3140acf2fae5ab1248b552db245ccc2f08"
+                    "reference": "1c43811c3fc70d11bc78c0fdf19ed157b2507a43"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-notifications/zipball/4bbafe3140acf2fae5ab1248b552db245ccc2f08",
-                    "reference": "4bbafe3140acf2fae5ab1248b552db245ccc2f08",
+                    "url": "https://api.github.com/repos/ncortex/lofi-notifications/zipball/1c43811c3fc70d11bc78c0fdf19ed157b2507a43",
+                    "reference": "1c43811c3fc70d11bc78c0fdf19ed157b2507a43",
                     "shasum": ""
                 },
                 "require": {
@@ -6655,7 +6805,7 @@
                     "lofi/kernel": "^3.3",
                     "php": "^8.2"
                 },
-                "time": "2026-02-09T19:47:13+00:00",
+                "time": "2026-02-13T20:22:19+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -6666,12 +6816,20 @@
                     },
                     "lofi": {
                         "category": "service"
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.3.x-dev"
                     }
                 },
                 "autoload": {
                     "psr-4": {
                         "Lofi\\Notifications\\": "src/"
                     }
+                },
+                "scripts": {
+                    "push-version": [
+                        "V=$(php -r \"\\$v=json_decode(file_get_contents('composer.json'))->version;while(trim(shell_exec('git tag -l v'.\\$v))){\\$p=explode('.',\\$v);\\$p[2]++;\\$v=implode('.',\\$p);}\\$j=file_get_contents('composer.json');\\$j=preg_replace('/\\\"version\\\": \\\"[^\\\"]*\\\"/', '\\\"version\\\": \\\"'.\\$v.'\\\"', \\$j);file_put_contents('composer.json',\\$j);echo \\$v;\") && git add -A && (git diff --cached --quiet || git commit -m \"Release v$V\") && git tag -a \"v$V\" -m \"Release v$V\" && git push origin \"v$V\""
+                    ]
                 },
                 "description": "LoFi Notification System"
             }
@@ -7062,12 +7220,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-office.git",
-                    "reference": "e73854d44f7776b198262a75dfc9628678404e42"
+                    "reference": "4c98b2df352e9b42a518981b9a964d831b411ad5"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-office/zipball/e73854d44f7776b198262a75dfc9628678404e42",
-                    "reference": "e73854d44f7776b198262a75dfc9628678404e42",
+                    "url": "https://api.github.com/repos/ncortex/lofi-office/zipball/4c98b2df352e9b42a518981b9a964d831b411ad5",
+                    "reference": "4c98b2df352e9b42a518981b9a964d831b411ad5",
                     "shasum": ""
                 },
                 "require": {
@@ -7085,7 +7243,7 @@
                 "suggest": {
                     "pusher/pusher-php-server": "Required for real-time chat functionality"
                 },
-                "time": "2026-02-09T12:52:55+00:00",
+                "time": "2026-02-13T20:22:20+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -7096,6 +7254,9 @@
                     },
                     "lofi": {
                         "category": "module"
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.3.x-dev"
                     }
                 },
                 "autoload": {
@@ -7107,6 +7268,11 @@
                     "psr-4": {
                         "Lofi\\Office\\Tests\\": "tests/"
                     }
+                },
+                "scripts": {
+                    "push-version": [
+                        "V=$(php -r \"\\$v=json_decode(file_get_contents('composer.json'))->version;while(trim(shell_exec('git tag -l v'.\\$v))){\\$p=explode('.',\\$v);\\$p[2]++;\\$v=implode('.',\\$p);}\\$j=file_get_contents('composer.json');\\$j=preg_replace('/\\\"version\\\": \\\"[^\\\"]*\\\"/', '\\\"version\\\": \\\"'.\\$v.'\\\"', \\$j);file_put_contents('composer.json',\\$j);echo \\$v;\") && git add -A && (git diff --cached --quiet || git commit -m \"Release v$V\") && git tag -a \"v$V\" -m \"Release v$V\" && git push origin \"v$V\""
+                    ]
                 },
                 "license": [
                     "MIT"
@@ -7492,12 +7658,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-orchestrator.git",
-                    "reference": "12290c729508d81051e557d2d00af885dbade1e8"
+                    "reference": "a4f7edc4fb8bcb991d349388e5ac64d6854b8895"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-orchestrator/zipball/12290c729508d81051e557d2d00af885dbade1e8",
-                    "reference": "12290c729508d81051e557d2d00af885dbade1e8",
+                    "url": "https://api.github.com/repos/ncortex/lofi-orchestrator/zipball/a4f7edc4fb8bcb991d349388e5ac64d6854b8895",
+                    "reference": "a4f7edc4fb8bcb991d349388e5ac64d6854b8895",
                     "shasum": ""
                 },
                 "require": {
@@ -7510,7 +7676,7 @@
                     "orchestra/testbench": "^9.0",
                     "phpunit/phpunit": "^11.0"
                 },
-                "time": "2026-02-09T18:54:52+00:00",
+                "time": "2026-02-13T20:22:19+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -7521,6 +7687,9 @@
                     },
                     "lofi": {
                         "category": "devtool"
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.3.x-dev"
                     }
                 },
                 "autoload": {
@@ -7532,6 +7701,11 @@
                     "psr-4": {
                         "Lofi\\Orchestrator\\Tests\\": "tests/"
                     }
+                },
+                "scripts": {
+                    "push-version": [
+                        "V=$(php -r \"\\$v=json_decode(file_get_contents('composer.json'))->version;while(trim(shell_exec('git tag -l v'.\\$v))){\\$p=explode('.',\\$v);\\$p[2]++;\\$v=implode('.',\\$p);}\\$j=file_get_contents('composer.json');\\$j=preg_replace('/\\\"version\\\": \\\"[^\\\"]*\\\"/', '\\\"version\\\": \\\"'.\\$v.'\\\"', \\$j);file_put_contents('composer.json',\\$j);echo \\$v;\") && git add -A && (git diff --cached --quiet || git commit -m \"Release v$V\") && git tag -a \"v$V\" -m \"Release v$V\" && git push origin \"v$V\""
+                    ]
                 },
                 "license": [
                     "proprietary"
@@ -7827,12 +8001,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-plugins.git",
-                    "reference": "0367802973231633d6ee86d740f6389f81516c8b"
+                    "reference": "8e475d7075f648f1c73d11f38366ffda00349d51"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-plugins/zipball/0367802973231633d6ee86d740f6389f81516c8b",
-                    "reference": "0367802973231633d6ee86d740f6389f81516c8b",
+                    "url": "https://api.github.com/repos/ncortex/lofi-plugins/zipball/8e475d7075f648f1c73d11f38366ffda00349d51",
+                    "reference": "8e475d7075f648f1c73d11f38366ffda00349d51",
                     "shasum": ""
                 },
                 "require": {
@@ -7846,7 +8020,7 @@
                     "phpstan/phpstan": "^1.10",
                     "phpunit/phpunit": "^10.0|^11.0"
                 },
-                "time": "2026-02-12T21:54:09+00:00",
+                "time": "2026-02-13T20:22:20+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -7857,6 +8031,9 @@
                     },
                     "lofi": {
                         "category": "core"
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.3.x-dev"
                     }
                 },
                 "autoload": {
@@ -7878,6 +8055,9 @@
                     ],
                     "lint": [
                         "phpmd src text phpmd.xml"
+                    ],
+                    "push-version": [
+                        "V=$(php -r \"\\$v=json_decode(file_get_contents('composer.json'))->version;while(trim(shell_exec('git tag -l v'.\\$v))){\\$p=explode('.',\\$v);\\$p[2]++;\\$v=implode('.',\\$p);}\\$j=file_get_contents('composer.json');\\$j=preg_replace('/\\\"version\\\": \\\"[^\\\"]*\\\"/', '\\\"version\\\": \\\"'.\\$v.'\\\"', \\$j);file_put_contents('composer.json',\\$j);echo \\$v;\") && git add -A && (git diff --cached --quiet || git commit -m \"Release v$V\") && git tag -a \"v$V\" -m \"Release v$V\" && git push origin \"v$V\""
                     ]
                 },
                 "license": [
@@ -8074,12 +8254,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-reviews.git",
-                    "reference": "d28d5c6d7681b31c3d37b73f3f5a52cfc26b98e3"
+                    "reference": "1bfec12391efc652177ff2843d9d7c2274c2eeea"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-reviews/zipball/d28d5c6d7681b31c3d37b73f3f5a52cfc26b98e3",
-                    "reference": "d28d5c6d7681b31c3d37b73f3f5a52cfc26b98e3",
+                    "url": "https://api.github.com/repos/ncortex/lofi-reviews/zipball/1bfec12391efc652177ff2843d9d7c2274c2eeea",
+                    "reference": "1bfec12391efc652177ff2843d9d7c2274c2eeea",
                     "shasum": ""
                 },
                 "require": {
@@ -8092,7 +8272,7 @@
                     "orchestra/testbench": "^8.0|^9.0|^10.0",
                     "phpunit/phpunit": "^10.0|^11.0"
                 },
-                "time": "2026-02-09T12:52:19+00:00",
+                "time": "2026-02-13T20:22:20+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -8103,6 +8283,9 @@
                     },
                     "lofi": {
                         "category": "service"
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.3.x-dev"
                     }
                 },
                 "autoload": {
@@ -8119,6 +8302,9 @@
                 "scripts": {
                     "test": [
                         "vendor/bin/phpunit"
+                    ],
+                    "push-version": [
+                        "V=$(php -r \"\\$v=json_decode(file_get_contents('composer.json'))->version;while(trim(shell_exec('git tag -l v'.\\$v))){\\$p=explode('.',\\$v);\\$p[2]++;\\$v=implode('.',\\$p);}\\$j=file_get_contents('composer.json');\\$j=preg_replace('/\\\"version\\\": \\\"[^\\\"]*\\\"/', '\\\"version\\\": \\\"'.\\$v.'\\\"', \\$j);file_put_contents('composer.json',\\$j);echo \\$v;\") && git add -A && (git diff --cached --quiet || git commit -m \"Release v$V\") && git tag -a \"v$V\" -m \"Release v$V\" && git push origin \"v$V\""
                     ]
                 },
                 "license": [
@@ -8403,12 +8589,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-seo.git",
-                    "reference": "6eaf979d53cff1ff996609d90eedd6ab5da6c01f"
+                    "reference": "225d004d68d7bb1193d36d37a7eedce4f168d12e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-seo/zipball/6eaf979d53cff1ff996609d90eedd6ab5da6c01f",
-                    "reference": "6eaf979d53cff1ff996609d90eedd6ab5da6c01f",
+                    "url": "https://api.github.com/repos/ncortex/lofi-seo/zipball/225d004d68d7bb1193d36d37a7eedce4f168d12e",
+                    "reference": "225d004d68d7bb1193d36d37a7eedce4f168d12e",
                     "shasum": ""
                 },
                 "require": {
@@ -8430,7 +8616,7 @@
                 "suggest": {
                     "google/apiclient": "Required for Google Search Console integration"
                 },
-                "time": "2026-02-09T20:29:20+00:00",
+                "time": "2026-02-13T20:22:20+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -8441,6 +8627,9 @@
                     },
                     "lofi": {
                         "category": "module"
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.3.x-dev"
                     }
                 },
                 "autoload": {
@@ -8457,6 +8646,9 @@
                 "scripts": {
                     "test": [
                         "vendor/bin/phpunit"
+                    ],
+                    "push-version": [
+                        "V=$(php -r \"\\$v=json_decode(file_get_contents('composer.json'))->version;while(trim(shell_exec('git tag -l v'.\\$v))){\\$p=explode('.',\\$v);\\$p[2]++;\\$v=implode('.',\\$p);}\\$j=file_get_contents('composer.json');\\$j=preg_replace('/\\\"version\\\": \\\"[^\\\"]*\\\"/', '\\\"version\\\": \\\"'.\\$v.'\\\"', \\$j);file_put_contents('composer.json',\\$j);echo \\$v;\") && git add -A && (git diff --cached --quiet || git commit -m \"Release v$V\") && git tag -a \"v$V\" -m \"Release v$V\" && git push origin \"v$V\""
                     ]
                 },
                 "license": [
@@ -8677,12 +8869,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-sql.git",
-                    "reference": "ec11ae94e94f8617fdb1abe77d3e49986d0167e6"
+                    "reference": "673af7724c12ee630ef82ff6b80b3da10f9a8968"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-sql/zipball/ec11ae94e94f8617fdb1abe77d3e49986d0167e6",
-                    "reference": "ec11ae94e94f8617fdb1abe77d3e49986d0167e6",
+                    "url": "https://api.github.com/repos/ncortex/lofi-sql/zipball/673af7724c12ee630ef82ff6b80b3da10f9a8968",
+                    "reference": "673af7724c12ee630ef82ff6b80b3da10f9a8968",
                     "shasum": ""
                 },
                 "require": {
@@ -8694,7 +8886,7 @@
                     "orchestra/testbench": "^9.0|^10.0",
                     "phpunit/phpunit": "^10.0|^11.0"
                 },
-                "time": "2026-02-09T12:53:01+00:00",
+                "time": "2026-02-13T20:22:20+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -8705,6 +8897,9 @@
                     },
                     "lofi": {
                         "category": "module"
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.3.x-dev"
                     }
                 },
                 "autoload": {
@@ -8716,6 +8911,11 @@
                     "psr-4": {
                         "Lofi\\Sql\\Tests\\": "tests/"
                     }
+                },
+                "scripts": {
+                    "push-version": [
+                        "V=$(php -r \"\\$v=json_decode(file_get_contents('composer.json'))->version;while(trim(shell_exec('git tag -l v'.\\$v))){\\$p=explode('.',\\$v);\\$p[2]++;\\$v=implode('.',\\$p);}\\$j=file_get_contents('composer.json');\\$j=preg_replace('/\\\"version\\\": \\\"[^\\\"]*\\\"/', '\\\"version\\\": \\\"'.\\$v.'\\\"', \\$j);file_put_contents('composer.json',\\$j);echo \\$v;\") && git add -A && (git diff --cached --quiet || git commit -m \"Release v$V\") && git tag -a \"v$V\" -m \"Release v$V\" && git push origin \"v$V\""
+                    ]
                 },
                 "license": [
                     "MIT"
@@ -8947,12 +9147,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-support.git",
-                    "reference": "0c8d43a4fbebd895f860a77f142451cecf62d152"
+                    "reference": "d7c6388b84166d82acc59799cc9ffb14a0d6a385"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-support/zipball/0c8d43a4fbebd895f860a77f142451cecf62d152",
-                    "reference": "0c8d43a4fbebd895f860a77f142451cecf62d152",
+                    "url": "https://api.github.com/repos/ncortex/lofi-support/zipball/d7c6388b84166d82acc59799cc9ffb14a0d6a385",
+                    "reference": "d7c6388b84166d82acc59799cc9ffb14a0d6a385",
                     "shasum": ""
                 },
                 "require": {
@@ -8963,7 +9163,7 @@
                     "lofi/ui": "^3.3",
                     "php": "^8.2"
                 },
-                "time": "2026-02-12T19:02:39+00:00",
+                "time": "2026-02-13T20:22:20+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -8977,12 +9177,20 @@
                     },
                     "lofi": {
                         "category": "module"
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.3.x-dev"
                     }
                 },
                 "autoload": {
                     "psr-4": {
                         "Lofi\\Support\\": "src/"
                     }
+                },
+                "scripts": {
+                    "push-version": [
+                        "V=$(php -r \"\\$v=json_decode(file_get_contents('composer.json'))->version;while(trim(shell_exec('git tag -l v'.\\$v))){\\$p=explode('.',\\$v);\\$p[2]++;\\$v=implode('.',\\$p);}\\$j=file_get_contents('composer.json');\\$j=preg_replace('/\\\"version\\\": \\\"[^\\\"]*\\\"/', '\\\"version\\\": \\\"'.\\$v.'\\\"', \\$j);file_put_contents('composer.json',\\$j);echo \\$v;\") && git add -A && (git diff --cached --quiet || git commit -m \"Release v$V\") && git tag -a \"v$V\" -m \"Release v$V\" && git push origin \"v$V\""
+                    ]
                 },
                 "license": [
                     "MIT"
@@ -9762,6 +9970,64 @@
                 ],
                 "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework"
             },
+            "3.3.23": {
+                "name": "lofi/swarm",
+                "version": "3.3.23",
+                "version_normalized": "3.3.23.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-swarm.git",
+                    "reference": "e312755414620ee7edde282d6cd4c8f23eadca44"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-swarm/zipball/e312755414620ee7edde282d6cd4c8f23eadca44",
+                    "reference": "e312755414620ee7edde282d6cd4c8f23eadca44",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/support": "^12.0",
+                    "laravel/ai": "^0.1",
+                    "lofi/auth": "^3.3",
+                    "lofi/cron": "^3.3",
+                    "lofi/kernel": "^3.3",
+                    "lofi/ui": "^3.3",
+                    "php": "^8.4"
+                },
+                "time": "2026-02-13T22:18:13+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Swarm\\SwarmServiceProvider"
+                        ],
+                        "aliases": {
+                            "Swarm": "Lofi\\Swarm\\Facades\\Swarm",
+                            "OAuth": "Lofi\\Swarm\\Facades\\OAuth"
+                        }
+                    },
+                    "lofi": {
+                        "category": "service"
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.3.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Swarm\\": "src/"
+                    }
+                },
+                "scripts": {
+                    "push-version": [
+                        "V=$(php -r \"\\$v=json_decode(file_get_contents('composer.json'))->version;while(trim(shell_exec('git tag -l v'.\\$v))){\\$p=explode('.',\\$v);\\$p[2]++;\\$v=implode('.',\\$p);}\\$j=file_get_contents('composer.json');\\$j=preg_replace('/\\\"version\\\": \\\"[^\\\"]*\\\"/', '\\\"version\\\": \\\"'.\\$v.'\\\"', \\$j);file_put_contents('composer.json',\\$j);echo \\$v;\") && git add -A && (git diff --cached --quiet || git commit -m \"Release v$V\") && git tag -a \"v$V\" -m \"Release v$V\" && git push origin \"v$V\""
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework"
+            },
             "v3.3.4": {
                 "name": "lofi/swarm",
                 "version": "v3.3.4",
@@ -10298,19 +10564,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-telegram.git",
-                    "reference": "dd575c666a9895d7764c84be163f7d9623363915"
+                    "reference": "82a2747761b69e232845c319bd2f7308769abb91"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-telegram/zipball/dd575c666a9895d7764c84be163f7d9623363915",
-                    "reference": "dd575c666a9895d7764c84be163f7d9623363915",
+                    "url": "https://api.github.com/repos/ncortex/lofi-telegram/zipball/82a2747761b69e232845c319bd2f7308769abb91",
+                    "reference": "82a2747761b69e232845c319bd2f7308769abb91",
                     "shasum": ""
                 },
                 "require": {
                     "illuminate/support": "^11.0|^12.0",
                     "php": "^8.1"
                 },
-                "time": "2026-02-09T12:52:23+00:00",
+                "time": "2026-02-13T20:22:19+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -10324,12 +10590,20 @@
                     },
                     "lofi": {
                         "category": "service"
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.3.x-dev"
                     }
                 },
                 "autoload": {
                     "psr-4": {
                         "Lofi\\Telegram\\": "src/"
                     }
+                },
+                "scripts": {
+                    "push-version": [
+                        "V=$(php -r \"\\$v=json_decode(file_get_contents('composer.json'))->version;while(trim(shell_exec('git tag -l v'.\\$v))){\\$p=explode('.',\\$v);\\$p[2]++;\\$v=implode('.',\\$p);}\\$j=file_get_contents('composer.json');\\$j=preg_replace('/\\\"version\\\": \\\"[^\\\"]*\\\"/', '\\\"version\\\": \\\"'.\\$v.'\\\"', \\$j);file_put_contents('composer.json',\\$j);echo \\$v;\") && git add -A && (git diff --cached --quiet || git commit -m \"Release v$V\") && git tag -a \"v$V\" -m \"Release v$V\" && git push origin \"v$V\""
+                    ]
                 },
                 "license": [
                     "MIT"
@@ -10455,19 +10729,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-theme-default.git",
-                    "reference": "026c1f98f8964ef65c4d77366c6c27fe2d1bc2b8"
+                    "reference": "cfcaa09a0c9f6a446bcbf586c9e9888c5a842677"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-theme-default/zipball/026c1f98f8964ef65c4d77366c6c27fe2d1bc2b8",
-                    "reference": "026c1f98f8964ef65c4d77366c6c27fe2d1bc2b8",
+                    "url": "https://api.github.com/repos/ncortex/lofi-theme-default/zipball/cfcaa09a0c9f6a446bcbf586c9e9888c5a842677",
+                    "reference": "cfcaa09a0c9f6a446bcbf586c9e9888c5a842677",
                     "shasum": ""
                 },
                 "require": {
                     "lofi/themes": "^3.3",
                     "php": "^8.2"
                 },
-                "time": "2026-02-09T12:53:08+00:00",
+                "time": "2026-02-13T20:22:20+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -10487,6 +10761,11 @@
                     "psr-4": {
                         "Lofi\\Themes\\Default\\": "src/"
                     }
+                },
+                "scripts": {
+                    "push-version": [
+                        "V=$(php -r \"\\$v=json_decode(file_get_contents('composer.json'))->version;while(trim(shell_exec('git tag -l v'.\\$v))){\\$p=explode('.',\\$v);\\$p[2]++;\\$v=implode('.',\\$p);}\\$j=file_get_contents('composer.json');\\$j=preg_replace('/\\\"version\\\": \\\"[^\\\"]*\\\"/', '\\\"version\\\": \\\"'.\\$v.'\\\"', \\$j);file_put_contents('composer.json',\\$j);echo \\$v;\") && git add -A && (git diff --cached --quiet || git commit -m \"Release v$V\") && git tag -a \"v$V\" -m \"Release v$V\" && git push origin \"v$V\""
+                    ]
                 },
                 "license": [
                     "MIT"
@@ -10613,19 +10892,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-theme-nyf.git",
-                    "reference": "a14f026565885def1ea63df78db3d357a2e59753"
+                    "reference": "a20d7e1024d9b1da89455c82ec2f4a70286cec1d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-theme-nyf/zipball/a14f026565885def1ea63df78db3d357a2e59753",
-                    "reference": "a14f026565885def1ea63df78db3d357a2e59753",
+                    "url": "https://api.github.com/repos/ncortex/lofi-theme-nyf/zipball/a20d7e1024d9b1da89455c82ec2f4a70286cec1d",
+                    "reference": "a20d7e1024d9b1da89455c82ec2f4a70286cec1d",
                     "shasum": ""
                 },
                 "require": {
                     "lofi/themes": "^3.3",
                     "php": "^8.2"
                 },
-                "time": "2026-02-09T12:53:10+00:00",
+                "time": "2026-02-13T20:22:21+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -10645,6 +10924,11 @@
                     "psr-4": {
                         "Lofi\\Themes\\Nyf\\": "src/"
                     }
+                },
+                "scripts": {
+                    "push-version": [
+                        "V=$(php -r \"\\$v=json_decode(file_get_contents('composer.json'))->version;while(trim(shell_exec('git tag -l v'.\\$v))){\\$p=explode('.',\\$v);\\$p[2]++;\\$v=implode('.',\\$p);}\\$j=file_get_contents('composer.json');\\$j=preg_replace('/\\\"version\\\": \\\"[^\\\"]*\\\"/', '\\\"version\\\": \\\"'.\\$v.'\\\"', \\$j);file_put_contents('composer.json',\\$j);echo \\$v;\") && git add -A && (git diff --cached --quiet || git commit -m \"Release v$V\") && git tag -a \"v$V\" -m \"Release v$V\" && git push origin \"v$V\""
+                    ]
                 },
                 "license": [
                     "MIT"
@@ -10962,12 +11246,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-themes.git",
-                    "reference": "83813744eb860fcc8c5bac430f0bf75049b8f620"
+                    "reference": "4eb30bd97497892672b84141902c286a68c04375"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-themes/zipball/83813744eb860fcc8c5bac430f0bf75049b8f620",
-                    "reference": "83813744eb860fcc8c5bac430f0bf75049b8f620",
+                    "url": "https://api.github.com/repos/ncortex/lofi-themes/zipball/4eb30bd97497892672b84141902c286a68c04375",
+                    "reference": "4eb30bd97497892672b84141902c286a68c04375",
                     "shasum": ""
                 },
                 "require": {
@@ -10981,7 +11265,7 @@
                     "phpstan/phpstan": "^1.10",
                     "phpunit/phpunit": "^10.0|^11.0"
                 },
-                "time": "2026-02-09T12:52:25+00:00",
+                "time": "2026-02-13T20:22:20+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -10995,6 +11279,9 @@
                     },
                     "lofi": {
                         "category": "core"
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.3.x-dev"
                     }
                 },
                 "autoload": {
@@ -11017,6 +11304,9 @@
                     ],
                     "lint": [
                         "phpmd src text phpmd.xml"
+                    ],
+                    "push-version": [
+                        "V=$(php -r \"\\$v=json_decode(file_get_contents('composer.json'))->version;while(trim(shell_exec('git tag -l v'.\\$v))){\\$p=explode('.',\\$v);\\$p[2]++;\\$v=implode('.',\\$p);}\\$j=file_get_contents('composer.json');\\$j=preg_replace('/\\\"version\\\": \\\"[^\\\"]*\\\"/', '\\\"version\\\": \\\"'.\\$v.'\\\"', \\$j);file_put_contents('composer.json',\\$j);echo \\$v;\") && git add -A && (git diff --cached --quiet || git commit -m \"Release v$V\") && git tag -a \"v$V\" -m \"Release v$V\" && git push origin \"v$V\""
                     ]
                 },
                 "license": [
@@ -11805,12 +12095,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-ui.git",
-                    "reference": "7697f109b975597a105edf46979ad65b49f779bc"
+                    "reference": "3f74aae1e87bb37fbb4b1448827b75d1a739da26"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-ui/zipball/7697f109b975597a105edf46979ad65b49f779bc",
-                    "reference": "7697f109b975597a105edf46979ad65b49f779bc",
+                    "url": "https://api.github.com/repos/ncortex/lofi-ui/zipball/3f74aae1e87bb37fbb4b1448827b75d1a739da26",
+                    "reference": "3f74aae1e87bb37fbb4b1448827b75d1a739da26",
                     "shasum": ""
                 },
                 "require": {
@@ -11831,7 +12121,7 @@
                     "phpstan/phpstan": "^1.10",
                     "phpunit/phpunit": "^10.0|^11.0"
                 },
-                "time": "2026-02-12T19:23:14+00:00",
+                "time": "2026-02-13T20:22:20+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -11845,6 +12135,9 @@
                     },
                     "lofi": {
                         "category": "core"
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.3.x-dev"
                     }
                 },
                 "autoload": {
@@ -11869,6 +12162,9 @@
                     ],
                     "lint": [
                         "phpmd src text phpmd.xml"
+                    ],
+                    "push-version": [
+                        "V=$(php -r \"\\$v=json_decode(file_get_contents('composer.json'))->version;while(trim(shell_exec('git tag -l v'.\\$v))){\\$p=explode('.',\\$v);\\$p[2]++;\\$v=implode('.',\\$p);}\\$j=file_get_contents('composer.json');\\$j=preg_replace('/\\\"version\\\": \\\"[^\\\"]*\\\"/', '\\\"version\\\": \\\"'.\\$v.'\\\"', \\$j);file_put_contents('composer.json',\\$j);echo \\$v;\") && git add -A && (git diff --cached --quiet || git commit -m \"Release v$V\") && git tag -a \"v$V\" -m \"Release v$V\" && git push origin \"v$V\""
                     ]
                 },
                 "license": [
@@ -12053,12 +12349,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-vet.git",
-                    "reference": "7115e162beef41a3c1beb144b4271c168b3a3e60"
+                    "reference": "ce47452b66f4766572ebb23fbb668872cb1f942f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-vet/zipball/7115e162beef41a3c1beb144b4271c168b3a3e60",
-                    "reference": "7115e162beef41a3c1beb144b4271c168b3a3e60",
+                    "url": "https://api.github.com/repos/ncortex/lofi-vet/zipball/ce47452b66f4766572ebb23fbb668872cb1f942f",
+                    "reference": "ce47452b66f4766572ebb23fbb668872cb1f942f",
                     "shasum": ""
                 },
                 "require": {
@@ -12072,7 +12368,7 @@
                     "orchestra/testbench": "^9.0|^10.0",
                     "phpunit/phpunit": "^11.0"
                 },
-                "time": "2026-02-09T12:53:06+00:00",
+                "time": "2026-02-13T20:22:20+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -12084,6 +12380,9 @@
                     "lofi": {
                         "category": "vertical",
                         "extends": "clinic"
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.3.x-dev"
                     }
                 },
                 "autoload": {
@@ -12097,6 +12396,11 @@
                     "psr-4": {
                         "Lofi\\Vet\\Tests\\": "tests/"
                     }
+                },
+                "scripts": {
+                    "push-version": [
+                        "V=$(php -r \"\\$v=json_decode(file_get_contents('composer.json'))->version;while(trim(shell_exec('git tag -l v'.\\$v))){\\$p=explode('.',\\$v);\\$p[2]++;\\$v=implode('.',\\$p);}\\$j=file_get_contents('composer.json');\\$j=preg_replace('/\\\"version\\\": \\\"[^\\\"]*\\\"/', '\\\"version\\\": \\\"'.\\$v.'\\\"', \\$j);file_put_contents('composer.json',\\$j);echo \\$v;\") && git add -A && (git diff --cached --quiet || git commit -m \"Release v$V\") && git tag -a \"v$V\" -m \"Release v$V\" && git push origin \"v$V\""
+                    ]
                 },
                 "license": [
                     "MIT"
@@ -12402,12 +12706,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-webhooks.git",
-                    "reference": "ad97d372cdb05a076083dce6aeb3fb5fdc1763ff"
+                    "reference": "d2c4c5449873f962174eb6c7caaf7fe4d3762b42"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-webhooks/zipball/ad97d372cdb05a076083dce6aeb3fb5fdc1763ff",
-                    "reference": "ad97d372cdb05a076083dce6aeb3fb5fdc1763ff",
+                    "url": "https://api.github.com/repos/ncortex/lofi-webhooks/zipball/d2c4c5449873f962174eb6c7caaf7fe4d3762b42",
+                    "reference": "d2c4c5449873f962174eb6c7caaf7fe4d3762b42",
                     "shasum": ""
                 },
                 "require": {
@@ -12419,7 +12723,7 @@
                     "orchestra/testbench": "^8.0|^9.0|^10.0",
                     "phpunit/phpunit": "^10.0|^11.0"
                 },
-                "time": "2026-02-09T18:54:52+00:00",
+                "time": "2026-02-13T20:22:19+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -12430,6 +12734,9 @@
                     },
                     "lofi": {
                         "category": "service"
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.3.x-dev"
                     }
                 },
                 "autoload": {
@@ -12442,6 +12749,11 @@
                     "psr-4": {
                         "Lofi\\Webhooks\\Tests\\": "tests/"
                     }
+                },
+                "scripts": {
+                    "push-version": [
+                        "V=$(php -r \"\\$v=json_decode(file_get_contents('composer.json'))->version;while(trim(shell_exec('git tag -l v'.\\$v))){\\$p=explode('.',\\$v);\\$p[2]++;\\$v=implode('.',\\$p);}\\$j=file_get_contents('composer.json');\\$j=preg_replace('/\\\"version\\\": \\\"[^\\\"]*\\\"/', '\\\"version\\\": \\\"'.\\$v.'\\\"', \\$j);file_put_contents('composer.json',\\$j);echo \\$v;\") && git add -A && (git diff --cached --quiet || git commit -m \"Release v$V\") && git tag -a \"v$V\" -m \"Release v$V\" && git push origin \"v$V\""
+                    ]
                 },
                 "license": [
                     "MIT"

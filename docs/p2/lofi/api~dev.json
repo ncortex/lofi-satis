@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-api.git",
-                    "reference": "7aa4aea91455bd130f96c1be118dbb8fd8e89858"
+                    "reference": "4523b2bb92962f350804d957cca6d5dc7d81d0d2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-api/zipball/7aa4aea91455bd130f96c1be118dbb8fd8e89858",
-                    "reference": "7aa4aea91455bd130f96c1be118dbb8fd8e89858",
+                    "url": "https://api.github.com/repos/ncortex/lofi-api/zipball/4523b2bb92962f350804d957cca6d5dc7d81d0d2",
+                    "reference": "4523b2bb92962f350804d957cca6d5dc7d81d0d2",
                     "shasum": ""
                 },
                 "require": {
@@ -23,7 +23,7 @@
                     "lofi/kernel": "^3.3",
                     "php": "^8.2"
                 },
-                "time": "2026-02-09T12:51:57+00:00",
+                "time": "2026-02-13T20:22:20+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -34,12 +34,20 @@
                     },
                     "lofi": {
                         "category": "service"
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.3.x-dev"
                     }
                 },
                 "autoload": {
                     "psr-4": {
                         "Lofi\\Api\\": "src/"
                     }
+                },
+                "scripts": {
+                    "push-version": [
+                        "V=$(php -r \"\\$v=json_decode(file_get_contents('composer.json'))->version;while(trim(shell_exec('git tag -l v'.\\$v))){\\$p=explode('.',\\$v);\\$p[2]++;\\$v=implode('.',\\$p);}\\$j=file_get_contents('composer.json');\\$j=preg_replace('/\\\"version\\\": \\\"[^\\\"]*\\\"/', '\\\"version\\\": \\\"'.\\$v.'\\\"', \\$j);file_put_contents('composer.json',\\$j);echo \\$v;\") && git add -A && (git diff --cached --quiet || git commit -m \"Release v$V\") && git tag -a \"v$V\" -m \"Release v$V\" && git push origin \"v$V\""
+                    ]
                 },
                 "license": [
                     "MIT"

@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-lofipress.git",
-                    "reference": "97baee4ce7bed3ccb4add12fe0de1116febe58ea"
+                    "reference": "64905703fb0a9caa73b58f6703f8f0d833da4e63"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-lofipress/zipball/97baee4ce7bed3ccb4add12fe0de1116febe58ea",
-                    "reference": "97baee4ce7bed3ccb4add12fe0de1116febe58ea",
+                    "url": "https://api.github.com/repos/ncortex/lofi-lofipress/zipball/64905703fb0a9caa73b58f6703f8f0d833da4e63",
+                    "reference": "64905703fb0a9caa73b58f6703f8f0d833da4e63",
                     "shasum": ""
                 },
                 "require": {
@@ -34,13 +34,21 @@
                     "lofi/seo": "SEO management tools",
                     "lofi/support": "Customer support ticketing"
                 },
-                "time": "2026-02-09T12:52:09+00:00",
+                "time": "2026-02-13T20:22:19+00:00",
                 "default-branch": true,
                 "type": "metapackage",
                 "extra": {
                     "lofi": {
                         "category": "meta"
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.3.x-dev"
                     }
+                },
+                "scripts": {
+                    "push-version": [
+                        "V=$(php -r \"\\$v=json_decode(file_get_contents('composer.json'))->version;while(trim(shell_exec('git tag -l v'.\\$v))){\\$p=explode('.',\\$v);\\$p[2]++;\\$v=implode('.',\\$p);}\\$j=file_get_contents('composer.json');\\$j=preg_replace('/\\\"version\\\": \\\"[^\\\"]*\\\"/', '\\\"version\\\": \\\"'.\\$v.'\\\"', \\$j);file_put_contents('composer.json',\\$j);echo \\$v;\") && git add -A && (git diff --cached --quiet || git commit -m \"Release v$V\") && git tag -a \"v$V\" -m \"Release v$V\" && git push origin \"v$V\""
+                    ]
                 },
                 "license": [
                     "MIT"

@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-marketing.git",
-                    "reference": "1db2c57e46a160f517411f9fa9facd9dd929e598"
+                    "reference": "e27bc60cc27487b6ee3af96c1071140889230d55"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-marketing/zipball/1db2c57e46a160f517411f9fa9facd9dd929e598",
-                    "reference": "1db2c57e46a160f517411f9fa9facd9dd929e598",
+                    "url": "https://api.github.com/repos/ncortex/lofi-marketing/zipball/e27bc60cc27487b6ee3af96c1071140889230d55",
+                    "reference": "e27bc60cc27487b6ee3af96c1071140889230d55",
                     "shasum": ""
                 },
                 "require": {
@@ -30,7 +30,7 @@
                 "suggest": {
                     "lofi/notifications": "Para notificaciones de campañas"
                 },
-                "time": "2026-02-09T12:52:53+00:00",
+                "time": "2026-02-13T20:22:19+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -41,6 +41,9 @@
                     },
                     "lofi": {
                         "category": "module"
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.3.x-dev"
                     }
                 },
                 "autoload": {
@@ -57,6 +60,9 @@
                 "scripts": {
                     "test": [
                         "vendor/bin/phpunit"
+                    ],
+                    "push-version": [
+                        "V=$(php -r \"\\$v=json_decode(file_get_contents('composer.json'))->version;while(trim(shell_exec('git tag -l v'.\\$v))){\\$p=explode('.',\\$v);\\$p[2]++;\\$v=implode('.',\\$p);}\\$j=file_get_contents('composer.json');\\$j=preg_replace('/\\\"version\\\": \\\"[^\\\"]*\\\"/', '\\\"version\\\": \\\"'.\\$v.'\\\"', \\$j);file_put_contents('composer.json',\\$j);echo \\$v;\") && git add -A && (git diff --cached --quiet || git commit -m \"Release v$V\") && git tag -a \"v$V\" -m \"Release v$V\" && git push origin \"v$V\""
                     ]
                 },
                 "license": [

@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-orchestrator.git",
-                    "reference": "12290c729508d81051e557d2d00af885dbade1e8"
+                    "reference": "a4f7edc4fb8bcb991d349388e5ac64d6854b8895"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-orchestrator/zipball/12290c729508d81051e557d2d00af885dbade1e8",
-                    "reference": "12290c729508d81051e557d2d00af885dbade1e8",
+                    "url": "https://api.github.com/repos/ncortex/lofi-orchestrator/zipball/a4f7edc4fb8bcb991d349388e5ac64d6854b8895",
+                    "reference": "a4f7edc4fb8bcb991d349388e5ac64d6854b8895",
                     "shasum": ""
                 },
                 "require": {
@@ -26,7 +26,7 @@
                     "orchestra/testbench": "^9.0",
                     "phpunit/phpunit": "^11.0"
                 },
-                "time": "2026-02-09T18:54:52+00:00",
+                "time": "2026-02-13T20:22:19+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -37,6 +37,9 @@
                     },
                     "lofi": {
                         "category": "devtool"
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.3.x-dev"
                     }
                 },
                 "autoload": {
@@ -48,6 +51,11 @@
                     "psr-4": {
                         "Lofi\\Orchestrator\\Tests\\": "tests/"
                     }
+                },
+                "scripts": {
+                    "push-version": [
+                        "V=$(php -r \"\\$v=json_decode(file_get_contents('composer.json'))->version;while(trim(shell_exec('git tag -l v'.\\$v))){\\$p=explode('.',\\$v);\\$p[2]++;\\$v=implode('.',\\$p);}\\$j=file_get_contents('composer.json');\\$j=preg_replace('/\\\"version\\\": \\\"[^\\\"]*\\\"/', '\\\"version\\\": \\\"'.\\$v.'\\\"', \\$j);file_put_contents('composer.json',\\$j);echo \\$v;\") && git add -A && (git diff --cached --quiet || git commit -m \"Release v$V\") && git tag -a \"v$V\" -m \"Release v$V\" && git push origin \"v$V\""
+                    ]
                 },
                 "license": [
                     "proprietary"

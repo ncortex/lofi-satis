@@ -8,19 +8,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-theme-default.git",
-                    "reference": "026c1f98f8964ef65c4d77366c6c27fe2d1bc2b8"
+                    "reference": "cfcaa09a0c9f6a446bcbf586c9e9888c5a842677"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-theme-default/zipball/026c1f98f8964ef65c4d77366c6c27fe2d1bc2b8",
-                    "reference": "026c1f98f8964ef65c4d77366c6c27fe2d1bc2b8",
+                    "url": "https://api.github.com/repos/ncortex/lofi-theme-default/zipball/cfcaa09a0c9f6a446bcbf586c9e9888c5a842677",
+                    "reference": "cfcaa09a0c9f6a446bcbf586c9e9888c5a842677",
                     "shasum": ""
                 },
                 "require": {
                     "lofi/themes": "^3.3",
                     "php": "^8.2"
                 },
-                "time": "2026-02-09T12:53:08+00:00",
+                "time": "2026-02-13T20:22:20+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -40,6 +40,11 @@
                     "psr-4": {
                         "Lofi\\Themes\\Default\\": "src/"
                     }
+                },
+                "scripts": {
+                    "push-version": [
+                        "V=$(php -r \"\\$v=json_decode(file_get_contents('composer.json'))->version;while(trim(shell_exec('git tag -l v'.\\$v))){\\$p=explode('.',\\$v);\\$p[2]++;\\$v=implode('.',\\$p);}\\$j=file_get_contents('composer.json');\\$j=preg_replace('/\\\"version\\\": \\\"[^\\\"]*\\\"/', '\\\"version\\\": \\\"'.\\$v.'\\\"', \\$j);file_put_contents('composer.json',\\$j);echo \\$v;\") && git add -A && (git diff --cached --quiet || git commit -m \"Release v$V\") && git tag -a \"v$V\" -m \"Release v$V\" && git push origin \"v$V\""
+                    ]
                 },
                 "license": [
                     "MIT"

@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-geo.git",
-                    "reference": "f35acc2d2d93a986eb218636b3e666b261fc05d9"
+                    "reference": "bb940edfa1889b5d9ca98c4fdf5247e3de2717af"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-geo/zipball/f35acc2d2d93a986eb218636b3e666b261fc05d9",
-                    "reference": "f35acc2d2d93a986eb218636b3e666b261fc05d9",
+                    "url": "https://api.github.com/repos/ncortex/lofi-geo/zipball/bb940edfa1889b5d9ca98c4fdf5247e3de2717af",
+                    "reference": "bb940edfa1889b5d9ca98c4fdf5247e3de2717af",
                     "shasum": ""
                 },
                 "require": {
@@ -26,7 +26,7 @@
                     "orchestra/testbench": "^8.0|^9.0|^10.0",
                     "phpunit/phpunit": "^10.0|^11.0"
                 },
-                "time": "2026-02-09T12:52:05+00:00",
+                "time": "2026-02-13T20:22:20+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -37,6 +37,9 @@
                     },
                     "lofi": {
                         "category": "service"
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.3.x-dev"
                     }
                 },
                 "autoload": {
@@ -54,6 +57,9 @@
                 "scripts": {
                     "test": [
                         "vendor/bin/phpunit"
+                    ],
+                    "push-version": [
+                        "V=$(php -r \"\\$v=json_decode(file_get_contents('composer.json'))->version;while(trim(shell_exec('git tag -l v'.\\$v))){\\$p=explode('.',\\$v);\\$p[2]++;\\$v=implode('.',\\$p);}\\$j=file_get_contents('composer.json');\\$j=preg_replace('/\\\"version\\\": \\\"[^\\\"]*\\\"/', '\\\"version\\\": \\\"'.\\$v.'\\\"', \\$j);file_put_contents('composer.json',\\$j);echo \\$v;\") && git add -A && (git diff --cached --quiet || git commit -m \"Release v$V\") && git tag -a \"v$V\" -m \"Release v$V\" && git push origin \"v$V\""
                     ]
                 },
                 "license": [

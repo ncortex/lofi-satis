@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-media.git",
-                    "reference": "d7be8fd440b1c8cbabbff87359b60ab131371aaa"
+                    "reference": "56317fa7ed7ddf174ec18fe50a97771cdc8dd5c7"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-media/zipball/d7be8fd440b1c8cbabbff87359b60ab131371aaa",
-                    "reference": "d7be8fd440b1c8cbabbff87359b60ab131371aaa",
+                    "url": "https://api.github.com/repos/ncortex/lofi-media/zipball/56317fa7ed7ddf174ec18fe50a97771cdc8dd5c7",
+                    "reference": "56317fa7ed7ddf174ec18fe50a97771cdc8dd5c7",
                     "shasum": ""
                 },
                 "require": {
@@ -25,7 +25,7 @@
                     "php": "^8.2",
                     "spatie/laravel-medialibrary": "^11.0"
                 },
-                "time": "2026-02-09T12:52:13+00:00",
+                "time": "2026-02-13T20:22:20+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -36,12 +36,20 @@
                     },
                     "lofi": {
                         "category": "service"
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.3.x-dev"
                     }
                 },
                 "autoload": {
                     "psr-4": {
                         "Lofi\\Media\\": "src/"
                     }
+                },
+                "scripts": {
+                    "push-version": [
+                        "V=$(php -r \"\\$v=json_decode(file_get_contents('composer.json'))->version;while(trim(shell_exec('git tag -l v'.\\$v))){\\$p=explode('.',\\$v);\\$p[2]++;\\$v=implode('.',\\$p);}\\$j=file_get_contents('composer.json');\\$j=preg_replace('/\\\"version\\\": \\\"[^\\\"]*\\\"/', '\\\"version\\\": \\\"'.\\$v.'\\\"', \\$j);file_put_contents('composer.json',\\$j);echo \\$v;\") && git add -A && (git diff --cached --quiet || git commit -m \"Release v$V\") && git tag -a \"v$V\" -m \"Release v$V\" && git push origin \"v$V\""
+                    ]
                 },
                 "description": "LoFi Media Management"
             }

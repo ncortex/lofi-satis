@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-cron.git",
-                    "reference": "6b6ae33ea6a9c533c5d501db24e23254fdeb2800"
+                    "reference": "86707e106fffe6f77aeff608f5b6a6e33b15e59a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-cron/zipball/6b6ae33ea6a9c533c5d501db24e23254fdeb2800",
-                    "reference": "6b6ae33ea6a9c533c5d501db24e23254fdeb2800",
+                    "url": "https://api.github.com/repos/ncortex/lofi-cron/zipball/86707e106fffe6f77aeff608f5b6a6e33b15e59a",
+                    "reference": "86707e106fffe6f77aeff608f5b6a6e33b15e59a",
                     "shasum": ""
                 },
                 "require": {
@@ -28,7 +28,7 @@
                     "orchestra/testbench": "^9.0|^10.0",
                     "phpunit/phpunit": "^10.0|^11.0"
                 },
-                "time": "2026-02-09T19:47:06+00:00",
+                "time": "2026-02-13T20:22:20+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -39,6 +39,9 @@
                     },
                     "lofi": {
                         "category": "devtool"
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.3.x-dev"
                     }
                 },
                 "autoload": {
@@ -56,6 +59,9 @@
                 "scripts": {
                     "test": [
                         "vendor/bin/phpunit"
+                    ],
+                    "push-version": [
+                        "V=$(php -r \"\\$v=json_decode(file_get_contents('composer.json'))->version;while(trim(shell_exec('git tag -l v'.\\$v))){\\$p=explode('.',\\$v);\\$p[2]++;\\$v=implode('.',\\$p);}\\$j=file_get_contents('composer.json');\\$j=preg_replace('/\\\"version\\\": \\\"[^\\\"]*\\\"/', '\\\"version\\\": \\\"'.\\$v.'\\\"', \\$j);file_put_contents('composer.json',\\$j);echo \\$v;\") && git add -A && (git diff --cached --quiet || git commit -m \"Release v$V\") && git tag -a \"v$V\" -m \"Release v$V\" && git push origin \"v$V\""
                     ]
                 },
                 "license": [

@@ -8,19 +8,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-theme-nyf.git",
-                    "reference": "a14f026565885def1ea63df78db3d357a2e59753"
+                    "reference": "a20d7e1024d9b1da89455c82ec2f4a70286cec1d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-theme-nyf/zipball/a14f026565885def1ea63df78db3d357a2e59753",
-                    "reference": "a14f026565885def1ea63df78db3d357a2e59753",
+                    "url": "https://api.github.com/repos/ncortex/lofi-theme-nyf/zipball/a20d7e1024d9b1da89455c82ec2f4a70286cec1d",
+                    "reference": "a20d7e1024d9b1da89455c82ec2f4a70286cec1d",
                     "shasum": ""
                 },
                 "require": {
                     "lofi/themes": "^3.3",
                     "php": "^8.2"
                 },
-                "time": "2026-02-09T12:53:10+00:00",
+                "time": "2026-02-13T20:22:21+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -40,6 +40,11 @@
                     "psr-4": {
                         "Lofi\\Themes\\Nyf\\": "src/"
                     }
+                },
+                "scripts": {
+                    "push-version": [
+                        "V=$(php -r \"\\$v=json_decode(file_get_contents('composer.json'))->version;while(trim(shell_exec('git tag -l v'.\\$v))){\\$p=explode('.',\\$v);\\$p[2]++;\\$v=implode('.',\\$p);}\\$j=file_get_contents('composer.json');\\$j=preg_replace('/\\\"version\\\": \\\"[^\\\"]*\\\"/', '\\\"version\\\": \\\"'.\\$v.'\\\"', \\$j);file_put_contents('composer.json',\\$j);echo \\$v;\") && git add -A && (git diff --cached --quiet || git commit -m \"Release v$V\") && git tag -a \"v$V\" -m \"Release v$V\" && git push origin \"v$V\""
+                    ]
                 },
                 "license": [
                     "MIT"
