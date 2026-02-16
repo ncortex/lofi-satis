@@ -11319,6 +11319,61 @@
                 ],
                 "description": "NatayFresas Theme for LoFi Framework"
             },
+            "3.3.6": {
+                "name": "lofi/theme-nyf",
+                "version": "3.3.6",
+                "version_normalized": "3.3.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-theme-nyf.git",
+                    "reference": "7bf711587b65029b2f06e74b34d6eb641fdee109"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-theme-nyf/zipball/7bf711587b65029b2f06e74b34d6eb641fdee109",
+                    "reference": "7bf711587b65029b2f06e74b34d6eb641fdee109",
+                    "shasum": ""
+                },
+                "require": {
+                    "lofi/themes": "^3.3",
+                    "php": "^8.2"
+                },
+                "time": "2026-02-16T19:42:01+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Themes\\Nyf\\NyfThemeServiceProvider"
+                        ]
+                    },
+                    "lofi": {
+                        "category": "theme",
+                        "type": "theme",
+                        "slug": "nyf",
+                        "parent": null
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Themes\\Nyf\\": "src/"
+                    }
+                },
+                "scripts": {
+                    "push-version": [
+                        "V=$(php -r \"\\$v=json_decode(file_get_contents('composer.json'))->version;while(trim(shell_exec('git tag -l v'.\\$v))){\\$p=explode('.',\\$v);\\$p[2]++;\\$v=implode('.',\\$p);}\\$j=file_get_contents('composer.json');\\$j=preg_replace('/\\\"version\\\": \\\"[^\\\"]*\\\"/', '\\\"version\\\": \\\"'.\\$v.'\\\"', \\$j);file_put_contents('composer.json',\\$j);echo \\$v;\") && git add -A && (git diff --cached --quiet || git commit -m \"Release v$V\") && git tag -a \"v$V\" -m \"Release v$V\" && git push origin \"v$V\""
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "NyF Team",
+                        "email": "info@natayfresas.com"
+                    }
+                ],
+                "description": "NatayFresas Theme for LoFi Framework"
+            },
             "dev-main": {
                 "name": "lofi/theme-nyf",
                 "version": "dev-main",
