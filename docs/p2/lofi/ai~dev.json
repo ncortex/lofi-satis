@@ -1,36 +1,46 @@
 {
     "packages": {
-        "lofi/api": [
+        "lofi/ai": [
             {
-                "name": "lofi/api",
+                "name": "lofi/ai",
                 "version": "dev-main",
                 "version_normalized": "dev-main",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ncortex/lofi-api.git",
-                    "reference": "33b39bef4ed5a4ed39c1278c1d04ccd77f70f08c"
+                    "url": "git@github.com:ncortex/lofi-swarm.git",
+                    "reference": "14ec78ca861027fbcb40819a13183cc3f20b0e36"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-api/zipball/33b39bef4ed5a4ed39c1278c1d04ccd77f70f08c",
-                    "reference": "33b39bef4ed5a4ed39c1278c1d04ccd77f70f08c",
+                    "url": "https://api.github.com/repos/ncortex/lofi-swarm/zipball/14ec78ca861027fbcb40819a13183cc3f20b0e36",
+                    "reference": "14ec78ca861027fbcb40819a13183cc3f20b0e36",
                     "shasum": ""
                 },
                 "require": {
-                    "illuminate/routing": "^10.0|^11.0|^12.0",
-                    "illuminate/support": "^10.0|^11.0|^12.0",
-                    "laravel/sanctum": "^3.0|^4.0",
+                    "illuminate/support": "^12.0",
+                    "laravel/ai": "^0.1",
+                    "lofi/auth": "^3.3",
+                    "lofi/cron": "^3.3",
                     "lofi/kernel": "^3.3",
-                    "php": "^8.2"
+                    "lofi/ui": "^3.3",
+                    "php": "^8.4"
                 },
-                "time": "2026-02-19T19:57:56+00:00",
+                "require-dev": {
+                    "orchestra/testbench": "^10.0",
+                    "phpunit/phpunit": "^11.0"
+                },
+                "time": "2026-02-19T19:56:51+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
                     "laravel": {
                         "providers": [
-                            "Lofi\\Api\\ApiServiceProvider"
-                        ]
+                            "Lofi\\AI\\AIServiceProvider"
+                        ],
+                        "aliases": {
+                            "AI": "Lofi\\AI\\Facades\\AI",
+                            "OAuth": "Lofi\\AI\\Facades\\OAuth"
+                        }
                     },
                     "lofi": {
                         "category": "service"
@@ -41,7 +51,12 @@
                 },
                 "autoload": {
                     "psr-4": {
-                        "Lofi\\Api\\": "src/"
+                        "Lofi\\AI\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Lofi\\AI\\Tests\\": "tests/"
                     }
                 },
                 "scripts": {
@@ -52,13 +67,7 @@
                 "license": [
                     "MIT"
                 ],
-                "authors": [
-                    {
-                        "name": "Joselito",
-                        "email": "joselito@example.com"
-                    }
-                ],
-                "description": "LoFi Framework - API & MCP Layer"
+                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework"
             }
         ]
     }

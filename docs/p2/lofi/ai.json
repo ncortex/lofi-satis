@@ -1,0 +1,1376 @@
+{
+    "packages": {
+        "lofi/ai": [
+            {
+                "name": "lofi/ai",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-swarm.git",
+                    "reference": "01dd687c307cc8d681896f64891c6157aa88515c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-swarm/zipball/01dd687c307cc8d681896f64891c6157aa88515c",
+                    "reference": "01dd687c307cc8d681896f64891c6157aa88515c",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/support": "^11.0|^12.0",
+                    "lofi/auth": "^1.0",
+                    "lofi/kernel": "^1.0",
+                    "lofi/ui": "^1.0",
+                    "php": "^8.2"
+                },
+                "time": "2026-01-27T11:59:48+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Swarm\\SwarmServiceProvider"
+                        ],
+                        "aliases": {
+                            "Swarm": "Lofi\\Swarm\\Facades\\Swarm"
+                        }
+                    },
+                    "lofi": {
+                        "category": "service"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Swarm\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework"
+            },
+            {
+                "name": "lofi/ai",
+                "version": "v3.0.1",
+                "version_normalized": "3.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-swarm.git",
+                    "reference": "ebd04a5f5534aabdee473d9718fa8187250676d0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-swarm/zipball/ebd04a5f5534aabdee473d9718fa8187250676d0",
+                    "reference": "ebd04a5f5534aabdee473d9718fa8187250676d0",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/support": "^12.0",
+                    "laravel/ai": "^0.1",
+                    "lofi/auth": "^3.0",
+                    "lofi/cron": "^3.0",
+                    "lofi/kernel": "^3.0",
+                    "lofi/ui": "^3.0",
+                    "php": "^8.4"
+                },
+                "time": "2026-02-08T18:57:46+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Swarm\\SwarmServiceProvider"
+                        ],
+                        "aliases": {
+                            "Swarm": "Lofi\\Swarm\\Facades\\Swarm"
+                        }
+                    },
+                    "lofi": {
+                        "category": "service"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Swarm\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework"
+            },
+            {
+                "name": "lofi/ai",
+                "version": "v3.3.10",
+                "version_normalized": "3.3.10.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-swarm.git",
+                    "reference": "2e724884e9fde4e476c2949312df70e76b3b63b8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-swarm/zipball/2e724884e9fde4e476c2949312df70e76b3b63b8",
+                    "reference": "2e724884e9fde4e476c2949312df70e76b3b63b8",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/support": "^12.0",
+                    "laravel/ai": "^0.1",
+                    "lofi/auth": "^3.3",
+                    "lofi/cron": "^3.3",
+                    "lofi/kernel": "^3.3",
+                    "lofi/ui": "^3.3",
+                    "php": "^8.4"
+                },
+                "time": "2026-02-12T20:12:44+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Swarm\\SwarmServiceProvider"
+                        ],
+                        "aliases": {
+                            "Swarm": "Lofi\\Swarm\\Facades\\Swarm",
+                            "OAuth": "Lofi\\Swarm\\Facades\\OAuth"
+                        }
+                    },
+                    "lofi": {
+                        "category": "service"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Swarm\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework"
+            },
+            {
+                "name": "lofi/ai",
+                "version": "v3.3.11",
+                "version_normalized": "3.3.11.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-swarm.git",
+                    "reference": "2e724884e9fde4e476c2949312df70e76b3b63b8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-swarm/zipball/2e724884e9fde4e476c2949312df70e76b3b63b8",
+                    "reference": "2e724884e9fde4e476c2949312df70e76b3b63b8",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/support": "^12.0",
+                    "laravel/ai": "^0.1",
+                    "lofi/auth": "^3.3",
+                    "lofi/cron": "^3.3",
+                    "lofi/kernel": "^3.3",
+                    "lofi/ui": "^3.3",
+                    "php": "^8.4"
+                },
+                "time": "2026-02-12T20:12:44+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Swarm\\SwarmServiceProvider"
+                        ],
+                        "aliases": {
+                            "Swarm": "Lofi\\Swarm\\Facades\\Swarm",
+                            "OAuth": "Lofi\\Swarm\\Facades\\OAuth"
+                        }
+                    },
+                    "lofi": {
+                        "category": "service"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Swarm\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework"
+            },
+            {
+                "name": "lofi/ai",
+                "version": "v3.3.12",
+                "version_normalized": "3.3.12.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-swarm.git",
+                    "reference": "05eafdb678d68032c64436bdda16b5ed305a3174"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-swarm/zipball/05eafdb678d68032c64436bdda16b5ed305a3174",
+                    "reference": "05eafdb678d68032c64436bdda16b5ed305a3174",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/support": "^12.0",
+                    "laravel/ai": "^0.1",
+                    "lofi/auth": "^3.3",
+                    "lofi/cron": "^3.3",
+                    "lofi/kernel": "^3.3",
+                    "lofi/ui": "^3.3",
+                    "php": "^8.4"
+                },
+                "time": "2026-02-12T21:54:09+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Swarm\\SwarmServiceProvider"
+                        ],
+                        "aliases": {
+                            "Swarm": "Lofi\\Swarm\\Facades\\Swarm",
+                            "OAuth": "Lofi\\Swarm\\Facades\\OAuth"
+                        }
+                    },
+                    "lofi": {
+                        "category": "service"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Swarm\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework"
+            },
+            {
+                "name": "lofi/ai",
+                "version": "v3.3.13",
+                "version_normalized": "3.3.13.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-swarm.git",
+                    "reference": "a707dc80553f5b46484f8c59eb24ddb9aae8e6b2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-swarm/zipball/a707dc80553f5b46484f8c59eb24ddb9aae8e6b2",
+                    "reference": "a707dc80553f5b46484f8c59eb24ddb9aae8e6b2",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/support": "^12.0",
+                    "laravel/ai": "^0.1",
+                    "lofi/auth": "^3.3",
+                    "lofi/cron": "^3.3",
+                    "lofi/kernel": "^3.3",
+                    "lofi/ui": "^3.3",
+                    "php": "^8.4"
+                },
+                "time": "2026-02-12T22:01:41+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Swarm\\SwarmServiceProvider"
+                        ],
+                        "aliases": {
+                            "Swarm": "Lofi\\Swarm\\Facades\\Swarm",
+                            "OAuth": "Lofi\\Swarm\\Facades\\OAuth"
+                        }
+                    },
+                    "lofi": {
+                        "category": "service"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Swarm\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework"
+            },
+            {
+                "name": "lofi/ai",
+                "version": "v3.3.14",
+                "version_normalized": "3.3.14.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-swarm.git",
+                    "reference": "a707dc80553f5b46484f8c59eb24ddb9aae8e6b2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-swarm/zipball/a707dc80553f5b46484f8c59eb24ddb9aae8e6b2",
+                    "reference": "a707dc80553f5b46484f8c59eb24ddb9aae8e6b2",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/support": "^12.0",
+                    "laravel/ai": "^0.1",
+                    "lofi/auth": "^3.3",
+                    "lofi/cron": "^3.3",
+                    "lofi/kernel": "^3.3",
+                    "lofi/ui": "^3.3",
+                    "php": "^8.4"
+                },
+                "time": "2026-02-12T22:01:41+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Swarm\\SwarmServiceProvider"
+                        ],
+                        "aliases": {
+                            "Swarm": "Lofi\\Swarm\\Facades\\Swarm",
+                            "OAuth": "Lofi\\Swarm\\Facades\\OAuth"
+                        }
+                    },
+                    "lofi": {
+                        "category": "service"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Swarm\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework"
+            },
+            {
+                "name": "lofi/ai",
+                "version": "v3.3.15",
+                "version_normalized": "3.3.15.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-swarm.git",
+                    "reference": "51ab602da29e2ce5f8b7e40bb8673791e48d99f2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-swarm/zipball/51ab602da29e2ce5f8b7e40bb8673791e48d99f2",
+                    "reference": "51ab602da29e2ce5f8b7e40bb8673791e48d99f2",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/support": "^12.0",
+                    "laravel/ai": "^0.1",
+                    "lofi/auth": "^3.3",
+                    "lofi/cron": "^3.3",
+                    "lofi/kernel": "^3.3",
+                    "lofi/ui": "^3.3",
+                    "php": "^8.4"
+                },
+                "time": "2026-02-12T22:11:10+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Swarm\\SwarmServiceProvider"
+                        ],
+                        "aliases": {
+                            "Swarm": "Lofi\\Swarm\\Facades\\Swarm",
+                            "OAuth": "Lofi\\Swarm\\Facades\\OAuth"
+                        }
+                    },
+                    "lofi": {
+                        "category": "service"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Swarm\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework"
+            },
+            {
+                "name": "lofi/ai",
+                "version": "v3.3.16",
+                "version_normalized": "3.3.16.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-swarm.git",
+                    "reference": "b7395a23a4f4fc28ec5b66065a7d2012545d09d3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-swarm/zipball/b7395a23a4f4fc28ec5b66065a7d2012545d09d3",
+                    "reference": "b7395a23a4f4fc28ec5b66065a7d2012545d09d3",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/support": "^12.0",
+                    "laravel/ai": "^0.1",
+                    "lofi/auth": "^3.3",
+                    "lofi/cron": "^3.3",
+                    "lofi/kernel": "^3.3",
+                    "lofi/ui": "^3.3",
+                    "php": "^8.4"
+                },
+                "time": "2026-02-12T22:20:46+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Swarm\\SwarmServiceProvider"
+                        ],
+                        "aliases": {
+                            "Swarm": "Lofi\\Swarm\\Facades\\Swarm",
+                            "OAuth": "Lofi\\Swarm\\Facades\\OAuth"
+                        }
+                    },
+                    "lofi": {
+                        "category": "service"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Swarm\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework"
+            },
+            {
+                "name": "lofi/ai",
+                "version": "v3.3.17",
+                "version_normalized": "3.3.17.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-swarm.git",
+                    "reference": "619e476b947ada4fea7212d762722b3646058cf2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-swarm/zipball/619e476b947ada4fea7212d762722b3646058cf2",
+                    "reference": "619e476b947ada4fea7212d762722b3646058cf2",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/support": "^12.0",
+                    "laravel/ai": "^0.1",
+                    "lofi/auth": "^3.3",
+                    "lofi/cron": "^3.3",
+                    "lofi/kernel": "^3.3",
+                    "lofi/ui": "^3.3",
+                    "php": "^8.4"
+                },
+                "time": "2026-02-12T22:39:38+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Swarm\\SwarmServiceProvider"
+                        ],
+                        "aliases": {
+                            "Swarm": "Lofi\\Swarm\\Facades\\Swarm",
+                            "OAuth": "Lofi\\Swarm\\Facades\\OAuth"
+                        }
+                    },
+                    "lofi": {
+                        "category": "service"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Swarm\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework"
+            },
+            {
+                "name": "lofi/ai",
+                "version": "v3.3.18",
+                "version_normalized": "3.3.18.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-swarm.git",
+                    "reference": "619e476b947ada4fea7212d762722b3646058cf2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-swarm/zipball/619e476b947ada4fea7212d762722b3646058cf2",
+                    "reference": "619e476b947ada4fea7212d762722b3646058cf2",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/support": "^12.0",
+                    "laravel/ai": "^0.1",
+                    "lofi/auth": "^3.3",
+                    "lofi/cron": "^3.3",
+                    "lofi/kernel": "^3.3",
+                    "lofi/ui": "^3.3",
+                    "php": "^8.4"
+                },
+                "time": "2026-02-12T22:39:38+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Swarm\\SwarmServiceProvider"
+                        ],
+                        "aliases": {
+                            "Swarm": "Lofi\\Swarm\\Facades\\Swarm",
+                            "OAuth": "Lofi\\Swarm\\Facades\\OAuth"
+                        }
+                    },
+                    "lofi": {
+                        "category": "service"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Swarm\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework"
+            },
+            {
+                "name": "lofi/ai",
+                "version": "v3.3.19",
+                "version_normalized": "3.3.19.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-swarm.git",
+                    "reference": "6d8e995a91fcd0860fb4322f2a24cee704b387bc"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-swarm/zipball/6d8e995a91fcd0860fb4322f2a24cee704b387bc",
+                    "reference": "6d8e995a91fcd0860fb4322f2a24cee704b387bc",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/support": "^12.0",
+                    "laravel/ai": "^0.1",
+                    "lofi/auth": "^3.3",
+                    "lofi/cron": "^3.3",
+                    "lofi/kernel": "^3.3",
+                    "lofi/ui": "^3.3",
+                    "php": "^8.4"
+                },
+                "time": "2026-02-13T16:50:07+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Swarm\\SwarmServiceProvider"
+                        ],
+                        "aliases": {
+                            "Swarm": "Lofi\\Swarm\\Facades\\Swarm",
+                            "OAuth": "Lofi\\Swarm\\Facades\\OAuth"
+                        }
+                    },
+                    "lofi": {
+                        "category": "service"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Swarm\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework"
+            },
+            {
+                "name": "lofi/ai",
+                "version": "v3.3.20",
+                "version_normalized": "3.3.20.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-swarm.git",
+                    "reference": "78b361160141046f22be6f4d8ccfce1f6def178c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-swarm/zipball/78b361160141046f22be6f4d8ccfce1f6def178c",
+                    "reference": "78b361160141046f22be6f4d8ccfce1f6def178c",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/support": "^12.0",
+                    "laravel/ai": "^0.1",
+                    "lofi/auth": "^3.3",
+                    "lofi/cron": "^3.3",
+                    "lofi/kernel": "^3.3",
+                    "lofi/ui": "^3.3",
+                    "php": "^8.4"
+                },
+                "time": "2026-02-13T18:09:02+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Swarm\\SwarmServiceProvider"
+                        ],
+                        "aliases": {
+                            "Swarm": "Lofi\\Swarm\\Facades\\Swarm",
+                            "OAuth": "Lofi\\Swarm\\Facades\\OAuth"
+                        }
+                    },
+                    "lofi": {
+                        "category": "service"
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.3.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Swarm\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework"
+            },
+            {
+                "name": "lofi/ai",
+                "version": "3.3.21",
+                "version_normalized": "3.3.21.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-swarm.git",
+                    "reference": "0e58ffa09053ef2fcaafe9f4bd7c740d96b8f29d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-swarm/zipball/0e58ffa09053ef2fcaafe9f4bd7c740d96b8f29d",
+                    "reference": "0e58ffa09053ef2fcaafe9f4bd7c740d96b8f29d",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/support": "^12.0",
+                    "laravel/ai": "^0.1",
+                    "lofi/auth": "^3.3",
+                    "lofi/cron": "^3.3",
+                    "lofi/kernel": "^3.3",
+                    "lofi/ui": "^3.3",
+                    "php": "^8.4"
+                },
+                "time": "2026-02-13T19:20:54+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Swarm\\SwarmServiceProvider"
+                        ],
+                        "aliases": {
+                            "Swarm": "Lofi\\Swarm\\Facades\\Swarm",
+                            "OAuth": "Lofi\\Swarm\\Facades\\OAuth"
+                        }
+                    },
+                    "lofi": {
+                        "category": "service"
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.3.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Swarm\\": "src/"
+                    }
+                },
+                "scripts": {
+                    "push-version": [
+                        "V=$(php -r \"\\$v=json_decode(file_get_contents('composer.json'))->version;while(trim(shell_exec('git tag -l v'.\\$v))){\\$p=explode('.',\\$v);\\$p[2]++;\\$v=implode('.',\\$p);}\\$j=file_get_contents('composer.json');\\$j=preg_replace('/\\\"version\\\": \\\"[^\\\"]*\\\"/', '\\\"version\\\": \\\"'.\\$v.'\\\"', \\$j);file_put_contents('composer.json',\\$j);echo \\$v;\") && git add -A && (git diff --cached --quiet || git commit -m \"Release v$V\") && git tag -a \"v$V\" -m \"Release v$V\" && git push origin \"v$V\""
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework"
+            },
+            {
+                "name": "lofi/ai",
+                "version": "3.3.22",
+                "version_normalized": "3.3.22.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-swarm.git",
+                    "reference": "11ae51d6ce94dfcfe6542cfa9fff6f699d578f36"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-swarm/zipball/11ae51d6ce94dfcfe6542cfa9fff6f699d578f36",
+                    "reference": "11ae51d6ce94dfcfe6542cfa9fff6f699d578f36",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/support": "^12.0",
+                    "laravel/ai": "^0.1",
+                    "lofi/auth": "^3.3",
+                    "lofi/cron": "^3.3",
+                    "lofi/kernel": "^3.3",
+                    "lofi/ui": "^3.3",
+                    "php": "^8.4"
+                },
+                "time": "2026-02-13T20:17:49+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Swarm\\SwarmServiceProvider"
+                        ],
+                        "aliases": {
+                            "Swarm": "Lofi\\Swarm\\Facades\\Swarm",
+                            "OAuth": "Lofi\\Swarm\\Facades\\OAuth"
+                        }
+                    },
+                    "lofi": {
+                        "category": "service"
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.3.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Swarm\\": "src/"
+                    }
+                },
+                "scripts": {
+                    "push-version": [
+                        "V=$(php -r \"\\$v=json_decode(file_get_contents('composer.json'))->version;while(trim(shell_exec('git tag -l v'.\\$v))){\\$p=explode('.',\\$v);\\$p[2]++;\\$v=implode('.',\\$p);}\\$j=file_get_contents('composer.json');\\$j=preg_replace('/\\\"version\\\": \\\"[^\\\"]*\\\"/', '\\\"version\\\": \\\"'.\\$v.'\\\"', \\$j);file_put_contents('composer.json',\\$j);echo \\$v;\") && git add -A && (git diff --cached --quiet || git commit -m \"Release v$V\") && git tag -a \"v$V\" -m \"Release v$V\" && git push origin \"v$V\""
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework"
+            },
+            {
+                "name": "lofi/ai",
+                "version": "3.3.23",
+                "version_normalized": "3.3.23.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-swarm.git",
+                    "reference": "e312755414620ee7edde282d6cd4c8f23eadca44"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-swarm/zipball/e312755414620ee7edde282d6cd4c8f23eadca44",
+                    "reference": "e312755414620ee7edde282d6cd4c8f23eadca44",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/support": "^12.0",
+                    "laravel/ai": "^0.1",
+                    "lofi/auth": "^3.3",
+                    "lofi/cron": "^3.3",
+                    "lofi/kernel": "^3.3",
+                    "lofi/ui": "^3.3",
+                    "php": "^8.4"
+                },
+                "time": "2026-02-13T22:18:13+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Swarm\\SwarmServiceProvider"
+                        ],
+                        "aliases": {
+                            "Swarm": "Lofi\\Swarm\\Facades\\Swarm",
+                            "OAuth": "Lofi\\Swarm\\Facades\\OAuth"
+                        }
+                    },
+                    "lofi": {
+                        "category": "service"
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.3.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Swarm\\": "src/"
+                    }
+                },
+                "scripts": {
+                    "push-version": [
+                        "V=$(php -r \"\\$v=json_decode(file_get_contents('composer.json'))->version;while(trim(shell_exec('git tag -l v'.\\$v))){\\$p=explode('.',\\$v);\\$p[2]++;\\$v=implode('.',\\$p);}\\$j=file_get_contents('composer.json');\\$j=preg_replace('/\\\"version\\\": \\\"[^\\\"]*\\\"/', '\\\"version\\\": \\\"'.\\$v.'\\\"', \\$j);file_put_contents('composer.json',\\$j);echo \\$v;\") && git add -A && (git diff --cached --quiet || git commit -m \"Release v$V\") && git tag -a \"v$V\" -m \"Release v$V\" && git push origin \"v$V\""
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework"
+            },
+            {
+                "name": "lofi/ai",
+                "version": "3.3.24",
+                "version_normalized": "3.3.24.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-swarm.git",
+                    "reference": "1ba2c78c5675289b217e98e1d1eb5ac26cdb3597"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-swarm/zipball/1ba2c78c5675289b217e98e1d1eb5ac26cdb3597",
+                    "reference": "1ba2c78c5675289b217e98e1d1eb5ac26cdb3597",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/support": "^12.0",
+                    "laravel/ai": "^0.1",
+                    "lofi/auth": "^3.3",
+                    "lofi/cron": "^3.3",
+                    "lofi/kernel": "^3.3",
+                    "lofi/ui": "^3.3",
+                    "php": "^8.4"
+                },
+                "time": "2026-02-13T23:24:33+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Swarm\\SwarmServiceProvider"
+                        ],
+                        "aliases": {
+                            "Swarm": "Lofi\\Swarm\\Facades\\Swarm",
+                            "OAuth": "Lofi\\Swarm\\Facades\\OAuth"
+                        }
+                    },
+                    "lofi": {
+                        "category": "service"
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.3.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Swarm\\": "src/"
+                    }
+                },
+                "scripts": {
+                    "push-version": [
+                        "V=$(php -r \"\\$v=json_decode(file_get_contents('composer.json'))->version;while(trim(shell_exec('git tag -l v'.\\$v))){\\$p=explode('.',\\$v);\\$p[2]++;\\$v=implode('.',\\$p);}\\$j=file_get_contents('composer.json');\\$j=preg_replace('/\\\"version\\\": \\\"[^\\\"]*\\\"/', '\\\"version\\\": \\\"'.\\$v.'\\\"', \\$j);file_put_contents('composer.json',\\$j);echo \\$v;\") && git add -A && (git diff --cached --quiet || git commit -m \"Release v$V\") && git tag -a \"v$V\" -m \"Release v$V\" && git push origin \"v$V\""
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework"
+            },
+            {
+                "name": "lofi/ai",
+                "version": "3.3.25",
+                "version_normalized": "3.3.25.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-swarm.git",
+                    "reference": "ab15a3b07f3f5784c4db4da04ef2a9d665757704"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-swarm/zipball/ab15a3b07f3f5784c4db4da04ef2a9d665757704",
+                    "reference": "ab15a3b07f3f5784c4db4da04ef2a9d665757704",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/support": "^12.0",
+                    "laravel/ai": "^0.1",
+                    "lofi/auth": "^3.3",
+                    "lofi/cron": "^3.3",
+                    "lofi/kernel": "^3.3",
+                    "lofi/ui": "^3.3",
+                    "php": "^8.4"
+                },
+                "time": "2026-02-13T23:48:24+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Swarm\\SwarmServiceProvider"
+                        ],
+                        "aliases": {
+                            "Swarm": "Lofi\\Swarm\\Facades\\Swarm",
+                            "OAuth": "Lofi\\Swarm\\Facades\\OAuth"
+                        }
+                    },
+                    "lofi": {
+                        "category": "service"
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.3.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Swarm\\": "src/"
+                    }
+                },
+                "scripts": {
+                    "push-version": [
+                        "V=$(php -r \"\\$v=json_decode(file_get_contents('composer.json'))->version;while(trim(shell_exec('git tag -l v'.\\$v))){\\$p=explode('.',\\$v);\\$p[2]++;\\$v=implode('.',\\$p);}\\$j=file_get_contents('composer.json');\\$j=preg_replace('/\\\"version\\\": \\\"[^\\\"]*\\\"/', '\\\"version\\\": \\\"'.\\$v.'\\\"', \\$j);file_put_contents('composer.json',\\$j);echo \\$v;\") && git add -A && (git diff --cached --quiet || git commit -m \"Release v$V\") && git tag -a \"v$V\" -m \"Release v$V\" && git push origin \"v$V\""
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework"
+            },
+            {
+                "name": "lofi/ai",
+                "version": "3.3.26",
+                "version_normalized": "3.3.26.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-swarm.git",
+                    "reference": "e433f189944bed914adb93b551e76645e6385aaf"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-swarm/zipball/e433f189944bed914adb93b551e76645e6385aaf",
+                    "reference": "e433f189944bed914adb93b551e76645e6385aaf",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/support": "^12.0",
+                    "laravel/ai": "^0.1",
+                    "lofi/auth": "^3.3",
+                    "lofi/cron": "^3.3",
+                    "lofi/kernel": "^3.3",
+                    "lofi/ui": "^3.3",
+                    "php": "^8.4"
+                },
+                "time": "2026-02-13T23:58:16+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Swarm\\SwarmServiceProvider"
+                        ],
+                        "aliases": {
+                            "Swarm": "Lofi\\Swarm\\Facades\\Swarm",
+                            "OAuth": "Lofi\\Swarm\\Facades\\OAuth"
+                        }
+                    },
+                    "lofi": {
+                        "category": "service"
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.3.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Swarm\\": "src/"
+                    }
+                },
+                "scripts": {
+                    "push-version": [
+                        "V=$(php -r \"\\$v=json_decode(file_get_contents('composer.json'))->version;while(trim(shell_exec('git tag -l v'.\\$v))){\\$p=explode('.',\\$v);\\$p[2]++;\\$v=implode('.',\\$p);}\\$j=file_get_contents('composer.json');\\$j=preg_replace('/\\\"version\\\": \\\"[^\\\"]*\\\"/', '\\\"version\\\": \\\"'.\\$v.'\\\"', \\$j);file_put_contents('composer.json',\\$j);echo \\$v;\") && git add -A && (git diff --cached --quiet || git commit -m \"Release v$V\") && git tag -a \"v$V\" -m \"Release v$V\" && git push origin \"v$V\""
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework"
+            },
+            {
+                "name": "lofi/ai",
+                "version": "3.3.27",
+                "version_normalized": "3.3.27.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-swarm.git",
+                    "reference": "e8538588077ac28c988ef11c09c16ca4db18a7f6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-swarm/zipball/e8538588077ac28c988ef11c09c16ca4db18a7f6",
+                    "reference": "e8538588077ac28c988ef11c09c16ca4db18a7f6",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/support": "^12.0",
+                    "laravel/ai": "^0.1",
+                    "lofi/auth": "^3.3",
+                    "lofi/cron": "^3.3",
+                    "lofi/kernel": "^3.3",
+                    "lofi/ui": "^3.3",
+                    "php": "^8.4"
+                },
+                "time": "2026-02-14T00:24:56+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Swarm\\SwarmServiceProvider"
+                        ],
+                        "aliases": {
+                            "Swarm": "Lofi\\Swarm\\Facades\\Swarm",
+                            "OAuth": "Lofi\\Swarm\\Facades\\OAuth"
+                        }
+                    },
+                    "lofi": {
+                        "category": "service"
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.3.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Swarm\\": "src/"
+                    }
+                },
+                "scripts": {
+                    "push-version": [
+                        "V=$(php -r \"\\$v=json_decode(file_get_contents('composer.json'))->version;while(trim(shell_exec('git tag -l v'.\\$v))){\\$p=explode('.',\\$v);\\$p[2]++;\\$v=implode('.',\\$p);}\\$j=file_get_contents('composer.json');\\$j=preg_replace('/\\\"version\\\": \\\"[^\\\"]*\\\"/', '\\\"version\\\": \\\"'.\\$v.'\\\"', \\$j);file_put_contents('composer.json',\\$j);echo \\$v;\") && git add -A && (git diff --cached --quiet || git commit -m \"Release v$V\") && git tag -a \"v$V\" -m \"Release v$V\" && git push origin \"v$V\""
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework"
+            },
+            {
+                "name": "lofi/ai",
+                "version": "3.3.28",
+                "version_normalized": "3.3.28.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-swarm.git",
+                    "reference": "beb9d986534ddf3609194a1914e20f9099eb1007"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-swarm/zipball/beb9d986534ddf3609194a1914e20f9099eb1007",
+                    "reference": "beb9d986534ddf3609194a1914e20f9099eb1007",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/support": "^12.0",
+                    "laravel/ai": "^0.1",
+                    "lofi/auth": "^3.3",
+                    "lofi/cron": "^3.3",
+                    "lofi/kernel": "^3.3",
+                    "lofi/ui": "^3.3",
+                    "php": "^8.4"
+                },
+                "require-dev": {
+                    "orchestra/testbench": "^10.0",
+                    "phpunit/phpunit": "^11.0"
+                },
+                "time": "2026-02-15T10:51:01+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Swarm\\SwarmServiceProvider"
+                        ],
+                        "aliases": {
+                            "Swarm": "Lofi\\Swarm\\Facades\\Swarm",
+                            "OAuth": "Lofi\\Swarm\\Facades\\OAuth"
+                        }
+                    },
+                    "lofi": {
+                        "category": "service"
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.3.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Swarm\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Lofi\\Swarm\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "push-version": [
+                        "V=$(php -r \"\\$v=json_decode(file_get_contents('composer.json'))->version;while(trim(shell_exec('git tag -l v'.\\$v))){\\$p=explode('.',\\$v);\\$p[2]++;\\$v=implode('.',\\$p);}\\$j=file_get_contents('composer.json');\\$j=preg_replace('/\\\"version\\\": \\\"[^\\\"]*\\\"/', '\\\"version\\\": \\\"'.\\$v.'\\\"', \\$j);file_put_contents('composer.json',\\$j);echo \\$v;\") && git add -A && (git diff --cached --quiet || git commit -m \"Release v$V\") && git tag -a \"v$V\" -m \"Release v$V\" && git push origin \"v$V\""
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework"
+            },
+            {
+                "name": "lofi/ai",
+                "version": "v3.3.4",
+                "version_normalized": "3.3.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-swarm.git",
+                    "reference": "37a3186d320a31bb263881565bd3404d693e0569"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-swarm/zipball/37a3186d320a31bb263881565bd3404d693e0569",
+                    "reference": "37a3186d320a31bb263881565bd3404d693e0569",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/support": "^12.0",
+                    "laravel/ai": "^0.1",
+                    "lofi/auth": "^3.3",
+                    "lofi/cron": "^3.3",
+                    "lofi/kernel": "^3.3",
+                    "lofi/ui": "^3.3",
+                    "php": "^8.4"
+                },
+                "time": "2026-02-09T11:37:52+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Swarm\\SwarmServiceProvider"
+                        ],
+                        "aliases": {
+                            "Swarm": "Lofi\\Swarm\\Facades\\Swarm"
+                        }
+                    },
+                    "lofi": {
+                        "category": "service"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Swarm\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework"
+            },
+            {
+                "name": "lofi/ai",
+                "version": "v3.3.6",
+                "version_normalized": "3.3.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-swarm.git",
+                    "reference": "1c846be303ce80a72f87846b8f5bb90580afcbe1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-swarm/zipball/1c846be303ce80a72f87846b8f5bb90580afcbe1",
+                    "reference": "1c846be303ce80a72f87846b8f5bb90580afcbe1",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/support": "^12.0",
+                    "laravel/ai": "^0.1",
+                    "lofi/auth": "^3.3",
+                    "lofi/cron": "^3.3",
+                    "lofi/kernel": "^3.3",
+                    "lofi/ui": "^3.3",
+                    "php": "^8.4"
+                },
+                "time": "2026-02-10T23:51:47+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Swarm\\SwarmServiceProvider"
+                        ],
+                        "aliases": {
+                            "Swarm": "Lofi\\Swarm\\Facades\\Swarm"
+                        }
+                    },
+                    "lofi": {
+                        "category": "service"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Swarm\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework"
+            },
+            {
+                "name": "lofi/ai",
+                "version": "v3.3.7",
+                "version_normalized": "3.3.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-swarm.git",
+                    "reference": "22f0efd4ab40642fe04b22341b682fdb95db7564"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-swarm/zipball/22f0efd4ab40642fe04b22341b682fdb95db7564",
+                    "reference": "22f0efd4ab40642fe04b22341b682fdb95db7564",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/support": "^12.0",
+                    "laravel/ai": "^0.1",
+                    "lofi/auth": "^3.3",
+                    "lofi/cron": "^3.3",
+                    "lofi/kernel": "^3.3",
+                    "lofi/ui": "^3.3",
+                    "php": "^8.4"
+                },
+                "time": "2026-02-12T19:02:40+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Swarm\\SwarmServiceProvider"
+                        ],
+                        "aliases": {
+                            "Swarm": "Lofi\\Swarm\\Facades\\Swarm",
+                            "OAuth": "Lofi\\Swarm\\Facades\\OAuth"
+                        }
+                    },
+                    "lofi": {
+                        "category": "service"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Swarm\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework"
+            },
+            {
+                "name": "lofi/ai",
+                "version": "v3.3.8",
+                "version_normalized": "3.3.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-swarm.git",
+                    "reference": "b116ec125fbcb0bbdccc37cc33fa7e0650c411a2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-swarm/zipball/b116ec125fbcb0bbdccc37cc33fa7e0650c411a2",
+                    "reference": "b116ec125fbcb0bbdccc37cc33fa7e0650c411a2",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/support": "^12.0",
+                    "laravel/ai": "^0.1",
+                    "lofi/auth": "^3.3",
+                    "lofi/cron": "^3.3",
+                    "lofi/kernel": "^3.3",
+                    "lofi/ui": "^3.3",
+                    "php": "^8.4"
+                },
+                "time": "2026-02-12T19:23:14+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Swarm\\SwarmServiceProvider"
+                        ],
+                        "aliases": {
+                            "Swarm": "Lofi\\Swarm\\Facades\\Swarm",
+                            "OAuth": "Lofi\\Swarm\\Facades\\OAuth"
+                        }
+                    },
+                    "lofi": {
+                        "category": "service"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Swarm\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework"
+            },
+            {
+                "name": "lofi/ai",
+                "version": "v3.3.9",
+                "version_normalized": "3.3.9.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-swarm.git",
+                    "reference": "2e724884e9fde4e476c2949312df70e76b3b63b8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-swarm/zipball/2e724884e9fde4e476c2949312df70e76b3b63b8",
+                    "reference": "2e724884e9fde4e476c2949312df70e76b3b63b8",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/support": "^12.0",
+                    "laravel/ai": "^0.1",
+                    "lofi/auth": "^3.3",
+                    "lofi/cron": "^3.3",
+                    "lofi/kernel": "^3.3",
+                    "lofi/ui": "^3.3",
+                    "php": "^8.4"
+                },
+                "time": "2026-02-12T20:12:44+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Swarm\\SwarmServiceProvider"
+                        ],
+                        "aliases": {
+                            "Swarm": "Lofi\\Swarm\\Facades\\Swarm",
+                            "OAuth": "Lofi\\Swarm\\Facades\\OAuth"
+                        }
+                    },
+                    "lofi": {
+                        "category": "service"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Swarm\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework"
+            }
+        ]
+    }
+}

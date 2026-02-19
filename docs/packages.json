@@ -1,12 +1,13 @@
 {
     "packages": [],
     "includes": {
-        "include/all$9befe0927dd3b17a0d2534036d4e4f1944ddf0e2.json": {
-            "sha1": "9befe0927dd3b17a0d2534036d4e4f1944ddf0e2"
+        "include/all$b6b36dd84ae222861177c404dda58ad4b81470ca.json": {
+            "sha1": "b6b36dd84ae222861177c404dda58ad4b81470ca"
         }
     },
     "metadata-url": "/lofi-satis/p2/%package%.json",
     "available-packages": [
+        "lofi/ai",
         "lofi/analytics",
         "lofi/api",
         "lofi/audit",
@@ -36,7 +37,6 @@
         "lofi/seo",
         "lofi/sql",
         "lofi/support",
-        "lofi/swarm",
         "lofi/telegram",
         "lofi/theme-default",
         "lofi/theme-nyf",

@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-cms.git",
-                    "reference": "d775a06a4c35fdd9e5017bedc2ef435ce9bb4a5f"
+                    "reference": "67f02bb87ead95caa46765f264da7044e0eb8408"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-cms/zipball/d775a06a4c35fdd9e5017bedc2ef435ce9bb4a5f",
-                    "reference": "d775a06a4c35fdd9e5017bedc2ef435ce9bb4a5f",
+                    "url": "https://api.github.com/repos/ncortex/lofi-cms/zipball/67f02bb87ead95caa46765f264da7044e0eb8408",
+                    "reference": "67f02bb87ead95caa46765f264da7044e0eb8408",
                     "shasum": ""
                 },
                 "require": {
@@ -29,7 +29,7 @@
                     "orchestra/testbench": "^8.0|^9.0|^10.0",
                     "phpunit/phpunit": "^10.0|^11.0"
                 },
-                "time": "2026-02-13T20:22:20+00:00",
+                "time": "2026-02-19T19:59:08+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -47,7 +47,8 @@
                 },
                 "autoload": {
                     "psr-4": {
-                        "Lofi\\Cms\\": "src/"
+                        "Lofi\\Cms\\": "src/",
+                        "Lofi\\Cms\\Database\\Factories\\": "database/factories/"
                     }
                 },
                 "autoload-dev": {

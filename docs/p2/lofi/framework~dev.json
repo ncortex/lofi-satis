@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-framework.git",
-                    "reference": "0571dd5b2bc0a004c14a481885397fdf371a21aa"
+                    "reference": "c93f14677ed65413bd137ef4456f8b4d2d0126fa"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-framework/zipball/0571dd5b2bc0a004c14a481885397fdf371a21aa",
-                    "reference": "0571dd5b2bc0a004c14a481885397fdf371a21aa",
+                    "url": "https://api.github.com/repos/ncortex/lofi-framework/zipball/c93f14677ed65413bd137ef4456f8b4d2d0126fa",
+                    "reference": "c93f14677ed65413bd137ef4456f8b4d2d0126fa",
                     "shasum": ""
                 },
                 "require": {
@@ -27,6 +27,7 @@
                     "php": "^8.2"
                 },
                 "suggest": {
+                    "lofi/ai": "Multi-agent AI system",
                     "lofi/analytics": "Self-hosted analytics",
                     "lofi/cms": "Content management system",
                     "lofi/ecommerce": "E-commerce functionality (includes payments)",
@@ -36,11 +37,10 @@
                     "lofi/notifications": "Notification system",
                     "lofi/sql": "Database schema explorer",
                     "lofi/support": "Customer support ticketing",
-                    "lofi/swarm": "Multi-agent AI system",
                     "lofi/telegram": "Telegram bot integration",
                     "lofi/webhooks": "Webhook dispatching and logging"
                 },
-                "time": "2026-02-13T20:22:19+00:00",
+                "time": "2026-02-19T20:01:31+00:00",
                 "default-branch": true,
                 "type": "metapackage",
                 "extra": {
