@@ -71,7 +71,11 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi Directory - Sistema de directorio de profesionales y servicios"
+                "description": "Lofi Directory - Sistema de directorio de profesionales y servicios",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-directory/tree/main",
+                    "issues": "https://github.com/ncortex/lofi-directory/issues"
+                }
             }
         ]
     }

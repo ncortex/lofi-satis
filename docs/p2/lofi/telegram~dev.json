@@ -52,7 +52,11 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Telegram bot integration for Lofi Framework"
+                "description": "Telegram bot integration for Lofi Framework",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-telegram/tree/main",
+                    "issues": "https://github.com/ncortex/lofi-telegram/issues"
+                }
             }
         ]
     }

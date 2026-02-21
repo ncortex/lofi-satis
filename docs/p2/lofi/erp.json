@@ -59,7 +59,11 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi ERP - Sistema de gestión empresarial integral"
+                "description": "Lofi ERP - Sistema de gestión empresarial integral",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-erp/tree/v1.0.0",
+                    "issues": "https://github.com/ncortex/lofi-erp/issues"
+                }
             },
             {
                 "name": "lofi/erp",
@@ -119,7 +123,11 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi ERP - Sistema de gestión empresarial integral"
+                "description": "Lofi ERP - Sistema de gestión empresarial integral",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-erp/tree/v3.3.4",
+                    "issues": "https://github.com/ncortex/lofi-erp/issues"
+                }
             },
             {
                 "name": "lofi/erp",
@@ -179,7 +187,11 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi ERP - Sistema de gestión empresarial integral"
+                "description": "Lofi ERP - Sistema de gestión empresarial integral",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-erp/tree/v3.3.6",
+                    "issues": "https://github.com/ncortex/lofi-erp/issues"
+                }
             },
             {
                 "name": "lofi/erp",
@@ -239,7 +251,11 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi ERP - Sistema de gestión empresarial integral"
+                "description": "Lofi ERP - Sistema de gestión empresarial integral",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-erp/tree/v3.3.7",
+                    "issues": "https://github.com/ncortex/lofi-erp/issues"
+                }
             },
             {
                 "name": "lofi/erp",
@@ -305,7 +321,11 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi ERP - Sistema de gestión empresarial integral"
+                "description": "Lofi ERP - Sistema de gestión empresarial integral",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-erp/tree/v3.3.8",
+                    "issues": "https://github.com/ncortex/lofi-erp/issues"
+                }
             },
             {
                 "name": "lofi/erp",
@@ -371,7 +391,11 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi ERP - Sistema de gestión empresarial integral"
+                "description": "Lofi ERP - Sistema de gestión empresarial integral",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-erp/tree/v3.3.9",
+                    "issues": "https://github.com/ncortex/lofi-erp/issues"
+                }
             }
         ]
     }

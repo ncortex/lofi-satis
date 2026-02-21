@@ -58,7 +58,11 @@
                         "email": "info@natayfresas.com"
                     }
                 ],
-                "description": "Self-hosted analytics for Lofi Framework - Track page views, visitors, and more without external dependencies"
+                "description": "Self-hosted analytics for Lofi Framework - Track page views, visitors, and more without external dependencies",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-analytics/tree/main",
+                    "issues": "https://github.com/ncortex/lofi-analytics/issues"
+                }
             }
         ]
     }

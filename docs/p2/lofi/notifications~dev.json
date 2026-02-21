@@ -50,7 +50,11 @@
                         "V=$(php -r \"\\$v=json_decode(file_get_contents('composer.json'))->version;while(trim(shell_exec('git tag -l v'.\\$v))){\\$p=explode('.',\\$v);\\$p[2]++;\\$v=implode('.',\\$p);}\\$j=file_get_contents('composer.json');\\$j=preg_replace('/\\\"version\\\": \\\"[^\\\"]*\\\"/', '\\\"version\\\": \\\"'.\\$v.'\\\"', \\$j);file_put_contents('composer.json',\\$j);echo \\$v;\") && git add -A && (git diff --cached --quiet || git commit -m \"Release v$V\") && git tag -a \"v$V\" -m \"Release v$V\" && git push origin \"v$V\""
                     ]
                 },
-                "description": "LoFi Notification System"
+                "description": "LoFi Notification System",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-notifications/tree/main",
+                    "issues": "https://github.com/ncortex/lofi-notifications/issues"
+                }
             }
         ]
     }

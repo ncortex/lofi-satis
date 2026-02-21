@@ -62,7 +62,11 @@
                         "email": "hello@lofi.dev"
                     }
                 ],
-                "description": "Content Management System for Lofi Framework - Pages, Posts, FAQs, and Menus"
+                "description": "Content Management System for Lofi Framework - Pages, Posts, FAQs, and Menus",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-cms/tree/v1.0.2",
+                    "issues": "https://github.com/ncortex/lofi-cms/issues"
+                }
             },
             {
                 "name": "lofi/cms",
@@ -123,7 +127,11 @@
                         "email": "hello@lofi.dev"
                     }
                 ],
-                "description": "Content Management System for Lofi Framework - Pages, Posts, FAQs, and Menus"
+                "description": "Content Management System for Lofi Framework - Pages, Posts, FAQs, and Menus",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-cms/tree/v3.0.2",
+                    "issues": "https://github.com/ncortex/lofi-cms/issues"
+                }
             },
             {
                 "name": "lofi/cms",
@@ -192,7 +200,11 @@
                         "email": "hello@lofi.dev"
                     }
                 ],
-                "description": "Content Management System for Lofi Framework - Pages, Posts, FAQs, and Menus"
+                "description": "Content Management System for Lofi Framework - Pages, Posts, FAQs, and Menus",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-cms/tree/v3.3.10",
+                    "issues": "https://github.com/ncortex/lofi-cms/issues"
+                }
             },
             {
                 "name": "lofi/cms",
@@ -253,7 +265,11 @@
                         "email": "hello@lofi.dev"
                     }
                 ],
-                "description": "Content Management System for Lofi Framework - Pages, Posts, FAQs, and Menus"
+                "description": "Content Management System for Lofi Framework - Pages, Posts, FAQs, and Menus",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-cms/tree/v3.3.4",
+                    "issues": "https://github.com/ncortex/lofi-cms/issues"
+                }
             },
             {
                 "name": "lofi/cms",
@@ -314,7 +330,11 @@
                         "email": "hello@lofi.dev"
                     }
                 ],
-                "description": "Content Management System for Lofi Framework - Pages, Posts, FAQs, and Menus"
+                "description": "Content Management System for Lofi Framework - Pages, Posts, FAQs, and Menus",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-cms/tree/v3.3.5",
+                    "issues": "https://github.com/ncortex/lofi-cms/issues"
+                }
             },
             {
                 "name": "lofi/cms",
@@ -375,7 +395,11 @@
                         "email": "hello@lofi.dev"
                     }
                 ],
-                "description": "Content Management System for Lofi Framework - Pages, Posts, FAQs, and Menus"
+                "description": "Content Management System for Lofi Framework - Pages, Posts, FAQs, and Menus",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-cms/tree/v3.3.9",
+                    "issues": "https://github.com/ncortex/lofi-cms/issues"
+                }
             },
             {
                 "name": "lofi/cms",
@@ -443,7 +467,11 @@
                         "email": "hello@lofi.dev"
                     }
                 ],
-                "description": "Content Management System for Lofi Framework - Pages, Posts, FAQs, Comments, Contact Forms"
+                "description": "Content Management System for Lofi Framework - Pages, Posts, FAQs, Comments, Contact Forms",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-cms/tree/v4.0.0",
+                    "issues": "https://github.com/ncortex/lofi-cms/issues"
+                }
             }
         ]
     }

@@ -7,12 +7,12 @@
                 "version_normalized": "dev-main",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ncortex/lofi-swarm.git",
+                    "url": "git@github.com:ncortex/lofi-ai.git",
                     "reference": "14ec78ca861027fbcb40819a13183cc3f20b0e36"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-swarm/zipball/14ec78ca861027fbcb40819a13183cc3f20b0e36",
+                    "url": "https://api.github.com/repos/ncortex/lofi-ai/zipball/14ec78ca861027fbcb40819a13183cc3f20b0e36",
                     "reference": "14ec78ca861027fbcb40819a13183cc3f20b0e36",
                     "shasum": ""
                 },
@@ -67,7 +67,11 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework"
+                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-ai/tree/main",
+                    "issues": "https://github.com/ncortex/lofi-ai/issues"
+                }
             }
         ]
     }

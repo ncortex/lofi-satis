@@ -51,7 +51,11 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Audit trail for LoFi Framework"
+                "description": "Audit trail for LoFi Framework",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-audit/tree/main",
+                    "issues": "https://github.com/ncortex/lofi-audit/issues"
+                }
             }
         ]
     }

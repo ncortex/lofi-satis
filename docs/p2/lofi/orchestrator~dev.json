@@ -60,7 +60,11 @@
                 "license": [
                     "proprietary"
                 ],
-                "description": "Multi-instance LoFi management with monitoring, remote commands, and impersonation"
+                "description": "Multi-instance LoFi management with monitoring, remote commands, and impersonation",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-orchestrator/tree/main",
+                    "issues": "https://github.com/ncortex/lofi-orchestrator/issues"
+                }
             }
         ]
     }

@@ -70,7 +70,11 @@
                         "email": "joselito@example.com"
                     }
                 ],
-                "description": "LoFi Documentation Portal - Centralized documentation viewer for all packages"
+                "description": "LoFi Documentation Portal - Centralized documentation viewer for all packages",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-docs/tree/main",
+                    "issues": "https://github.com/ncortex/lofi-docs/issues"
+                }
             }
         ]
     }
