@@ -3129,264 +3129,59 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-cms.git",
-                    "reference": "2a296d037c16a2a0d97c78527511e55ecfae3599"
+                    "reference": "e07ccd606d9b161124d8c57bc172ad69c4d03da5"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-cms/zipball/2a296d037c16a2a0d97c78527511e55ecfae3599",
-                    "reference": "2a296d037c16a2a0d97c78527511e55ecfae3599",
+                    "url": "https://api.github.com/repos/ncortex/lofi-cms/zipball/e07ccd606d9b161124d8c57bc172ad69c4d03da5",
+                    "reference": "e07ccd606d9b161124d8c57bc172ad69c4d03da5",
                     "shasum": ""
                 },
                 "require": {
-                    "laravel/ai": "^0.1",
-                    "php": "^8.2"
-                },
-                "replace": {
-                    "lofi/analytics": "self.version",
-                    "lofi/api": "self.version",
-                    "lofi/auth": "self.version",
-                    "lofi/backup": "self.version",
-                    "lofi/clinic": "self.version",
-                    "lofi/cms": "self.version",
-                    "lofi/cron": "self.version",
-                    "lofi/directory": "self.version",
-                    "lofi/docs": "self.version",
-                    "lofi/ecommerce": "self.version",
-                    "lofi/erp": "self.version",
-                    "lofi/framework": "self.version",
-                    "lofi/geo": "self.version",
-                    "lofi/git": "self.version",
-                    "lofi/installer": "self.version",
-                    "lofi/kernel": "self.version",
-                    "lofi/lofipress": "self.version",
-                    "lofi/marketing": "self.version",
-                    "lofi/media": "self.version",
-                    "lofi/notifications": "self.version",
-                    "lofi/office": "self.version",
-                    "lofi/orchestrator": "self.version",
-                    "lofi/plugins": "self.version",
-                    "lofi/reviews": "self.version",
-                    "lofi/seo": "self.version",
-                    "lofi/sql": "self.version",
-                    "lofi/state-machine": "self.version",
-                    "lofi/support": "self.version",
-                    "lofi/swarm": "self.version",
-                    "lofi/telegram": "self.version",
-                    "lofi/theme-default": "self.version",
-                    "lofi/theme-nyf": "self.version",
-                    "lofi/themes": "self.version",
-                    "lofi/ui": "self.version",
-                    "lofi/vet": "self.version",
-                    "lofi/webhooks": "self.version"
+                    "illuminate/support": "^10.0|^11.0|^12.0",
+                    "lofi/kernel": "^3.3",
+                    "lofi/media": "^3.3",
+                    "lofi/ui": "^3.3",
+                    "matthiasmullie/minify": "^1.3",
+                    "php": "^8.2",
+                    "voku/html-min": "^4.5"
                 },
                 "require-dev": {
-                    "allure-framework/allure-codeception": "^2.4",
-                    "allure-framework/allure-phpunit": "^3.1",
-                    "barryvdh/laravel-debugbar": "^4.0",
-                    "codeception/codeception": "^5.3",
-                    "codeception/module-asserts": "^3.3",
-                    "codeception/module-db": "^3.2",
-                    "codeception/module-laravel": "^3.2",
-                    "codeception/module-phpbrowser": "^3.0",
-                    "laravel/pint": "^1.0",
-                    "livewire/livewire": "^3.0",
                     "orchestra/testbench": "^8.0|^9.0|^10.0",
-                    "phpmd/phpmd": "^2.15",
-                    "phpstan/phpstan": "^1.0",
-                    "phpunit/phpunit": "^10.0|^11.0",
-                    "spatie/laravel-medialibrary": "^11.17",
-                    "symplify/monorepo-builder": "^11.0"
+                    "phpunit/phpunit": "^10.0|^11.0"
                 },
-                "time": "2026-02-08T14:21:10+00:00",
-                "type": "project",
+                "time": "2026-02-09T11:37:53+00:00",
+                "type": "library",
                 "extra": {
-                    "branch-alias": {
-                        "dev-main": "1.0-dev"
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Cms\\CmsServiceProvider"
+                        ]
+                    },
+                    "lofi": {
+                        "category": "module"
                     }
                 },
                 "autoload": {
                     "psr-4": {
-                        "Lofi\\Kernel\\": "packages/kernel/src/",
-                        "Lofi\\Geo\\": "packages/geo/src/",
-                        "Lofi\\Directory\\": "plugins/directory/src/",
-                        "Lofi\\Reviews\\": "packages/reviews/src/",
-                        "Lofi\\Seo\\": "plugins/seo/src/",
-                        "Lofi\\Marketing\\": "plugins/marketing/src/",
-                        "Lofi\\Auth\\": "packages/auth/src/",
-                        "Lofi\\UI\\": "packages/ui/src/",
-                        "Lofi\\Plugins\\": "packages/plugins/src/",
-                        "Lofi\\Themes\\": "packages/themes/src/",
-                        "Lofi\\StateMachine\\": "packages/state-machine/src/",
-                        "Lofi\\Media\\": "packages/media/src/",
-                        "Lofi\\Notifications\\": "packages/notifications/src/",
-                        "Lofi\\Webhooks\\": "packages/webhooks/src/",
-                        "Lofi\\Framework\\": "packages/framework/src/",
-                        "Lofi\\Cms\\": "plugins/cms/src/",
-                        "Lofi\\Ecommerce\\": "plugins/ecommerce/src/",
-                        "Lofi\\Erp\\": "plugins/erp/src/",
-                        "Lofi\\Support\\": "plugins/support/src/",
-                        "Lofi\\Swarm\\": "packages/swarm/src/",
-                        "Lofi\\Git\\": "plugins/git/src/",
-                        "Lofi\\Sql\\": "plugins/sql/src/",
-                        "Lofi\\Analytics\\": "packages/analytics/src/",
-                        "Lofi\\Telegram\\": "packages/telegram/src/",
-                        "Lofi\\Docs\\": "plugins/docs/src/",
-                        "Lofi\\Api\\": "packages/api/src/",
-                        "Lofi\\LofiPress\\": "packages/lofipress/src/",
-                        "Lofi\\Clinic\\": "plugins/clinic/src/",
-                        "Lofi\\Vet\\": "plugins/vet/src/",
-                        "Lofi\\Office\\": "plugins/office/src/",
-                        "Lofi\\Orchestrator\\": "plugins/orchestrator/src/",
-                        "Lofi\\Backup\\": "plugins/backup/src/",
-                        "Lofi\\Cron\\": "plugins/cron/src/",
-                        "Lofi\\Installer\\": "plugins/installer/src/"
+                        "Lofi\\Cms\\": "src/"
                     }
                 },
                 "autoload-dev": {
                     "psr-4": {
-                        "Tests\\": "tests/",
-                        "Lofi\\Tests\\": "tests/",
-                        "Lofi\\Tests\\Support\\": "tests/Support/",
-                        "Lofi\\Kernel\\Tests\\": "packages/kernel/tests/",
-                        "Lofi\\Auth\\Tests\\": "packages/auth/tests/",
-                        "Lofi\\Docs\\Tests\\": "plugins/docs/tests/",
-                        "Lofi\\Cms\\Tests\\": "plugins/cms/tests/",
-                        "Lofi\\Cms\\Database\\Factories\\": "plugins/cms/database/factories/",
-                        "Lofi\\Ecommerce\\Tests\\": "plugins/ecommerce/tests/",
-                        "Lofi\\Ecommerce\\Database\\Factories\\": "plugins/ecommerce/database/factories/",
-                        "Lofi\\Erp\\Tests\\": "plugins/erp/tests/",
-                        "Lofi\\Erp\\Database\\Factories\\": "plugins/erp/database/factories/",
-                        "Lofi\\Git\\Tests\\": "plugins/git/tests/",
-                        "Lofi\\Git\\Database\\Factories\\": "plugins/git/database/factories/",
-                        "Lofi\\Sql\\Tests\\": "plugins/sql/tests/",
-                        "Lofi\\Notifications\\Tests\\": "packages/notifications/tests/",
-                        "Lofi\\Plugins\\Tests\\": "packages/plugins/tests/",
-                        "Lofi\\Support\\Tests\\": "plugins/support/tests/",
-                        "Lofi\\Themes\\Tests\\": "packages/themes/tests/",
-                        "Lofi\\Themes\\Database\\Factories\\": "packages/themes/database/factories/",
-                        "Lofi\\Webhooks\\Tests\\": "packages/webhooks/tests/",
-                        "Lofi\\Webhooks\\Database\\Factories\\": "packages/webhooks/database/factories/",
-                        "Lofi\\Analytics\\Tests\\": "packages/analytics/tests/",
-                        "Lofi\\Telegram\\Tests\\": "packages/telegram/tests/",
-                        "Lofi\\Seo\\Tests\\": "plugins/seo/tests/",
-                        "Lofi\\Swarm\\Tests\\": "packages/swarm/tests/",
-                        "Lofi\\Directory\\Tests\\": "plugins/directory/tests/",
-                        "Lofi\\Marketing\\Tests\\": "plugins/marketing/tests/",
-                        "Lofi\\Geo\\Tests\\": "packages/geo/tests/",
-                        "Lofi\\Reviews\\Tests\\": "packages/reviews/tests/",
-                        "Lofi\\Media\\Tests\\": "packages/media/tests/",
-                        "Lofi\\Clinic\\Tests\\": "plugins/clinic/tests/",
-                        "Lofi\\Clinic\\Database\\Factories\\": "plugins/clinic/database/factories/",
-                        "Lofi\\Vet\\Tests\\": "plugins/vet/tests/",
-                        "Lofi\\Vet\\Database\\Factories\\": "plugins/vet/database/factories/",
-                        "Lofi\\Office\\Tests\\": "plugins/office/tests/",
-                        "Lofi\\Office\\Database\\Factories\\": "plugins/office/database/factories/",
-                        "Lofi\\Orchestrator\\Tests\\": "plugins/orchestrator/tests/",
-                        "Lofi\\Backup\\Tests\\": "plugins/backup/tests/",
-                        "Lofi\\Backup\\Database\\Factories\\": "plugins/backup/database/factories/",
-                        "Lofi\\Cron\\Tests\\": "plugins/cron/tests/",
-                        "Lofi\\Cron\\Database\\Factories\\": "plugins/cron/database/factories/",
-                        "Lofi\\Installer\\Tests\\": "plugins/installer/tests/"
+                        "Lofi\\Cms\\Tests\\": "tests/"
                     }
-                },
-                "scripts": {
-                    "test": [
-                        "phpunit"
-                    ],
-                    "test:packages": [
-                        "phpunit --testsuite=Packages"
-                    ],
-                    "test:themes": [
-                        "phpunit --testsuite=Themes"
-                    ],
-                    "test:unit": [
-                        "codecept run Unit"
-                    ],
-                    "test:functional": [
-                        "codecept run Functional"
-                    ],
-                    "test:acceptance": [
-                        "codecept run Acceptance"
-                    ],
-                    "test:codecept": [
-                        "codecept run"
-                    ],
-                    "test:all": [
-                        "@allure:clean",
-                        "@test",
-                        "@test:codecept"
-                    ],
-                    "test:coverage": [
-                        "php -dpcov.enabled=1 -dpcov.directory=. vendor/bin/phpunit --coverage-html tests/_output/coverage --coverage-clover tests/_output/clover.xml"
-                    ],
-                    "test:full": [
-                        "@allure:clean",
-                        "@test:coverage",
-                        "@test:codecept",
-                        "@allure:serve"
-                    ],
-                    "test:failed": [
-                        "codecept run -g failed"
-                    ],
-                    "codecept": [
-                        "codecept"
-                    ],
-                    "allure:generate": [
-                        "npx allure generate tests/_output/allure-results --clean -o tests/_output/allure-report"
-                    ],
-                    "allure:serve": [
-                        "npx allure serve tests/_output/allure-results"
-                    ],
-                    "allure:open": [
-                        "npx allure open tests/_output/allure-report"
-                    ],
-                    "allure:clean": [
-                        "rm -rf tests/_output/allure-results tests/_output/allure-report"
-                    ],
-                    "test:report": [
-                        "@allure:clean",
-                        "@test",
-                        "@test:codecept",
-                        "@allure:serve"
-                    ],
-                    "docs:coverage": [
-                        "php apps/demo/artisan lofi:docs:generate --coverage --skip-analysis --skip-phpdoc"
-                    ],
-                    "docs:all": [
-                        "php apps/demo/artisan lofi:docs:generate --all"
-                    ],
-                    "docs:serve": [
-                        "php -S localhost:8080 -t apps/demo/public"
-                    ],
-                    "analyse": [
-                        "phpstan analyse"
-                    ],
-                    "lint": [
-                        "pint"
-                    ],
-                    "merge": [
-                        "monorepo-builder merge"
-                    ],
-                    "validate-packages": [
-                        "monorepo-builder validate"
-                    ],
-                    "setup-test-assets": [
-                        "mkdir -p vendor/orchestra/testbench-core/laravel/public/build && cp apps/demo/public/build/manifest.json vendor/orchestra/testbench-core/laravel/public/build/ 2>/dev/null || true"
-                    ],
-                    "post-autoload-dump": [
-                        "@setup-test-assets"
-                    ]
                 },
                 "license": [
                     "MIT"
                 ],
                 "authors": [
                     {
-                        "name": "Joselito",
-                        "email": "joselito@example.com"
+                        "name": "Lofi Framework",
+                        "email": "hello@lofi.dev"
                     }
                 ],
-                "description": "LoFi Framework Monorepo - Laravel with low friction for WordPress developers"
+                "description": "Content Management System for Lofi Framework - Pages, Posts, FAQs, and Menus"
             },
             "v3.3.5": {
                 "name": "lofi/cms",
