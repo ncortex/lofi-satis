@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-docs.git",
-                    "reference": "4a9155d0684031f2dbe96146f0a89cb953e804bf"
+                    "reference": "d2b13793a08888ea9ad804705ab76b157d26ec56"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-docs/zipball/4a9155d0684031f2dbe96146f0a89cb953e804bf",
-                    "reference": "4a9155d0684031f2dbe96146f0a89cb953e804bf",
+                    "url": "https://api.github.com/repos/ncortex/lofi-docs/zipball/d2b13793a08888ea9ad804705ab76b157d26ec56",
+                    "reference": "d2b13793a08888ea9ad804705ab76b157d26ec56",
                     "shasum": ""
                 },
                 "require": {
@@ -30,7 +30,7 @@
                     "orchestra/testbench": "^9.0|^10.0",
                     "phpunit/phpunit": "^11.0"
                 },
-                "time": "2026-02-19T19:59:16+00:00",
+                "time": "2026-02-21T21:15:13+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -70,11 +70,7 @@
                         "email": "joselito@example.com"
                     }
                 ],
-                "description": "LoFi Documentation Portal - Centralized documentation viewer for all packages",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-docs/tree/main",
-                    "issues": "https://github.com/ncortex/lofi-docs/issues"
-                }
+                "description": "LoFi Documentation Portal - Centralized documentation viewer for all packages"
             }
         ]
     }

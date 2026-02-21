@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-ui.git",
-                    "reference": "3f74aae1e87bb37fbb4b1448827b75d1a739da26"
+                    "reference": "70a392689c6fb65b103f83cf721e1487d302ea5e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-ui/zipball/3f74aae1e87bb37fbb4b1448827b75d1a739da26",
-                    "reference": "3f74aae1e87bb37fbb4b1448827b75d1a739da26",
+                    "url": "https://api.github.com/repos/ncortex/lofi-ui/zipball/70a392689c6fb65b103f83cf721e1487d302ea5e",
+                    "reference": "70a392689c6fb65b103f83cf721e1487d302ea5e",
                     "shasum": ""
                 },
                 "require": {
@@ -34,7 +34,7 @@
                     "phpstan/phpstan": "^1.10",
                     "phpunit/phpunit": "^10.0|^11.0"
                 },
-                "time": "2026-02-13T20:22:20+00:00",
+                "time": "2026-02-21T21:15:14+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -83,11 +83,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "LoFi Admin UI Components",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-ui/tree/main",
-                    "issues": "https://github.com/ncortex/lofi-ui/issues"
-                }
+                "description": "LoFi Admin UI Components"
             }
         ]
     }

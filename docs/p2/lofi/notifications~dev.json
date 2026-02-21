@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-notifications.git",
-                    "reference": "1c43811c3fc70d11bc78c0fdf19ed157b2507a43"
+                    "reference": "c659aa5d0a533ea0de3597e0a3b9db1fef8f99e0"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-notifications/zipball/1c43811c3fc70d11bc78c0fdf19ed157b2507a43",
-                    "reference": "1c43811c3fc70d11bc78c0fdf19ed157b2507a43",
+                    "url": "https://api.github.com/repos/ncortex/lofi-notifications/zipball/c659aa5d0a533ea0de3597e0a3b9db1fef8f99e0",
+                    "reference": "c659aa5d0a533ea0de3597e0a3b9db1fef8f99e0",
                     "shasum": ""
                 },
                 "require": {
@@ -24,7 +24,7 @@
                     "lofi/kernel": "^3.3",
                     "php": "^8.2"
                 },
-                "time": "2026-02-13T20:22:19+00:00",
+                "time": "2026-02-21T21:15:12+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -50,11 +50,7 @@
                         "V=$(php -r \"\\$v=json_decode(file_get_contents('composer.json'))->version;while(trim(shell_exec('git tag -l v'.\\$v))){\\$p=explode('.',\\$v);\\$p[2]++;\\$v=implode('.',\\$p);}\\$j=file_get_contents('composer.json');\\$j=preg_replace('/\\\"version\\\": \\\"[^\\\"]*\\\"/', '\\\"version\\\": \\\"'.\\$v.'\\\"', \\$j);file_put_contents('composer.json',\\$j);echo \\$v;\") && git add -A && (git diff --cached --quiet || git commit -m \"Release v$V\") && git tag -a \"v$V\" -m \"Release v$V\" && git push origin \"v$V\""
                     ]
                 },
-                "description": "LoFi Notification System",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-notifications/tree/main",
-                    "issues": "https://github.com/ncortex/lofi-notifications/issues"
-                }
+                "description": "LoFi Notification System"
             }
         ]
     }

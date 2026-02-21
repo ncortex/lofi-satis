@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-marketing.git",
-                    "reference": "e27bc60cc27487b6ee3af96c1071140889230d55"
+                    "reference": "2cf673880bb472071003183256744830a0ad6aa2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-marketing/zipball/e27bc60cc27487b6ee3af96c1071140889230d55",
-                    "reference": "e27bc60cc27487b6ee3af96c1071140889230d55",
+                    "url": "https://api.github.com/repos/ncortex/lofi-marketing/zipball/2cf673880bb472071003183256744830a0ad6aa2",
+                    "reference": "2cf673880bb472071003183256744830a0ad6aa2",
                     "shasum": ""
                 },
                 "require": {
@@ -30,7 +30,7 @@
                 "suggest": {
                     "lofi/notifications": "Para notificaciones de campañas"
                 },
-                "time": "2026-02-13T20:22:19+00:00",
+                "time": "2026-02-21T21:15:12+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -68,11 +68,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi Marketing - Campañas de email, leads y crawler de profesionales",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-marketing/tree/main",
-                    "issues": "https://github.com/ncortex/lofi-marketing/issues"
-                }
+                "description": "Lofi Marketing - Campañas de email, leads y crawler de profesionales"
             }
         ]
     }

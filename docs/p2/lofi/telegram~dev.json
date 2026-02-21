@@ -8,19 +8,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-telegram.git",
-                    "reference": "82a2747761b69e232845c319bd2f7308769abb91"
+                    "reference": "89bed786016faf161615f4a521bce06725b8621c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-telegram/zipball/82a2747761b69e232845c319bd2f7308769abb91",
-                    "reference": "82a2747761b69e232845c319bd2f7308769abb91",
+                    "url": "https://api.github.com/repos/ncortex/lofi-telegram/zipball/89bed786016faf161615f4a521bce06725b8621c",
+                    "reference": "89bed786016faf161615f4a521bce06725b8621c",
                     "shasum": ""
                 },
                 "require": {
                     "illuminate/support": "^11.0|^12.0",
                     "php": "^8.1"
                 },
-                "time": "2026-02-13T20:22:19+00:00",
+                "time": "2026-02-21T21:15:12+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -52,11 +52,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Telegram bot integration for Lofi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-telegram/tree/main",
-                    "issues": "https://github.com/ncortex/lofi-telegram/issues"
-                }
+                "description": "Telegram bot integration for Lofi Framework"
             }
         ]
     }

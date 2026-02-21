@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-directory.git",
-                    "reference": "758217a2b54bbe5a4cd313286b4a4f88c218502e"
+                    "reference": "cd7af28630e5fc1ff2d5a5fd047e51b03687b029"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-directory/zipball/758217a2b54bbe5a4cd313286b4a4f88c218502e",
-                    "reference": "758217a2b54bbe5a4cd313286b4a4f88c218502e",
+                    "url": "https://api.github.com/repos/ncortex/lofi-directory/zipball/cd7af28630e5fc1ff2d5a5fd047e51b03687b029",
+                    "reference": "cd7af28630e5fc1ff2d5a5fd047e51b03687b029",
                     "shasum": ""
                 },
                 "require": {
@@ -32,7 +32,7 @@
                     "orchestra/testbench": "^8.0|^9.0|^10.0",
                     "phpunit/phpunit": "^10.0|^11.0"
                 },
-                "time": "2026-02-19T19:59:23+00:00",
+                "time": "2026-02-21T21:15:12+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -71,11 +71,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi Directory - Sistema de directorio de profesionales y servicios",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-directory/tree/main",
-                    "issues": "https://github.com/ncortex/lofi-directory/issues"
-                }
+                "description": "Lofi Directory - Sistema de directorio de profesionales y servicios"
             }
         ]
     }

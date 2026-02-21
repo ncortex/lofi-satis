@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-ecommerce.git",
-                    "reference": "41bbcad1c3bdc3880f2c25912da30c894aa544cd"
+                    "reference": "92084e0ca7c1395f86fc38413f9e2771a4fbc820"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-ecommerce/zipball/41bbcad1c3bdc3880f2c25912da30c894aa544cd",
-                    "reference": "41bbcad1c3bdc3880f2c25912da30c894aa544cd",
+                    "url": "https://api.github.com/repos/ncortex/lofi-ecommerce/zipball/92084e0ca7c1395f86fc38413f9e2771a4fbc820",
+                    "reference": "92084e0ca7c1395f86fc38413f9e2771a4fbc820",
                     "shasum": ""
                 },
                 "require": {
@@ -26,7 +26,7 @@
                     "orchestra/testbench": "^9.0|^10.0",
                     "phpunit/phpunit": "^11.0"
                 },
-                "time": "2026-02-13T20:22:20+00:00",
+                "time": "2026-02-21T21:15:12+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -47,7 +47,8 @@
                 },
                 "autoload": {
                     "psr-4": {
-                        "Lofi\\Ecommerce\\": "src/"
+                        "Lofi\\Ecommerce\\": "src/",
+                        "Lofi\\Ecommerce\\Database\\Factories\\": "database/factories/"
                     }
                 },
                 "autoload-dev": {
@@ -71,11 +72,7 @@
                         "name": "Lofi Team"
                     }
                 ],
-                "description": "E-commerce module for Lofi Framework - Products, Orders, Cart, Promotions",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-ecommerce/tree/main",
-                    "issues": "https://github.com/ncortex/lofi-ecommerce/issues"
-                }
+                "description": "E-commerce module for Lofi Framework - Products, Orders, Cart, Promotions"
             }
         ]
     }

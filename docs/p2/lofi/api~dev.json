@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-api.git",
-                    "reference": "33b39bef4ed5a4ed39c1278c1d04ccd77f70f08c"
+                    "reference": "a9ebc22eab0078297c2965a052234eacf32dacb9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-api/zipball/33b39bef4ed5a4ed39c1278c1d04ccd77f70f08c",
-                    "reference": "33b39bef4ed5a4ed39c1278c1d04ccd77f70f08c",
+                    "url": "https://api.github.com/repos/ncortex/lofi-api/zipball/a9ebc22eab0078297c2965a052234eacf32dacb9",
+                    "reference": "a9ebc22eab0078297c2965a052234eacf32dacb9",
                     "shasum": ""
                 },
                 "require": {
@@ -23,7 +23,7 @@
                     "lofi/kernel": "^3.3",
                     "php": "^8.2"
                 },
-                "time": "2026-02-19T19:57:56+00:00",
+                "time": "2026-02-21T21:15:14+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -58,11 +58,7 @@
                         "email": "joselito@example.com"
                     }
                 ],
-                "description": "LoFi Framework - API & MCP Layer",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-api/tree/main",
-                    "issues": "https://github.com/ncortex/lofi-api/issues"
-                }
+                "description": "LoFi Framework - API & MCP Layer"
             }
         ]
     }

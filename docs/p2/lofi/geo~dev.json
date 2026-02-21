@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-geo.git",
-                    "reference": "bb940edfa1889b5d9ca98c4fdf5247e3de2717af"
+                    "reference": "670bf717f5569c90adaa94e9660974ca217433ee"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-geo/zipball/bb940edfa1889b5d9ca98c4fdf5247e3de2717af",
-                    "reference": "bb940edfa1889b5d9ca98c4fdf5247e3de2717af",
+                    "url": "https://api.github.com/repos/ncortex/lofi-geo/zipball/670bf717f5569c90adaa94e9660974ca217433ee",
+                    "reference": "670bf717f5569c90adaa94e9660974ca217433ee",
                     "shasum": ""
                 },
                 "require": {
@@ -26,7 +26,7 @@
                     "orchestra/testbench": "^8.0|^9.0|^10.0",
                     "phpunit/phpunit": "^10.0|^11.0"
                 },
-                "time": "2026-02-13T20:22:20+00:00",
+                "time": "2026-02-21T21:15:14+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -65,11 +65,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi Geo - Gestión de zonas geográficas y ciudades",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-geo/tree/main",
-                    "issues": "https://github.com/ncortex/lofi-geo/issues"
-                }
+                "description": "Lofi Geo - Gestión de zonas geográficas y ciudades"
             }
         ]
     }

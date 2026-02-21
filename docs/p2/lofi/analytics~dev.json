@@ -8,19 +8,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-analytics.git",
-                    "reference": "f750e6288942965a6b9feb1fd4973b6ac5e194ce"
+                    "reference": "89c87ff11f19d63cc13590c1a4e0a140a4343381"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-analytics/zipball/f750e6288942965a6b9feb1fd4973b6ac5e194ce",
-                    "reference": "f750e6288942965a6b9feb1fd4973b6ac5e194ce",
+                    "url": "https://api.github.com/repos/ncortex/lofi-analytics/zipball/89c87ff11f19d63cc13590c1a4e0a140a4343381",
+                    "reference": "89c87ff11f19d63cc13590c1a4e0a140a4343381",
                     "shasum": ""
                 },
                 "require": {
                     "illuminate/support": "^11.0|^12.0",
                     "php": "^8.2"
                 },
-                "time": "2026-02-13T20:22:19+00:00",
+                "time": "2026-02-21T21:15:12+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -58,11 +58,7 @@
                         "email": "info@natayfresas.com"
                     }
                 ],
-                "description": "Self-hosted analytics for Lofi Framework - Track page views, visitors, and more without external dependencies",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-analytics/tree/main",
-                    "issues": "https://github.com/ncortex/lofi-analytics/issues"
-                }
+                "description": "Self-hosted analytics for Lofi Framework - Track page views, visitors, and more without external dependencies"
             }
         ]
     }

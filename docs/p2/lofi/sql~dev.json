@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-sql.git",
-                    "reference": "673af7724c12ee630ef82ff6b80b3da10f9a8968"
+                    "reference": "f7b419c934e8d9b692de86ab7fe02d9d770419a5"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-sql/zipball/673af7724c12ee630ef82ff6b80b3da10f9a8968",
-                    "reference": "673af7724c12ee630ef82ff6b80b3da10f9a8968",
+                    "url": "https://api.github.com/repos/ncortex/lofi-sql/zipball/f7b419c934e8d9b692de86ab7fe02d9d770419a5",
+                    "reference": "f7b419c934e8d9b692de86ab7fe02d9d770419a5",
                     "shasum": ""
                 },
                 "require": {
@@ -25,7 +25,7 @@
                     "orchestra/testbench": "^9.0|^10.0",
                     "phpunit/phpunit": "^10.0|^11.0"
                 },
-                "time": "2026-02-13T20:22:20+00:00",
+                "time": "2026-02-21T21:15:14+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -59,11 +59,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi SQL - Database schema explorer (tables, views, routines)",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-sql/tree/main",
-                    "issues": "https://github.com/ncortex/lofi-sql/issues"
-                }
+                "description": "Lofi SQL - Database schema explorer (tables, views, routines)"
             }
         ]
     }

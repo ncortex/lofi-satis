@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-logs.git",
-                    "reference": "26721782026ecfa9dc0770cdc407cc25c5ec5702"
+                    "reference": "651737ced7cb61289eae7a495d486cbcec230ea6"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-logs/zipball/26721782026ecfa9dc0770cdc407cc25c5ec5702",
-                    "reference": "26721782026ecfa9dc0770cdc407cc25c5ec5702",
+                    "url": "https://api.github.com/repos/ncortex/lofi-logs/zipball/651737ced7cb61289eae7a495d486cbcec230ea6",
+                    "reference": "651737ced7cb61289eae7a495d486cbcec230ea6",
                     "shasum": ""
                 },
                 "require": {
@@ -23,7 +23,7 @@
                     "lofi/ui": "^3.3",
                     "php": "^8.2"
                 },
-                "time": "2026-02-13T20:22:20+00:00",
+                "time": "2026-02-21T21:15:13+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -57,11 +57,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Unified logging and activity viewer for LoFi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-logs/tree/main",
-                    "issues": "https://github.com/ncortex/lofi-logs/issues"
-                }
+                "description": "Unified logging and activity viewer for LoFi Framework"
             }
         ]
     }

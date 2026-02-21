@@ -8,21 +8,26 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-audit.git",
-                    "reference": "cfb1cf0e623bec9e76c36bce292e776b91c11f99"
+                    "reference": "e79229f13d655de4940fb94637d44dd0334f7a90"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-audit/zipball/cfb1cf0e623bec9e76c36bce292e776b91c11f99",
-                    "reference": "cfb1cf0e623bec9e76c36bce292e776b91c11f99",
+                    "url": "https://api.github.com/repos/ncortex/lofi-audit/zipball/e79229f13d655de4940fb94637d44dd0334f7a90",
+                    "reference": "e79229f13d655de4940fb94637d44dd0334f7a90",
                     "shasum": ""
                 },
                 "require": {
+                    "illuminate/console": "^11.0|^12.0",
                     "illuminate/database": "^11.0|^12.0",
                     "illuminate/support": "^11.0|^12.0",
                     "lofi/kernel": "^3.3",
                     "php": "^8.2"
                 },
-                "time": "2026-02-13T20:22:20+00:00",
+                "require-dev": {
+                    "orchestra/testbench": "^9.0|^10.0",
+                    "phpunit/phpunit": "^10.0|^11.0"
+                },
+                "time": "2026-02-21T21:15:13+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -43,6 +48,11 @@
                         "Lofi\\Audit\\": "src/"
                     }
                 },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Lofi\\Audit\\Tests\\": "tests/"
+                    }
+                },
                 "scripts": {
                     "push-version": [
                         "V=$(php -r \"\\$v=json_decode(file_get_contents('composer.json'))->version;while(trim(shell_exec('git tag -l v'.\\$v))){\\$p=explode('.',\\$v);\\$p[2]++;\\$v=implode('.',\\$p);}\\$j=file_get_contents('composer.json');\\$j=preg_replace('/\\\"version\\\": \\\"[^\\\"]*\\\"/', '\\\"version\\\": \\\"'.\\$v.'\\\"', \\$j);file_put_contents('composer.json',\\$j);echo \\$v;\") && git add -A && (git diff --cached --quiet || git commit -m \"Release v$V\") && git tag -a \"v$V\" -m \"Release v$V\" && git push origin \"v$V\""
@@ -51,11 +61,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Audit trail for LoFi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-audit/tree/main",
-                    "issues": "https://github.com/ncortex/lofi-audit/issues"
-                }
+                "description": "Audit trail for LoFi Framework"
             }
         ]
     }

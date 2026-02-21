@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-office.git",
-                    "reference": "4c98b2df352e9b42a518981b9a964d831b411ad5"
+                    "reference": "33538e3df1ae2af7730bb04368a8cf8acfc8456b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-office/zipball/4c98b2df352e9b42a518981b9a964d831b411ad5",
-                    "reference": "4c98b2df352e9b42a518981b9a964d831b411ad5",
+                    "url": "https://api.github.com/repos/ncortex/lofi-office/zipball/33538e3df1ae2af7730bb04368a8cf8acfc8456b",
+                    "reference": "33538e3df1ae2af7730bb04368a8cf8acfc8456b",
                     "shasum": ""
                 },
                 "require": {
@@ -31,7 +31,7 @@
                 "suggest": {
                     "pusher/pusher-php-server": "Required for real-time chat functionality"
                 },
-                "time": "2026-02-13T20:22:20+00:00",
+                "time": "2026-02-21T21:15:13+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -71,11 +71,7 @@
                         "email": "team@lofi.dev"
                     }
                 ],
-                "description": "Corporate intranet module with HR management, chat, and resource booking for LoFi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-office/tree/main",
-                    "issues": "https://github.com/ncortex/lofi-office/issues"
-                }
+                "description": "Corporate intranet module with HR management, chat, and resource booking for LoFi Framework"
             }
         ]
     }

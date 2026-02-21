@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-reviews.git",
-                    "reference": "1bfec12391efc652177ff2843d9d7c2274c2eeea"
+                    "reference": "073474c5450bcae65d0b97aaf0fd407412df55e2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-reviews/zipball/1bfec12391efc652177ff2843d9d7c2274c2eeea",
-                    "reference": "1bfec12391efc652177ff2843d9d7c2274c2eeea",
+                    "url": "https://api.github.com/repos/ncortex/lofi-reviews/zipball/073474c5450bcae65d0b97aaf0fd407412df55e2",
+                    "reference": "073474c5450bcae65d0b97aaf0fd407412df55e2",
                     "shasum": ""
                 },
                 "require": {
@@ -26,7 +26,7 @@
                     "orchestra/testbench": "^8.0|^9.0|^10.0",
                     "phpunit/phpunit": "^10.0|^11.0"
                 },
-                "time": "2026-02-13T20:22:20+00:00",
+                "time": "2026-02-21T21:15:12+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -64,11 +64,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi Reviews - Sistema de reseñas polimórfico",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-reviews/tree/main",
-                    "issues": "https://github.com/ncortex/lofi-reviews/issues"
-                }
+                "description": "Lofi Reviews - Sistema de reseñas polimórfico"
             }
         ]
     }

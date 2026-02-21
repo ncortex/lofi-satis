@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-clinic.git",
-                    "reference": "8ba10c2bcbce4685129e541b59fd29eabd7dc986"
+                    "reference": "4c240aca1aea152143bf91c53fa4c4d83d15ac5c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-clinic/zipball/8ba10c2bcbce4685129e541b59fd29eabd7dc986",
-                    "reference": "8ba10c2bcbce4685129e541b59fd29eabd7dc986",
+                    "url": "https://api.github.com/repos/ncortex/lofi-clinic/zipball/4c240aca1aea152143bf91c53fa4c4d83d15ac5c",
+                    "reference": "4c240aca1aea152143bf91c53fa4c4d83d15ac5c",
                     "shasum": ""
                 },
                 "require": {
@@ -27,7 +27,7 @@
                     "orchestra/testbench": "^9.0|^10.0",
                     "phpunit/phpunit": "^11.0"
                 },
-                "time": "2026-02-13T20:22:20+00:00",
+                "time": "2026-02-21T21:15:13+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -64,11 +64,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "LoFi Clinic - Generic clinic management module with patients, appointments, and treatments",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-clinic/tree/main",
-                    "issues": "https://github.com/ncortex/lofi-clinic/issues"
-                }
+                "description": "LoFi Clinic - Generic clinic management module with patients, appointments, and treatments"
             }
         ]
     }

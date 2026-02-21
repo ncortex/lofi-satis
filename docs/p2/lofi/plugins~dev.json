@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-plugins.git",
-                    "reference": "8e475d7075f648f1c73d11f38366ffda00349d51"
+                    "reference": "703b14f4b4cbf4e8c0e3b81f56ed4e08254e024f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-plugins/zipball/8e475d7075f648f1c73d11f38366ffda00349d51",
-                    "reference": "8e475d7075f648f1c73d11f38366ffda00349d51",
+                    "url": "https://api.github.com/repos/ncortex/lofi-plugins/zipball/703b14f4b4cbf4e8c0e3b81f56ed4e08254e024f",
+                    "reference": "703b14f4b4cbf4e8c0e3b81f56ed4e08254e024f",
                     "shasum": ""
                 },
                 "require": {
@@ -27,7 +27,7 @@
                     "phpstan/phpstan": "^1.10",
                     "phpunit/phpunit": "^10.0|^11.0"
                 },
-                "time": "2026-02-13T20:22:20+00:00",
+                "time": "2026-02-21T21:15:12+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -76,11 +76,7 @@
                         "email": "joselito@example.com"
                     }
                 ],
-                "description": "Plugin system for LoFi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-plugins/tree/main",
-                    "issues": "https://github.com/ncortex/lofi-plugins/issues"
-                }
+                "description": "Plugin system for LoFi Framework"
             }
         ]
     }

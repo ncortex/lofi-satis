@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-support.git",
-                    "reference": "d7c6388b84166d82acc59799cc9ffb14a0d6a385"
+                    "reference": "edfd1328fb0a2d0bde0825af30e0c23f0928017f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-support/zipball/d7c6388b84166d82acc59799cc9ffb14a0d6a385",
-                    "reference": "d7c6388b84166d82acc59799cc9ffb14a0d6a385",
+                    "url": "https://api.github.com/repos/ncortex/lofi-support/zipball/edfd1328fb0a2d0bde0825af30e0c23f0928017f",
+                    "reference": "edfd1328fb0a2d0bde0825af30e0c23f0928017f",
                     "shasum": ""
                 },
                 "require": {
@@ -24,7 +24,7 @@
                     "lofi/ui": "^3.3",
                     "php": "^8.2"
                 },
-                "time": "2026-02-13T20:22:20+00:00",
+                "time": "2026-02-21T21:15:13+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -45,7 +45,13 @@
                 },
                 "autoload": {
                     "psr-4": {
-                        "Lofi\\Support\\": "src/"
+                        "Lofi\\Support\\": "src/",
+                        "Lofi\\Support\\Database\\Factories\\": "database/factories/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Lofi\\Support\\Tests\\": "tests/"
                     }
                 },
                 "scripts": {
@@ -62,11 +68,7 @@
                     "lofi",
                     "support",
                     "tickets"
-                ],
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-support/tree/main",
-                    "issues": "https://github.com/ncortex/lofi-support/issues"
-                }
+                ]
             }
         ]
     }

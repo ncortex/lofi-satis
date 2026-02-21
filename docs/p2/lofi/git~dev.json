@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-git.git",
-                    "reference": "3f819e6470bdb65d2e3ad9f49c156f4291491b79"
+                    "reference": "af3e40b0c7ad72a6492407368796aa55ff0f771d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-git/zipball/3f819e6470bdb65d2e3ad9f49c156f4291491b79",
-                    "reference": "3f819e6470bdb65d2e3ad9f49c156f4291491b79",
+                    "url": "https://api.github.com/repos/ncortex/lofi-git/zipball/af3e40b0c7ad72a6492407368796aa55ff0f771d",
+                    "reference": "af3e40b0c7ad72a6492407368796aa55ff0f771d",
                     "shasum": ""
                 },
                 "require": {
@@ -27,7 +27,7 @@
                     "orchestra/testbench": "^9.0|^10.0",
                     "phpunit/phpunit": "^10.0|^11.0"
                 },
-                "time": "2026-02-13T20:22:20+00:00",
+                "time": "2026-02-21T21:15:14+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -66,11 +66,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "LoFi Git - Dashboard de gestión de repositorios GitLab",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-git/tree/main",
-                    "issues": "https://github.com/ncortex/lofi-git/issues"
-                }
+                "description": "LoFi Git - Dashboard de gestión de repositorios GitLab"
             }
         ]
     }

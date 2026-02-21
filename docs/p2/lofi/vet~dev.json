@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-vet.git",
-                    "reference": "ce47452b66f4766572ebb23fbb668872cb1f942f"
+                    "reference": "5e7c0a9dff428525eddb034f17954dba6ea0b3ff"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-vet/zipball/ce47452b66f4766572ebb23fbb668872cb1f942f",
-                    "reference": "ce47452b66f4766572ebb23fbb668872cb1f942f",
+                    "url": "https://api.github.com/repos/ncortex/lofi-vet/zipball/5e7c0a9dff428525eddb034f17954dba6ea0b3ff",
+                    "reference": "5e7c0a9dff428525eddb034f17954dba6ea0b3ff",
                     "shasum": ""
                 },
                 "require": {
@@ -27,7 +27,7 @@
                     "orchestra/testbench": "^9.0|^10.0",
                     "phpunit/phpunit": "^11.0"
                 },
-                "time": "2026-02-13T20:22:20+00:00",
+                "time": "2026-02-21T21:15:14+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -64,11 +64,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "LoFi Vet - Veterinary clinic extension for lofi/clinic with pet management, vaccinations, and species tracking",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-vet/tree/main",
-                    "issues": "https://github.com/ncortex/lofi-vet/issues"
-                }
+                "description": "LoFi Vet - Veterinary clinic extension for lofi/clinic with pet management, vaccinations, and species tracking"
             }
         ]
     }

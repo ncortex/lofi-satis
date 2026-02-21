@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-orchestrator.git",
-                    "reference": "a4f7edc4fb8bcb991d349388e5ac64d6854b8895"
+                    "reference": "495cca430b42ab1af884c46dd568523e333144e7"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-orchestrator/zipball/a4f7edc4fb8bcb991d349388e5ac64d6854b8895",
-                    "reference": "a4f7edc4fb8bcb991d349388e5ac64d6854b8895",
+                    "url": "https://api.github.com/repos/ncortex/lofi-orchestrator/zipball/495cca430b42ab1af884c46dd568523e333144e7",
+                    "reference": "495cca430b42ab1af884c46dd568523e333144e7",
                     "shasum": ""
                 },
                 "require": {
@@ -26,7 +26,7 @@
                     "orchestra/testbench": "^9.0",
                     "phpunit/phpunit": "^11.0"
                 },
-                "time": "2026-02-13T20:22:19+00:00",
+                "time": "2026-02-21T21:15:12+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -60,11 +60,7 @@
                 "license": [
                     "proprietary"
                 ],
-                "description": "Multi-instance LoFi management with monitoring, remote commands, and impersonation",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-orchestrator/tree/main",
-                    "issues": "https://github.com/ncortex/lofi-orchestrator/issues"
-                }
+                "description": "Multi-instance LoFi management with monitoring, remote commands, and impersonation"
             }
         ]
     }

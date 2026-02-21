@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-themes.git",
-                    "reference": "4eb30bd97497892672b84141902c286a68c04375"
+                    "reference": "fefa3af68e7068483fdbf7fd190e307dd7c51799"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-themes/zipball/4eb30bd97497892672b84141902c286a68c04375",
-                    "reference": "4eb30bd97497892672b84141902c286a68c04375",
+                    "url": "https://api.github.com/repos/ncortex/lofi-themes/zipball/fefa3af68e7068483fdbf7fd190e307dd7c51799",
+                    "reference": "fefa3af68e7068483fdbf7fd190e307dd7c51799",
                     "shasum": ""
                 },
                 "require": {
@@ -27,7 +27,7 @@
                     "phpstan/phpstan": "^1.10",
                     "phpunit/phpunit": "^10.0|^11.0"
                 },
-                "time": "2026-02-13T20:22:20+00:00",
+                "time": "2026-02-21T21:15:13+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -80,11 +80,7 @@
                         "email": "joselito@example.com"
                     }
                 ],
-                "description": "Theme system for LoFi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-themes/tree/main",
-                    "issues": "https://github.com/ncortex/lofi-themes/issues"
-                }
+                "description": "Theme system for LoFi Framework"
             }
         ]
     }

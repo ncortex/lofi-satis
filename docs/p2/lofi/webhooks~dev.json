@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-webhooks.git",
-                    "reference": "d2c4c5449873f962174eb6c7caaf7fe4d3762b42"
+                    "reference": "12f6f87893b6a27bae42e847c14da2a9c51bb5c8"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-webhooks/zipball/d2c4c5449873f962174eb6c7caaf7fe4d3762b42",
-                    "reference": "d2c4c5449873f962174eb6c7caaf7fe4d3762b42",
+                    "url": "https://api.github.com/repos/ncortex/lofi-webhooks/zipball/12f6f87893b6a27bae42e847c14da2a9c51bb5c8",
+                    "reference": "12f6f87893b6a27bae42e847c14da2a9c51bb5c8",
                     "shasum": ""
                 },
                 "require": {
@@ -25,7 +25,7 @@
                     "orchestra/testbench": "^8.0|^9.0|^10.0",
                     "phpunit/phpunit": "^10.0|^11.0"
                 },
-                "time": "2026-02-13T20:22:19+00:00",
+                "time": "2026-02-21T21:15:12+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -66,11 +66,7 @@
                         "email": "joselito@example.com"
                     }
                 ],
-                "description": "Webhook system for LoFi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-webhooks/tree/main",
-                    "issues": "https://github.com/ncortex/lofi-webhooks/issues"
-                }
+                "description": "Webhook system for LoFi Framework"
             }
         ]
     }

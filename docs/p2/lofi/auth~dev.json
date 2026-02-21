@@ -76,11 +76,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "LoFi Authentication and Authorization",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-auth/tree/main",
-                    "issues": "https://github.com/ncortex/lofi-auth/issues"
-                }
+                "description": "LoFi Authentication and Authorization"
             }
         ]
     }
