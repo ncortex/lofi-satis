@@ -1190,6 +1190,73 @@
                 ],
                 "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework"
             },
+            "3.3.30": {
+                "name": "lofi/ai",
+                "version": "3.3.30",
+                "version_normalized": "3.3.30.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-swarm.git",
+                    "reference": "f01f2ea878b91425935e61df673bf1c896595ddb"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-swarm/zipball/f01f2ea878b91425935e61df673bf1c896595ddb",
+                    "reference": "f01f2ea878b91425935e61df673bf1c896595ddb",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/support": "^12.0",
+                    "laravel/ai": "^0.1",
+                    "lofi/auth": "^3.3",
+                    "lofi/cron": "^3.3",
+                    "lofi/kernel": "^3.3",
+                    "lofi/ui": "^3.3",
+                    "php": "^8.4"
+                },
+                "require-dev": {
+                    "orchestra/testbench": "^10.0",
+                    "phpunit/phpunit": "^11.0"
+                },
+                "time": "2026-02-21T22:14:18+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\AI\\AIServiceProvider"
+                        ],
+                        "aliases": {
+                            "AI": "Lofi\\AI\\Facades\\AI",
+                            "OAuth": "Lofi\\AI\\Facades\\OAuth"
+                        }
+                    },
+                    "lofi": {
+                        "category": "service"
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.3.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\AI\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Lofi\\AI\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "push-version": [
+                        "V=$(php -r \"\\$v=json_decode(file_get_contents('composer.json'))->version;while(trim(shell_exec('git tag -l v'.\\$v))){\\$p=explode('.',\\$v);\\$p[2]++;\\$v=implode('.',\\$p);}\\$j=file_get_contents('composer.json');\\$j=preg_replace('/\\\"version\\\": \\\"[^\\\"]*\\\"/', '\\\"version\\\": \\\"'.\\$v.'\\\"', \\$j);file_put_contents('composer.json',\\$j);echo \\$v;\") && git add -A && (git diff --cached --quiet || git commit -m \"Release v$V\") && git tag -a \"v$V\" -m \"Release v$V\" && git push origin \"v$V\""
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework"
+            },
             "v3.3.4": {
                 "name": "lofi/ai",
                 "version": "v3.3.4",
@@ -1445,12 +1512,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-swarm.git",
-                    "reference": "14ec78ca861027fbcb40819a13183cc3f20b0e36"
+                    "reference": "ce80979987a5898a8f9df3ab048610d854ccddfd"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-swarm/zipball/14ec78ca861027fbcb40819a13183cc3f20b0e36",
-                    "reference": "14ec78ca861027fbcb40819a13183cc3f20b0e36",
+                    "url": "https://api.github.com/repos/ncortex/lofi-swarm/zipball/ce80979987a5898a8f9df3ab048610d854ccddfd",
+                    "reference": "ce80979987a5898a8f9df3ab048610d854ccddfd",
                     "shasum": ""
                 },
                 "require": {
@@ -1466,7 +1533,7 @@
                     "orchestra/testbench": "^10.0",
                     "phpunit/phpunit": "^11.0"
                 },
-                "time": "2026-02-19T19:56:51+00:00",
+                "time": "2026-02-21T21:20:21+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -5716,19 +5783,19 @@
                 ],
                 "description": "Lofi ERP - Sistema de gestión empresarial integral"
             },
-            "dev-main": {
+            "dev-claude/fix-project-save-issue-QqufG": {
                 "name": "lofi/erp",
-                "version": "dev-main",
-                "version_normalized": "dev-main",
+                "version": "dev-claude/fix-project-save-issue-QqufG",
+                "version_normalized": "dev-claude/fix-project-save-issue-QqufG",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-erp.git",
-                    "reference": "37752bd4115daff369aa5ab2c898d9b6c0200510"
+                    "reference": "07968147db3e8744cdc9710cc59312c48fc4bae1"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-erp/zipball/37752bd4115daff369aa5ab2c898d9b6c0200510",
-                    "reference": "37752bd4115daff369aa5ab2c898d9b6c0200510",
+                    "url": "https://api.github.com/repos/ncortex/lofi-erp/zipball/07968147db3e8744cdc9710cc59312c48fc4bae1",
+                    "reference": "07968147db3e8744cdc9710cc59312c48fc4bae1",
                     "shasum": ""
                 },
                 "require": {
@@ -5742,7 +5809,73 @@
                     "orchestra/testbench": "^8.0|^9.0|^10.0",
                     "phpunit/phpunit": "^10.0|^11.0"
                 },
-                "time": "2026-02-19T19:58:57+00:00",
+                "time": "2026-02-21T21:31:29+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Erp\\ErpServiceProvider"
+                        ]
+                    },
+                    "lofi": {
+                        "category": "module"
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.3.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Erp\\": "src/",
+                        "Lofi\\Erp\\Database\\Factories\\": "database/factories/",
+                        "Lofi\\Erp\\Database\\Seeders\\": "database/seeders/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Lofi\\Erp\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "vendor/bin/phpunit"
+                    ],
+                    "push-version": [
+                        "V=$(php -r \"\\$v=json_decode(file_get_contents('composer.json'))->version;while(trim(shell_exec('git tag -l v'.\\$v))){\\$p=explode('.',\\$v);\\$p[2]++;\\$v=implode('.',\\$p);}\\$j=file_get_contents('composer.json');\\$j=preg_replace('/\\\"version\\\": \\\"[^\\\"]*\\\"/', '\\\"version\\\": \\\"'.\\$v.'\\\"', \\$j);file_put_contents('composer.json',\\$j);echo \\$v;\") && git add -A && (git diff --cached --quiet || git commit -m \"Release v$V\") && git tag -a \"v$V\" -m \"Release v$V\" && git push origin \"v$V\""
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Lofi ERP - Sistema de gestión empresarial integral"
+            },
+            "dev-main": {
+                "name": "lofi/erp",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-erp.git",
+                    "reference": "fe257b5f3660434628d595013c4a4213239da5f5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-erp/zipball/fe257b5f3660434628d595013c4a4213239da5f5",
+                    "reference": "fe257b5f3660434628d595013c4a4213239da5f5",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/support": "^11.0|^12.0",
+                    "lofi/ai": "^3.3",
+                    "lofi/kernel": "^3.3",
+                    "lofi/ui": "^3.3",
+                    "php": "^8.2"
+                },
+                "require-dev": {
+                    "orchestra/testbench": "^8.0|^9.0|^10.0",
+                    "phpunit/phpunit": "^10.0|^11.0"
+                },
+                "time": "2026-02-21T21:34:17+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
