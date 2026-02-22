@@ -1,8 +1,8 @@
 {
     "packages": [],
     "includes": {
-        "include/all$202f2094d461091aa5ca306e527fd549fdf1b0c6.json": {
-            "sha1": "202f2094d461091aa5ca306e527fd549fdf1b0c6"
+        "include/all$0f0fefb3bf056df7c13bcec291b9de59367e846a.json": {
+            "sha1": "0f0fefb3bf056df7c13bcec291b9de59367e846a"
         }
     },
     "metadata-url": "/lofi-satis/p2/%package%.json",
