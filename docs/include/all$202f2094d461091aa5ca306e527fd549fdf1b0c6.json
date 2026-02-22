@@ -1512,12 +1512,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-swarm.git",
-                    "reference": "ce80979987a5898a8f9df3ab048610d854ccddfd"
+                    "reference": "1f04a8ca3445cfcd482845ab45d9212880f5a971"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-swarm/zipball/ce80979987a5898a8f9df3ab048610d854ccddfd",
-                    "reference": "ce80979987a5898a8f9df3ab048610d854ccddfd",
+                    "url": "https://api.github.com/repos/ncortex/lofi-swarm/zipball/1f04a8ca3445cfcd482845ab45d9212880f5a971",
+                    "reference": "1f04a8ca3445cfcd482845ab45d9212880f5a971",
                     "shasum": ""
                 },
                 "require": {
@@ -1533,7 +1533,7 @@
                     "orchestra/testbench": "^10.0",
                     "phpunit/phpunit": "^11.0"
                 },
-                "time": "2026-02-21T21:20:21+00:00",
+                "time": "2026-02-21T22:14:18+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
