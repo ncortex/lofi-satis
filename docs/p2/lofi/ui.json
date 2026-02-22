@@ -550,6 +550,89 @@
             },
             {
                 "name": "lofi/ui",
+                "version": "3.3.16",
+                "version_normalized": "3.3.16.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-ui.git",
+                    "reference": "b7f9769975060e991aaf2dd5420b570b00645b02"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-ui/zipball/b7f9769975060e991aaf2dd5420b570b00645b02",
+                    "reference": "b7f9769975060e991aaf2dd5420b570b00645b02",
+                    "shasum": ""
+                },
+                "require": {
+                    "barryvdh/laravel-debugbar": "^3.14|^4.0",
+                    "illuminate/auth": "^10.0|^11.0|^12.0",
+                    "illuminate/cache": "^10.0|^11.0|^12.0",
+                    "illuminate/database": "^10.0|^11.0|^12.0",
+                    "illuminate/support": "^10.0|^11.0|^12.0",
+                    "illuminate/view": "^10.0|^11.0|^12.0",
+                    "league/commonmark": "^2.0",
+                    "livewire/livewire": "^3.0",
+                    "lofi/kernel": "^3.3",
+                    "php": "^8.2"
+                },
+                "require-dev": {
+                    "orchestra/testbench": "^8.0|^9.0|^10.0",
+                    "phpmd/phpmd": "^2.15",
+                    "phpstan/phpstan": "^1.10",
+                    "phpunit/phpunit": "^10.0|^11.0"
+                },
+                "time": "2026-02-22T20:02:32+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\UI\\UIServiceProvider"
+                        ],
+                        "aliases": {
+                            "Help": "Lofi\\UI\\Facades\\Help"
+                        }
+                    },
+                    "lofi": {
+                        "category": "core"
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.3.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\UI\\": "src/"
+                    },
+                    "files": [
+                        "src/helpers.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Lofi\\UI\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "phpunit"
+                    ],
+                    "analyse": [
+                        "phpstan analyse"
+                    ],
+                    "lint": [
+                        "phpmd src text phpmd.xml"
+                    ],
+                    "push-version": [
+                        "V=$(php -r \"\\$v=json_decode(file_get_contents('composer.json'))->version;while(trim(shell_exec('git tag -l v'.\\$v))){\\$p=explode('.',\\$v);\\$p[2]++;\\$v=implode('.',\\$p);}\\$j=file_get_contents('composer.json');\\$j=preg_replace('/\\\"version\\\": \\\"[^\\\"]*\\\"/', '\\\"version\\\": \\\"'.\\$v.'\\\"', \\$j);file_put_contents('composer.json',\\$j);echo \\$v;\") && git add -A && (git diff --cached --quiet || git commit -m \"Release v$V\") && git tag -a \"v$V\" -m \"Release v$V\" && git push origin \"v$V\""
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "LoFi Admin UI Components"
+            },
+            {
+                "name": "lofi/ui",
                 "version": "v3.3.4",
                 "version_normalized": "3.3.4.0",
                 "source": {
