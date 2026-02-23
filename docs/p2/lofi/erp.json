@@ -68,12 +68,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-erp.git",
-                    "reference": "0b6b585717e62b44ae800039fcb359007ca0c5d5"
+                    "reference": "429206cfa4c71872c8f3cb12de737f1ecc0d7693"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-erp/zipball/0b6b585717e62b44ae800039fcb359007ca0c5d5",
-                    "reference": "0b6b585717e62b44ae800039fcb359007ca0c5d5",
+                    "url": "https://api.github.com/repos/ncortex/lofi-erp/zipball/429206cfa4c71872c8f3cb12de737f1ecc0d7693",
+                    "reference": "429206cfa4c71872c8f3cb12de737f1ecc0d7693",
                     "shasum": ""
                 },
                 "require": {
@@ -446,12 +446,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-erp.git",
-                    "reference": "afb2236ffd4f0757ac3a24a3c640a3322f007235"
+                    "reference": "cee28b69d2e3b5e71220f7287f1881464a688dfb"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-erp/zipball/afb2236ffd4f0757ac3a24a3c640a3322f007235",
-                    "reference": "afb2236ffd4f0757ac3a24a3c640a3322f007235",
+                    "url": "https://api.github.com/repos/ncortex/lofi-erp/zipball/cee28b69d2e3b5e71220f7287f1881464a688dfb",
+                    "reference": "cee28b69d2e3b5e71220f7287f1881464a688dfb",
                     "shasum": ""
                 },
                 "require": {
