@@ -216,6 +216,74 @@
                     "support",
                     "tickets"
                 ]
+            },
+            {
+                "name": "lofi/support",
+                "version": "3.3.8",
+                "version_normalized": "3.3.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi-support.git",
+                    "reference": "f99bb18a4f1c385498ebd6d5837b846967a832c9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi-support/zipball/f99bb18a4f1c385498ebd6d5837b846967a832c9",
+                    "reference": "f99bb18a4f1c385498ebd6d5837b846967a832c9",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/database": "^10.0|^11.0|^12.0",
+                    "illuminate/support": "^10.0|^11.0|^12.0",
+                    "illuminate/view": "^10.0|^11.0|^12.0",
+                    "lofi/kernel": "^3.3",
+                    "lofi/ui": "^3.3",
+                    "php": "^8.2"
+                },
+                "time": "2026-02-24T00:03:28+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Support\\SupportServiceProvider"
+                        ],
+                        "aliases": {
+                            "Support": "Lofi\\Support\\Facades\\Support"
+                        }
+                    },
+                    "lofi": {
+                        "category": "module"
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.3.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Support\\": "src/",
+                        "Lofi\\Support\\Database\\Factories\\": "database/factories/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Lofi\\Support\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "push-version": [
+                        "V=$(php -r \"\\$v=json_decode(file_get_contents('composer.json'))->version;while(trim(shell_exec('git tag -l v'.\\$v))){\\$p=explode('.',\\$v);\\$p[2]++;\\$v=implode('.',\\$p);}\\$j=file_get_contents('composer.json');\\$j=preg_replace('/\\\"version\\\": \\\"[^\\\"]*\\\"/', '\\\"version\\\": \\\"'.\\$v.'\\\"', \\$j);file_put_contents('composer.json',\\$j);echo \\$v;\") && git add -A && (git diff --cached --quiet || git commit -m \"Release v$V\") && git tag -a \"v$V\" -m \"Release v$V\" && git push origin \"v$V\""
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Customer support and ticketing system for Lofi Framework",
+                "keywords": [
+                    "helpdesk",
+                    "lofi",
+                    "support",
+                    "tickets"
+                ]
             }
         ]
     }
