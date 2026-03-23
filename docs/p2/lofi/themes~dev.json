@@ -80,7 +80,11 @@
                         "email": "joselito@example.com"
                     }
                 ],
-                "description": "Theme system for LoFi Framework"
+                "description": "Theme system for LoFi Framework",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-themes/tree/main",
+                    "issues": "https://github.com/ncortex/lofi-themes/issues"
+                }
             }
         ]
     }

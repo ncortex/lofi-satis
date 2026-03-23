@@ -60,7 +60,11 @@
                         "email": "joselito@example.com"
                     }
                 ],
-                "description": "LoFi Documentation Portal - Centralized documentation viewer for all packages"
+                "description": "LoFi Documentation Portal - Centralized documentation viewer for all packages",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-docs/tree/v3.0.0",
+                    "issues": "https://github.com/ncortex/lofi-docs/issues"
+                }
             },
             {
                 "name": "lofi/docs",
@@ -121,7 +125,11 @@
                         "email": "joselito@example.com"
                     }
                 ],
-                "description": "LoFi Documentation Portal - Centralized documentation viewer for all packages"
+                "description": "LoFi Documentation Portal - Centralized documentation viewer for all packages",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-docs/tree/v3.0.0",
+                    "issues": "https://github.com/ncortex/lofi-docs/issues"
+                }
             },
             {
                 "name": "lofi/docs",
@@ -182,7 +190,11 @@
                         "email": "joselito@example.com"
                     }
                 ],
-                "description": "LoFi Documentation Portal - Centralized documentation viewer for all packages"
+                "description": "LoFi Documentation Portal - Centralized documentation viewer for all packages",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-docs/tree/v3.0.0",
+                    "issues": "https://github.com/ncortex/lofi-docs/issues"
+                }
             },
             {
                 "name": "lofi/docs",
@@ -243,7 +255,11 @@
                         "email": "joselito@example.com"
                     }
                 ],
-                "description": "LoFi Documentation Portal - Centralized documentation viewer for all packages"
+                "description": "LoFi Documentation Portal - Centralized documentation viewer for all packages",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-docs/tree/v3.3.4",
+                    "issues": "https://github.com/ncortex/lofi-docs/issues"
+                }
             },
             {
                 "name": "lofi/docs",
@@ -304,7 +320,11 @@
                         "email": "joselito@example.com"
                     }
                 ],
-                "description": "LoFi Documentation Portal - Centralized documentation viewer for all packages"
+                "description": "LoFi Documentation Portal - Centralized documentation viewer for all packages",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-docs/tree/v3.3.5",
+                    "issues": "https://github.com/ncortex/lofi-docs/issues"
+                }
             }
         ]
     }

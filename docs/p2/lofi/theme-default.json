@@ -54,7 +54,11 @@
                     "laravel",
                     "lofi",
                     "theme"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-theme-default/tree/v3.3.4",
+                    "issues": "https://github.com/ncortex/lofi-theme-default/issues"
+                }
             },
             {
                 "name": "lofi/theme-default",
@@ -109,7 +113,11 @@
                     "laravel",
                     "lofi",
                     "theme"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-theme-default/tree/v3.3.5",
+                    "issues": "https://github.com/ncortex/lofi-theme-default/issues"
+                }
             }
         ]
     }

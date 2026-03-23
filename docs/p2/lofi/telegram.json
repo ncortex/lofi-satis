@@ -43,7 +43,11 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Telegram bot integration for Lofi Framework"
+                "description": "Telegram bot integration for Lofi Framework",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-telegram/tree/v3.0.0",
+                    "issues": "https://github.com/ncortex/lofi-telegram/issues"
+                }
             },
             {
                 "name": "lofi/telegram",
@@ -87,7 +91,11 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Telegram bot integration for Lofi Framework"
+                "description": "Telegram bot integration for Lofi Framework",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-telegram/tree/v3.0.0",
+                    "issues": "https://github.com/ncortex/lofi-telegram/issues"
+                }
             },
             {
                 "name": "lofi/telegram",
@@ -131,7 +139,11 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Telegram bot integration for Lofi Framework"
+                "description": "Telegram bot integration for Lofi Framework",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-telegram/tree/v3.0.0",
+                    "issues": "https://github.com/ncortex/lofi-telegram/issues"
+                }
             },
             {
                 "name": "lofi/telegram",
@@ -175,7 +187,11 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Telegram bot integration for Lofi Framework"
+                "description": "Telegram bot integration for Lofi Framework",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-telegram/tree/v3.0.1",
+                    "issues": "https://github.com/ncortex/lofi-telegram/issues"
+                }
             },
             {
                 "name": "lofi/telegram",
@@ -219,7 +235,11 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Telegram bot integration for Lofi Framework"
+                "description": "Telegram bot integration for Lofi Framework",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-telegram/tree/v3.3.4",
+                    "issues": "https://github.com/ncortex/lofi-telegram/issues"
+                }
             }
         ]
     }

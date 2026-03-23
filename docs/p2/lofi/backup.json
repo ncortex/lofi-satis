@@ -57,7 +57,11 @@
                         "email": "hello@lofi.dev"
                     }
                 ],
-                "description": "Backup and Restore System for Lofi Framework"
+                "description": "Backup and Restore System for Lofi Framework",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-backup/tree/v3.3.4",
+                    "issues": "https://github.com/ncortex/lofi-backup/issues"
+                }
             },
             {
                 "name": "lofi/backup",
@@ -115,7 +119,11 @@
                         "email": "hello@lofi.dev"
                     }
                 ],
-                "description": "Backup and Restore System for Lofi Framework"
+                "description": "Backup and Restore System for Lofi Framework",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-backup/tree/v3.3.5",
+                    "issues": "https://github.com/ncortex/lofi-backup/issues"
+                }
             },
             {
                 "name": "lofi/backup",
@@ -173,7 +181,11 @@
                         "email": "hello@lofi.dev"
                     }
                 ],
-                "description": "Backup and Restore System for Lofi Framework"
+                "description": "Backup and Restore System for Lofi Framework",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-backup/tree/v3.3.7",
+                    "issues": "https://github.com/ncortex/lofi-backup/issues"
+                }
             }
         ]
     }
