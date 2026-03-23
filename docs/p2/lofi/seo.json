@@ -66,11 +66,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi SEO - Complete SEO module with analysis, monitoring, and optimization tools",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-seo/tree/v3.0.1",
-                    "issues": "https://github.com/ncortex/lofi-seo/issues"
-                }
+                "description": "Lofi SEO - Complete SEO module with analysis, monitoring, and optimization tools"
             },
             {
                 "name": "lofi/seo",
@@ -137,11 +133,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi SEO - Complete SEO module with analysis, monitoring, and optimization tools",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-seo/tree/v3.3.4",
-                    "issues": "https://github.com/ncortex/lofi-seo/issues"
-                }
+                "description": "Lofi SEO - Complete SEO module with analysis, monitoring, and optimization tools"
             },
             {
                 "name": "lofi/seo",
@@ -208,11 +200,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi SEO - Complete SEO module with analysis, monitoring, and optimization tools",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-seo/tree/v3.3.5",
-                    "issues": "https://github.com/ncortex/lofi-seo/issues"
-                }
+                "description": "Lofi SEO - Complete SEO module with analysis, monitoring, and optimization tools"
             },
             {
                 "name": "lofi/seo",
@@ -279,11 +267,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi SEO - Complete SEO module with analysis, monitoring, and optimization tools",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-seo/tree/v3.3.7",
-                    "issues": "https://github.com/ncortex/lofi-seo/issues"
-                }
+                "description": "Lofi SEO - Complete SEO module with analysis, monitoring, and optimization tools"
             }
         ]
     }

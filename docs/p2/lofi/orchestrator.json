@@ -51,11 +51,7 @@
                 "license": [
                     "proprietary"
                 ],
-                "description": "Multi-instance LoFi management with monitoring, remote commands, and impersonation",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-orchestrator/tree/v1.0.0",
-                    "issues": "https://github.com/ncortex/lofi-orchestrator/issues"
-                }
+                "description": "Multi-instance LoFi management with monitoring, remote commands, and impersonation"
             },
             {
                 "name": "lofi/orchestrator",
@@ -107,11 +103,7 @@
                 "license": [
                     "proprietary"
                 ],
-                "description": "Multi-instance LoFi management with monitoring, remote commands, and impersonation",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-orchestrator/tree/v1.0.0",
-                    "issues": "https://github.com/ncortex/lofi-orchestrator/issues"
-                }
+                "description": "Multi-instance LoFi management with monitoring, remote commands, and impersonation"
             },
             {
                 "name": "lofi/orchestrator",
@@ -163,11 +155,7 @@
                 "license": [
                     "proprietary"
                 ],
-                "description": "Multi-instance LoFi management with monitoring, remote commands, and impersonation",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-orchestrator/tree/v3.0.0",
-                    "issues": "https://github.com/ncortex/lofi-orchestrator/issues"
-                }
+                "description": "Multi-instance LoFi management with monitoring, remote commands, and impersonation"
             },
             {
                 "name": "lofi/orchestrator",
@@ -219,11 +207,7 @@
                 "license": [
                     "proprietary"
                 ],
-                "description": "Multi-instance LoFi management with monitoring, remote commands, and impersonation",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-orchestrator/tree/v3.0.1",
-                    "issues": "https://github.com/ncortex/lofi-orchestrator/issues"
-                }
+                "description": "Multi-instance LoFi management with monitoring, remote commands, and impersonation"
             },
             {
                 "name": "lofi/orchestrator",
@@ -275,11 +259,7 @@
                 "license": [
                     "proprietary"
                 ],
-                "description": "Multi-instance LoFi management with monitoring, remote commands, and impersonation",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-orchestrator/tree/v3.3.4",
-                    "issues": "https://github.com/ncortex/lofi-orchestrator/issues"
-                }
+                "description": "Multi-instance LoFi management with monitoring, remote commands, and impersonation"
             },
             {
                 "name": "lofi/orchestrator",
@@ -331,11 +311,7 @@
                 "license": [
                     "proprietary"
                 ],
-                "description": "Multi-instance LoFi management with monitoring, remote commands, and impersonation",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-orchestrator/tree/v3.3.5",
-                    "issues": "https://github.com/ncortex/lofi-orchestrator/issues"
-                }
+                "description": "Multi-instance LoFi management with monitoring, remote commands, and impersonation"
             },
             {
                 "name": "lofi/orchestrator",
@@ -387,11 +363,7 @@
                 "license": [
                     "proprietary"
                 ],
-                "description": "Multi-instance LoFi management with monitoring, remote commands, and impersonation",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-orchestrator/tree/v3.3.7",
-                    "issues": "https://github.com/ncortex/lofi-orchestrator/issues"
-                }
+                "description": "Multi-instance LoFi management with monitoring, remote commands, and impersonation"
             }
         ]
     }

@@ -58,11 +58,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi Geo - Gestión de zonas geográficas y ciudades",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-geo/tree/v1.0.0",
-                    "issues": "https://github.com/ncortex/lofi-geo/issues"
-                }
+                "description": "Lofi Geo - Gestión de zonas geográficas y ciudades"
             },
             {
                 "name": "lofi/geo",
@@ -121,11 +117,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi Geo - Gestión de zonas geográficas y ciudades",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-geo/tree/v3.3.4",
-                    "issues": "https://github.com/ncortex/lofi-geo/issues"
-                }
+                "description": "Lofi Geo - Gestión de zonas geográficas y ciudades"
             },
             {
                 "name": "lofi/geo",
@@ -184,11 +176,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi Geo - Gestión de zonas geográficas y ciudades",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-geo/tree/v3.3.6",
-                    "issues": "https://github.com/ncortex/lofi-geo/issues"
-                }
+                "description": "Lofi Geo - Gestión de zonas geográficas y ciudades"
             }
         ]
     }

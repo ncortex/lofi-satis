@@ -50,11 +50,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi SQL - Database schema explorer (tables, views, routines)",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-sql/tree/v1.0.0",
-                    "issues": "https://github.com/ncortex/lofi-sql/issues"
-                }
+                "description": "Lofi SQL - Database schema explorer (tables, views, routines)"
             },
             {
                 "name": "lofi/sql",
@@ -105,11 +101,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi SQL - Database schema explorer (tables, views, routines)",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-sql/tree/v3.0.1",
-                    "issues": "https://github.com/ncortex/lofi-sql/issues"
-                }
+                "description": "Lofi SQL - Database schema explorer (tables, views, routines)"
             },
             {
                 "name": "lofi/sql",
@@ -160,11 +152,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi SQL - Database schema explorer (tables, views, routines)",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-sql/tree/v3.3.4",
-                    "issues": "https://github.com/ncortex/lofi-sql/issues"
-                }
+                "description": "Lofi SQL - Database schema explorer (tables, views, routines)"
             },
             {
                 "name": "lofi/sql",
@@ -215,11 +203,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi SQL - Database schema explorer (tables, views, routines)",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-sql/tree/v3.3.5",
-                    "issues": "https://github.com/ncortex/lofi-sql/issues"
-                }
+                "description": "Lofi SQL - Database schema explorer (tables, views, routines)"
             }
         ]
     }
