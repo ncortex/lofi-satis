@@ -55,7 +55,11 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "LoFi Vet - Veterinary clinic extension for lofi/clinic with pet management, vaccinations, and species tracking"
+                "description": "LoFi Vet - Veterinary clinic extension for lofi/clinic with pet management, vaccinations, and species tracking",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-vet/tree/v1.0.0",
+                    "issues": "https://github.com/ncortex/lofi-vet/issues"
+                }
             },
             {
                 "name": "lofi/vet",
@@ -111,7 +115,11 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "LoFi Vet - Veterinary clinic extension for lofi/clinic with pet management, vaccinations, and species tracking"
+                "description": "LoFi Vet - Veterinary clinic extension for lofi/clinic with pet management, vaccinations, and species tracking",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-vet/tree/v3.0.1",
+                    "issues": "https://github.com/ncortex/lofi-vet/issues"
+                }
             },
             {
                 "name": "lofi/vet",
@@ -167,7 +175,11 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "LoFi Vet - Veterinary clinic extension for lofi/clinic with pet management, vaccinations, and species tracking"
+                "description": "LoFi Vet - Veterinary clinic extension for lofi/clinic with pet management, vaccinations, and species tracking",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-vet/tree/v3.3.4",
+                    "issues": "https://github.com/ncortex/lofi-vet/issues"
+                }
             }
         ]
     }

@@ -58,7 +58,11 @@
                         "email": "joselito@example.com"
                     }
                 ],
-                "description": "LoFi Framework - API & MCP Layer"
+                "description": "LoFi Framework - API & MCP Layer",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-api/tree/main",
+                    "issues": "https://github.com/ncortex/lofi-api/issues"
+                }
             }
         ]
     }

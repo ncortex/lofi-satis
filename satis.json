@@ -38,7 +38,9 @@
         { "type": "vcs", "url": "git@github.com:ncortex/lofi-cron.git" },
         { "type": "vcs", "url": "git@github.com:ncortex/lofi-installer.git" },
         { "type": "vcs", "url": "git@github.com:ncortex/lofi-theme-default.git" },
-        { "type": "vcs", "url": "git@github.com:ncortex/lofi-theme-nyf.git" }
+        { "type": "vcs", "url": "git@github.com:ncortex/lofi-theme-nyf.git" },
+        { "type": "vcs", "url": "git@github.com:ncortex/lofi-ai.git" },
+        { "type": "vcs", "url": "git@github.com:ncortex/lofi-crawler.git" }
     ],
     "require-all": true,
     "output-dir": "docs",

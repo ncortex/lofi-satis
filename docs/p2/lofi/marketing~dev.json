@@ -68,7 +68,11 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi Marketing - Campañas de email, leads y crawler de profesionales"
+                "description": "Lofi Marketing - Campañas de email, leads y crawler de profesionales",
+                "support": {
+                    "source": "https://github.com/ncortex/lofi-marketing/tree/main",
+                    "issues": "https://github.com/ncortex/lofi-marketing/issues"
+                }
             }
         ]
     }

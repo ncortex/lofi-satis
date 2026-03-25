@@ -1,43 +1,45 @@
 {
     "packages": {
-        "lofi/git": [
+        "lofi/crawler": [
             {
-                "name": "lofi/git",
+                "name": "lofi/crawler",
                 "version": "dev-main",
                 "version_normalized": "dev-main",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ncortex/lofi-git.git",
-                    "reference": "af3e40b0c7ad72a6492407368796aa55ff0f771d"
+                    "url": "git@github.com:ncortex/lofi-crawler.git",
+                    "reference": "fdcd36df7c9f0796ea2ca43331d96b4e60f417a1"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-git/zipball/af3e40b0c7ad72a6492407368796aa55ff0f771d",
-                    "reference": "af3e40b0c7ad72a6492407368796aa55ff0f771d",
+                    "url": "https://api.github.com/repos/ncortex/lofi-crawler/zipball/fdcd36df7c9f0796ea2ca43331d96b4e60f417a1",
+                    "reference": "fdcd36df7c9f0796ea2ca43331d96b4e60f417a1",
                     "shasum": ""
                 },
                 "require": {
+                    "illuminate/database": "^11.0|^12.0",
+                    "illuminate/http": "^11.0|^12.0",
+                    "illuminate/queue": "^11.0|^12.0",
                     "illuminate/support": "^11.0|^12.0",
+                    "laravel/ai": "^0.1",
                     "lofi/kernel": "^3.3",
-                    "lofi/ui": "^3.3",
-                    "m4tthumphrey/php-gitlab-api": "^11.0",
                     "php": "^8.2"
                 },
                 "require-dev": {
                     "orchestra/testbench": "^9.0|^10.0",
                     "phpunit/phpunit": "^10.0|^11.0"
                 },
-                "time": "2026-02-21T21:15:14+00:00",
+                "time": "2026-03-25T07:07:58+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
                     "laravel": {
                         "providers": [
-                            "Lofi\\Git\\GitServiceProvider"
+                            "Lofi\\Crawler\\CrawlerServiceProvider"
                         ]
                     },
                     "lofi": {
-                        "category": "module"
+                        "category": "service"
                     },
                     "branch-alias": {
                         "dev-main": "3.3.x-dev"
@@ -45,20 +47,15 @@
                 },
                 "autoload": {
                     "psr-4": {
-                        "Lofi\\Git\\": "src/",
-                        "Lofi\\Git\\Database\\Factories\\": "database/factories/",
-                        "Lofi\\Git\\Database\\Seeders\\": "database/seeders/"
+                        "Lofi\\Crawler\\": "src/"
                     }
                 },
                 "autoload-dev": {
                     "psr-4": {
-                        "Lofi\\Git\\Tests\\": "tests/"
+                        "Lofi\\Crawler\\Tests\\": "tests/"
                     }
                 },
                 "scripts": {
-                    "test": [
-                        "vendor/bin/phpunit"
-                    ],
                     "push-version": [
                         "V=$(php -r \"\\$v=json_decode(file_get_contents('composer.json'))->version;while(trim(shell_exec('git tag -l v'.\\$v))){\\$p=explode('.',\\$v);\\$p[2]++;\\$v=implode('.',\\$p);}\\$j=file_get_contents('composer.json');\\$j=preg_replace('/\\\"version\\\": \\\"[^\\\"]*\\\"/', '\\\"version\\\": \\\"'.\\$v.'\\\"', \\$j);file_put_contents('composer.json',\\$j);echo \\$v;\") && git add -A && (git diff --cached --quiet || git commit -m \"Release v$V\") && git tag -a \"v$V\" -m \"Release v$V\" && git push origin \"v$V\""
                     ]
@@ -66,10 +63,10 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "LoFi Git - Dashboard de gestión de repositorios GitLab",
+                "description": "Unified crawler with AI extraction for LoFi Framework",
                 "support": {
-                    "source": "https://github.com/ncortex/lofi-git/tree/main",
-                    "issues": "https://github.com/ncortex/lofi-git/issues"
+                    "source": "https://github.com/ncortex/lofi-crawler/tree/v3.3.1",
+                    "issues": "https://github.com/ncortex/lofi-crawler/issues"
                 }
             }
         ]
