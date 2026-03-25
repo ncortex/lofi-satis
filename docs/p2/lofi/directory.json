@@ -61,11 +61,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi Directory - Sistema de directorio de profesionales y servicios",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-directory/tree/v1.0.0",
-                    "issues": "https://github.com/ncortex/lofi-directory/issues"
-                }
+                "description": "Lofi Directory - Sistema de directorio de profesionales y servicios"
             },
             {
                 "name": "lofi/directory",
@@ -135,11 +131,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi Directory - Sistema de directorio de profesionales y servicios",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-directory/tree/v3.3.10",
-                    "issues": "https://github.com/ncortex/lofi-directory/issues"
-                }
+                "description": "Lofi Directory - Sistema de directorio de profesionales y servicios"
             },
             {
                 "name": "lofi/directory",
@@ -202,11 +194,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi Directory - Sistema de directorio de profesionales y servicios",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-directory/tree/v3.3.4",
-                    "issues": "https://github.com/ncortex/lofi-directory/issues"
-                }
+                "description": "Lofi Directory - Sistema de directorio de profesionales y servicios"
             },
             {
                 "name": "lofi/directory",
@@ -269,11 +257,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi Directory - Sistema de directorio de profesionales y servicios",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-directory/tree/v3.3.6",
-                    "issues": "https://github.com/ncortex/lofi-directory/issues"
-                }
+                "description": "Lofi Directory - Sistema de directorio de profesionales y servicios"
             },
             {
                 "name": "lofi/directory",
@@ -336,11 +320,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi Directory - Sistema de directorio de profesionales y servicios",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-directory/tree/v3.3.7",
-                    "issues": "https://github.com/ncortex/lofi-directory/issues"
-                }
+                "description": "Lofi Directory - Sistema de directorio de profesionales y servicios"
             },
             {
                 "name": "lofi/directory",
@@ -403,11 +383,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi Directory - Sistema de directorio de profesionales y servicios",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-directory/tree/v3.3.8",
-                    "issues": "https://github.com/ncortex/lofi-directory/issues"
-                }
+                "description": "Lofi Directory - Sistema de directorio de profesionales y servicios"
             },
             {
                 "name": "lofi/directory",
@@ -477,11 +453,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi Directory - Sistema de directorio de profesionales y servicios",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-directory/tree/v3.3.9",
-                    "issues": "https://github.com/ncortex/lofi-directory/issues"
-                }
+                "description": "Lofi Directory - Sistema de directorio de profesionales y servicios"
             }
         ]
     }

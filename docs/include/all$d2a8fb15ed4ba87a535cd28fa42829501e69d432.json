@@ -7,12 +7,12 @@
                 "version_normalized": "1.0.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ncortex/lofi-ai.git",
+                    "url": "git@github.com:ncortex/lofi-swarm.git",
                     "reference": "01dd687c307cc8d681896f64891c6157aa88515c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-ai/zipball/01dd687c307cc8d681896f64891c6157aa88515c",
+                    "url": "https://api.github.com/repos/ncortex/lofi-swarm/zipball/01dd687c307cc8d681896f64891c6157aa88515c",
                     "reference": "01dd687c307cc8d681896f64891c6157aa88515c",
                     "shasum": ""
                 },
@@ -46,11 +46,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-ai/tree/v1.0.0",
-                    "issues": "https://github.com/ncortex/lofi-ai/issues"
-                }
+                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework"
             },
             "v3.0.1": {
                 "name": "lofi/ai",
@@ -58,12 +54,12 @@
                 "version_normalized": "3.0.1.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ncortex/lofi-ai.git",
+                    "url": "git@github.com:ncortex/lofi-swarm.git",
                     "reference": "ebd04a5f5534aabdee473d9718fa8187250676d0"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-ai/zipball/ebd04a5f5534aabdee473d9718fa8187250676d0",
+                    "url": "https://api.github.com/repos/ncortex/lofi-swarm/zipball/ebd04a5f5534aabdee473d9718fa8187250676d0",
                     "reference": "ebd04a5f5534aabdee473d9718fa8187250676d0",
                     "shasum": ""
                 },
@@ -99,11 +95,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-ai/tree/v3.0.1",
-                    "issues": "https://github.com/ncortex/lofi-ai/issues"
-                }
+                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework"
             },
             "v3.3.10": {
                 "name": "lofi/ai",
@@ -111,12 +103,12 @@
                 "version_normalized": "3.3.10.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ncortex/lofi-ai.git",
+                    "url": "git@github.com:ncortex/lofi-swarm.git",
                     "reference": "2e724884e9fde4e476c2949312df70e76b3b63b8"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-ai/zipball/2e724884e9fde4e476c2949312df70e76b3b63b8",
+                    "url": "https://api.github.com/repos/ncortex/lofi-swarm/zipball/2e724884e9fde4e476c2949312df70e76b3b63b8",
                     "reference": "2e724884e9fde4e476c2949312df70e76b3b63b8",
                     "shasum": ""
                 },
@@ -153,11 +145,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-ai/tree/v3.3.11",
-                    "issues": "https://github.com/ncortex/lofi-ai/issues"
-                }
+                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework"
             },
             "v3.3.11": {
                 "name": "lofi/ai",
@@ -165,12 +153,12 @@
                 "version_normalized": "3.3.11.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ncortex/lofi-ai.git",
+                    "url": "git@github.com:ncortex/lofi-swarm.git",
                     "reference": "2e724884e9fde4e476c2949312df70e76b3b63b8"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-ai/zipball/2e724884e9fde4e476c2949312df70e76b3b63b8",
+                    "url": "https://api.github.com/repos/ncortex/lofi-swarm/zipball/2e724884e9fde4e476c2949312df70e76b3b63b8",
                     "reference": "2e724884e9fde4e476c2949312df70e76b3b63b8",
                     "shasum": ""
                 },
@@ -207,11 +195,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-ai/tree/v3.3.11",
-                    "issues": "https://github.com/ncortex/lofi-ai/issues"
-                }
+                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework"
             },
             "v3.3.12": {
                 "name": "lofi/ai",
@@ -219,12 +203,12 @@
                 "version_normalized": "3.3.12.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ncortex/lofi-ai.git",
+                    "url": "git@github.com:ncortex/lofi-swarm.git",
                     "reference": "05eafdb678d68032c64436bdda16b5ed305a3174"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-ai/zipball/05eafdb678d68032c64436bdda16b5ed305a3174",
+                    "url": "https://api.github.com/repos/ncortex/lofi-swarm/zipball/05eafdb678d68032c64436bdda16b5ed305a3174",
                     "reference": "05eafdb678d68032c64436bdda16b5ed305a3174",
                     "shasum": ""
                 },
@@ -261,11 +245,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-ai/tree/v3.3.12",
-                    "issues": "https://github.com/ncortex/lofi-ai/issues"
-                }
+                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework"
             },
             "v3.3.13": {
                 "name": "lofi/ai",
@@ -273,12 +253,12 @@
                 "version_normalized": "3.3.13.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ncortex/lofi-ai.git",
+                    "url": "git@github.com:ncortex/lofi-swarm.git",
                     "reference": "a707dc80553f5b46484f8c59eb24ddb9aae8e6b2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-ai/zipball/a707dc80553f5b46484f8c59eb24ddb9aae8e6b2",
+                    "url": "https://api.github.com/repos/ncortex/lofi-swarm/zipball/a707dc80553f5b46484f8c59eb24ddb9aae8e6b2",
                     "reference": "a707dc80553f5b46484f8c59eb24ddb9aae8e6b2",
                     "shasum": ""
                 },
@@ -315,11 +295,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-ai/tree/v3.3.14",
-                    "issues": "https://github.com/ncortex/lofi-ai/issues"
-                }
+                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework"
             },
             "v3.3.14": {
                 "name": "lofi/ai",
@@ -327,12 +303,12 @@
                 "version_normalized": "3.3.14.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ncortex/lofi-ai.git",
+                    "url": "git@github.com:ncortex/lofi-swarm.git",
                     "reference": "a707dc80553f5b46484f8c59eb24ddb9aae8e6b2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-ai/zipball/a707dc80553f5b46484f8c59eb24ddb9aae8e6b2",
+                    "url": "https://api.github.com/repos/ncortex/lofi-swarm/zipball/a707dc80553f5b46484f8c59eb24ddb9aae8e6b2",
                     "reference": "a707dc80553f5b46484f8c59eb24ddb9aae8e6b2",
                     "shasum": ""
                 },
@@ -369,11 +345,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-ai/tree/v3.3.14",
-                    "issues": "https://github.com/ncortex/lofi-ai/issues"
-                }
+                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework"
             },
             "v3.3.15": {
                 "name": "lofi/ai",
@@ -381,12 +353,12 @@
                 "version_normalized": "3.3.15.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ncortex/lofi-ai.git",
+                    "url": "git@github.com:ncortex/lofi-swarm.git",
                     "reference": "51ab602da29e2ce5f8b7e40bb8673791e48d99f2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-ai/zipball/51ab602da29e2ce5f8b7e40bb8673791e48d99f2",
+                    "url": "https://api.github.com/repos/ncortex/lofi-swarm/zipball/51ab602da29e2ce5f8b7e40bb8673791e48d99f2",
                     "reference": "51ab602da29e2ce5f8b7e40bb8673791e48d99f2",
                     "shasum": ""
                 },
@@ -423,11 +395,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-ai/tree/v3.3.15",
-                    "issues": "https://github.com/ncortex/lofi-ai/issues"
-                }
+                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework"
             },
             "v3.3.16": {
                 "name": "lofi/ai",
@@ -435,12 +403,12 @@
                 "version_normalized": "3.3.16.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ncortex/lofi-ai.git",
+                    "url": "git@github.com:ncortex/lofi-swarm.git",
                     "reference": "b7395a23a4f4fc28ec5b66065a7d2012545d09d3"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-ai/zipball/b7395a23a4f4fc28ec5b66065a7d2012545d09d3",
+                    "url": "https://api.github.com/repos/ncortex/lofi-swarm/zipball/b7395a23a4f4fc28ec5b66065a7d2012545d09d3",
                     "reference": "b7395a23a4f4fc28ec5b66065a7d2012545d09d3",
                     "shasum": ""
                 },
@@ -477,11 +445,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-ai/tree/v3.3.16",
-                    "issues": "https://github.com/ncortex/lofi-ai/issues"
-                }
+                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework"
             },
             "v3.3.17": {
                 "name": "lofi/ai",
@@ -489,12 +453,12 @@
                 "version_normalized": "3.3.17.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ncortex/lofi-ai.git",
+                    "url": "git@github.com:ncortex/lofi-swarm.git",
                     "reference": "619e476b947ada4fea7212d762722b3646058cf2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-ai/zipball/619e476b947ada4fea7212d762722b3646058cf2",
+                    "url": "https://api.github.com/repos/ncortex/lofi-swarm/zipball/619e476b947ada4fea7212d762722b3646058cf2",
                     "reference": "619e476b947ada4fea7212d762722b3646058cf2",
                     "shasum": ""
                 },
@@ -531,11 +495,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-ai/tree/v3.3.18",
-                    "issues": "https://github.com/ncortex/lofi-ai/issues"
-                }
+                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework"
             },
             "v3.3.18": {
                 "name": "lofi/ai",
@@ -543,12 +503,12 @@
                 "version_normalized": "3.3.18.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ncortex/lofi-ai.git",
+                    "url": "git@github.com:ncortex/lofi-swarm.git",
                     "reference": "619e476b947ada4fea7212d762722b3646058cf2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-ai/zipball/619e476b947ada4fea7212d762722b3646058cf2",
+                    "url": "https://api.github.com/repos/ncortex/lofi-swarm/zipball/619e476b947ada4fea7212d762722b3646058cf2",
                     "reference": "619e476b947ada4fea7212d762722b3646058cf2",
                     "shasum": ""
                 },
@@ -585,11 +545,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-ai/tree/v3.3.18",
-                    "issues": "https://github.com/ncortex/lofi-ai/issues"
-                }
+                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework"
             },
             "v3.3.19": {
                 "name": "lofi/ai",
@@ -597,12 +553,12 @@
                 "version_normalized": "3.3.19.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ncortex/lofi-ai.git",
+                    "url": "git@github.com:ncortex/lofi-swarm.git",
                     "reference": "6d8e995a91fcd0860fb4322f2a24cee704b387bc"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-ai/zipball/6d8e995a91fcd0860fb4322f2a24cee704b387bc",
+                    "url": "https://api.github.com/repos/ncortex/lofi-swarm/zipball/6d8e995a91fcd0860fb4322f2a24cee704b387bc",
                     "reference": "6d8e995a91fcd0860fb4322f2a24cee704b387bc",
                     "shasum": ""
                 },
@@ -639,11 +595,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-ai/tree/v3.3.19",
-                    "issues": "https://github.com/ncortex/lofi-ai/issues"
-                }
+                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework"
             },
             "v3.3.20": {
                 "name": "lofi/ai",
@@ -651,12 +603,12 @@
                 "version_normalized": "3.3.20.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ncortex/lofi-ai.git",
+                    "url": "git@github.com:ncortex/lofi-swarm.git",
                     "reference": "78b361160141046f22be6f4d8ccfce1f6def178c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-ai/zipball/78b361160141046f22be6f4d8ccfce1f6def178c",
+                    "url": "https://api.github.com/repos/ncortex/lofi-swarm/zipball/78b361160141046f22be6f4d8ccfce1f6def178c",
                     "reference": "78b361160141046f22be6f4d8ccfce1f6def178c",
                     "shasum": ""
                 },
@@ -696,11 +648,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-ai/tree/v3.3.20",
-                    "issues": "https://github.com/ncortex/lofi-ai/issues"
-                }
+                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework"
             },
             "3.3.21": {
                 "name": "lofi/ai",
@@ -708,12 +656,12 @@
                 "version_normalized": "3.3.21.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ncortex/lofi-ai.git",
+                    "url": "git@github.com:ncortex/lofi-swarm.git",
                     "reference": "0e58ffa09053ef2fcaafe9f4bd7c740d96b8f29d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-ai/zipball/0e58ffa09053ef2fcaafe9f4bd7c740d96b8f29d",
+                    "url": "https://api.github.com/repos/ncortex/lofi-swarm/zipball/0e58ffa09053ef2fcaafe9f4bd7c740d96b8f29d",
                     "reference": "0e58ffa09053ef2fcaafe9f4bd7c740d96b8f29d",
                     "shasum": ""
                 },
@@ -758,11 +706,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-ai/tree/v3.3.21",
-                    "issues": "https://github.com/ncortex/lofi-ai/issues"
-                }
+                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework"
             },
             "3.3.22": {
                 "name": "lofi/ai",
@@ -770,12 +714,12 @@
                 "version_normalized": "3.3.22.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ncortex/lofi-ai.git",
+                    "url": "git@github.com:ncortex/lofi-swarm.git",
                     "reference": "11ae51d6ce94dfcfe6542cfa9fff6f699d578f36"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-ai/zipball/11ae51d6ce94dfcfe6542cfa9fff6f699d578f36",
+                    "url": "https://api.github.com/repos/ncortex/lofi-swarm/zipball/11ae51d6ce94dfcfe6542cfa9fff6f699d578f36",
                     "reference": "11ae51d6ce94dfcfe6542cfa9fff6f699d578f36",
                     "shasum": ""
                 },
@@ -820,11 +764,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-ai/tree/v3.3.22",
-                    "issues": "https://github.com/ncortex/lofi-ai/issues"
-                }
+                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework"
             },
             "3.3.23": {
                 "name": "lofi/ai",
@@ -832,12 +772,12 @@
                 "version_normalized": "3.3.23.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ncortex/lofi-ai.git",
+                    "url": "git@github.com:ncortex/lofi-swarm.git",
                     "reference": "e312755414620ee7edde282d6cd4c8f23eadca44"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-ai/zipball/e312755414620ee7edde282d6cd4c8f23eadca44",
+                    "url": "https://api.github.com/repos/ncortex/lofi-swarm/zipball/e312755414620ee7edde282d6cd4c8f23eadca44",
                     "reference": "e312755414620ee7edde282d6cd4c8f23eadca44",
                     "shasum": ""
                 },
@@ -882,11 +822,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-ai/tree/v3.3.23",
-                    "issues": "https://github.com/ncortex/lofi-ai/issues"
-                }
+                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework"
             },
             "3.3.24": {
                 "name": "lofi/ai",
@@ -894,12 +830,12 @@
                 "version_normalized": "3.3.24.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ncortex/lofi-ai.git",
+                    "url": "git@github.com:ncortex/lofi-swarm.git",
                     "reference": "1ba2c78c5675289b217e98e1d1eb5ac26cdb3597"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-ai/zipball/1ba2c78c5675289b217e98e1d1eb5ac26cdb3597",
+                    "url": "https://api.github.com/repos/ncortex/lofi-swarm/zipball/1ba2c78c5675289b217e98e1d1eb5ac26cdb3597",
                     "reference": "1ba2c78c5675289b217e98e1d1eb5ac26cdb3597",
                     "shasum": ""
                 },
@@ -944,11 +880,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-ai/tree/v3.3.24",
-                    "issues": "https://github.com/ncortex/lofi-ai/issues"
-                }
+                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework"
             },
             "3.3.25": {
                 "name": "lofi/ai",
@@ -956,12 +888,12 @@
                 "version_normalized": "3.3.25.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ncortex/lofi-ai.git",
+                    "url": "git@github.com:ncortex/lofi-swarm.git",
                     "reference": "ab15a3b07f3f5784c4db4da04ef2a9d665757704"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-ai/zipball/ab15a3b07f3f5784c4db4da04ef2a9d665757704",
+                    "url": "https://api.github.com/repos/ncortex/lofi-swarm/zipball/ab15a3b07f3f5784c4db4da04ef2a9d665757704",
                     "reference": "ab15a3b07f3f5784c4db4da04ef2a9d665757704",
                     "shasum": ""
                 },
@@ -1006,11 +938,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-ai/tree/v3.3.25",
-                    "issues": "https://github.com/ncortex/lofi-ai/issues"
-                }
+                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework"
             },
             "3.3.26": {
                 "name": "lofi/ai",
@@ -1018,12 +946,12 @@
                 "version_normalized": "3.3.26.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ncortex/lofi-ai.git",
+                    "url": "git@github.com:ncortex/lofi-swarm.git",
                     "reference": "e433f189944bed914adb93b551e76645e6385aaf"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-ai/zipball/e433f189944bed914adb93b551e76645e6385aaf",
+                    "url": "https://api.github.com/repos/ncortex/lofi-swarm/zipball/e433f189944bed914adb93b551e76645e6385aaf",
                     "reference": "e433f189944bed914adb93b551e76645e6385aaf",
                     "shasum": ""
                 },
@@ -1068,11 +996,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-ai/tree/v3.3.26",
-                    "issues": "https://github.com/ncortex/lofi-ai/issues"
-                }
+                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework"
             },
             "3.3.27": {
                 "name": "lofi/ai",
@@ -1080,12 +1004,12 @@
                 "version_normalized": "3.3.27.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ncortex/lofi-ai.git",
+                    "url": "git@github.com:ncortex/lofi-swarm.git",
                     "reference": "e8538588077ac28c988ef11c09c16ca4db18a7f6"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-ai/zipball/e8538588077ac28c988ef11c09c16ca4db18a7f6",
+                    "url": "https://api.github.com/repos/ncortex/lofi-swarm/zipball/e8538588077ac28c988ef11c09c16ca4db18a7f6",
                     "reference": "e8538588077ac28c988ef11c09c16ca4db18a7f6",
                     "shasum": ""
                 },
@@ -1130,11 +1054,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-ai/tree/v3.3.27",
-                    "issues": "https://github.com/ncortex/lofi-ai/issues"
-                }
+                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework"
             },
             "3.3.28": {
                 "name": "lofi/ai",
@@ -1142,12 +1062,12 @@
                 "version_normalized": "3.3.28.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ncortex/lofi-ai.git",
+                    "url": "git@github.com:ncortex/lofi-swarm.git",
                     "reference": "beb9d986534ddf3609194a1914e20f9099eb1007"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-ai/zipball/beb9d986534ddf3609194a1914e20f9099eb1007",
+                    "url": "https://api.github.com/repos/ncortex/lofi-swarm/zipball/beb9d986534ddf3609194a1914e20f9099eb1007",
                     "reference": "beb9d986534ddf3609194a1914e20f9099eb1007",
                     "shasum": ""
                 },
@@ -1201,11 +1121,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-ai/tree/v3.3.28",
-                    "issues": "https://github.com/ncortex/lofi-ai/issues"
-                }
+                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework"
             },
             "3.3.29": {
                 "name": "lofi/ai",
@@ -1213,12 +1129,12 @@
                 "version_normalized": "3.3.29.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ncortex/lofi-ai.git",
+                    "url": "git@github.com:ncortex/lofi-swarm.git",
                     "reference": "14ec78ca861027fbcb40819a13183cc3f20b0e36"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-ai/zipball/14ec78ca861027fbcb40819a13183cc3f20b0e36",
+                    "url": "https://api.github.com/repos/ncortex/lofi-swarm/zipball/14ec78ca861027fbcb40819a13183cc3f20b0e36",
                     "reference": "14ec78ca861027fbcb40819a13183cc3f20b0e36",
                     "shasum": ""
                 },
@@ -1272,11 +1188,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-ai/tree/v3.3.29",
-                    "issues": "https://github.com/ncortex/lofi-ai/issues"
-                }
+                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework"
             },
             "3.3.30": {
                 "name": "lofi/ai",
@@ -1284,12 +1196,12 @@
                 "version_normalized": "3.3.30.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ncortex/lofi-ai.git",
+                    "url": "git@github.com:ncortex/lofi-swarm.git",
                     "reference": "f01f2ea878b91425935e61df673bf1c896595ddb"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-ai/zipball/f01f2ea878b91425935e61df673bf1c896595ddb",
+                    "url": "https://api.github.com/repos/ncortex/lofi-swarm/zipball/f01f2ea878b91425935e61df673bf1c896595ddb",
                     "reference": "f01f2ea878b91425935e61df673bf1c896595ddb",
                     "shasum": ""
                 },
@@ -1343,11 +1255,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-ai/tree/v3.3.30",
-                    "issues": "https://github.com/ncortex/lofi-ai/issues"
-                }
+                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework"
             },
             "3.3.31": {
                 "name": "lofi/ai",
@@ -1355,12 +1263,12 @@
                 "version_normalized": "3.3.31.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ncortex/lofi-ai.git",
+                    "url": "git@github.com:ncortex/lofi-swarm.git",
                     "reference": "cb64d998faa9a2c0a78b3cf800678439dd1ebabc"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-ai/zipball/cb64d998faa9a2c0a78b3cf800678439dd1ebabc",
+                    "url": "https://api.github.com/repos/ncortex/lofi-swarm/zipball/cb64d998faa9a2c0a78b3cf800678439dd1ebabc",
                     "reference": "cb64d998faa9a2c0a78b3cf800678439dd1ebabc",
                     "shasum": ""
                 },
@@ -1414,11 +1322,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-ai/tree/v3.3.31",
-                    "issues": "https://github.com/ncortex/lofi-ai/issues"
-                }
+                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework"
             },
             "3.3.32": {
                 "name": "lofi/ai",
@@ -1426,12 +1330,12 @@
                 "version_normalized": "3.3.32.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ncortex/lofi-ai.git",
+                    "url": "git@github.com:ncortex/lofi-swarm.git",
                     "reference": "ca3fdcdab18f13ba493a97b20cdd77680fceba81"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-ai/zipball/ca3fdcdab18f13ba493a97b20cdd77680fceba81",
+                    "url": "https://api.github.com/repos/ncortex/lofi-swarm/zipball/ca3fdcdab18f13ba493a97b20cdd77680fceba81",
                     "reference": "ca3fdcdab18f13ba493a97b20cdd77680fceba81",
                     "shasum": ""
                 },
@@ -1485,11 +1389,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-ai/tree/v3.3.32",
-                    "issues": "https://github.com/ncortex/lofi-ai/issues"
-                }
+                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework"
             },
             "3.3.33": {
                 "name": "lofi/ai",
@@ -1497,12 +1397,12 @@
                 "version_normalized": "3.3.33.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ncortex/lofi-ai.git",
+                    "url": "git@github.com:ncortex/lofi-swarm.git",
                     "reference": "93be3fd331f9452a105787693140e6af5662bb67"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-ai/zipball/93be3fd331f9452a105787693140e6af5662bb67",
+                    "url": "https://api.github.com/repos/ncortex/lofi-swarm/zipball/93be3fd331f9452a105787693140e6af5662bb67",
                     "reference": "93be3fd331f9452a105787693140e6af5662bb67",
                     "shasum": ""
                 },
@@ -1556,11 +1456,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-ai/tree/v3.3.33",
-                    "issues": "https://github.com/ncortex/lofi-ai/issues"
-                }
+                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework"
             },
             "v3.3.4": {
                 "name": "lofi/ai",
@@ -1568,12 +1464,12 @@
                 "version_normalized": "3.3.4.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ncortex/lofi-ai.git",
+                    "url": "git@github.com:ncortex/lofi-swarm.git",
                     "reference": "37a3186d320a31bb263881565bd3404d693e0569"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-ai/zipball/37a3186d320a31bb263881565bd3404d693e0569",
+                    "url": "https://api.github.com/repos/ncortex/lofi-swarm/zipball/37a3186d320a31bb263881565bd3404d693e0569",
                     "reference": "37a3186d320a31bb263881565bd3404d693e0569",
                     "shasum": ""
                 },
@@ -1609,11 +1505,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-ai/tree/v3.3.4",
-                    "issues": "https://github.com/ncortex/lofi-ai/issues"
-                }
+                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework"
             },
             "v3.3.6": {
                 "name": "lofi/ai",
@@ -1621,12 +1513,12 @@
                 "version_normalized": "3.3.6.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ncortex/lofi-ai.git",
+                    "url": "git@github.com:ncortex/lofi-swarm.git",
                     "reference": "1c846be303ce80a72f87846b8f5bb90580afcbe1"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-ai/zipball/1c846be303ce80a72f87846b8f5bb90580afcbe1",
+                    "url": "https://api.github.com/repos/ncortex/lofi-swarm/zipball/1c846be303ce80a72f87846b8f5bb90580afcbe1",
                     "reference": "1c846be303ce80a72f87846b8f5bb90580afcbe1",
                     "shasum": ""
                 },
@@ -1662,11 +1554,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-ai/tree/v3.3.6",
-                    "issues": "https://github.com/ncortex/lofi-ai/issues"
-                }
+                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework"
             },
             "v3.3.7": {
                 "name": "lofi/ai",
@@ -1674,12 +1562,12 @@
                 "version_normalized": "3.3.7.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ncortex/lofi-ai.git",
+                    "url": "git@github.com:ncortex/lofi-swarm.git",
                     "reference": "22f0efd4ab40642fe04b22341b682fdb95db7564"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-ai/zipball/22f0efd4ab40642fe04b22341b682fdb95db7564",
+                    "url": "https://api.github.com/repos/ncortex/lofi-swarm/zipball/22f0efd4ab40642fe04b22341b682fdb95db7564",
                     "reference": "22f0efd4ab40642fe04b22341b682fdb95db7564",
                     "shasum": ""
                 },
@@ -1716,11 +1604,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-ai/tree/v3.3.7",
-                    "issues": "https://github.com/ncortex/lofi-ai/issues"
-                }
+                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework"
             },
             "v3.3.8": {
                 "name": "lofi/ai",
@@ -1728,12 +1612,12 @@
                 "version_normalized": "3.3.8.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ncortex/lofi-ai.git",
+                    "url": "git@github.com:ncortex/lofi-swarm.git",
                     "reference": "b116ec125fbcb0bbdccc37cc33fa7e0650c411a2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-ai/zipball/b116ec125fbcb0bbdccc37cc33fa7e0650c411a2",
+                    "url": "https://api.github.com/repos/ncortex/lofi-swarm/zipball/b116ec125fbcb0bbdccc37cc33fa7e0650c411a2",
                     "reference": "b116ec125fbcb0bbdccc37cc33fa7e0650c411a2",
                     "shasum": ""
                 },
@@ -1770,11 +1654,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-ai/tree/v3.3.8",
-                    "issues": "https://github.com/ncortex/lofi-ai/issues"
-                }
+                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework"
             },
             "v3.3.9": {
                 "name": "lofi/ai",
@@ -1782,12 +1662,12 @@
                 "version_normalized": "3.3.9.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ncortex/lofi-ai.git",
+                    "url": "git@github.com:ncortex/lofi-swarm.git",
                     "reference": "2e724884e9fde4e476c2949312df70e76b3b63b8"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-ai/zipball/2e724884e9fde4e476c2949312df70e76b3b63b8",
+                    "url": "https://api.github.com/repos/ncortex/lofi-swarm/zipball/2e724884e9fde4e476c2949312df70e76b3b63b8",
                     "reference": "2e724884e9fde4e476c2949312df70e76b3b63b8",
                     "shasum": ""
                 },
@@ -1824,11 +1704,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-ai/tree/v3.3.11",
-                    "issues": "https://github.com/ncortex/lofi-ai/issues"
-                }
+                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework"
             },
             "dev-main": {
                 "name": "lofi/ai",
@@ -1836,12 +1712,12 @@
                 "version_normalized": "dev-main",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ncortex/lofi-ai.git",
+                    "url": "git@github.com:ncortex/lofi-swarm.git",
                     "reference": "cb64d998faa9a2c0a78b3cf800678439dd1ebabc"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-ai/zipball/cb64d998faa9a2c0a78b3cf800678439dd1ebabc",
+                    "url": "https://api.github.com/repos/ncortex/lofi-swarm/zipball/cb64d998faa9a2c0a78b3cf800678439dd1ebabc",
                     "reference": "cb64d998faa9a2c0a78b3cf800678439dd1ebabc",
                     "shasum": ""
                 },
@@ -1896,11 +1772,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-ai/tree/v3.3.31",
-                    "issues": "https://github.com/ncortex/lofi-ai/issues"
-                }
+                "description": "Multi-agent AI system with multi-provider LLM support for Lofi Framework"
             }
         },
         "lofi/analytics": {
@@ -1952,11 +1824,7 @@
                         "email": "info@natayfresas.com"
                     }
                 ],
-                "description": "Self-hosted analytics for Lofi Framework - Track page views, visitors, and more without external dependencies",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-analytics/tree/v3.0.0",
-                    "issues": "https://github.com/ncortex/lofi-analytics/issues"
-                }
+                "description": "Self-hosted analytics for Lofi Framework - Track page views, visitors, and more without external dependencies"
             },
             "v1.0.0": {
                 "name": "lofi/analytics",
@@ -2006,11 +1874,7 @@
                         "email": "info@natayfresas.com"
                     }
                 ],
-                "description": "Self-hosted analytics for Lofi Framework - Track page views, visitors, and more without external dependencies",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-analytics/tree/v3.0.0",
-                    "issues": "https://github.com/ncortex/lofi-analytics/issues"
-                }
+                "description": "Self-hosted analytics for Lofi Framework - Track page views, visitors, and more without external dependencies"
             },
             "v3.0.0": {
                 "name": "lofi/analytics",
@@ -2060,11 +1924,7 @@
                         "email": "info@natayfresas.com"
                     }
                 ],
-                "description": "Self-hosted analytics for Lofi Framework - Track page views, visitors, and more without external dependencies",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-analytics/tree/v3.0.0",
-                    "issues": "https://github.com/ncortex/lofi-analytics/issues"
-                }
+                "description": "Self-hosted analytics for Lofi Framework - Track page views, visitors, and more without external dependencies"
             },
             "v3.0.1": {
                 "name": "lofi/analytics",
@@ -2114,11 +1974,7 @@
                         "email": "info@natayfresas.com"
                     }
                 ],
-                "description": "Self-hosted analytics for Lofi Framework - Track page views, visitors, and more without external dependencies",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-analytics/tree/v3.0.1",
-                    "issues": "https://github.com/ncortex/lofi-analytics/issues"
-                }
+                "description": "Self-hosted analytics for Lofi Framework - Track page views, visitors, and more without external dependencies"
             },
             "v3.3.4": {
                 "name": "lofi/analytics",
@@ -2168,11 +2024,7 @@
                         "email": "info@natayfresas.com"
                     }
                 ],
-                "description": "Self-hosted analytics for Lofi Framework - Track page views, visitors, and more without external dependencies",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-analytics/tree/v3.3.4",
-                    "issues": "https://github.com/ncortex/lofi-analytics/issues"
-                }
+                "description": "Self-hosted analytics for Lofi Framework - Track page views, visitors, and more without external dependencies"
             },
             "dev-main": {
                 "name": "lofi/analytics",
@@ -2231,11 +2083,7 @@
                         "email": "info@natayfresas.com"
                     }
                 ],
-                "description": "Self-hosted analytics for Lofi Framework - Track page views, visitors, and more without external dependencies",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-analytics/tree/main",
-                    "issues": "https://github.com/ncortex/lofi-analytics/issues"
-                }
+                "description": "Self-hosted analytics for Lofi Framework - Track page views, visitors, and more without external dependencies"
             }
         },
         "lofi/api": {
@@ -2287,11 +2135,7 @@
                         "email": "joselito@example.com"
                     }
                 ],
-                "description": "LoFi Framework - API & MCP Layer",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-api/tree/v1.0.0",
-                    "issues": "https://github.com/ncortex/lofi-api/issues"
-                }
+                "description": "LoFi Framework - API & MCP Layer"
             },
             "v3.0.1": {
                 "name": "lofi/api",
@@ -2341,11 +2185,7 @@
                         "email": "joselito@example.com"
                     }
                 ],
-                "description": "LoFi Framework - API & MCP Layer",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-api/tree/v3.0.1",
-                    "issues": "https://github.com/ncortex/lofi-api/issues"
-                }
+                "description": "LoFi Framework - API & MCP Layer"
             },
             "v3.3.4": {
                 "name": "lofi/api",
@@ -2395,11 +2235,7 @@
                         "email": "joselito@example.com"
                     }
                 ],
-                "description": "LoFi Framework - API & MCP Layer",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-api/tree/v3.3.4",
-                    "issues": "https://github.com/ncortex/lofi-api/issues"
-                }
+                "description": "LoFi Framework - API & MCP Layer"
             },
             "v3.3.5": {
                 "name": "lofi/api",
@@ -2449,11 +2285,7 @@
                         "email": "joselito@example.com"
                     }
                 ],
-                "description": "LoFi Framework - API & MCP Layer",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-api/tree/v3.3.5",
-                    "issues": "https://github.com/ncortex/lofi-api/issues"
-                }
+                "description": "LoFi Framework - API & MCP Layer"
             },
             "dev-main": {
                 "name": "lofi/api",
@@ -2512,11 +2344,7 @@
                         "email": "joselito@example.com"
                     }
                 ],
-                "description": "LoFi Framework - API & MCP Layer",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-api/tree/main",
-                    "issues": "https://github.com/ncortex/lofi-api/issues"
-                }
+                "description": "LoFi Framework - API & MCP Layer"
             }
         },
         "lofi/audit": {
@@ -2561,11 +2389,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Audit trail for LoFi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-audit/tree/v3.3.4",
-                    "issues": "https://github.com/ncortex/lofi-audit/issues"
-                }
+                "description": "Audit trail for LoFi Framework"
             },
             "3.3.5": {
                 "name": "lofi/audit",
@@ -2617,11 +2441,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Audit trail for LoFi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-audit/tree/v3.3.5",
-                    "issues": "https://github.com/ncortex/lofi-audit/issues"
-                }
+                "description": "Audit trail for LoFi Framework"
             },
             "dev-main": {
                 "name": "lofi/audit",
@@ -2683,11 +2503,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Audit trail for LoFi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-audit/tree/main",
-                    "issues": "https://github.com/ncortex/lofi-audit/issues"
-                }
+                "description": "Audit trail for LoFi Framework"
             }
         },
         "lofi/auth": {
@@ -2759,11 +2575,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "LoFi Authentication and Authorization",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-auth/tree/v1.0.0",
-                    "issues": "https://github.com/ncortex/lofi-auth/issues"
-                }
+                "description": "LoFi Authentication and Authorization"
             },
             "v3.3.4": {
                 "name": "lofi/auth",
@@ -2833,11 +2645,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "LoFi Authentication and Authorization",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-auth/tree/v3.3.4",
-                    "issues": "https://github.com/ncortex/lofi-auth/issues"
-                }
+                "description": "LoFi Authentication and Authorization"
             },
             "v3.3.6": {
                 "name": "lofi/auth",
@@ -2907,11 +2715,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "LoFi Authentication and Authorization",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-auth/tree/v3.3.6",
-                    "issues": "https://github.com/ncortex/lofi-auth/issues"
-                }
+                "description": "LoFi Authentication and Authorization"
             },
             "3.3.7": {
                 "name": "lofi/auth",
@@ -2987,11 +2791,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "LoFi Authentication and Authorization",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-auth/tree/v3.3.7",
-                    "issues": "https://github.com/ncortex/lofi-auth/issues"
-                }
+                "description": "LoFi Authentication and Authorization"
             },
             "dev-main": {
                 "name": "lofi/auth",
@@ -3068,11 +2868,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "LoFi Authentication and Authorization",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-auth/tree/main",
-                    "issues": "https://github.com/ncortex/lofi-auth/issues"
-                }
+                "description": "LoFi Authentication and Authorization"
             }
         },
         "lofi/backup": {
@@ -3132,11 +2928,7 @@
                         "email": "hello@lofi.dev"
                     }
                 ],
-                "description": "Backup and Restore System for Lofi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-backup/tree/v3.3.4",
-                    "issues": "https://github.com/ncortex/lofi-backup/issues"
-                }
+                "description": "Backup and Restore System for Lofi Framework"
             },
             "v3.3.5": {
                 "name": "lofi/backup",
@@ -3194,11 +2986,7 @@
                         "email": "hello@lofi.dev"
                     }
                 ],
-                "description": "Backup and Restore System for Lofi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-backup/tree/v3.3.5",
-                    "issues": "https://github.com/ncortex/lofi-backup/issues"
-                }
+                "description": "Backup and Restore System for Lofi Framework"
             },
             "v3.3.7": {
                 "name": "lofi/backup",
@@ -3256,11 +3044,7 @@
                         "email": "hello@lofi.dev"
                     }
                 ],
-                "description": "Backup and Restore System for Lofi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-backup/tree/v3.3.7",
-                    "issues": "https://github.com/ncortex/lofi-backup/issues"
-                }
+                "description": "Backup and Restore System for Lofi Framework"
             },
             "dev-main": {
                 "name": "lofi/backup",
@@ -3328,11 +3112,7 @@
                         "email": "hello@lofi.dev"
                     }
                 ],
-                "description": "Backup and Restore System for Lofi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-backup/tree/main",
-                    "issues": "https://github.com/ncortex/lofi-backup/issues"
-                }
+                "description": "Backup and Restore System for Lofi Framework"
             }
         },
         "lofi/clinic": {
@@ -3390,11 +3170,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "LoFi Clinic - Generic clinic management module with patients, appointments, and treatments",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-clinic/tree/v1.0.0",
-                    "issues": "https://github.com/ncortex/lofi-clinic/issues"
-                }
+                "description": "LoFi Clinic - Generic clinic management module with patients, appointments, and treatments"
             },
             "v3.0.1": {
                 "name": "lofi/clinic",
@@ -3450,11 +3226,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "LoFi Clinic - Generic clinic management module with patients, appointments, and treatments",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-clinic/tree/v3.0.1",
-                    "issues": "https://github.com/ncortex/lofi-clinic/issues"
-                }
+                "description": "LoFi Clinic - Generic clinic management module with patients, appointments, and treatments"
             },
             "v3.3.4": {
                 "name": "lofi/clinic",
@@ -3510,11 +3282,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "LoFi Clinic - Generic clinic management module with patients, appointments, and treatments",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-clinic/tree/v3.3.4",
-                    "issues": "https://github.com/ncortex/lofi-clinic/issues"
-                }
+                "description": "LoFi Clinic - Generic clinic management module with patients, appointments, and treatments"
             },
             "dev-main": {
                 "name": "lofi/clinic",
@@ -3579,11 +3347,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "LoFi Clinic - Generic clinic management module with patients, appointments, and treatments",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-clinic/tree/main",
-                    "issues": "https://github.com/ncortex/lofi-clinic/issues"
-                }
+                "description": "LoFi Clinic - Generic clinic management module with patients, appointments, and treatments"
             }
         },
         "lofi/cms": {
@@ -3648,11 +3412,7 @@
                         "email": "hello@lofi.dev"
                     }
                 ],
-                "description": "Content Management System for Lofi Framework - Pages, Posts, FAQs, and Menus",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-cms/tree/v1.0.2",
-                    "issues": "https://github.com/ncortex/lofi-cms/issues"
-                }
+                "description": "Content Management System for Lofi Framework - Pages, Posts, FAQs, and Menus"
             },
             "v3.0.2": {
                 "name": "lofi/cms",
@@ -3713,11 +3473,7 @@
                         "email": "hello@lofi.dev"
                     }
                 ],
-                "description": "Content Management System for Lofi Framework - Pages, Posts, FAQs, and Menus",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-cms/tree/v3.0.2",
-                    "issues": "https://github.com/ncortex/lofi-cms/issues"
-                }
+                "description": "Content Management System for Lofi Framework - Pages, Posts, FAQs, and Menus"
             },
             "3.3.10": {
                 "name": "lofi/cms",
@@ -3786,11 +3542,7 @@
                         "email": "hello@lofi.dev"
                     }
                 ],
-                "description": "Content Management System for Lofi Framework - Pages, Posts, FAQs, and Menus",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-cms/tree/v3.3.10",
-                    "issues": "https://github.com/ncortex/lofi-cms/issues"
-                }
+                "description": "Content Management System for Lofi Framework - Pages, Posts, FAQs, and Menus"
             },
             "v3.3.4": {
                 "name": "lofi/cms",
@@ -3851,11 +3603,7 @@
                         "email": "hello@lofi.dev"
                     }
                 ],
-                "description": "Content Management System for Lofi Framework - Pages, Posts, FAQs, and Menus",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-cms/tree/v3.3.4",
-                    "issues": "https://github.com/ncortex/lofi-cms/issues"
-                }
+                "description": "Content Management System for Lofi Framework - Pages, Posts, FAQs, and Menus"
             },
             "v3.3.5": {
                 "name": "lofi/cms",
@@ -3916,11 +3664,7 @@
                         "email": "hello@lofi.dev"
                     }
                 ],
-                "description": "Content Management System for Lofi Framework - Pages, Posts, FAQs, and Menus",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-cms/tree/v3.3.5",
-                    "issues": "https://github.com/ncortex/lofi-cms/issues"
-                }
+                "description": "Content Management System for Lofi Framework - Pages, Posts, FAQs, and Menus"
             },
             "v3.3.9": {
                 "name": "lofi/cms",
@@ -3981,11 +3725,7 @@
                         "email": "hello@lofi.dev"
                     }
                 ],
-                "description": "Content Management System for Lofi Framework - Pages, Posts, FAQs, and Menus",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-cms/tree/v3.3.9",
-                    "issues": "https://github.com/ncortex/lofi-cms/issues"
-                }
+                "description": "Content Management System for Lofi Framework - Pages, Posts, FAQs, and Menus"
             },
             "4.0.0": {
                 "name": "lofi/cms",
@@ -4053,11 +3793,7 @@
                         "email": "hello@lofi.dev"
                     }
                 ],
-                "description": "Content Management System for Lofi Framework - Pages, Posts, FAQs, Comments, Contact Forms",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-cms/tree/v4.0.0",
-                    "issues": "https://github.com/ncortex/lofi-cms/issues"
-                }
+                "description": "Content Management System for Lofi Framework - Pages, Posts, FAQs, Comments, Contact Forms"
             },
             "dev-main": {
                 "name": "lofi/cms",
@@ -4126,11 +3862,7 @@
                         "email": "hello@lofi.dev"
                     }
                 ],
-                "description": "Content Management System for Lofi Framework - Pages, Posts, FAQs, Comments, Contact Forms",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-cms/tree/main",
-                    "issues": "https://github.com/ncortex/lofi-cms/issues"
-                }
+                "description": "Content Management System for Lofi Framework - Pages, Posts, FAQs, Comments, Contact Forms"
             },
             "dev-master": {
                 "name": "lofi/cms",
@@ -4396,11 +4128,7 @@
                         "email": "joselito@example.com"
                     }
                 ],
-                "description": "LoFi Framework Monorepo - Laravel with low friction for WordPress developers",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-cms/tree/master",
-                    "issues": "https://github.com/ncortex/lofi-cms/issues"
-                }
+                "description": "LoFi Framework Monorepo - Laravel with low friction for WordPress developers"
             }
         },
         "lofi/crawler": {
@@ -4465,11 +4193,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Unified crawler with AI extraction for LoFi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-crawler/tree/v3.3.0",
-                    "issues": "https://github.com/ncortex/lofi-crawler/issues"
-                }
+                "description": "Unified crawler with AI extraction for LoFi Framework"
             },
             "dev-main": {
                 "name": "lofi/crawler",
@@ -4533,11 +4257,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Unified crawler with AI extraction for LoFi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-crawler/tree/v3.3.1",
-                    "issues": "https://github.com/ncortex/lofi-crawler/issues"
-                }
+                "description": "Unified crawler with AI extraction for LoFi Framework"
             }
         },
         "lofi/cron": {
@@ -4600,11 +4320,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "LoFi Cron - Centralized scheduled task and queue monitoring",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-cron/tree/v3.3.4",
-                    "issues": "https://github.com/ncortex/lofi-cron/issues"
-                }
+                "description": "LoFi Cron - Centralized scheduled task and queue monitoring"
             },
             "v3.3.5": {
                 "name": "lofi/cron",
@@ -4665,11 +4381,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "LoFi Cron - Centralized scheduled task and queue monitoring",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-cron/tree/v3.3.5",
-                    "issues": "https://github.com/ncortex/lofi-cron/issues"
-                }
+                "description": "LoFi Cron - Centralized scheduled task and queue monitoring"
             },
             "v3.3.6": {
                 "name": "lofi/cron",
@@ -4730,11 +4442,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "LoFi Cron - Centralized scheduled task and queue monitoring",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-cron/tree/v3.3.6",
-                    "issues": "https://github.com/ncortex/lofi-cron/issues"
-                }
+                "description": "LoFi Cron - Centralized scheduled task and queue monitoring"
             },
             "v3.3.7": {
                 "name": "lofi/cron",
@@ -4795,11 +4503,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "LoFi Cron - Centralized scheduled task and queue monitoring",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-cron/tree/v3.3.7",
-                    "issues": "https://github.com/ncortex/lofi-cron/issues"
-                }
+                "description": "LoFi Cron - Centralized scheduled task and queue monitoring"
             },
             "dev-main": {
                 "name": "lofi/cron",
@@ -4867,11 +4571,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "LoFi Cron - Centralized scheduled task and queue monitoring",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-cron/tree/main",
-                    "issues": "https://github.com/ncortex/lofi-cron/issues"
-                }
+                "description": "LoFi Cron - Centralized scheduled task and queue monitoring"
             }
         },
         "lofi/directory": {
@@ -4935,11 +4635,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi Directory - Sistema de directorio de profesionales y servicios",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-directory/tree/v1.0.0",
-                    "issues": "https://github.com/ncortex/lofi-directory/issues"
-                }
+                "description": "Lofi Directory - Sistema de directorio de profesionales y servicios"
             },
             "3.3.10": {
                 "name": "lofi/directory",
@@ -5009,11 +4705,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi Directory - Sistema de directorio de profesionales y servicios",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-directory/tree/v3.3.10",
-                    "issues": "https://github.com/ncortex/lofi-directory/issues"
-                }
+                "description": "Lofi Directory - Sistema de directorio de profesionales y servicios"
             },
             "v3.3.4": {
                 "name": "lofi/directory",
@@ -5076,11 +4768,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi Directory - Sistema de directorio de profesionales y servicios",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-directory/tree/v3.3.4",
-                    "issues": "https://github.com/ncortex/lofi-directory/issues"
-                }
+                "description": "Lofi Directory - Sistema de directorio de profesionales y servicios"
             },
             "v3.3.6": {
                 "name": "lofi/directory",
@@ -5143,11 +4831,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi Directory - Sistema de directorio de profesionales y servicios",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-directory/tree/v3.3.6",
-                    "issues": "https://github.com/ncortex/lofi-directory/issues"
-                }
+                "description": "Lofi Directory - Sistema de directorio de profesionales y servicios"
             },
             "v3.3.7": {
                 "name": "lofi/directory",
@@ -5210,11 +4894,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi Directory - Sistema de directorio de profesionales y servicios",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-directory/tree/v3.3.7",
-                    "issues": "https://github.com/ncortex/lofi-directory/issues"
-                }
+                "description": "Lofi Directory - Sistema de directorio de profesionales y servicios"
             },
             "v3.3.8": {
                 "name": "lofi/directory",
@@ -5277,11 +4957,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi Directory - Sistema de directorio de profesionales y servicios",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-directory/tree/v3.3.8",
-                    "issues": "https://github.com/ncortex/lofi-directory/issues"
-                }
+                "description": "Lofi Directory - Sistema de directorio de profesionales y servicios"
             },
             "3.3.9": {
                 "name": "lofi/directory",
@@ -5351,11 +5027,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi Directory - Sistema de directorio de profesionales y servicios",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-directory/tree/v3.3.9",
-                    "issues": "https://github.com/ncortex/lofi-directory/issues"
-                }
+                "description": "Lofi Directory - Sistema de directorio de profesionales y servicios"
             },
             "dev-main": {
                 "name": "lofi/directory",
@@ -5426,11 +5098,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi Directory - Sistema de directorio de profesionales y servicios",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-directory/tree/v3.3.10",
-                    "issues": "https://github.com/ncortex/lofi-directory/issues"
-                }
+                "description": "Lofi Directory - Sistema de directorio de profesionales y servicios"
             }
         },
         "lofi/docs": {
@@ -5493,11 +5161,7 @@
                         "email": "joselito@example.com"
                     }
                 ],
-                "description": "LoFi Documentation Portal - Centralized documentation viewer for all packages",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-docs/tree/v3.0.0",
-                    "issues": "https://github.com/ncortex/lofi-docs/issues"
-                }
+                "description": "LoFi Documentation Portal - Centralized documentation viewer for all packages"
             },
             "v1.0.0": {
                 "name": "lofi/docs",
@@ -5558,11 +5222,7 @@
                         "email": "joselito@example.com"
                     }
                 ],
-                "description": "LoFi Documentation Portal - Centralized documentation viewer for all packages",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-docs/tree/v3.0.0",
-                    "issues": "https://github.com/ncortex/lofi-docs/issues"
-                }
+                "description": "LoFi Documentation Portal - Centralized documentation viewer for all packages"
             },
             "v3.0.0": {
                 "name": "lofi/docs",
@@ -5623,11 +5283,7 @@
                         "email": "joselito@example.com"
                     }
                 ],
-                "description": "LoFi Documentation Portal - Centralized documentation viewer for all packages",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-docs/tree/v3.0.0",
-                    "issues": "https://github.com/ncortex/lofi-docs/issues"
-                }
+                "description": "LoFi Documentation Portal - Centralized documentation viewer for all packages"
             },
             "v3.3.4": {
                 "name": "lofi/docs",
@@ -5688,11 +5344,7 @@
                         "email": "joselito@example.com"
                     }
                 ],
-                "description": "LoFi Documentation Portal - Centralized documentation viewer for all packages",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-docs/tree/v3.3.4",
-                    "issues": "https://github.com/ncortex/lofi-docs/issues"
-                }
+                "description": "LoFi Documentation Portal - Centralized documentation viewer for all packages"
             },
             "v3.3.5": {
                 "name": "lofi/docs",
@@ -5753,11 +5405,7 @@
                         "email": "joselito@example.com"
                     }
                 ],
-                "description": "LoFi Documentation Portal - Centralized documentation viewer for all packages",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-docs/tree/v3.3.5",
-                    "issues": "https://github.com/ncortex/lofi-docs/issues"
-                }
+                "description": "LoFi Documentation Portal - Centralized documentation viewer for all packages"
             },
             "dev-main": {
                 "name": "lofi/docs",
@@ -5828,11 +5476,7 @@
                         "email": "joselito@example.com"
                     }
                 ],
-                "description": "LoFi Documentation Portal - Centralized documentation viewer for all packages",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-docs/tree/main",
-                    "issues": "https://github.com/ncortex/lofi-docs/issues"
-                }
+                "description": "LoFi Documentation Portal - Centralized documentation viewer for all packages"
             }
         },
         "lofi/ecommerce": {
@@ -5899,11 +5543,7 @@
                         "name": "Lofi Team"
                     }
                 ],
-                "description": "E-commerce module for Lofi Framework - Products, Orders, Cart, Promotions",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-ecommerce/tree/v1.0.0",
-                    "issues": "https://github.com/ncortex/lofi-ecommerce/issues"
-                }
+                "description": "E-commerce module for Lofi Framework - Products, Orders, Cart, Promotions"
             },
             "v3.0.1": {
                 "name": "lofi/ecommerce",
@@ -5968,11 +5608,7 @@
                         "name": "Lofi Team"
                     }
                 ],
-                "description": "E-commerce module for Lofi Framework - Products, Orders, Cart, Promotions",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-ecommerce/tree/v3.0.1",
-                    "issues": "https://github.com/ncortex/lofi-ecommerce/issues"
-                }
+                "description": "E-commerce module for Lofi Framework - Products, Orders, Cart, Promotions"
             },
             "v3.3.4": {
                 "name": "lofi/ecommerce",
@@ -6037,11 +5673,7 @@
                         "name": "Lofi Team"
                     }
                 ],
-                "description": "E-commerce module for Lofi Framework - Products, Orders, Cart, Promotions",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-ecommerce/tree/v3.3.4",
-                    "issues": "https://github.com/ncortex/lofi-ecommerce/issues"
-                }
+                "description": "E-commerce module for Lofi Framework - Products, Orders, Cart, Promotions"
             },
             "v3.3.5": {
                 "name": "lofi/ecommerce",
@@ -6106,11 +5738,7 @@
                         "name": "Lofi Team"
                     }
                 ],
-                "description": "E-commerce module for Lofi Framework - Products, Orders, Cart, Promotions",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-ecommerce/tree/v3.3.5",
-                    "issues": "https://github.com/ncortex/lofi-ecommerce/issues"
-                }
+                "description": "E-commerce module for Lofi Framework - Products, Orders, Cart, Promotions"
             },
             "v3.3.7": {
                 "name": "lofi/ecommerce",
@@ -6175,11 +5803,7 @@
                         "name": "Lofi Team"
                     }
                 ],
-                "description": "E-commerce module for Lofi Framework - Products, Orders, Cart, Promotions",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-ecommerce/tree/v3.3.7",
-                    "issues": "https://github.com/ncortex/lofi-ecommerce/issues"
-                }
+                "description": "E-commerce module for Lofi Framework - Products, Orders, Cart, Promotions"
             },
             "dev-main": {
                 "name": "lofi/ecommerce",
@@ -6252,11 +5876,7 @@
                         "name": "Lofi Team"
                     }
                 ],
-                "description": "E-commerce module for Lofi Framework - Products, Orders, Cart, Promotions",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-ecommerce/tree/main",
-                    "issues": "https://github.com/ncortex/lofi-ecommerce/issues"
-                }
+                "description": "E-commerce module for Lofi Framework - Products, Orders, Cart, Promotions"
             }
         },
         "lofi/erp": {
@@ -6318,11 +5938,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi ERP - Sistema de gestión empresarial integral",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-erp/tree/v1.0.0",
-                    "issues": "https://github.com/ncortex/lofi-erp/issues"
-                }
+                "description": "Lofi ERP - Sistema de gestión empresarial integral"
             },
             "3.3.10": {
                 "name": "lofi/erp",
@@ -6350,7 +5966,7 @@
                     "orchestra/testbench": "^8.0|^9.0|^10.0",
                     "phpunit/phpunit": "^10.0|^11.0"
                 },
-                "time": "2026-02-22T20:03:28+00:00",
+                "time": "2026-02-22T20:02:36+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -6388,11 +6004,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi ERP - Sistema de gestión empresarial integral",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-erp/tree/v3.3.10",
-                    "issues": "https://github.com/ncortex/lofi-erp/issues"
-                }
+                "description": "Lofi ERP - Sistema de gestión empresarial integral"
             },
             "3.3.11": {
                 "name": "lofi/erp",
@@ -6458,11 +6070,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi ERP - Sistema de gestión empresarial integral",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-erp/tree/v3.3.11",
-                    "issues": "https://github.com/ncortex/lofi-erp/issues"
-                }
+                "description": "Lofi ERP - Sistema de gestión empresarial integral"
             },
             "3.3.12": {
                 "name": "lofi/erp",
@@ -6528,11 +6136,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi ERP - Sistema de gestión empresarial integral",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-erp/tree/v3.3.12",
-                    "issues": "https://github.com/ncortex/lofi-erp/issues"
-                }
+                "description": "Lofi ERP - Sistema de gestión empresarial integral"
             },
             "v3.3.4": {
                 "name": "lofi/erp",
@@ -6592,11 +6196,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi ERP - Sistema de gestión empresarial integral",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-erp/tree/v3.3.4",
-                    "issues": "https://github.com/ncortex/lofi-erp/issues"
-                }
+                "description": "Lofi ERP - Sistema de gestión empresarial integral"
             },
             "v3.3.6": {
                 "name": "lofi/erp",
@@ -6656,11 +6256,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi ERP - Sistema de gestión empresarial integral",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-erp/tree/v3.3.6",
-                    "issues": "https://github.com/ncortex/lofi-erp/issues"
-                }
+                "description": "Lofi ERP - Sistema de gestión empresarial integral"
             },
             "v3.3.7": {
                 "name": "lofi/erp",
@@ -6720,11 +6316,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi ERP - Sistema de gestión empresarial integral",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-erp/tree/v3.3.7",
-                    "issues": "https://github.com/ncortex/lofi-erp/issues"
-                }
+                "description": "Lofi ERP - Sistema de gestión empresarial integral"
             },
             "3.3.8": {
                 "name": "lofi/erp",
@@ -6790,11 +6382,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi ERP - Sistema de gestión empresarial integral",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-erp/tree/v3.3.8",
-                    "issues": "https://github.com/ncortex/lofi-erp/issues"
-                }
+                "description": "Lofi ERP - Sistema de gestión empresarial integral"
             },
             "3.3.9": {
                 "name": "lofi/erp",
@@ -6822,7 +6410,7 @@
                     "orchestra/testbench": "^8.0|^9.0|^10.0",
                     "phpunit/phpunit": "^10.0|^11.0"
                 },
-                "time": "2026-02-22T20:03:28+00:00",
+                "time": "2026-02-21T18:52:10+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -6860,11 +6448,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi ERP - Sistema de gestión empresarial integral",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-erp/tree/v3.3.9",
-                    "issues": "https://github.com/ncortex/lofi-erp/issues"
-                }
+                "description": "Lofi ERP - Sistema de gestión empresarial integral"
             },
             "dev-claude/fix-project-save-issue-QqufG": {
                 "name": "lofi/erp",
@@ -6930,11 +6514,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi ERP - Sistema de gestión empresarial integral",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-erp/tree/claude/fix-project-save-issue-QqufG",
-                    "issues": "https://github.com/ncortex/lofi-erp/issues"
-                }
+                "description": "Lofi ERP - Sistema de gestión empresarial integral"
             },
             "dev-main": {
                 "name": "lofi/erp",
@@ -7001,11 +6581,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi ERP - Sistema de gestión empresarial integral",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-erp/tree/v3.3.11",
-                    "issues": "https://github.com/ncortex/lofi-erp/issues"
-                }
+                "description": "Lofi ERP - Sistema de gestión empresarial integral"
             }
         },
         "lofi/framework": {
@@ -7069,11 +6645,7 @@
                     "laravel",
                     "lofi",
                     "wordpress"
-                ],
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-framework/tree/v1.0.0",
-                    "issues": "https://github.com/ncortex/lofi-framework/issues"
-                }
+                ]
             },
             "v3.0.0": {
                 "name": "lofi/framework",
@@ -7134,11 +6706,7 @@
                     "laravel",
                     "lofi",
                     "wordpress"
-                ],
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-framework/tree/v3.0.0",
-                    "issues": "https://github.com/ncortex/lofi-framework/issues"
-                }
+                ]
             },
             "v3.0.1": {
                 "name": "lofi/framework",
@@ -7200,11 +6768,7 @@
                     "laravel",
                     "lofi",
                     "wordpress"
-                ],
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-framework/tree/v3.0.1",
-                    "issues": "https://github.com/ncortex/lofi-framework/issues"
-                }
+                ]
             },
             "v3.3.4": {
                 "name": "lofi/framework",
@@ -7266,11 +6830,7 @@
                     "laravel",
                     "lofi",
                     "wordpress"
-                ],
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-framework/tree/v3.3.4",
-                    "issues": "https://github.com/ncortex/lofi-framework/issues"
-                }
+                ]
             },
             "v3.3.5": {
                 "name": "lofi/framework",
@@ -7332,11 +6892,7 @@
                     "laravel",
                     "lofi",
                     "wordpress"
-                ],
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-framework/tree/v3.3.5",
-                    "issues": "https://github.com/ncortex/lofi-framework/issues"
-                }
+                ]
             },
             "v3.3.7": {
                 "name": "lofi/framework",
@@ -7377,7 +6933,7 @@
                     "lofi/telegram": "Telegram bot integration",
                     "lofi/webhooks": "Webhook dispatching and logging"
                 },
-                "time": "2026-02-09T17:54:12+00:00",
+                "time": "2026-02-09T17:51:03+00:00",
                 "type": "metapackage",
                 "extra": {
                     "lofi": {
@@ -7399,11 +6955,7 @@
                     "laravel",
                     "lofi",
                     "wordpress"
-                ],
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-framework/tree/v3.3.7",
-                    "issues": "https://github.com/ncortex/lofi-framework/issues"
-                }
+                ]
             },
             "dev-main": {
                 "name": "lofi/framework",
@@ -7475,11 +7027,7 @@
                     "laravel",
                     "lofi",
                     "wordpress"
-                ],
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-framework/tree/main",
-                    "issues": "https://github.com/ncortex/lofi-framework/issues"
-                }
+                ]
             }
         },
         "lofi/geo": {
@@ -7540,11 +7088,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi Geo - Gestión de zonas geográficas y ciudades",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-geo/tree/v1.0.0",
-                    "issues": "https://github.com/ncortex/lofi-geo/issues"
-                }
+                "description": "Lofi Geo - Gestión de zonas geográficas y ciudades"
             },
             "v3.3.4": {
                 "name": "lofi/geo",
@@ -7603,11 +7147,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi Geo - Gestión de zonas geográficas y ciudades",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-geo/tree/v3.3.4",
-                    "issues": "https://github.com/ncortex/lofi-geo/issues"
-                }
+                "description": "Lofi Geo - Gestión de zonas geográficas y ciudades"
             },
             "v3.3.6": {
                 "name": "lofi/geo",
@@ -7666,11 +7206,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi Geo - Gestión de zonas geográficas y ciudades",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-geo/tree/v3.3.6",
-                    "issues": "https://github.com/ncortex/lofi-geo/issues"
-                }
+                "description": "Lofi Geo - Gestión de zonas geográficas y ciudades"
             },
             "dev-main": {
                 "name": "lofi/geo",
@@ -7736,11 +7272,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi Geo - Gestión de zonas geográficas y ciudades",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-geo/tree/main",
-                    "issues": "https://github.com/ncortex/lofi-geo/issues"
-                }
+                "description": "Lofi Geo - Gestión de zonas geográficas y ciudades"
             }
         },
         "lofi/git": {
@@ -7802,11 +7334,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "LoFi Git - Dashboard de gestión de repositorios GitLab",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-git/tree/v1.0.0",
-                    "issues": "https://github.com/ncortex/lofi-git/issues"
-                }
+                "description": "LoFi Git - Dashboard de gestión de repositorios GitLab"
             },
             "v3.3.4": {
                 "name": "lofi/git",
@@ -7866,11 +7394,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "LoFi Git - Dashboard de gestión de repositorios GitLab",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-git/tree/v3.3.4",
-                    "issues": "https://github.com/ncortex/lofi-git/issues"
-                }
+                "description": "LoFi Git - Dashboard de gestión de repositorios GitLab"
             },
             "v3.3.5": {
                 "name": "lofi/git",
@@ -7930,11 +7454,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "LoFi Git - Dashboard de gestión de repositorios GitLab",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-git/tree/v3.3.5",
-                    "issues": "https://github.com/ncortex/lofi-git/issues"
-                }
+                "description": "LoFi Git - Dashboard de gestión de repositorios GitLab"
             },
             "dev-main": {
                 "name": "lofi/git",
@@ -8001,11 +7521,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "LoFi Git - Dashboard de gestión de repositorios GitLab",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-git/tree/main",
-                    "issues": "https://github.com/ncortex/lofi-git/issues"
-                }
+                "description": "LoFi Git - Dashboard de gestión de repositorios GitLab"
             }
         },
         "lofi/installer": {
@@ -8063,11 +7579,7 @@
                         "name": "LoFi Team"
                     }
                 ],
-                "description": "WordPress-style installation wizard for LoFi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-installer/tree/v3.3.4",
-                    "issues": "https://github.com/ncortex/lofi-installer/issues"
-                }
+                "description": "WordPress-style installation wizard for LoFi Framework"
             },
             "dev-main": {
                 "name": "lofi/installer",
@@ -8132,11 +7644,7 @@
                         "name": "LoFi Team"
                     }
                 ],
-                "description": "WordPress-style installation wizard for LoFi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-installer/tree/main",
-                    "issues": "https://github.com/ncortex/lofi-installer/issues"
-                }
+                "description": "WordPress-style installation wizard for LoFi Framework"
             }
         },
         "lofi/kernel": {
@@ -8209,11 +7717,7 @@
                         "email": "joselito@example.com"
                     }
                 ],
-                "description": "LoFi Framework - Kernel",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-kernel/tree/v3.0.0",
-                    "issues": "https://github.com/ncortex/lofi-kernel/issues"
-                }
+                "description": "LoFi Framework - Kernel"
             },
             "v3.3.10": {
                 "name": "lofi/kernel",
@@ -8287,11 +7791,7 @@
                         "email": "joselito@example.com"
                     }
                 ],
-                "description": "LoFi Framework - Kernel",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-kernel/tree/v3.3.10",
-                    "issues": "https://github.com/ncortex/lofi-kernel/issues"
-                }
+                "description": "LoFi Framework - Kernel"
             },
             "v3.3.4": {
                 "name": "lofi/kernel",
@@ -8365,11 +7865,7 @@
                         "email": "joselito@example.com"
                     }
                 ],
-                "description": "LoFi Framework - Kernel",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-kernel/tree/v3.3.4",
-                    "issues": "https://github.com/ncortex/lofi-kernel/issues"
-                }
+                "description": "LoFi Framework - Kernel"
             },
             "v3.3.7": {
                 "name": "lofi/kernel",
@@ -8443,11 +7939,7 @@
                         "email": "joselito@example.com"
                     }
                 ],
-                "description": "LoFi Framework - Kernel",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-kernel/tree/v3.3.7",
-                    "issues": "https://github.com/ncortex/lofi-kernel/issues"
-                }
+                "description": "LoFi Framework - Kernel"
             },
             "v3.3.8": {
                 "name": "lofi/kernel",
@@ -8521,11 +8013,7 @@
                         "email": "joselito@example.com"
                     }
                 ],
-                "description": "LoFi Framework - Kernel",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-kernel/tree/v3.3.8",
-                    "issues": "https://github.com/ncortex/lofi-kernel/issues"
-                }
+                "description": "LoFi Framework - Kernel"
             },
             "v3.3.9": {
                 "name": "lofi/kernel",
@@ -8599,11 +8087,7 @@
                         "email": "joselito@example.com"
                     }
                 ],
-                "description": "LoFi Framework - Kernel",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-kernel/tree/v3.3.10",
-                    "issues": "https://github.com/ncortex/lofi-kernel/issues"
-                }
+                "description": "LoFi Framework - Kernel"
             },
             "dev-main": {
                 "name": "lofi/kernel",
@@ -8696,11 +8180,7 @@
                         "email": "joselito@example.com"
                     }
                 ],
-                "description": "LoFi Framework - Kernel",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-kernel/tree/main",
-                    "issues": "https://github.com/ncortex/lofi-kernel/issues"
-                }
+                "description": "LoFi Framework - Kernel"
             }
         },
         "lofi/lofipress": {
@@ -8769,11 +8249,7 @@
                     "lofi",
                     "lofipress",
                     "wordpress"
-                ],
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-lofipress/tree/v1.0.0",
-                    "issues": "https://github.com/ncortex/lofi-lofipress/issues"
-                }
+                ]
             },
             "v3.3.4": {
                 "name": "lofi/lofipress",
@@ -8831,11 +8307,7 @@
                     "lofi",
                     "lofipress",
                     "wordpress"
-                ],
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-lofipress/tree/v3.3.4",
-                    "issues": "https://github.com/ncortex/lofi-lofipress/issues"
-                }
+                ]
             },
             "v3.3.5": {
                 "name": "lofi/lofipress",
@@ -8893,11 +8365,7 @@
                     "lofi",
                     "lofipress",
                     "wordpress"
-                ],
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-lofipress/tree/v3.3.5",
-                    "issues": "https://github.com/ncortex/lofi-lofipress/issues"
-                }
+                ]
             },
             "dev-main": {
                 "name": "lofi/lofipress",
@@ -8964,11 +8432,7 @@
                     "lofi",
                     "lofipress",
                     "wordpress"
-                ],
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-lofipress/tree/main",
-                    "issues": "https://github.com/ncortex/lofi-lofipress/issues"
-                }
+                ]
             }
         },
         "lofi/logs": {
@@ -9013,11 +8477,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Activity logging for LoFi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-logs/tree/v3.3.4",
-                    "issues": "https://github.com/ncortex/lofi-logs/issues"
-                }
+                "description": "Activity logging for LoFi Framework"
             },
             "v3.3.5": {
                 "name": "lofi/logs",
@@ -9066,11 +8526,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Unified logging and activity viewer for LoFi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-logs/tree/v3.3.5",
-                    "issues": "https://github.com/ncortex/lofi-logs/issues"
-                }
+                "description": "Unified logging and activity viewer for LoFi Framework"
             },
             "v3.3.6": {
                 "name": "lofi/logs",
@@ -9119,11 +8575,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Unified logging and activity viewer for LoFi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-logs/tree/v3.3.6",
-                    "issues": "https://github.com/ncortex/lofi-logs/issues"
-                }
+                "description": "Unified logging and activity viewer for LoFi Framework"
             },
             "dev-main": {
                 "name": "lofi/logs",
@@ -9181,11 +8633,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Unified logging and activity viewer for LoFi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-logs/tree/main",
-                    "issues": "https://github.com/ncortex/lofi-logs/issues"
-                }
+                "description": "Unified logging and activity viewer for LoFi Framework"
             }
         },
         "lofi/marketing": {
@@ -9249,11 +8697,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi Marketing - Campañas de email, leads y crawler de profesionales",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-marketing/tree/v1.0.0",
-                    "issues": "https://github.com/ncortex/lofi-marketing/issues"
-                }
+                "description": "Lofi Marketing - Campañas de email, leads y crawler de profesionales"
             },
             "v3.0.1": {
                 "name": "lofi/marketing",
@@ -9315,11 +8759,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi Marketing - Campañas de email, leads y crawler de profesionales",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-marketing/tree/v3.0.1",
-                    "issues": "https://github.com/ncortex/lofi-marketing/issues"
-                }
+                "description": "Lofi Marketing - Campañas de email, leads y crawler de profesionales"
             },
             "v3.3.4": {
                 "name": "lofi/marketing",
@@ -9381,11 +8821,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi Marketing - Campañas de email, leads y crawler de profesionales",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-marketing/tree/v3.3.4",
-                    "issues": "https://github.com/ncortex/lofi-marketing/issues"
-                }
+                "description": "Lofi Marketing - Campañas de email, leads y crawler de profesionales"
             },
             "v3.3.5": {
                 "name": "lofi/marketing",
@@ -9447,11 +8883,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi Marketing - Campañas de email, leads y crawler de profesionales",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-marketing/tree/v3.3.5",
-                    "issues": "https://github.com/ncortex/lofi-marketing/issues"
-                }
+                "description": "Lofi Marketing - Campañas de email, leads y crawler de profesionales"
             },
             "dev-main": {
                 "name": "lofi/marketing",
@@ -9520,11 +8952,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi Marketing - Campañas de email, leads y crawler de profesionales",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-marketing/tree/main",
-                    "issues": "https://github.com/ncortex/lofi-marketing/issues"
-                }
+                "description": "Lofi Marketing - Campañas de email, leads y crawler de profesionales"
             }
         },
         "lofi/media": {
@@ -9569,11 +8997,7 @@
                         "Lofi\\Media\\": "src/"
                     }
                 },
-                "description": "LoFi Media Management",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-media/tree/v1.0.0",
-                    "issues": "https://github.com/ncortex/lofi-media/issues"
-                }
+                "description": "LoFi Media Management"
             },
             "v3.3.4": {
                 "name": "lofi/media",
@@ -9616,11 +9040,7 @@
                         "Lofi\\Media\\": "src/"
                     }
                 },
-                "description": "LoFi Media Management",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-media/tree/v3.3.4",
-                    "issues": "https://github.com/ncortex/lofi-media/issues"
-                }
+                "description": "LoFi Media Management"
             },
             "v3.3.6": {
                 "name": "lofi/media",
@@ -9663,11 +9083,7 @@
                         "Lofi\\Media\\": "src/"
                     }
                 },
-                "description": "LoFi Media Management",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-media/tree/v3.3.6",
-                    "issues": "https://github.com/ncortex/lofi-media/issues"
-                }
+                "description": "LoFi Media Management"
             },
             "dev-main": {
                 "name": "lofi/media",
@@ -9719,11 +9135,7 @@
                         "V=$(php -r \"\\$v=json_decode(file_get_contents('composer.json'))->version;while(trim(shell_exec('git tag -l v'.\\$v))){\\$p=explode('.',\\$v);\\$p[2]++;\\$v=implode('.',\\$p);}\\$j=file_get_contents('composer.json');\\$j=preg_replace('/\\\"version\\\": \\\"[^\\\"]*\\\"/', '\\\"version\\\": \\\"'.\\$v.'\\\"', \\$j);file_put_contents('composer.json',\\$j);echo \\$v;\") && git add -A && (git diff --cached --quiet || git commit -m \"Release v$V\") && git tag -a \"v$V\" -m \"Release v$V\" && git push origin \"v$V\""
                     ]
                 },
-                "description": "LoFi Media Management",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-media/tree/main",
-                    "issues": "https://github.com/ncortex/lofi-media/issues"
-                }
+                "description": "LoFi Media Management"
             }
         },
         "lofi/notifications": {
@@ -9767,11 +9179,7 @@
                         "Lofi\\Notifications\\": "src/"
                     }
                 },
-                "description": "LoFi Notification System",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-notifications/tree/v1.0.0",
-                    "issues": "https://github.com/ncortex/lofi-notifications/issues"
-                }
+                "description": "LoFi Notification System"
             },
             "v3.3.4": {
                 "name": "lofi/notifications",
@@ -9813,11 +9221,7 @@
                         "Lofi\\Notifications\\": "src/"
                     }
                 },
-                "description": "LoFi Notification System",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-notifications/tree/v3.3.4",
-                    "issues": "https://github.com/ncortex/lofi-notifications/issues"
-                }
+                "description": "LoFi Notification System"
             },
             "v3.3.6": {
                 "name": "lofi/notifications",
@@ -9859,11 +9263,7 @@
                         "Lofi\\Notifications\\": "src/"
                     }
                 },
-                "description": "LoFi Notification System",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-notifications/tree/v3.3.6",
-                    "issues": "https://github.com/ncortex/lofi-notifications/issues"
-                }
+                "description": "LoFi Notification System"
             },
             "v3.3.7": {
                 "name": "lofi/notifications",
@@ -9905,11 +9305,7 @@
                         "Lofi\\Notifications\\": "src/"
                     }
                 },
-                "description": "LoFi Notification System",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-notifications/tree/v3.3.7",
-                    "issues": "https://github.com/ncortex/lofi-notifications/issues"
-                }
+                "description": "LoFi Notification System"
             },
             "dev-main": {
                 "name": "lofi/notifications",
@@ -9960,11 +9356,7 @@
                         "V=$(php -r \"\\$v=json_decode(file_get_contents('composer.json'))->version;while(trim(shell_exec('git tag -l v'.\\$v))){\\$p=explode('.',\\$v);\\$p[2]++;\\$v=implode('.',\\$p);}\\$j=file_get_contents('composer.json');\\$j=preg_replace('/\\\"version\\\": \\\"[^\\\"]*\\\"/', '\\\"version\\\": \\\"'.\\$v.'\\\"', \\$j);file_put_contents('composer.json',\\$j);echo \\$v;\") && git add -A && (git diff --cached --quiet || git commit -m \"Release v$V\") && git tag -a \"v$V\" -m \"Release v$V\" && git push origin \"v$V\""
                     ]
                 },
-                "description": "LoFi Notification System",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-notifications/tree/main",
-                    "issues": "https://github.com/ncortex/lofi-notifications/issues"
-                }
+                "description": "LoFi Notification System"
             }
         },
         "lofi/office": {
@@ -10029,11 +9421,7 @@
                         "email": "team@lofi.dev"
                     }
                 ],
-                "description": "Corporate intranet module with HR management, chat, and resource booking for LoFi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-office/tree/v1.0.0",
-                    "issues": "https://github.com/ncortex/lofi-office/issues"
-                }
+                "description": "Corporate intranet module with HR management, chat, and resource booking for LoFi Framework"
             },
             "v1.0.0": {
                 "name": "lofi/office",
@@ -10096,11 +9484,7 @@
                         "email": "team@lofi.dev"
                     }
                 ],
-                "description": "Corporate intranet module with HR management, chat, and resource booking for LoFi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-office/tree/v1.0.0",
-                    "issues": "https://github.com/ncortex/lofi-office/issues"
-                }
+                "description": "Corporate intranet module with HR management, chat, and resource booking for LoFi Framework"
             },
             "v3.0.0": {
                 "name": "lofi/office",
@@ -10163,11 +9547,7 @@
                         "email": "team@lofi.dev"
                     }
                 ],
-                "description": "Corporate intranet module with HR management, chat, and resource booking for LoFi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-office/tree/v3.0.0",
-                    "issues": "https://github.com/ncortex/lofi-office/issues"
-                }
+                "description": "Corporate intranet module with HR management, chat, and resource booking for LoFi Framework"
             },
             "v3.0.1": {
                 "name": "lofi/office",
@@ -10230,11 +9610,7 @@
                         "email": "team@lofi.dev"
                     }
                 ],
-                "description": "Corporate intranet module with HR management, chat, and resource booking for LoFi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-office/tree/v3.0.1",
-                    "issues": "https://github.com/ncortex/lofi-office/issues"
-                }
+                "description": "Corporate intranet module with HR management, chat, and resource booking for LoFi Framework"
             },
             "v3.3.4": {
                 "name": "lofi/office",
@@ -10297,11 +9673,7 @@
                         "email": "team@lofi.dev"
                     }
                 ],
-                "description": "Corporate intranet module with HR management, chat, and resource booking for LoFi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-office/tree/v3.3.4",
-                    "issues": "https://github.com/ncortex/lofi-office/issues"
-                }
+                "description": "Corporate intranet module with HR management, chat, and resource booking for LoFi Framework"
             },
             "v3.3.5": {
                 "name": "lofi/office",
@@ -10364,11 +9736,7 @@
                         "email": "team@lofi.dev"
                     }
                 ],
-                "description": "Corporate intranet module with HR management, chat, and resource booking for LoFi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-office/tree/v3.3.5",
-                    "issues": "https://github.com/ncortex/lofi-office/issues"
-                }
+                "description": "Corporate intranet module with HR management, chat, and resource booking for LoFi Framework"
             },
             "dev-main": {
                 "name": "lofi/office",
@@ -10440,11 +9808,7 @@
                         "email": "team@lofi.dev"
                     }
                 ],
-                "description": "Corporate intranet module with HR management, chat, and resource booking for LoFi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-office/tree/main",
-                    "issues": "https://github.com/ncortex/lofi-office/issues"
-                }
+                "description": "Corporate intranet module with HR management, chat, and resource booking for LoFi Framework"
             }
         },
         "lofi/orchestrator": {
@@ -10498,11 +9862,7 @@
                 "license": [
                     "proprietary"
                 ],
-                "description": "Multi-instance LoFi management with monitoring, remote commands, and impersonation",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-orchestrator/tree/v1.0.0",
-                    "issues": "https://github.com/ncortex/lofi-orchestrator/issues"
-                }
+                "description": "Multi-instance LoFi management with monitoring, remote commands, and impersonation"
             },
             "v1.0.0": {
                 "name": "lofi/orchestrator",
@@ -10554,11 +9914,7 @@
                 "license": [
                     "proprietary"
                 ],
-                "description": "Multi-instance LoFi management with monitoring, remote commands, and impersonation",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-orchestrator/tree/v1.0.0",
-                    "issues": "https://github.com/ncortex/lofi-orchestrator/issues"
-                }
+                "description": "Multi-instance LoFi management with monitoring, remote commands, and impersonation"
             },
             "v3.0.0": {
                 "name": "lofi/orchestrator",
@@ -10610,11 +9966,7 @@
                 "license": [
                     "proprietary"
                 ],
-                "description": "Multi-instance LoFi management with monitoring, remote commands, and impersonation",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-orchestrator/tree/v3.0.0",
-                    "issues": "https://github.com/ncortex/lofi-orchestrator/issues"
-                }
+                "description": "Multi-instance LoFi management with monitoring, remote commands, and impersonation"
             },
             "v3.0.1": {
                 "name": "lofi/orchestrator",
@@ -10666,11 +10018,7 @@
                 "license": [
                     "proprietary"
                 ],
-                "description": "Multi-instance LoFi management with monitoring, remote commands, and impersonation",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-orchestrator/tree/v3.0.1",
-                    "issues": "https://github.com/ncortex/lofi-orchestrator/issues"
-                }
+                "description": "Multi-instance LoFi management with monitoring, remote commands, and impersonation"
             },
             "v3.3.4": {
                 "name": "lofi/orchestrator",
@@ -10722,11 +10070,7 @@
                 "license": [
                     "proprietary"
                 ],
-                "description": "Multi-instance LoFi management with monitoring, remote commands, and impersonation",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-orchestrator/tree/v3.3.4",
-                    "issues": "https://github.com/ncortex/lofi-orchestrator/issues"
-                }
+                "description": "Multi-instance LoFi management with monitoring, remote commands, and impersonation"
             },
             "v3.3.5": {
                 "name": "lofi/orchestrator",
@@ -10778,11 +10122,7 @@
                 "license": [
                     "proprietary"
                 ],
-                "description": "Multi-instance LoFi management with monitoring, remote commands, and impersonation",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-orchestrator/tree/v3.3.5",
-                    "issues": "https://github.com/ncortex/lofi-orchestrator/issues"
-                }
+                "description": "Multi-instance LoFi management with monitoring, remote commands, and impersonation"
             },
             "v3.3.7": {
                 "name": "lofi/orchestrator",
@@ -10834,11 +10174,7 @@
                 "license": [
                     "proprietary"
                 ],
-                "description": "Multi-instance LoFi management with monitoring, remote commands, and impersonation",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-orchestrator/tree/v3.3.7",
-                    "issues": "https://github.com/ncortex/lofi-orchestrator/issues"
-                }
+                "description": "Multi-instance LoFi management with monitoring, remote commands, and impersonation"
             },
             "dev-main": {
                 "name": "lofi/orchestrator",
@@ -10899,11 +10235,7 @@
                 "license": [
                     "proprietary"
                 ],
-                "description": "Multi-instance LoFi management with monitoring, remote commands, and impersonation",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-orchestrator/tree/main",
-                    "issues": "https://github.com/ncortex/lofi-orchestrator/issues"
-                }
+                "description": "Multi-instance LoFi management with monitoring, remote commands, and impersonation"
             }
         },
         "lofi/plugins": {
@@ -10975,11 +10307,7 @@
                         "email": "joselito@example.com"
                     }
                 ],
-                "description": "Plugin system for LoFi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-plugins/tree/v1.0.0",
-                    "issues": "https://github.com/ncortex/lofi-plugins/issues"
-                }
+                "description": "Plugin system for LoFi Framework"
             },
             "v3.0.1": {
                 "name": "lofi/plugins",
@@ -11049,11 +10377,7 @@
                         "email": "joselito@example.com"
                     }
                 ],
-                "description": "Plugin system for LoFi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-plugins/tree/v3.0.1",
-                    "issues": "https://github.com/ncortex/lofi-plugins/issues"
-                }
+                "description": "Plugin system for LoFi Framework"
             },
             "v3.3.4": {
                 "name": "lofi/plugins",
@@ -11123,11 +10447,7 @@
                         "email": "joselito@example.com"
                     }
                 ],
-                "description": "Plugin system for LoFi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-plugins/tree/v3.3.4",
-                    "issues": "https://github.com/ncortex/lofi-plugins/issues"
-                }
+                "description": "Plugin system for LoFi Framework"
             },
             "v3.3.5": {
                 "name": "lofi/plugins",
@@ -11197,11 +10517,7 @@
                         "email": "joselito@example.com"
                     }
                 ],
-                "description": "Plugin system for LoFi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-plugins/tree/v3.3.5",
-                    "issues": "https://github.com/ncortex/lofi-plugins/issues"
-                }
+                "description": "Plugin system for LoFi Framework"
             },
             "dev-main": {
                 "name": "lofi/plugins",
@@ -11278,11 +10594,7 @@
                         "email": "joselito@example.com"
                     }
                 ],
-                "description": "Plugin system for LoFi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-plugins/tree/main",
-                    "issues": "https://github.com/ncortex/lofi-plugins/issues"
-                }
+                "description": "Plugin system for LoFi Framework"
             }
         },
         "lofi/reviews": {
@@ -11342,11 +10654,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi Reviews - Sistema de reseñas polimórfico",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-reviews/tree/v1.0.0",
-                    "issues": "https://github.com/ncortex/lofi-reviews/issues"
-                }
+                "description": "Lofi Reviews - Sistema de reseñas polimórfico"
             },
             "v3.3.4": {
                 "name": "lofi/reviews",
@@ -11404,11 +10712,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi Reviews - Sistema de reseñas polimórfico",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-reviews/tree/v3.3.4",
-                    "issues": "https://github.com/ncortex/lofi-reviews/issues"
-                }
+                "description": "Lofi Reviews - Sistema de reseñas polimórfico"
             },
             "v3.3.6": {
                 "name": "lofi/reviews",
@@ -11466,11 +10770,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi Reviews - Sistema de reseñas polimórfico",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-reviews/tree/v3.3.6",
-                    "issues": "https://github.com/ncortex/lofi-reviews/issues"
-                }
+                "description": "Lofi Reviews - Sistema de reseñas polimórfico"
             },
             "dev-main": {
                 "name": "lofi/reviews",
@@ -11535,11 +10835,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi Reviews - Sistema de reseñas polimórfico",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-reviews/tree/main",
-                    "issues": "https://github.com/ncortex/lofi-reviews/issues"
-                }
+                "description": "Lofi Reviews - Sistema de reseñas polimórfico"
             }
         },
         "lofi/seo": {
@@ -11608,11 +10904,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi SEO - Complete SEO module with analysis, monitoring, and optimization tools",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-seo/tree/v3.0.1",
-                    "issues": "https://github.com/ncortex/lofi-seo/issues"
-                }
+                "description": "Lofi SEO - Complete SEO module with analysis, monitoring, and optimization tools"
             },
             "v3.3.4": {
                 "name": "lofi/seo",
@@ -11679,11 +10971,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi SEO - Complete SEO module with analysis, monitoring, and optimization tools",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-seo/tree/v3.3.4",
-                    "issues": "https://github.com/ncortex/lofi-seo/issues"
-                }
+                "description": "Lofi SEO - Complete SEO module with analysis, monitoring, and optimization tools"
             },
             "v3.3.5": {
                 "name": "lofi/seo",
@@ -11750,11 +11038,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi SEO - Complete SEO module with analysis, monitoring, and optimization tools",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-seo/tree/v3.3.5",
-                    "issues": "https://github.com/ncortex/lofi-seo/issues"
-                }
+                "description": "Lofi SEO - Complete SEO module with analysis, monitoring, and optimization tools"
             },
             "v3.3.7": {
                 "name": "lofi/seo",
@@ -11821,11 +11105,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi SEO - Complete SEO module with analysis, monitoring, and optimization tools",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-seo/tree/v3.3.7",
-                    "issues": "https://github.com/ncortex/lofi-seo/issues"
-                }
+                "description": "Lofi SEO - Complete SEO module with analysis, monitoring, and optimization tools"
             },
             "dev-main": {
                 "name": "lofi/seo",
@@ -11899,11 +11179,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi SEO - Complete SEO module with analysis, monitoring, and optimization tools",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-seo/tree/main",
-                    "issues": "https://github.com/ncortex/lofi-seo/issues"
-                }
+                "description": "Lofi SEO - Complete SEO module with analysis, monitoring, and optimization tools"
             }
         },
         "lofi/sql": {
@@ -11956,11 +11232,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi SQL - Database schema explorer (tables, views, routines)",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-sql/tree/v1.0.0",
-                    "issues": "https://github.com/ncortex/lofi-sql/issues"
-                }
+                "description": "Lofi SQL - Database schema explorer (tables, views, routines)"
             },
             "v3.0.1": {
                 "name": "lofi/sql",
@@ -12011,11 +11283,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi SQL - Database schema explorer (tables, views, routines)",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-sql/tree/v3.0.1",
-                    "issues": "https://github.com/ncortex/lofi-sql/issues"
-                }
+                "description": "Lofi SQL - Database schema explorer (tables, views, routines)"
             },
             "v3.3.4": {
                 "name": "lofi/sql",
@@ -12066,11 +11334,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi SQL - Database schema explorer (tables, views, routines)",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-sql/tree/v3.3.4",
-                    "issues": "https://github.com/ncortex/lofi-sql/issues"
-                }
+                "description": "Lofi SQL - Database schema explorer (tables, views, routines)"
             },
             "v3.3.5": {
                 "name": "lofi/sql",
@@ -12121,11 +11385,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi SQL - Database schema explorer (tables, views, routines)",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-sql/tree/v3.3.5",
-                    "issues": "https://github.com/ncortex/lofi-sql/issues"
-                }
+                "description": "Lofi SQL - Database schema explorer (tables, views, routines)"
             },
             "dev-main": {
                 "name": "lofi/sql",
@@ -12185,11 +11445,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi SQL - Database schema explorer (tables, views, routines)",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-sql/tree/main",
-                    "issues": "https://github.com/ncortex/lofi-sql/issues"
-                }
+                "description": "Lofi SQL - Database schema explorer (tables, views, routines)"
             }
         },
         "lofi/support": {
@@ -12245,11 +11501,7 @@
                     "lofi",
                     "support",
                     "tickets"
-                ],
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-support/tree/v1.0.0",
-                    "issues": "https://github.com/ncortex/lofi-support/issues"
-                }
+                ]
             },
             "v3.0.2": {
                 "name": "lofi/support",
@@ -12303,11 +11555,7 @@
                     "lofi",
                     "support",
                     "tickets"
-                ],
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-support/tree/v3.0.2",
-                    "issues": "https://github.com/ncortex/lofi-support/issues"
-                }
+                ]
             },
             "v3.3.4": {
                 "name": "lofi/support",
@@ -12361,11 +11609,7 @@
                     "lofi",
                     "support",
                     "tickets"
-                ],
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-support/tree/v3.3.4",
-                    "issues": "https://github.com/ncortex/lofi-support/issues"
-                }
+                ]
             },
             "v3.3.7": {
                 "name": "lofi/support",
@@ -12419,11 +11663,7 @@
                     "lofi",
                     "support",
                     "tickets"
-                ],
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-support/tree/v3.3.7",
-                    "issues": "https://github.com/ncortex/lofi-support/issues"
-                }
+                ]
             },
             "3.3.8": {
                 "name": "lofi/support",
@@ -12491,11 +11731,7 @@
                     "lofi",
                     "support",
                     "tickets"
-                ],
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-support/tree/v3.3.8",
-                    "issues": "https://github.com/ncortex/lofi-support/issues"
-                }
+                ]
             },
             "dev-main": {
                 "name": "lofi/support",
@@ -12564,11 +11800,7 @@
                     "lofi",
                     "support",
                     "tickets"
-                ],
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-support/tree/main",
-                    "issues": "https://github.com/ncortex/lofi-support/issues"
-                }
+                ]
             }
         },
         "lofi/telegram": {
@@ -12614,11 +11846,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Telegram bot integration for Lofi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-telegram/tree/v3.0.0",
-                    "issues": "https://github.com/ncortex/lofi-telegram/issues"
-                }
+                "description": "Telegram bot integration for Lofi Framework"
             },
             "v1.0.0": {
                 "name": "lofi/telegram",
@@ -12662,11 +11890,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Telegram bot integration for Lofi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-telegram/tree/v3.0.0",
-                    "issues": "https://github.com/ncortex/lofi-telegram/issues"
-                }
+                "description": "Telegram bot integration for Lofi Framework"
             },
             "v3.0.0": {
                 "name": "lofi/telegram",
@@ -12710,11 +11934,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Telegram bot integration for Lofi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-telegram/tree/v3.0.0",
-                    "issues": "https://github.com/ncortex/lofi-telegram/issues"
-                }
+                "description": "Telegram bot integration for Lofi Framework"
             },
             "v3.0.1": {
                 "name": "lofi/telegram",
@@ -12758,11 +11978,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Telegram bot integration for Lofi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-telegram/tree/v3.0.1",
-                    "issues": "https://github.com/ncortex/lofi-telegram/issues"
-                }
+                "description": "Telegram bot integration for Lofi Framework"
             },
             "v3.3.4": {
                 "name": "lofi/telegram",
@@ -12806,11 +12022,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Telegram bot integration for Lofi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-telegram/tree/v3.3.4",
-                    "issues": "https://github.com/ncortex/lofi-telegram/issues"
-                }
+                "description": "Telegram bot integration for Lofi Framework"
             },
             "dev-main": {
                 "name": "lofi/telegram",
@@ -12863,11 +12075,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Telegram bot integration for Lofi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-telegram/tree/main",
-                    "issues": "https://github.com/ncortex/lofi-telegram/issues"
-                }
+                "description": "Telegram bot integration for Lofi Framework"
             }
         },
         "lofi/theme-default": {
@@ -12924,11 +12132,7 @@
                     "laravel",
                     "lofi",
                     "theme"
-                ],
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-theme-default/tree/v3.3.4",
-                    "issues": "https://github.com/ncortex/lofi-theme-default/issues"
-                }
+                ]
             },
             "v3.3.5": {
                 "name": "lofi/theme-default",
@@ -12983,11 +12187,7 @@
                     "laravel",
                     "lofi",
                     "theme"
-                ],
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-theme-default/tree/v3.3.5",
-                    "issues": "https://github.com/ncortex/lofi-theme-default/issues"
-                }
+                ]
             },
             "dev-main": {
                 "name": "lofi/theme-default",
@@ -13048,11 +12248,7 @@
                     "laravel",
                     "lofi",
                     "theme"
-                ],
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-theme-default/tree/main",
-                    "issues": "https://github.com/ncortex/lofi-theme-default/issues"
-                }
+                ]
             }
         },
         "lofi/theme-nyf": {
@@ -13104,11 +12300,7 @@
                         "email": "info@natayfresas.com"
                     }
                 ],
-                "description": "NatayFresas Theme for LoFi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-theme-nyf/tree/v3.3.4",
-                    "issues": "https://github.com/ncortex/lofi-theme-nyf/issues"
-                }
+                "description": "NatayFresas Theme for LoFi Framework"
             },
             "v3.3.5": {
                 "name": "lofi/theme-nyf",
@@ -13158,11 +12350,7 @@
                         "email": "info@natayfresas.com"
                     }
                 ],
-                "description": "NatayFresas Theme for LoFi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-theme-nyf/tree/v3.3.5",
-                    "issues": "https://github.com/ncortex/lofi-theme-nyf/issues"
-                }
+                "description": "NatayFresas Theme for LoFi Framework"
             },
             "3.3.6": {
                 "name": "lofi/theme-nyf",
@@ -13217,11 +12405,7 @@
                         "email": "info@natayfresas.com"
                     }
                 ],
-                "description": "NatayFresas Theme for LoFi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-theme-nyf/tree/v3.3.6",
-                    "issues": "https://github.com/ncortex/lofi-theme-nyf/issues"
-                }
+                "description": "NatayFresas Theme for LoFi Framework"
             },
             "dev-main": {
                 "name": "lofi/theme-nyf",
@@ -13277,11 +12461,7 @@
                         "email": "info@natayfresas.com"
                     }
                 ],
-                "description": "NatayFresas Theme for LoFi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-theme-nyf/tree/main",
-                    "issues": "https://github.com/ncortex/lofi-theme-nyf/issues"
-                }
+                "description": "NatayFresas Theme for LoFi Framework"
             }
         },
         "lofi/themes": {
@@ -13357,11 +12537,7 @@
                         "email": "joselito@example.com"
                     }
                 ],
-                "description": "Theme system for LoFi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-themes/tree/v1.0.0",
-                    "issues": "https://github.com/ncortex/lofi-themes/issues"
-                }
+                "description": "Theme system for LoFi Framework"
             },
             "v3.0.1": {
                 "name": "lofi/themes",
@@ -13435,11 +12611,7 @@
                         "email": "joselito@example.com"
                     }
                 ],
-                "description": "Theme system for LoFi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-themes/tree/v3.0.1",
-                    "issues": "https://github.com/ncortex/lofi-themes/issues"
-                }
+                "description": "Theme system for LoFi Framework"
             },
             "v3.3.4": {
                 "name": "lofi/themes",
@@ -13513,11 +12685,7 @@
                         "email": "joselito@example.com"
                     }
                 ],
-                "description": "Theme system for LoFi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-themes/tree/v3.3.4",
-                    "issues": "https://github.com/ncortex/lofi-themes/issues"
-                }
+                "description": "Theme system for LoFi Framework"
             },
             "v3.3.5": {
                 "name": "lofi/themes",
@@ -13591,11 +12759,7 @@
                         "email": "joselito@example.com"
                     }
                 ],
-                "description": "Theme system for LoFi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-themes/tree/v3.3.5",
-                    "issues": "https://github.com/ncortex/lofi-themes/issues"
-                }
+                "description": "Theme system for LoFi Framework"
             },
             "dev-main": {
                 "name": "lofi/themes",
@@ -13676,11 +12840,7 @@
                         "email": "joselito@example.com"
                     }
                 ],
-                "description": "Theme system for LoFi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-themes/tree/main",
-                    "issues": "https://github.com/ncortex/lofi-themes/issues"
-                }
+                "description": "Theme system for LoFi Framework"
             }
         },
         "lofi/ui": {
@@ -13755,11 +12915,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "LoFi Admin UI Components",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-ui/tree/v1.0.0",
-                    "issues": "https://github.com/ncortex/lofi-ui/issues"
-                }
+                "description": "LoFi Admin UI Components"
             },
             "v3.3.10": {
                 "name": "lofi/ui",
@@ -13836,11 +12992,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "LoFi Admin UI Components",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-ui/tree/v3.3.10",
-                    "issues": "https://github.com/ncortex/lofi-ui/issues"
-                }
+                "description": "LoFi Admin UI Components"
             },
             "v3.3.11": {
                 "name": "lofi/ui",
@@ -13917,11 +13069,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "LoFi Admin UI Components",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-ui/tree/v3.3.12",
-                    "issues": "https://github.com/ncortex/lofi-ui/issues"
-                }
+                "description": "LoFi Admin UI Components"
             },
             "v3.3.12": {
                 "name": "lofi/ui",
@@ -13998,11 +13146,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "LoFi Admin UI Components",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-ui/tree/v3.3.12",
-                    "issues": "https://github.com/ncortex/lofi-ui/issues"
-                }
+                "description": "LoFi Admin UI Components"
             },
             "v3.3.13": {
                 "name": "lofi/ui",
@@ -14079,11 +13223,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "LoFi Admin UI Components",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-ui/tree/v3.3.13",
-                    "issues": "https://github.com/ncortex/lofi-ui/issues"
-                }
+                "description": "LoFi Admin UI Components"
             },
             "3.3.14": {
                 "name": "lofi/ui",
@@ -14166,11 +13306,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "LoFi Admin UI Components",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-ui/tree/v3.3.14",
-                    "issues": "https://github.com/ncortex/lofi-ui/issues"
-                }
+                "description": "LoFi Admin UI Components"
             },
             "3.3.15": {
                 "name": "lofi/ui",
@@ -14253,11 +13389,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "LoFi Admin UI Components",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-ui/tree/v3.3.15",
-                    "issues": "https://github.com/ncortex/lofi-ui/issues"
-                }
+                "description": "LoFi Admin UI Components"
             },
             "3.3.16": {
                 "name": "lofi/ui",
@@ -14340,11 +13472,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "LoFi Admin UI Components",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-ui/tree/v3.3.16",
-                    "issues": "https://github.com/ncortex/lofi-ui/issues"
-                }
+                "description": "LoFi Admin UI Components"
             },
             "3.3.17": {
                 "name": "lofi/ui",
@@ -14427,11 +13555,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "LoFi Admin UI Components",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-ui/tree/v3.3.17",
-                    "issues": "https://github.com/ncortex/lofi-ui/issues"
-                }
+                "description": "LoFi Admin UI Components"
             },
             "3.3.18": {
                 "name": "lofi/ui",
@@ -14514,11 +13638,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "LoFi Admin UI Components",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-ui/tree/v3.3.18",
-                    "issues": "https://github.com/ncortex/lofi-ui/issues"
-                }
+                "description": "LoFi Admin UI Components"
             },
             "3.3.19": {
                 "name": "lofi/ui",
@@ -14601,11 +13721,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "LoFi Admin UI Components",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-ui/tree/v3.3.19",
-                    "issues": "https://github.com/ncortex/lofi-ui/issues"
-                }
+                "description": "LoFi Admin UI Components"
             },
             "3.3.20": {
                 "name": "lofi/ui",
@@ -14688,11 +13804,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "LoFi Admin UI Components",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-ui/tree/v3.3.20",
-                    "issues": "https://github.com/ncortex/lofi-ui/issues"
-                }
+                "description": "LoFi Admin UI Components"
             },
             "v3.3.4": {
                 "name": "lofi/ui",
@@ -14769,11 +13881,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "LoFi Admin UI Components",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-ui/tree/v3.3.4",
-                    "issues": "https://github.com/ncortex/lofi-ui/issues"
-                }
+                "description": "LoFi Admin UI Components"
             },
             "v3.3.6": {
                 "name": "lofi/ui",
@@ -14850,11 +13958,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "LoFi Admin UI Components",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-ui/tree/v3.3.6",
-                    "issues": "https://github.com/ncortex/lofi-ui/issues"
-                }
+                "description": "LoFi Admin UI Components"
             },
             "v3.3.7": {
                 "name": "lofi/ui",
@@ -14931,11 +14035,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "LoFi Admin UI Components",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-ui/tree/v3.3.7",
-                    "issues": "https://github.com/ncortex/lofi-ui/issues"
-                }
+                "description": "LoFi Admin UI Components"
             },
             "v3.3.8": {
                 "name": "lofi/ui",
@@ -15012,11 +14112,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "LoFi Admin UI Components",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-ui/tree/v3.3.8",
-                    "issues": "https://github.com/ncortex/lofi-ui/issues"
-                }
+                "description": "LoFi Admin UI Components"
             },
             "v3.3.9": {
                 "name": "lofi/ui",
@@ -15093,11 +14189,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "LoFi Admin UI Components",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-ui/tree/v3.3.10",
-                    "issues": "https://github.com/ncortex/lofi-ui/issues"
-                }
+                "description": "LoFi Admin UI Components"
             },
             "dev-main": {
                 "name": "lofi/ui",
@@ -15181,11 +14273,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "LoFi Admin UI Components",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-ui/tree/v3.3.16",
-                    "issues": "https://github.com/ncortex/lofi-ui/issues"
-                }
+                "description": "LoFi Admin UI Components"
             }
         },
         "lofi/vet": {
@@ -15243,11 +14331,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "LoFi Vet - Veterinary clinic extension for lofi/clinic with pet management, vaccinations, and species tracking",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-vet/tree/v1.0.0",
-                    "issues": "https://github.com/ncortex/lofi-vet/issues"
-                }
+                "description": "LoFi Vet - Veterinary clinic extension for lofi/clinic with pet management, vaccinations, and species tracking"
             },
             "v3.0.1": {
                 "name": "lofi/vet",
@@ -15303,11 +14387,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "LoFi Vet - Veterinary clinic extension for lofi/clinic with pet management, vaccinations, and species tracking",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-vet/tree/v3.0.1",
-                    "issues": "https://github.com/ncortex/lofi-vet/issues"
-                }
+                "description": "LoFi Vet - Veterinary clinic extension for lofi/clinic with pet management, vaccinations, and species tracking"
             },
             "v3.3.4": {
                 "name": "lofi/vet",
@@ -15363,11 +14443,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "LoFi Vet - Veterinary clinic extension for lofi/clinic with pet management, vaccinations, and species tracking",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-vet/tree/v3.3.4",
-                    "issues": "https://github.com/ncortex/lofi-vet/issues"
-                }
+                "description": "LoFi Vet - Veterinary clinic extension for lofi/clinic with pet management, vaccinations, and species tracking"
             },
             "dev-main": {
                 "name": "lofi/vet",
@@ -15432,11 +14508,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "LoFi Vet - Veterinary clinic extension for lofi/clinic with pet management, vaccinations, and species tracking",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-vet/tree/main",
-                    "issues": "https://github.com/ncortex/lofi-vet/issues"
-                }
+                "description": "LoFi Vet - Veterinary clinic extension for lofi/clinic with pet management, vaccinations, and species tracking"
             }
         },
         "lofi/webhooks": {
@@ -15496,11 +14568,7 @@
                         "email": "joselito@example.com"
                     }
                 ],
-                "description": "Webhook system for LoFi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-webhooks/tree/v1.0.0",
-                    "issues": "https://github.com/ncortex/lofi-webhooks/issues"
-                }
+                "description": "Webhook system for LoFi Framework"
             },
             "v3.0.1": {
                 "name": "lofi/webhooks",
@@ -15558,11 +14626,7 @@
                         "email": "joselito@example.com"
                     }
                 ],
-                "description": "Webhook system for LoFi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-webhooks/tree/v3.0.1",
-                    "issues": "https://github.com/ncortex/lofi-webhooks/issues"
-                }
+                "description": "Webhook system for LoFi Framework"
             },
             "v3.3.4": {
                 "name": "lofi/webhooks",
@@ -15620,11 +14684,7 @@
                         "email": "joselito@example.com"
                     }
                 ],
-                "description": "Webhook system for LoFi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-webhooks/tree/v3.3.4",
-                    "issues": "https://github.com/ncortex/lofi-webhooks/issues"
-                }
+                "description": "Webhook system for LoFi Framework"
             },
             "v3.3.5": {
                 "name": "lofi/webhooks",
@@ -15682,11 +14742,7 @@
                         "email": "joselito@example.com"
                     }
                 ],
-                "description": "Webhook system for LoFi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-webhooks/tree/v3.3.5",
-                    "issues": "https://github.com/ncortex/lofi-webhooks/issues"
-                }
+                "description": "Webhook system for LoFi Framework"
             },
             "v3.3.7": {
                 "name": "lofi/webhooks",
@@ -15744,11 +14800,7 @@
                         "email": "joselito@example.com"
                     }
                 ],
-                "description": "Webhook system for LoFi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-webhooks/tree/v3.3.7",
-                    "issues": "https://github.com/ncortex/lofi-webhooks/issues"
-                }
+                "description": "Webhook system for LoFi Framework"
             },
             "dev-main": {
                 "name": "lofi/webhooks",
@@ -15815,11 +14867,7 @@
                         "email": "joselito@example.com"
                     }
                 ],
-                "description": "Webhook system for LoFi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-webhooks/tree/main",
-                    "issues": "https://github.com/ncortex/lofi-webhooks/issues"
-                }
+                "description": "Webhook system for LoFi Framework"
             }
         }
     }

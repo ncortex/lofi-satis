@@ -62,11 +62,7 @@
                         "email": "team@lofi.dev"
                     }
                 ],
-                "description": "Corporate intranet module with HR management, chat, and resource booking for LoFi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-office/tree/v1.0.0",
-                    "issues": "https://github.com/ncortex/lofi-office/issues"
-                }
+                "description": "Corporate intranet module with HR management, chat, and resource booking for LoFi Framework"
             },
             {
                 "name": "lofi/office",
@@ -129,11 +125,7 @@
                         "email": "team@lofi.dev"
                     }
                 ],
-                "description": "Corporate intranet module with HR management, chat, and resource booking for LoFi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-office/tree/v1.0.0",
-                    "issues": "https://github.com/ncortex/lofi-office/issues"
-                }
+                "description": "Corporate intranet module with HR management, chat, and resource booking for LoFi Framework"
             },
             {
                 "name": "lofi/office",
@@ -196,11 +188,7 @@
                         "email": "team@lofi.dev"
                     }
                 ],
-                "description": "Corporate intranet module with HR management, chat, and resource booking for LoFi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-office/tree/v3.0.0",
-                    "issues": "https://github.com/ncortex/lofi-office/issues"
-                }
+                "description": "Corporate intranet module with HR management, chat, and resource booking for LoFi Framework"
             },
             {
                 "name": "lofi/office",
@@ -263,11 +251,7 @@
                         "email": "team@lofi.dev"
                     }
                 ],
-                "description": "Corporate intranet module with HR management, chat, and resource booking for LoFi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-office/tree/v3.0.1",
-                    "issues": "https://github.com/ncortex/lofi-office/issues"
-                }
+                "description": "Corporate intranet module with HR management, chat, and resource booking for LoFi Framework"
             },
             {
                 "name": "lofi/office",
@@ -330,11 +314,7 @@
                         "email": "team@lofi.dev"
                     }
                 ],
-                "description": "Corporate intranet module with HR management, chat, and resource booking for LoFi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-office/tree/v3.3.4",
-                    "issues": "https://github.com/ncortex/lofi-office/issues"
-                }
+                "description": "Corporate intranet module with HR management, chat, and resource booking for LoFi Framework"
             },
             {
                 "name": "lofi/office",
@@ -397,11 +377,7 @@
                         "email": "team@lofi.dev"
                     }
                 ],
-                "description": "Corporate intranet module with HR management, chat, and resource booking for LoFi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-office/tree/v3.3.5",
-                    "issues": "https://github.com/ncortex/lofi-office/issues"
-                }
+                "description": "Corporate intranet module with HR management, chat, and resource booking for LoFi Framework"
             }
         ]
     }

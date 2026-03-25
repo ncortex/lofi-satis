@@ -42,11 +42,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Activity logging for LoFi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-logs/tree/v3.3.4",
-                    "issues": "https://github.com/ncortex/lofi-logs/issues"
-                }
+                "description": "Activity logging for LoFi Framework"
             },
             {
                 "name": "lofi/logs",
@@ -95,11 +91,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Unified logging and activity viewer for LoFi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-logs/tree/v3.3.5",
-                    "issues": "https://github.com/ncortex/lofi-logs/issues"
-                }
+                "description": "Unified logging and activity viewer for LoFi Framework"
             },
             {
                 "name": "lofi/logs",
@@ -148,11 +140,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Unified logging and activity viewer for LoFi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-logs/tree/v3.3.6",
-                    "issues": "https://github.com/ncortex/lofi-logs/issues"
-                }
+                "description": "Unified logging and activity viewer for LoFi Framework"
             }
         ]
     }

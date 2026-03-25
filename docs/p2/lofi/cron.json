@@ -60,11 +60,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "LoFi Cron - Centralized scheduled task and queue monitoring",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-cron/tree/v3.3.4",
-                    "issues": "https://github.com/ncortex/lofi-cron/issues"
-                }
+                "description": "LoFi Cron - Centralized scheduled task and queue monitoring"
             },
             {
                 "name": "lofi/cron",
@@ -125,11 +121,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "LoFi Cron - Centralized scheduled task and queue monitoring",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-cron/tree/v3.3.5",
-                    "issues": "https://github.com/ncortex/lofi-cron/issues"
-                }
+                "description": "LoFi Cron - Centralized scheduled task and queue monitoring"
             },
             {
                 "name": "lofi/cron",
@@ -190,11 +182,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "LoFi Cron - Centralized scheduled task and queue monitoring",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-cron/tree/v3.3.6",
-                    "issues": "https://github.com/ncortex/lofi-cron/issues"
-                }
+                "description": "LoFi Cron - Centralized scheduled task and queue monitoring"
             },
             {
                 "name": "lofi/cron",
@@ -255,11 +243,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "LoFi Cron - Centralized scheduled task and queue monitoring",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-cron/tree/v3.3.7",
-                    "issues": "https://github.com/ncortex/lofi-cron/issues"
-                }
+                "description": "LoFi Cron - Centralized scheduled task and queue monitoring"
             }
         ]
     }

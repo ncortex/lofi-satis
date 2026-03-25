@@ -66,11 +66,7 @@
                     "lofi",
                     "lofipress",
                     "wordpress"
-                ],
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-lofipress/tree/main",
-                    "issues": "https://github.com/ncortex/lofi-lofipress/issues"
-                }
+                ]
             }
         ]
     }

@@ -83,11 +83,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "LoFi Admin UI Components",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-ui/tree/v3.3.16",
-                    "issues": "https://github.com/ncortex/lofi-ui/issues"
-                }
+                "description": "LoFi Admin UI Components"
             }
         ]
     }

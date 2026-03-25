@@ -55,11 +55,7 @@
                         "name": "LoFi Team"
                     }
                 ],
-                "description": "WordPress-style installation wizard for LoFi Framework",
-                "support": {
-                    "source": "https://github.com/ncortex/lofi-installer/tree/v3.3.4",
-                    "issues": "https://github.com/ncortex/lofi-installer/issues"
-                }
+                "description": "WordPress-style installation wizard for LoFi Framework"
             }
         ]
     }
