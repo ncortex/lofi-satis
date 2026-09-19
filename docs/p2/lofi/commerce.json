@@ -106,6 +106,59 @@
                     "MIT"
                 ],
                 "description": "LoFi Commerce: tienda y soporte al cliente"
+            },
+            {
+                "name": "lofi/commerce",
+                "version": "v4.0.2",
+                "version_normalized": "4.0.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi4-commerce.git",
+                    "reference": "7841e32effdd591ce8cd131648bad7437f03cf2a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi4-commerce/zipball/7841e32effdd591ce8cd131648bad7437f03cf2a",
+                    "reference": "7841e32effdd591ce8cd131648bad7437f03cf2a",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/database": "^12.0",
+                    "illuminate/support": "^12.0",
+                    "illuminate/view": "^12.0",
+                    "laravel/framework": "^12.0",
+                    "lofi/core": "^4.0",
+                    "php": "^8.2"
+                },
+                "require-dev": {
+                    "orchestra/testbench": "^10.0",
+                    "phpunit/phpunit": "^11.0"
+                },
+                "time": "2026-09-19T18:34:47+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "4.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Ecommerce\\": "modules/ecommerce/src/",
+                        "Lofi\\Ecommerce\\Database\\Factories\\": "modules/ecommerce/database/factories/",
+                        "Lofi\\Support\\": "modules/support/src/",
+                        "Lofi\\Support\\Database\\Factories\\": "modules/support/database/factories/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Lofi\\Ecommerce\\Tests\\": "modules/ecommerce/tests/",
+                        "Lofi\\Support\\Tests\\": "modules/support/tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "LoFi Commerce: tienda y soporte al cliente"
             }
         ]
     }

@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi4-core.git",
-                    "reference": "339ef55efe87c9824a98adc7723870ee88c8c474"
+                    "reference": "61a24fdac4a85339d8a06955392da59c6d13519d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi4-core/zipball/339ef55efe87c9824a98adc7723870ee88c8c474",
-                    "reference": "339ef55efe87c9824a98adc7723870ee88c8c474",
+                    "url": "https://api.github.com/repos/ncortex/lofi4-core/zipball/61a24fdac4a85339d8a06955392da59c6d13519d",
+                    "reference": "61a24fdac4a85339d8a06955392da59c6d13519d",
                     "shasum": ""
                 },
                 "require": {
@@ -51,7 +51,7 @@
                 "suggest": {
                     "barryvdh/laravel-dompdf": "Exportar tablas a PDF"
                 },
-                "time": "2026-09-19T21:09:17+00:00",
+                "time": "2026-09-19T21:13:26+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
