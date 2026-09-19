@@ -2,6 +2,12 @@
     "name": "ncortex/lofi-satis",
     "homepage": "https://ncortex.github.io/lofi-satis",
     "repositories": [
+        { "type": "vcs", "url": "git@github.com:ncortex/lofi4-core.git" },
+        { "type": "vcs", "url": "git@github.com:ncortex/lofi4-cms.git" },
+        { "type": "vcs", "url": "git@github.com:ncortex/lofi4-erp.git" },
+        { "type": "vcs", "url": "git@github.com:ncortex/lofi4-commerce.git" },
+        { "type": "vcs", "url": "git@github.com:ncortex/lofi4-ai.git" },
+        { "type": "vcs", "url": "git@github.com:ncortex/lofi4-devtools.git" },
         { "type": "vcs", "url": "git@github.com:ncortex/lofi-kernel.git" },
         { "type": "vcs", "url": "git@github.com:ncortex/lofi-auth.git" },
         { "type": "vcs", "url": "git@github.com:ncortex/lofi-ui.git" },
