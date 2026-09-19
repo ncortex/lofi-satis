@@ -23,7 +23,6 @@
         { "type": "vcs", "url": "git@github.com:ncortex/lofi-reviews.git" },
         { "type": "vcs", "url": "git@github.com:ncortex/lofi-analytics.git" },
         { "type": "vcs", "url": "git@github.com:ncortex/lofi-telegram.git" },
-        { "type": "vcs", "url": "git@github.com:ncortex/lofi-swarm.git" },
         { "type": "vcs", "url": "git@github.com:ncortex/lofi-audit.git" },
         { "type": "vcs", "url": "git@github.com:ncortex/lofi-logs.git" },
         { "type": "vcs", "url": "git@github.com:ncortex/lofi-cms.git" },
