@@ -1,8 +1,8 @@
 {
     "packages": [],
     "includes": {
-        "include/all$bdce819a1150324ab648dfa5d3a6b82cf6deb02e.json": {
-            "sha1": "bdce819a1150324ab648dfa5d3a6b82cf6deb02e"
+        "include/all$0e93d0a1ebe2ccf1101a2447063c679476752d9f.json": {
+            "sha1": "0e93d0a1ebe2ccf1101a2447063c679476752d9f"
         }
     },
     "metadata-url": "/lofi-satis/p2/%package%.json",
@@ -15,8 +15,11 @@
         "lofi/backup",
         "lofi/clinic",
         "lofi/cms",
+        "lofi/commerce",
+        "lofi/core",
         "lofi/crawler",
         "lofi/cron",
+        "lofi/devtools",
         "lofi/directory",
         "lofi/docs",
         "lofi/ecommerce",

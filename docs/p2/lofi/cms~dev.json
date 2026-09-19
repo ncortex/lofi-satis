@@ -7,68 +7,76 @@
                 "version_normalized": "dev-main",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ncortex/lofi-cms.git",
-                    "reference": "64f7b385fb14babd9d412064c5c090f9a8d38245"
+                    "url": "git@github.com:ncortex/lofi4-cms.git",
+                    "reference": "629646b5bb09206cc942d406e182938f109fd57a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-cms/zipball/64f7b385fb14babd9d412064c5c090f9a8d38245",
-                    "reference": "64f7b385fb14babd9d412064c5c090f9a8d38245",
+                    "url": "https://api.github.com/repos/ncortex/lofi4-cms/zipball/629646b5bb09206cc942d406e182938f109fd57a",
+                    "reference": "629646b5bb09206cc942d406e182938f109fd57a",
                     "shasum": ""
                 },
                 "require": {
-                    "illuminate/support": "^10.0|^11.0|^12.0",
-                    "lofi/kernel": "^3.3",
-                    "lofi/media": "^3.3",
-                    "lofi/ui": "^3.3",
-                    "php": "^8.2"
+                    "ext-dom": "*",
+                    "guzzlehttp/guzzle": "^7.0",
+                    "illuminate/database": "^12.0",
+                    "illuminate/http": "^12.0",
+                    "illuminate/mail": "^12.0",
+                    "illuminate/queue": "^12.0",
+                    "illuminate/routing": "^12.0",
+                    "illuminate/support": "^12.0",
+                    "lofi/ai": "^4.0",
+                    "lofi/core": "^4.0",
+                    "matthiasmullie/minify": "^1.3",
+                    "php": "^8.2",
+                    "voku/html-min": "^4.5"
                 },
                 "require-dev": {
-                    "orchestra/testbench": "^8.0|^9.0|^10.0",
-                    "phpunit/phpunit": "^10.0|^11.0"
+                    "livewire/livewire": "^3.0",
+                    "orchestra/testbench": "^10.0",
+                    "phpunit/phpunit": "^11.0"
                 },
-                "time": "2026-02-21T21:15:14+00:00",
+                "suggest": {
+                    "google/apiclient": "Required for Google Search Console integration",
+                    "lofi/notifications": "Para notificaciones de campañas"
+                },
+                "time": "2026-09-19T20:35:19+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
-                    "laravel": {
-                        "providers": [
-                            "Lofi\\Cms\\CmsServiceProvider"
-                        ]
-                    },
-                    "lofi": {
-                        "category": "module"
-                    },
                     "branch-alias": {
-                        "dev-main": "3.3.x-dev"
+                        "dev-main": "4.0.x-dev"
                     }
                 },
                 "autoload": {
                     "psr-4": {
-                        "Lofi\\Cms\\": "src/",
-                        "Lofi\\Cms\\Database\\Factories\\": "database/factories/"
+                        "Lofi\\Analytics\\": "modules/analytics/src/",
+                        "Lofi\\Cms\\": "modules/cms/src/",
+                        "Lofi\\Cms\\Database\\Factories\\": "modules/cms/database/factories/",
+                        "Lofi\\Directory\\": "modules/directory/src/",
+                        "Lofi\\Directory\\Database\\Factories\\": "modules/directory/database/factories/",
+                        "Lofi\\Directory\\Database\\Seeders\\": "modules/directory/database/seeders/",
+                        "Lofi\\Marketing\\": "modules/marketing/src/",
+                        "Lofi\\Marketing\\Database\\Factories\\": "modules/marketing/database/factories/",
+                        "Lofi\\Seo\\": "modules/seo/src/",
+                        "Lofi\\Seo\\Database\\Factories\\": "modules/seo/database/factories/",
+                        "Lofi\\StaticSites\\": "modules/static-sites/src/",
+                        "Lofi\\StaticSites\\Database\\Factories\\": "modules/static-sites/database/factories/"
                     }
                 },
                 "autoload-dev": {
                     "psr-4": {
-                        "Lofi\\Cms\\Tests\\": "tests/"
+                        "Lofi\\Cms\\Tests\\": "modules/cms/tests/",
+                        "Lofi\\Directory\\Tests\\": "modules/directory/tests/",
+                        "Lofi\\Marketing\\Tests\\": "modules/marketing/tests/",
+                        "Lofi\\Seo\\Tests\\": "modules/seo/tests/",
+                        "Lofi\\StaticSites\\Tests\\": "modules/static-sites/tests/"
                     }
-                },
-                "scripts": {
-                    "push-version": [
-                        "V=$(php -r \"\\$v=json_decode(file_get_contents('composer.json'))->version;while(trim(shell_exec('git tag -l v'.\\$v))){\\$p=explode('.',\\$v);\\$p[2]++;\\$v=implode('.',\\$p);}\\$j=file_get_contents('composer.json');\\$j=preg_replace('/\\\"version\\\": \\\"[^\\\"]*\\\"/', '\\\"version\\\": \\\"'.\\$v.'\\\"', \\$j);file_put_contents('composer.json',\\$j);echo \\$v;\") && git add -A && (git diff --cached --quiet || git commit -m \"Release v$V\") && git tag -a \"v$V\" -m \"Release v$V\" && git push origin \"v$V\""
-                    ]
                 },
                 "license": [
                     "MIT"
                 ],
-                "authors": [
-                    {
-                        "name": "Lofi Framework",
-                        "email": "hello@lofi.dev"
-                    }
-                ],
-                "description": "Content Management System for Lofi Framework - Pages, Posts, FAQs, Comments, Contact Forms"
+                "description": "LoFi CMS: contenido, SEO, analítica, marketing, sitios estáticos y directorios"
             },
             {
                 "name": "lofi/cms",

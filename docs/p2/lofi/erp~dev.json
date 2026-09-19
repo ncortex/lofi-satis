@@ -73,66 +73,64 @@
                 "version_normalized": "dev-main",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ncortex/lofi-erp.git",
-                    "reference": "a73b7f661e03040fb9f455178488cf77c0dde144"
+                    "url": "git@github.com:ncortex/lofi4-erp.git",
+                    "reference": "d5d9384b447956212f17508c4d1a535c134e48af"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-erp/zipball/a73b7f661e03040fb9f455178488cf77c0dde144",
-                    "reference": "a73b7f661e03040fb9f455178488cf77c0dde144",
+                    "url": "https://api.github.com/repos/ncortex/lofi4-erp/zipball/d5d9384b447956212f17508c4d1a535c134e48af",
+                    "reference": "d5d9384b447956212f17508c4d1a535c134e48af",
                     "shasum": ""
                 },
                 "require": {
-                    "illuminate/support": "^11.0|^12.0",
-                    "lofi/ai": "^3.3",
-                    "lofi/kernel": "^3.3",
-                    "lofi/ui": "^3.3",
+                    "illuminate/support": "^12.0",
+                    "livewire/livewire": "^3.0",
+                    "lofi/ai": "^4.0",
+                    "lofi/core": "^4.0",
                     "php": "^8.2"
                 },
                 "require-dev": {
-                    "orchestra/testbench": "^8.0|^9.0|^10.0",
-                    "phpunit/phpunit": "^10.0|^11.0"
+                    "orchestra/testbench": "^10.0",
+                    "phpunit/phpunit": "^11.0"
                 },
-                "time": "2026-09-19T18:13:25+00:00",
+                "suggest": {
+                    "barryvdh/laravel-dompdf": "Generar PDF de documentos de RRHH",
+                    "pusher/pusher-php-server": "Required for real-time chat functionality"
+                },
+                "time": "2026-09-19T18:34:47+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
-                    "laravel": {
-                        "providers": [
-                            "Lofi\\Erp\\ErpServiceProvider"
-                        ]
-                    },
-                    "lofi": {
-                        "category": "module"
-                    },
                     "branch-alias": {
-                        "dev-main": "3.3.x-dev"
+                        "dev-main": "4.0.x-dev"
                     }
                 },
                 "autoload": {
                     "psr-4": {
-                        "Lofi\\Erp\\": "src/",
-                        "Lofi\\Erp\\Database\\Factories\\": "database/factories/",
-                        "Lofi\\Erp\\Database\\Seeders\\": "database/seeders/"
+                        "Lofi\\Clinic\\": "modules/clinic/src/",
+                        "Lofi\\Clinic\\Database\\Factories\\": "modules/clinic/database/factories/",
+                        "Lofi\\Clinic\\Database\\Seeders\\": "modules/clinic/database/seeders/",
+                        "Lofi\\Erp\\": "modules/erp/src/",
+                        "Lofi\\Erp\\Database\\Factories\\": "modules/erp/database/factories/",
+                        "Lofi\\Erp\\Database\\Seeders\\": "modules/erp/database/seeders/",
+                        "Lofi\\Office\\": "modules/office/src/",
+                        "Lofi\\Vet\\": "modules/vet/src/",
+                        "Lofi\\Vet\\Database\\Factories\\": "modules/vet/database/factories/",
+                        "Lofi\\Vet\\Database\\Seeders\\": "modules/vet/database/seeders/"
                     }
                 },
                 "autoload-dev": {
                     "psr-4": {
-                        "Lofi\\Erp\\Tests\\": "tests/"
+                        "Lofi\\Clinic\\Tests\\": "modules/clinic/tests/",
+                        "Lofi\\Erp\\Tests\\": "modules/erp/tests/",
+                        "Lofi\\Office\\Tests\\": "modules/office/tests/",
+                        "Lofi\\Vet\\Tests\\": "modules/vet/tests/"
                     }
-                },
-                "scripts": {
-                    "test": [
-                        "vendor/bin/phpunit"
-                    ],
-                    "push-version": [
-                        "V=$(php -r \"\\$v=json_decode(file_get_contents('composer.json'))->version;while(trim(shell_exec('git tag -l v'.\\$v))){\\$p=explode('.',\\$v);\\$p[2]++;\\$v=implode('.',\\$p);}\\$j=file_get_contents('composer.json');\\$j=preg_replace('/\\\"version\\\": \\\"[^\\\"]*\\\"/', '\\\"version\\\": \\\"'.\\$v.'\\\"', \\$j);file_put_contents('composer.json',\\$j);echo \\$v;\") && git add -A && (git diff --cached --quiet || git commit -m \"Release v$V\") && git tag -a \"v$V\" -m \"Release v$V\" && git push origin \"v$V\""
-                    ]
                 },
                 "license": [
                     "MIT"
                 ],
-                "description": "Lofi ERP - Sistema de gestión empresarial integral"
+                "description": "LoFi ERP: gestión, oficina y verticales (clínica, veterinaria)"
             }
         ]
     }
