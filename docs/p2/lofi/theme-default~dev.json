@@ -8,19 +8,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-theme-default.git",
-                    "reference": "cfcaa09a0c9f6a446bcbf586c9e9888c5a842677"
+                    "reference": "97e92e8730705cea4445b12343b7881443d47297"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-theme-default/zipball/cfcaa09a0c9f6a446bcbf586c9e9888c5a842677",
-                    "reference": "cfcaa09a0c9f6a446bcbf586c9e9888c5a842677",
+                    "url": "https://api.github.com/repos/ncortex/lofi-theme-default/zipball/97e92e8730705cea4445b12343b7881443d47297",
+                    "reference": "97e92e8730705cea4445b12343b7881443d47297",
                     "shasum": ""
                 },
                 "require": {
                     "lofi/themes": "^3.3",
                     "php": "^8.2"
                 },
-                "time": "2026-02-13T20:22:20+00:00",
+                "time": "2026-02-17T17:26:13+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {

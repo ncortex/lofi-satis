@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-auth.git",
-                    "reference": "a3bf68dce352427bda9a865d248a5f276a83a01c"
+                    "reference": "6821de180bb68eb6509be5a0f5472b23cf50fb7b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-auth/zipball/a3bf68dce352427bda9a865d248a5f276a83a01c",
-                    "reference": "a3bf68dce352427bda9a865d248a5f276a83a01c",
+                    "url": "https://api.github.com/repos/ncortex/lofi-auth/zipball/6821de180bb68eb6509be5a0f5472b23cf50fb7b",
+                    "reference": "6821de180bb68eb6509be5a0f5472b23cf50fb7b",
                     "shasum": ""
                 },
                 "require": {
@@ -30,7 +30,7 @@
                     "phpstan/phpstan": "^1.10",
                     "phpunit/phpunit": "^10.0|^11.0"
                 },
-                "time": "2026-02-13T20:22:20+00:00",
+                "time": "2026-02-21T19:05:12+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {

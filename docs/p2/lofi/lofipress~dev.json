@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-lofipress.git",
-                    "reference": "64905703fb0a9caa73b58f6703f8f0d833da4e63"
+                    "reference": "dc5b1b5b3173e7ca1a61e69a548c0b6cd3ad952c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-lofipress/zipball/64905703fb0a9caa73b58f6703f8f0d833da4e63",
-                    "reference": "64905703fb0a9caa73b58f6703f8f0d833da4e63",
+                    "url": "https://api.github.com/repos/ncortex/lofi-lofipress/zipball/dc5b1b5b3173e7ca1a61e69a548c0b6cd3ad952c",
+                    "reference": "dc5b1b5b3173e7ca1a61e69a548c0b6cd3ad952c",
                     "shasum": ""
                 },
                 "require": {
@@ -34,7 +34,7 @@
                     "lofi/seo": "SEO management tools",
                     "lofi/support": "Customer support ticketing"
                 },
-                "time": "2026-02-13T20:22:19+00:00",
+                "time": "2026-02-17T17:26:12+00:00",
                 "default-branch": true,
                 "type": "metapackage",
                 "extra": {

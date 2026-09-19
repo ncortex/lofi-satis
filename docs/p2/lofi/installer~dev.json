@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-installer.git",
-                    "reference": "3b8befcc7936a9f244d1da97ace2155a6c9280bf"
+                    "reference": "5764676a28072399575286f30ff26ea066f9a42d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-installer/zipball/3b8befcc7936a9f244d1da97ace2155a6c9280bf",
-                    "reference": "3b8befcc7936a9f244d1da97ace2155a6c9280bf",
+                    "url": "https://api.github.com/repos/ncortex/lofi-installer/zipball/5764676a28072399575286f30ff26ea066f9a42d",
+                    "reference": "5764676a28072399575286f30ff26ea066f9a42d",
                     "shasum": ""
                 },
                 "require": {
@@ -25,7 +25,7 @@
                 "require-dev": {
                     "phpunit/phpunit": "^10.0|^11.0"
                 },
-                "time": "2026-02-13T20:22:20+00:00",
+                "time": "2026-02-17T17:26:12+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {

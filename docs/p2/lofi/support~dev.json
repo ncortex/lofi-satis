@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-support.git",
-                    "reference": "edfd1328fb0a2d0bde0825af30e0c23f0928017f"
+                    "reference": "f99bb18a4f1c385498ebd6d5837b846967a832c9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-support/zipball/edfd1328fb0a2d0bde0825af30e0c23f0928017f",
-                    "reference": "edfd1328fb0a2d0bde0825af30e0c23f0928017f",
+                    "url": "https://api.github.com/repos/ncortex/lofi-support/zipball/f99bb18a4f1c385498ebd6d5837b846967a832c9",
+                    "reference": "f99bb18a4f1c385498ebd6d5837b846967a832c9",
                     "shasum": ""
                 },
                 "require": {
@@ -24,7 +24,7 @@
                     "lofi/ui": "^3.3",
                     "php": "^8.2"
                 },
-                "time": "2026-02-21T21:15:13+00:00",
+                "time": "2026-02-24T00:03:28+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {

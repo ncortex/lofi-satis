@@ -8,19 +8,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi-theme-nyf.git",
-                    "reference": "a20d7e1024d9b1da89455c82ec2f4a70286cec1d"
+                    "reference": "1b9ccf42622d48ca527a5b1d87ee98c09042608f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi-theme-nyf/zipball/a20d7e1024d9b1da89455c82ec2f4a70286cec1d",
-                    "reference": "a20d7e1024d9b1da89455c82ec2f4a70286cec1d",
+                    "url": "https://api.github.com/repos/ncortex/lofi-theme-nyf/zipball/1b9ccf42622d48ca527a5b1d87ee98c09042608f",
+                    "reference": "1b9ccf42622d48ca527a5b1d87ee98c09042608f",
                     "shasum": ""
                 },
                 "require": {
                     "lofi/themes": "^3.3",
                     "php": "^8.2"
                 },
-                "time": "2026-02-13T20:22:21+00:00",
+                "time": "2026-09-19T18:16:30+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
