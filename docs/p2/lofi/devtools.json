@@ -384,6 +384,70 @@
                     "MIT"
                 ],
                 "description": "LoFi Devtools: documentación, testing y utilidades de desarrollo"
+            },
+            {
+                "name": "lofi/devtools",
+                "version": "v4.0.6",
+                "version_normalized": "4.0.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi4-devtools.git",
+                    "reference": "f6e86cca1183257cf23837867cf1ad814fdab183"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi4-devtools/zipball/f6e86cca1183257cf23837867cf1ad814fdab183",
+                    "reference": "f6e86cca1183257cf23837867cf1ad814fdab183",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/process": "^12.0",
+                    "illuminate/routing": "^12.0",
+                    "illuminate/support": "^12.0",
+                    "illuminate/view": "^12.0",
+                    "league/commonmark": "^2.0",
+                    "lofi/core": "^4.0",
+                    "m4tthumphrey/php-gitlab-api": "^11.0",
+                    "php": "^8.2",
+                    "zircote/swagger-php": "^4.0"
+                },
+                "require-dev": {
+                    "orchestra/testbench": "^10.0",
+                    "phpdocumentor/phpdocumentor": "^3.5",
+                    "phpunit/phpunit": "^11.0"
+                },
+                "time": "2026-09-19T18:34:47+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "4.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Backup\\": "modules/backup/src/",
+                        "Lofi\\Backup\\Database\\Factories\\": "modules/backup/database/factories/",
+                        "Lofi\\Docs\\": "modules/docs/src/",
+                        "Lofi\\Git\\": "modules/git/src/",
+                        "Lofi\\Git\\Database\\Factories\\": "modules/git/database/factories/",
+                        "Lofi\\Git\\Database\\Seeders\\": "modules/git/database/seeders/",
+                        "Lofi\\Sql\\": "modules/sql/src/",
+                        "Lofi\\Testing\\": "modules/testing/src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Lofi\\Backup\\Tests\\": "modules/backup/tests/",
+                        "Lofi\\Docs\\Tests\\": "modules/docs/tests/",
+                        "Lofi\\Git\\Tests\\": "modules/git/tests/",
+                        "Lofi\\Sql\\Tests\\": "modules/sql/tests/",
+                        "Lofi\\Testing\\Tests\\": "modules/testing/tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "LoFi Devtools: documentación, testing y utilidades de desarrollo"
             }
         ]
     }
