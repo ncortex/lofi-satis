@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi4-cms.git",
-                    "reference": "629646b5bb09206cc942d406e182938f109fd57a"
+                    "reference": "c1934d9801734d7150dcb5a3a029bfc00017b47a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi4-cms/zipball/629646b5bb09206cc942d406e182938f109fd57a",
-                    "reference": "629646b5bb09206cc942d406e182938f109fd57a",
+                    "url": "https://api.github.com/repos/ncortex/lofi4-cms/zipball/c1934d9801734d7150dcb5a3a029bfc00017b47a",
+                    "reference": "c1934d9801734d7150dcb5a3a029bfc00017b47a",
                     "shasum": ""
                 },
                 "require": {
@@ -40,7 +40,7 @@
                     "google/apiclient": "Required for Google Search Console integration",
                     "lofi/notifications": "Para notificaciones de campañas"
                 },
-                "time": "2026-09-19T20:35:19+00:00",
+                "time": "2026-09-20T10:26:25+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
