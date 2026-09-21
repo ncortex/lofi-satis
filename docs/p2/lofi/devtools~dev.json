@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi4-devtools.git",
-                    "reference": "f6e86cca1183257cf23837867cf1ad814fdab183"
+                    "reference": "455d2c461cc29d2e2e58d6b581a6c19e103a93e7"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi4-devtools/zipball/f6e86cca1183257cf23837867cf1ad814fdab183",
-                    "reference": "f6e86cca1183257cf23837867cf1ad814fdab183",
+                    "url": "https://api.github.com/repos/ncortex/lofi4-devtools/zipball/455d2c461cc29d2e2e58d6b581a6c19e103a93e7",
+                    "reference": "455d2c461cc29d2e2e58d6b581a6c19e103a93e7",
                     "shasum": ""
                 },
                 "require": {
@@ -32,7 +32,7 @@
                     "phpdocumentor/phpdocumentor": "^3.5",
                     "phpunit/phpunit": "^11.0"
                 },
-                "time": "2026-09-19T18:34:47+00:00",
+                "time": "2026-09-21T16:33:55+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {

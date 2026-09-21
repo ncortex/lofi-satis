@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi4-commerce.git",
-                    "reference": "7841e32effdd591ce8cd131648bad7437f03cf2a"
+                    "reference": "67bc474769b8a8e6241a1ab02e35c53c3b2665d3"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi4-commerce/zipball/7841e32effdd591ce8cd131648bad7437f03cf2a",
-                    "reference": "7841e32effdd591ce8cd131648bad7437f03cf2a",
+                    "url": "https://api.github.com/repos/ncortex/lofi4-commerce/zipball/67bc474769b8a8e6241a1ab02e35c53c3b2665d3",
+                    "reference": "67bc474769b8a8e6241a1ab02e35c53c3b2665d3",
                     "shasum": ""
                 },
                 "require": {
@@ -28,7 +28,7 @@
                     "orchestra/testbench": "^10.0",
                     "phpunit/phpunit": "^11.0"
                 },
-                "time": "2026-09-19T18:34:47+00:00",
+                "time": "2026-09-21T20:19:47+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {

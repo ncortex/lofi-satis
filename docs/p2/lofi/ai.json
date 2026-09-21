@@ -107,6 +107,58 @@
             },
             {
                 "name": "lofi/ai",
+                "version": "v4.0.10",
+                "version_normalized": "4.0.10.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi4-ai.git",
+                    "reference": "a104807eaf32a6652b662b19755899d5215b3bf4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi4-ai/zipball/a104807eaf32a6652b662b19755899d5215b3bf4",
+                    "reference": "a104807eaf32a6652b662b19755899d5215b3bf4",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/database": "^12.0",
+                    "illuminate/http": "^12.0",
+                    "illuminate/queue": "^12.0",
+                    "illuminate/support": "^12.0",
+                    "laravel/ai": "^0.1",
+                    "lofi/core": "^4.0",
+                    "php": "^8.4"
+                },
+                "require-dev": {
+                    "orchestra/testbench": "^10.0",
+                    "phpunit/phpunit": "^11.0"
+                },
+                "time": "2026-09-21T16:33:55+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "4.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\AI\\": "modules/ai/src/",
+                        "Lofi\\Crawler\\": "modules/crawler/src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Lofi\\AI\\Tests\\": "modules/ai/tests/",
+                        "Lofi\\Crawler\\Tests\\": "modules/crawler/tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "LoFi AI: agentes, LLM y crawling"
+            },
+            {
+                "name": "lofi/ai",
                 "version": "v4.0.2",
                 "version_normalized": "4.0.2.0",
                 "source": {
@@ -446,6 +498,58 @@
                     "phpunit/phpunit": "^11.0"
                 },
                 "time": "2026-09-19T18:34:47+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "4.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\AI\\": "modules/ai/src/",
+                        "Lofi\\Crawler\\": "modules/crawler/src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Lofi\\AI\\Tests\\": "modules/ai/tests/",
+                        "Lofi\\Crawler\\Tests\\": "modules/crawler/tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "LoFi AI: agentes, LLM y crawling"
+            },
+            {
+                "name": "lofi/ai",
+                "version": "v4.0.9",
+                "version_normalized": "4.0.9.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi4-ai.git",
+                    "reference": "7f15ff5db7f33045f37668012c52743f3dbf34db"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi4-ai/zipball/7f15ff5db7f33045f37668012c52743f3dbf34db",
+                    "reference": "7f15ff5db7f33045f37668012c52743f3dbf34db",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/database": "^12.0",
+                    "illuminate/http": "^12.0",
+                    "illuminate/queue": "^12.0",
+                    "illuminate/support": "^12.0",
+                    "laravel/ai": "^0.1",
+                    "lofi/core": "^4.0",
+                    "php": "^8.4"
+                },
+                "require-dev": {
+                    "orchestra/testbench": "^10.0",
+                    "phpunit/phpunit": "^11.0"
+                },
+                "time": "2026-09-21T16:03:33+00:00",
                 "type": "library",
                 "extra": {
                     "branch-alias": {
