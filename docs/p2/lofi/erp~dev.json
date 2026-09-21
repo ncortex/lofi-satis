@@ -74,12 +74,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi4-erp.git",
-                    "reference": "a6b5ff05774c4fbf2b8b76c2f771d8133a315804"
+                    "reference": "81179030161bffc0369f315b204eebfbe8e206da"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi4-erp/zipball/a6b5ff05774c4fbf2b8b76c2f771d8133a315804",
-                    "reference": "a6b5ff05774c4fbf2b8b76c2f771d8133a315804",
+                    "url": "https://api.github.com/repos/ncortex/lofi4-erp/zipball/81179030161bffc0369f315b204eebfbe8e206da",
+                    "reference": "81179030161bffc0369f315b204eebfbe8e206da",
                     "shasum": ""
                 },
                 "require": {
@@ -97,7 +97,7 @@
                     "barryvdh/laravel-dompdf": "Generar PDF de documentos de RRHH",
                     "pusher/pusher-php-server": "Required for real-time chat functionality"
                 },
-                "time": "2026-09-20T11:53:35+00:00",
+                "time": "2026-09-21T15:48:07+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
