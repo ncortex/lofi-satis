@@ -7,8 +7,7 @@
         { "type": "vcs", "url": "git@github.com:ncortex/lofi4-erp.git" },
         { "type": "vcs", "url": "git@github.com:ncortex/lofi4-commerce.git" },
         { "type": "vcs", "url": "git@github.com:ncortex/lofi4-ai.git" },
-        { "type": "vcs", "url": "git@github.com:ncortex/lofi4-devtools.git" },
-        { "type": "vcs", "url": "git@github.com:ncortex/lofi-crawler.git" }
+        { "type": "vcs", "url": "git@github.com:ncortex/lofi4-devtools.git" }
     ],
     "require-all": true,
     "output-dir": "docs",
