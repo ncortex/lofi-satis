@@ -231,6 +231,82 @@
             },
             {
                 "name": "lofi/cms",
+                "version": "v4.0.11",
+                "version_normalized": "4.0.11.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi4-cms.git",
+                    "reference": "95f175e11b394373df791fe0b232f48ae38980eb"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi4-cms/zipball/95f175e11b394373df791fe0b232f48ae38980eb",
+                    "reference": "95f175e11b394373df791fe0b232f48ae38980eb",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-dom": "*",
+                    "guzzlehttp/guzzle": "^7.0",
+                    "illuminate/database": "^12.0",
+                    "illuminate/http": "^12.0",
+                    "illuminate/mail": "^12.0",
+                    "illuminate/queue": "^12.0",
+                    "illuminate/routing": "^12.0",
+                    "illuminate/support": "^12.0",
+                    "lofi/core": "^4.0",
+                    "matthiasmullie/minify": "^1.3",
+                    "php": "^8.2",
+                    "voku/html-min": "^4.5"
+                },
+                "require-dev": {
+                    "livewire/livewire": "^3.0",
+                    "orchestra/testbench": "^10.0",
+                    "phpunit/phpunit": "^11.0"
+                },
+                "suggest": {
+                    "google/apiclient": "Required for Google Search Console integration",
+                    "lofi/crawler": "Rastrear fuentes externas para poblar el directorio (módulo 'crawler')",
+                    "lofi/notifications": "Para notificaciones de campañas"
+                },
+                "time": "2026-09-21T21:04:17+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "4.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Analytics\\": "modules/analytics/src/",
+                        "Lofi\\Cms\\": "modules/cms/src/",
+                        "Lofi\\Cms\\Database\\Factories\\": "modules/cms/database/factories/",
+                        "Lofi\\Directory\\": "modules/directory/src/",
+                        "Lofi\\Directory\\Database\\Factories\\": "modules/directory/database/factories/",
+                        "Lofi\\Directory\\Database\\Seeders\\": "modules/directory/database/seeders/",
+                        "Lofi\\Marketing\\": "modules/marketing/src/",
+                        "Lofi\\Marketing\\Database\\Factories\\": "modules/marketing/database/factories/",
+                        "Lofi\\Seo\\": "modules/seo/src/",
+                        "Lofi\\Seo\\Database\\Factories\\": "modules/seo/database/factories/",
+                        "Lofi\\StaticSites\\": "modules/static-sites/src/",
+                        "Lofi\\StaticSites\\Database\\Factories\\": "modules/static-sites/database/factories/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Lofi\\Cms\\Tests\\": "modules/cms/tests/",
+                        "Lofi\\Directory\\Tests\\": "modules/directory/tests/",
+                        "Lofi\\Marketing\\Tests\\": "modules/marketing/tests/",
+                        "Lofi\\Seo\\Tests\\": "modules/seo/tests/",
+                        "Lofi\\StaticSites\\Tests\\": "modules/static-sites/tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "LoFi CMS: contenido, SEO, analítica, marketing, sitios estáticos y directorios"
+            },
+            {
+                "name": "lofi/cms",
                 "version": "v4.0.2",
                 "version_normalized": "4.0.2.0",
                 "source": {
