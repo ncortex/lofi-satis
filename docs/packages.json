@@ -1,52 +1,18 @@
 {
     "packages": [],
     "includes": {
-        "include/all$1898799397008cf8d809be3095851e1fd0b82d40.json": {
-            "sha1": "1898799397008cf8d809be3095851e1fd0b82d40"
+        "include/all$e7187fd8f9a465a320b928978087bc74eb2132c1.json": {
+            "sha1": "e7187fd8f9a465a320b928978087bc74eb2132c1"
         }
     },
     "metadata-url": "/lofi-satis/p2/%package%.json",
     "available-packages": [
         "lofi/ai",
-        "lofi/analytics",
-        "lofi/api",
-        "lofi/audit",
-        "lofi/auth",
-        "lofi/backup",
-        "lofi/clinic",
         "lofi/cms",
         "lofi/commerce",
         "lofi/core",
         "lofi/crawler",
-        "lofi/cron",
         "lofi/devtools",
-        "lofi/directory",
-        "lofi/docs",
-        "lofi/ecommerce",
-        "lofi/erp",
-        "lofi/framework",
-        "lofi/geo",
-        "lofi/git",
-        "lofi/installer",
-        "lofi/kernel",
-        "lofi/lofipress",
-        "lofi/logs",
-        "lofi/marketing",
-        "lofi/media",
-        "lofi/notifications",
-        "lofi/office",
-        "lofi/orchestrator",
-        "lofi/plugins",
-        "lofi/reviews",
-        "lofi/seo",
-        "lofi/sql",
-        "lofi/support",
-        "lofi/telegram",
-        "lofi/theme-default",
-        "lofi/theme-nyf",
-        "lofi/themes",
-        "lofi/ui",
-        "lofi/vet",
-        "lofi/webhooks"
+        "lofi/erp"
     ]
 }
