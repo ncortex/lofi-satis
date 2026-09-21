@@ -1,8 +1,8 @@
 {
     "packages": [],
     "includes": {
-        "include/all$e7187fd8f9a465a320b928978087bc74eb2132c1.json": {
-            "sha1": "e7187fd8f9a465a320b928978087bc74eb2132c1"
+        "include/all$cd09cd2ef95c75354eb1458218573fb70a7ad220.json": {
+            "sha1": "cd09cd2ef95c75354eb1458218573fb70a7ad220"
         }
     },
     "metadata-url": "/lofi-satis/p2/%package%.json",
@@ -11,7 +11,6 @@
         "lofi/cms",
         "lofi/commerce",
         "lofi/core",
-        "lofi/crawler",
         "lofi/devtools",
         "lofi/erp"
     ]
