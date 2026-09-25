@@ -313,6 +313,58 @@
                 ],
                 "description": "LoFi AI: agentes, LLM y crawling"
             },
+            "v4.0.14": {
+                "name": "lofi/ai",
+                "version": "v4.0.14",
+                "version_normalized": "4.0.14.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi4-ai.git",
+                    "reference": "a104807eaf32a6652b662b19755899d5215b3bf4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi4-ai/zipball/a104807eaf32a6652b662b19755899d5215b3bf4",
+                    "reference": "a104807eaf32a6652b662b19755899d5215b3bf4",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/database": "^12.0",
+                    "illuminate/http": "^12.0",
+                    "illuminate/queue": "^12.0",
+                    "illuminate/support": "^12.0",
+                    "laravel/ai": "^0.1",
+                    "lofi/core": "^4.0",
+                    "php": "^8.4"
+                },
+                "require-dev": {
+                    "orchestra/testbench": "^10.0",
+                    "phpunit/phpunit": "^11.0"
+                },
+                "time": "2026-09-21T16:33:55+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "4.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\AI\\": "modules/ai/src/",
+                        "Lofi\\Crawler\\": "modules/crawler/src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Lofi\\AI\\Tests\\": "modules/ai/tests/",
+                        "Lofi\\Crawler\\Tests\\": "modules/crawler/tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "LoFi AI: agentes, LLM y crawling"
+            },
             "v4.0.2": {
                 "name": "lofi/ai",
                 "version": "v4.0.2",
@@ -1168,6 +1220,82 @@
                 "name": "lofi/cms",
                 "version": "v4.0.13",
                 "version_normalized": "4.0.13.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi4-cms.git",
+                    "reference": "95f175e11b394373df791fe0b232f48ae38980eb"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi4-cms/zipball/95f175e11b394373df791fe0b232f48ae38980eb",
+                    "reference": "95f175e11b394373df791fe0b232f48ae38980eb",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-dom": "*",
+                    "guzzlehttp/guzzle": "^7.0",
+                    "illuminate/database": "^12.0",
+                    "illuminate/http": "^12.0",
+                    "illuminate/mail": "^12.0",
+                    "illuminate/queue": "^12.0",
+                    "illuminate/routing": "^12.0",
+                    "illuminate/support": "^12.0",
+                    "lofi/core": "^4.0",
+                    "matthiasmullie/minify": "^1.3",
+                    "php": "^8.2",
+                    "voku/html-min": "^4.5"
+                },
+                "require-dev": {
+                    "livewire/livewire": "^3.0",
+                    "orchestra/testbench": "^10.0",
+                    "phpunit/phpunit": "^11.0"
+                },
+                "suggest": {
+                    "google/apiclient": "Required for Google Search Console integration",
+                    "lofi/crawler": "Rastrear fuentes externas para poblar el directorio (módulo 'crawler')",
+                    "lofi/notifications": "Para notificaciones de campañas"
+                },
+                "time": "2026-09-21T21:04:17+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "4.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Analytics\\": "modules/analytics/src/",
+                        "Lofi\\Cms\\": "modules/cms/src/",
+                        "Lofi\\Cms\\Database\\Factories\\": "modules/cms/database/factories/",
+                        "Lofi\\Directory\\": "modules/directory/src/",
+                        "Lofi\\Directory\\Database\\Factories\\": "modules/directory/database/factories/",
+                        "Lofi\\Directory\\Database\\Seeders\\": "modules/directory/database/seeders/",
+                        "Lofi\\Marketing\\": "modules/marketing/src/",
+                        "Lofi\\Marketing\\Database\\Factories\\": "modules/marketing/database/factories/",
+                        "Lofi\\Seo\\": "modules/seo/src/",
+                        "Lofi\\Seo\\Database\\Factories\\": "modules/seo/database/factories/",
+                        "Lofi\\StaticSites\\": "modules/static-sites/src/",
+                        "Lofi\\StaticSites\\Database\\Factories\\": "modules/static-sites/database/factories/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Lofi\\Cms\\Tests\\": "modules/cms/tests/",
+                        "Lofi\\Directory\\Tests\\": "modules/directory/tests/",
+                        "Lofi\\Marketing\\Tests\\": "modules/marketing/tests/",
+                        "Lofi\\Seo\\Tests\\": "modules/seo/tests/",
+                        "Lofi\\StaticSites\\Tests\\": "modules/static-sites/tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "LoFi CMS: contenido, SEO, analítica, marketing, sitios estáticos y directorios"
+            },
+            "v4.0.14": {
+                "name": "lofi/cms",
+                "version": "v4.0.14",
+                "version_normalized": "4.0.14.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi4-cms.git",
@@ -2196,6 +2324,59 @@
                 "name": "lofi/commerce",
                 "version": "v4.0.13",
                 "version_normalized": "4.0.13.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi4-commerce.git",
+                    "reference": "67bc474769b8a8e6241a1ab02e35c53c3b2665d3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi4-commerce/zipball/67bc474769b8a8e6241a1ab02e35c53c3b2665d3",
+                    "reference": "67bc474769b8a8e6241a1ab02e35c53c3b2665d3",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/database": "^12.0",
+                    "illuminate/support": "^12.0",
+                    "illuminate/view": "^12.0",
+                    "laravel/framework": "^12.0",
+                    "lofi/core": "^4.0",
+                    "php": "^8.2"
+                },
+                "require-dev": {
+                    "orchestra/testbench": "^10.0",
+                    "phpunit/phpunit": "^11.0"
+                },
+                "time": "2026-09-21T20:19:47+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "4.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Ecommerce\\": "modules/ecommerce/src/",
+                        "Lofi\\Ecommerce\\Database\\Factories\\": "modules/ecommerce/database/factories/",
+                        "Lofi\\Support\\": "modules/support/src/",
+                        "Lofi\\Support\\Database\\Factories\\": "modules/support/database/factories/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Lofi\\Ecommerce\\Tests\\": "modules/ecommerce/tests/",
+                        "Lofi\\Support\\Tests\\": "modules/support/tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "LoFi Commerce: tienda y soporte al cliente"
+            },
+            "v4.0.14": {
+                "name": "lofi/commerce",
+                "version": "v4.0.14",
+                "version_normalized": "4.0.14.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi4-commerce.git",
@@ -3421,6 +3602,122 @@
                 ],
                 "description": "LoFi core: kernel, UI, auth, plugins y capacidades transversales"
             },
+            "v4.0.14": {
+                "name": "lofi/core",
+                "version": "v4.0.14",
+                "version_normalized": "4.0.14.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi4-core.git",
+                    "reference": "523712325aeb06267c944e6eda982fb49d8913da"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi4-core/zipball/523712325aeb06267c944e6eda982fb49d8913da",
+                    "reference": "523712325aeb06267c944e6eda982fb49d8913da",
+                    "shasum": ""
+                },
+                "require": {
+                    "dragonmantank/cron-expression": "^3.3",
+                    "ext-openssl": "*",
+                    "ext-sodium": "*",
+                    "guzzlehttp/guzzle": "^7.0",
+                    "illuminate/auth": "^12.0",
+                    "illuminate/cache": "^12.0",
+                    "illuminate/console": "^12.0",
+                    "illuminate/database": "^12.0",
+                    "illuminate/filesystem": "^12.0",
+                    "illuminate/mail": "^12.0",
+                    "illuminate/notifications": "^12.0",
+                    "illuminate/routing": "^12.0",
+                    "illuminate/support": "^12.0",
+                    "illuminate/view": "^12.0",
+                    "intervention/image": "^2.7|^3.0",
+                    "laravel/framework": "^12.0",
+                    "laravel/sanctum": "^3.0|^4.0",
+                    "laravel/socialite": "^5.12",
+                    "league/commonmark": "^2.0",
+                    "livewire/livewire": "^3.0",
+                    "php": "^8.2",
+                    "spatie/laravel-medialibrary": "^11.0"
+                },
+                "require-dev": {
+                    "barryvdh/laravel-debugbar": "^3.14|^4.0",
+                    "behat/behat": "^3.14",
+                    "orchestra/testbench": "^10.0",
+                    "phpmd/phpmd": "^2.15",
+                    "phpstan/phpstan": "^1.10",
+                    "phpunit/phpunit": "^11.0"
+                },
+                "suggest": {
+                    "barryvdh/laravel-dompdf": "Exportar tablas a PDF"
+                },
+                "time": "2026-09-25T21:55:39+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "4.0.x-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Kernel\\KernelServiceProvider"
+                        ]
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Api\\": "modules/api/src/",
+                        "Lofi\\Audit\\": "modules/audit/src/",
+                        "Lofi\\Auth\\": "modules/auth/src/",
+                        "Lofi\\Cron\\": "modules/cron/src/",
+                        "Lofi\\Cron\\Database\\Factories\\": "modules/cron/database/factories/",
+                        "Lofi\\Cron\\Database\\Seeders\\": "modules/cron/database/seeders/",
+                        "Lofi\\Geo\\": "modules/geo/src/",
+                        "Lofi\\Geo\\Database\\Factories\\": "modules/geo/database/factories/",
+                        "Lofi\\Geo\\Database\\Seeders\\": "modules/geo/database/seeders/",
+                        "Lofi\\Installer\\": "modules/installer/src/",
+                        "Lofi\\Kernel\\": "modules/kernel/src/",
+                        "Lofi\\Kms\\": "modules/kms/src/",
+                        "Lofi\\Logs\\": "modules/logs/src/",
+                        "Lofi\\Media\\": "modules/media/src/",
+                        "Lofi\\Notifications\\": "modules/notifications/src/",
+                        "Lofi\\Orchestrator\\": "modules/orchestrator/src/",
+                        "Lofi\\Plugins\\": "modules/plugins/src/",
+                        "Lofi\\Reviews\\": "modules/reviews/src/",
+                        "Lofi\\Reviews\\Database\\Factories\\": "modules/reviews/database/factories/",
+                        "Lofi\\Telegram\\": "modules/telegram/src/",
+                        "Lofi\\UI\\": "modules/ui/src/",
+                        "Lofi\\Webhooks\\": "modules/webhooks/src/",
+                        "Lofi\\Webhooks\\Database\\Factories\\": "modules/webhooks/database/factories/"
+                    },
+                    "files": [
+                        "modules/auth/src/helpers.php",
+                        "modules/kernel/src/helpers.php",
+                        "modules/ui/src/helpers.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Lofi\\Audit\\Tests\\": "modules/audit/tests/",
+                        "Lofi\\Auth\\Tests\\": "modules/auth/tests/",
+                        "Lofi\\Cron\\Tests\\": "modules/cron/tests/",
+                        "Lofi\\Geo\\Tests\\": "modules/geo/tests/",
+                        "Lofi\\Installer\\Tests\\": "modules/installer/tests/",
+                        "Lofi\\Kernel\\Tests\\": "modules/kernel/tests/",
+                        "Lofi\\Kms\\Tests\\": "modules/kms/tests/",
+                        "Lofi\\Logs\\Tests\\": "modules/logs/tests/",
+                        "Lofi\\Orchestrator\\Tests\\": "modules/orchestrator/tests/",
+                        "Lofi\\Plugins\\Tests\\": "modules/plugins/tests/",
+                        "Lofi\\Reviews\\Tests\\": "modules/reviews/tests/",
+                        "Lofi\\UI\\Tests\\": "modules/ui/tests/",
+                        "Lofi\\Webhooks\\Tests\\": "modules/webhooks/tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "LoFi core: kernel, UI, auth, plugins y capacidades transversales"
+            },
             "v4.0.2": {
                 "name": "lofi/core",
                 "version": "v4.0.2",
@@ -4356,12 +4653,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi4-core.git",
-                    "reference": "f0318619cdf49271fae6ddc18ba6df0fd1902eaa"
+                    "reference": "523712325aeb06267c944e6eda982fb49d8913da"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi4-core/zipball/f0318619cdf49271fae6ddc18ba6df0fd1902eaa",
-                    "reference": "f0318619cdf49271fae6ddc18ba6df0fd1902eaa",
+                    "url": "https://api.github.com/repos/ncortex/lofi4-core/zipball/523712325aeb06267c944e6eda982fb49d8913da",
+                    "reference": "523712325aeb06267c944e6eda982fb49d8913da",
                     "shasum": ""
                 },
                 "require": {
@@ -4399,7 +4696,7 @@
                 "suggest": {
                     "barryvdh/laravel-dompdf": "Exportar tablas a PDF"
                 },
-                "time": "2026-09-25T21:50:33+00:00",
+                "time": "2026-09-25T21:55:39+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -4792,6 +5089,70 @@
                 "name": "lofi/devtools",
                 "version": "v4.0.13",
                 "version_normalized": "4.0.13.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi4-devtools.git",
+                    "reference": "455d2c461cc29d2e2e58d6b581a6c19e103a93e7"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi4-devtools/zipball/455d2c461cc29d2e2e58d6b581a6c19e103a93e7",
+                    "reference": "455d2c461cc29d2e2e58d6b581a6c19e103a93e7",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/process": "^12.0",
+                    "illuminate/routing": "^12.0",
+                    "illuminate/support": "^12.0",
+                    "illuminate/view": "^12.0",
+                    "league/commonmark": "^2.0",
+                    "lofi/core": "^4.0",
+                    "m4tthumphrey/php-gitlab-api": "^11.0",
+                    "php": "^8.2",
+                    "zircote/swagger-php": "^4.0"
+                },
+                "require-dev": {
+                    "orchestra/testbench": "^10.0",
+                    "phpdocumentor/phpdocumentor": "^3.5",
+                    "phpunit/phpunit": "^11.0"
+                },
+                "time": "2026-09-21T16:33:55+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "4.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Backup\\": "modules/backup/src/",
+                        "Lofi\\Backup\\Database\\Factories\\": "modules/backup/database/factories/",
+                        "Lofi\\Docs\\": "modules/docs/src/",
+                        "Lofi\\Git\\": "modules/git/src/",
+                        "Lofi\\Git\\Database\\Factories\\": "modules/git/database/factories/",
+                        "Lofi\\Git\\Database\\Seeders\\": "modules/git/database/seeders/",
+                        "Lofi\\Sql\\": "modules/sql/src/",
+                        "Lofi\\Testing\\": "modules/testing/src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Lofi\\Backup\\Tests\\": "modules/backup/tests/",
+                        "Lofi\\Docs\\Tests\\": "modules/docs/tests/",
+                        "Lofi\\Git\\Tests\\": "modules/git/tests/",
+                        "Lofi\\Sql\\Tests\\": "modules/sql/tests/",
+                        "Lofi\\Testing\\Tests\\": "modules/testing/tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "LoFi Devtools: documentación, testing y utilidades de desarrollo"
+            },
+            "v4.0.14": {
+                "name": "lofi/devtools",
+                "version": "v4.0.14",
+                "version_normalized": "4.0.14.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi4-devtools.git",
@@ -5755,6 +6116,70 @@
                 "name": "lofi/erp",
                 "version": "v4.0.13",
                 "version_normalized": "4.0.13.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi4-erp.git",
+                    "reference": "ab03ac6dc497af145b571a577d4b3770a5d0b74d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi4-erp/zipball/ab03ac6dc497af145b571a577d4b3770a5d0b74d",
+                    "reference": "ab03ac6dc497af145b571a577d4b3770a5d0b74d",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/support": "^12.0",
+                    "livewire/livewire": "^3.0",
+                    "lofi/ai": "^4.0",
+                    "lofi/core": "^4.0",
+                    "php": "^8.2"
+                },
+                "require-dev": {
+                    "orchestra/testbench": "^10.0",
+                    "phpunit/phpunit": "^11.0"
+                },
+                "suggest": {
+                    "barryvdh/laravel-dompdf": "Generar PDF de documentos de RRHH",
+                    "pusher/pusher-php-server": "Required for real-time chat functionality"
+                },
+                "time": "2026-09-25T21:08:00+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "4.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Clinic\\": "modules/clinic/src/",
+                        "Lofi\\Clinic\\Database\\Factories\\": "modules/clinic/database/factories/",
+                        "Lofi\\Clinic\\Database\\Seeders\\": "modules/clinic/database/seeders/",
+                        "Lofi\\Erp\\": "modules/erp/src/",
+                        "Lofi\\Erp\\Database\\Factories\\": "modules/erp/database/factories/",
+                        "Lofi\\Erp\\Database\\Seeders\\": "modules/erp/database/seeders/",
+                        "Lofi\\Office\\": "modules/office/src/",
+                        "Lofi\\Vet\\": "modules/vet/src/",
+                        "Lofi\\Vet\\Database\\Factories\\": "modules/vet/database/factories/",
+                        "Lofi\\Vet\\Database\\Seeders\\": "modules/vet/database/seeders/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Lofi\\Clinic\\Tests\\": "modules/clinic/tests/",
+                        "Lofi\\Erp\\Tests\\": "modules/erp/tests/",
+                        "Lofi\\Office\\Tests\\": "modules/office/tests/",
+                        "Lofi\\Vet\\Tests\\": "modules/vet/tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "LoFi ERP: gestión, oficina y verticales (clínica, veterinaria)"
+            },
+            "v4.0.14": {
+                "name": "lofi/erp",
+                "version": "v4.0.14",
+                "version_normalized": "4.0.14.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi4-erp.git",

@@ -387,6 +387,70 @@
             },
             {
                 "name": "lofi/erp",
+                "version": "v4.0.14",
+                "version_normalized": "4.0.14.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi4-erp.git",
+                    "reference": "ab03ac6dc497af145b571a577d4b3770a5d0b74d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi4-erp/zipball/ab03ac6dc497af145b571a577d4b3770a5d0b74d",
+                    "reference": "ab03ac6dc497af145b571a577d4b3770a5d0b74d",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/support": "^12.0",
+                    "livewire/livewire": "^3.0",
+                    "lofi/ai": "^4.0",
+                    "lofi/core": "^4.0",
+                    "php": "^8.2"
+                },
+                "require-dev": {
+                    "orchestra/testbench": "^10.0",
+                    "phpunit/phpunit": "^11.0"
+                },
+                "suggest": {
+                    "barryvdh/laravel-dompdf": "Generar PDF de documentos de RRHH",
+                    "pusher/pusher-php-server": "Required for real-time chat functionality"
+                },
+                "time": "2026-09-25T21:08:00+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "4.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Clinic\\": "modules/clinic/src/",
+                        "Lofi\\Clinic\\Database\\Factories\\": "modules/clinic/database/factories/",
+                        "Lofi\\Clinic\\Database\\Seeders\\": "modules/clinic/database/seeders/",
+                        "Lofi\\Erp\\": "modules/erp/src/",
+                        "Lofi\\Erp\\Database\\Factories\\": "modules/erp/database/factories/",
+                        "Lofi\\Erp\\Database\\Seeders\\": "modules/erp/database/seeders/",
+                        "Lofi\\Office\\": "modules/office/src/",
+                        "Lofi\\Vet\\": "modules/vet/src/",
+                        "Lofi\\Vet\\Database\\Factories\\": "modules/vet/database/factories/",
+                        "Lofi\\Vet\\Database\\Seeders\\": "modules/vet/database/seeders/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Lofi\\Clinic\\Tests\\": "modules/clinic/tests/",
+                        "Lofi\\Erp\\Tests\\": "modules/erp/tests/",
+                        "Lofi\\Office\\Tests\\": "modules/office/tests/",
+                        "Lofi\\Vet\\Tests\\": "modules/vet/tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "LoFi ERP: gestión, oficina y verticales (clínica, veterinaria)"
+            },
+            {
+                "name": "lofi/erp",
                 "version": "v4.0.2",
                 "version_normalized": "4.0.2.0",
                 "source": {
