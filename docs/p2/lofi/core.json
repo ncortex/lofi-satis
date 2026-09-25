@@ -583,6 +583,122 @@
             },
             {
                 "name": "lofi/core",
+                "version": "v4.0.13",
+                "version_normalized": "4.0.13.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ncortex/lofi4-core.git",
+                    "reference": "f0318619cdf49271fae6ddc18ba6df0fd1902eaa"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ncortex/lofi4-core/zipball/f0318619cdf49271fae6ddc18ba6df0fd1902eaa",
+                    "reference": "f0318619cdf49271fae6ddc18ba6df0fd1902eaa",
+                    "shasum": ""
+                },
+                "require": {
+                    "dragonmantank/cron-expression": "^3.3",
+                    "ext-openssl": "*",
+                    "ext-sodium": "*",
+                    "guzzlehttp/guzzle": "^7.0",
+                    "illuminate/auth": "^12.0",
+                    "illuminate/cache": "^12.0",
+                    "illuminate/console": "^12.0",
+                    "illuminate/database": "^12.0",
+                    "illuminate/filesystem": "^12.0",
+                    "illuminate/mail": "^12.0",
+                    "illuminate/notifications": "^12.0",
+                    "illuminate/routing": "^12.0",
+                    "illuminate/support": "^12.0",
+                    "illuminate/view": "^12.0",
+                    "intervention/image": "^2.7|^3.0",
+                    "laravel/framework": "^12.0",
+                    "laravel/sanctum": "^3.0|^4.0",
+                    "laravel/socialite": "^5.12",
+                    "league/commonmark": "^2.0",
+                    "livewire/livewire": "^3.0",
+                    "php": "^8.2",
+                    "spatie/laravel-medialibrary": "^11.0"
+                },
+                "require-dev": {
+                    "barryvdh/laravel-debugbar": "^3.14|^4.0",
+                    "behat/behat": "^3.14",
+                    "orchestra/testbench": "^10.0",
+                    "phpmd/phpmd": "^2.15",
+                    "phpstan/phpstan": "^1.10",
+                    "phpunit/phpunit": "^11.0"
+                },
+                "suggest": {
+                    "barryvdh/laravel-dompdf": "Exportar tablas a PDF"
+                },
+                "time": "2026-09-25T21:50:33+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "4.0.x-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Lofi\\Kernel\\KernelServiceProvider"
+                        ]
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Lofi\\Api\\": "modules/api/src/",
+                        "Lofi\\Audit\\": "modules/audit/src/",
+                        "Lofi\\Auth\\": "modules/auth/src/",
+                        "Lofi\\Cron\\": "modules/cron/src/",
+                        "Lofi\\Cron\\Database\\Factories\\": "modules/cron/database/factories/",
+                        "Lofi\\Cron\\Database\\Seeders\\": "modules/cron/database/seeders/",
+                        "Lofi\\Geo\\": "modules/geo/src/",
+                        "Lofi\\Geo\\Database\\Factories\\": "modules/geo/database/factories/",
+                        "Lofi\\Geo\\Database\\Seeders\\": "modules/geo/database/seeders/",
+                        "Lofi\\Installer\\": "modules/installer/src/",
+                        "Lofi\\Kernel\\": "modules/kernel/src/",
+                        "Lofi\\Kms\\": "modules/kms/src/",
+                        "Lofi\\Logs\\": "modules/logs/src/",
+                        "Lofi\\Media\\": "modules/media/src/",
+                        "Lofi\\Notifications\\": "modules/notifications/src/",
+                        "Lofi\\Orchestrator\\": "modules/orchestrator/src/",
+                        "Lofi\\Plugins\\": "modules/plugins/src/",
+                        "Lofi\\Reviews\\": "modules/reviews/src/",
+                        "Lofi\\Reviews\\Database\\Factories\\": "modules/reviews/database/factories/",
+                        "Lofi\\Telegram\\": "modules/telegram/src/",
+                        "Lofi\\UI\\": "modules/ui/src/",
+                        "Lofi\\Webhooks\\": "modules/webhooks/src/",
+                        "Lofi\\Webhooks\\Database\\Factories\\": "modules/webhooks/database/factories/"
+                    },
+                    "files": [
+                        "modules/auth/src/helpers.php",
+                        "modules/kernel/src/helpers.php",
+                        "modules/ui/src/helpers.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Lofi\\Audit\\Tests\\": "modules/audit/tests/",
+                        "Lofi\\Auth\\Tests\\": "modules/auth/tests/",
+                        "Lofi\\Cron\\Tests\\": "modules/cron/tests/",
+                        "Lofi\\Geo\\Tests\\": "modules/geo/tests/",
+                        "Lofi\\Installer\\Tests\\": "modules/installer/tests/",
+                        "Lofi\\Kernel\\Tests\\": "modules/kernel/tests/",
+                        "Lofi\\Kms\\Tests\\": "modules/kms/tests/",
+                        "Lofi\\Logs\\Tests\\": "modules/logs/tests/",
+                        "Lofi\\Orchestrator\\Tests\\": "modules/orchestrator/tests/",
+                        "Lofi\\Plugins\\Tests\\": "modules/plugins/tests/",
+                        "Lofi\\Reviews\\Tests\\": "modules/reviews/tests/",
+                        "Lofi\\UI\\Tests\\": "modules/ui/tests/",
+                        "Lofi\\Webhooks\\Tests\\": "modules/webhooks/tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "LoFi core: kernel, UI, auth, plugins y capacidades transversales"
+            },
+            {
+                "name": "lofi/core",
                 "version": "v4.0.2",
                 "version_normalized": "4.0.2.0",
                 "source": {
