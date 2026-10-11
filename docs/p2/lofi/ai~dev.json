@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi4-ai.git",
-                    "reference": "a104807eaf32a6652b662b19755899d5215b3bf4"
+                    "reference": "8394a8aa00223178f0f0bb0bbed8f4f2b293654c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi4-ai/zipball/a104807eaf32a6652b662b19755899d5215b3bf4",
-                    "reference": "a104807eaf32a6652b662b19755899d5215b3bf4",
+                    "url": "https://api.github.com/repos/ncortex/lofi4-ai/zipball/8394a8aa00223178f0f0bb0bbed8f4f2b293654c",
+                    "reference": "8394a8aa00223178f0f0bb0bbed8f4f2b293654c",
                     "shasum": ""
                 },
                 "require": {
@@ -29,7 +29,7 @@
                     "orchestra/testbench": "^10.0",
                     "phpunit/phpunit": "^11.0"
                 },
-                "time": "2026-09-21T16:33:55+00:00",
+                "time": "2026-10-11T20:24:59+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
