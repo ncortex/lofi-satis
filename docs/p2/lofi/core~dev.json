@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi4-core.git",
-                    "reference": "da7552dfa68357074784315768e2699699a83588"
+                    "reference": "ce6ee83e96f54b8ebaa9c4aba9b911d28c5b9e1f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi4-core/zipball/da7552dfa68357074784315768e2699699a83588",
-                    "reference": "da7552dfa68357074784315768e2699699a83588",
+                    "url": "https://api.github.com/repos/ncortex/lofi4-core/zipball/ce6ee83e96f54b8ebaa9c4aba9b911d28c5b9e1f",
+                    "reference": "ce6ee83e96f54b8ebaa9c4aba9b911d28c5b9e1f",
                     "shasum": ""
                 },
                 "require": {
@@ -51,7 +51,7 @@
                 "suggest": {
                     "barryvdh/laravel-dompdf": "Exportar tablas a PDF"
                 },
-                "time": "2026-10-21T17:57:57+00:00",
+                "time": "2026-10-24T12:25:38+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -86,6 +86,7 @@
                         "Lofi\\Reviews\\": "modules/reviews/src/",
                         "Lofi\\Reviews\\Database\\Factories\\": "modules/reviews/database/factories/",
                         "Lofi\\Telegram\\": "modules/telegram/src/",
+                        "Lofi\\Todos\\": "modules/todos/src/",
                         "Lofi\\UI\\": "modules/ui/src/",
                         "Lofi\\Webhooks\\": "modules/webhooks/src/",
                         "Lofi\\Webhooks\\Database\\Factories\\": "modules/webhooks/database/factories/"
