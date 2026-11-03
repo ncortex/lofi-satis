@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi4-cms.git",
-                    "reference": "3cf3cc386b7dcb9c611ae5673806e3f89dc79f7d"
+                    "reference": "cd8ab0ad36eb5c1b8c2cdd6b94a3ff3097aeccd7"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi4-cms/zipball/3cf3cc386b7dcb9c611ae5673806e3f89dc79f7d",
-                    "reference": "3cf3cc386b7dcb9c611ae5673806e3f89dc79f7d",
+                    "url": "https://api.github.com/repos/ncortex/lofi4-cms/zipball/cd8ab0ad36eb5c1b8c2cdd6b94a3ff3097aeccd7",
+                    "reference": "cd8ab0ad36eb5c1b8c2cdd6b94a3ff3097aeccd7",
                     "shasum": ""
                 },
                 "require": {
@@ -40,7 +40,7 @@
                     "lofi/crawler": "Rastrear fuentes externas para poblar el directorio (módulo 'crawler')",
                     "lofi/notifications": "Para notificaciones de campañas"
                 },
-                "time": "2026-11-03T06:49:03+00:00",
+                "time": "2026-11-03T07:16:58+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
