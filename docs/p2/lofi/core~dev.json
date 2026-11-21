@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi4-core.git",
-                    "reference": "5be5a755d716145dc9a65fc44d3686bb13fedb7f"
+                    "reference": "63565ce818e70649cd2c1927c1f16c46c9c72989"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi4-core/zipball/5be5a755d716145dc9a65fc44d3686bb13fedb7f",
-                    "reference": "5be5a755d716145dc9a65fc44d3686bb13fedb7f",
+                    "url": "https://api.github.com/repos/ncortex/lofi4-core/zipball/63565ce818e70649cd2c1927c1f16c46c9c72989",
+                    "reference": "63565ce818e70649cd2c1927c1f16c46c9c72989",
                     "shasum": ""
                 },
                 "require": {
@@ -51,7 +51,7 @@
                 "suggest": {
                     "barryvdh/laravel-dompdf": "Exportar tablas a PDF"
                 },
-                "time": "2026-11-21T10:21:25+00:00",
+                "time": "2026-11-21T11:05:41+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -118,7 +118,7 @@
                     "MIT"
                 ],
                 "description": "LoFi core: kernel, UI, auth, plugins y capacidades transversales",
-                "published-time": "2026-11-21T10:23:55+00:00"
+                "published-time": "2026-11-21T11:12:13+00:00"
             }
         ]
     }
