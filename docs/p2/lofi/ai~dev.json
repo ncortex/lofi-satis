@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi4-ai.git",
-                    "reference": "6f892938f3d7835d32e7ecbcafb6a3b6986d6b8f"
+                    "reference": "2cd4271c11b1ae06018f24f5b70f79fc234a1250"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi4-ai/zipball/6f892938f3d7835d32e7ecbcafb6a3b6986d6b8f",
-                    "reference": "6f892938f3d7835d32e7ecbcafb6a3b6986d6b8f",
+                    "url": "https://api.github.com/repos/ncortex/lofi4-ai/zipball/2cd4271c11b1ae06018f24f5b70f79fc234a1250",
+                    "reference": "2cd4271c11b1ae06018f24f5b70f79fc234a1250",
                     "shasum": ""
                 },
                 "require": {
@@ -29,7 +29,7 @@
                     "orchestra/testbench": "^10.0",
                     "phpunit/phpunit": "^11.0"
                 },
-                "time": "2026-11-24T16:52:07+00:00",
+                "time": "2026-11-24T21:25:56+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -53,7 +53,7 @@
                     "MIT"
                 ],
                 "description": "LoFi AI: agentes, LLM y crawling",
-                "published-time": "2026-11-24T16:55:21+00:00"
+                "published-time": "2026-11-24T21:27:06+00:00"
             }
         ]
     }
