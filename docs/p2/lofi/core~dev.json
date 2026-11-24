@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:ncortex/lofi4-core.git",
-                    "reference": "63565ce818e70649cd2c1927c1f16c46c9c72989"
+                    "reference": "cd65ac3255bc30f088a6a38593e3138ba4697568"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ncortex/lofi4-core/zipball/63565ce818e70649cd2c1927c1f16c46c9c72989",
-                    "reference": "63565ce818e70649cd2c1927c1f16c46c9c72989",
+                    "url": "https://api.github.com/repos/ncortex/lofi4-core/zipball/cd65ac3255bc30f088a6a38593e3138ba4697568",
+                    "reference": "cd65ac3255bc30f088a6a38593e3138ba4697568",
                     "shasum": ""
                 },
                 "require": {
@@ -51,7 +51,7 @@
                 "suggest": {
                     "barryvdh/laravel-dompdf": "Exportar tablas a PDF"
                 },
-                "time": "2026-11-21T11:05:41+00:00",
+                "time": "2026-11-24T15:22:05+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -86,6 +86,7 @@
                         "Lofi\\Reviews\\": "modules/reviews/src/",
                         "Lofi\\Reviews\\Database\\Factories\\": "modules/reviews/database/factories/",
                         "Lofi\\Telegram\\": "modules/telegram/src/",
+                        "Lofi\\Tasks\\": "modules/tasks/src/",
                         "Lofi\\Todos\\": "modules/todos/src/",
                         "Lofi\\UI\\": "modules/ui/src/",
                         "Lofi\\Webhooks\\": "modules/webhooks/src/",
@@ -118,7 +119,7 @@
                     "MIT"
                 ],
                 "description": "LoFi core: kernel, UI, auth, plugins y capacidades transversales",
-                "published-time": "2026-11-21T11:12:13+00:00"
+                "published-time": "2026-11-24T15:33:00+00:00"
             }
         ]
     }
